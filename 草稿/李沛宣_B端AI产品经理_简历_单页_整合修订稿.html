@@ -142,16 +142,29 @@
         }
         li:last-child { margin-bottom: 0; }
         .bullet-lead {
-            color: #1a4f85;
+            color: #000;
             font-weight: 700;
         }
+        .work-exp .bullet-lead,
+        .project-exp .bullet-lead {
+            color: #555;
+        }
         .text-em {
-            color: #222;
-            font-weight: 600;
+            color: #111;
+            font-weight: 700;
         }
         .bg-text-normal .text-em {
-            color: #222;
+            color: #111;
+            font-weight: 700;
+        }
+        .work-exp .metric,
+        .project-exp .metric {
+            color: #b33a3a;
             font-weight: 600;
+        }
+        .work-exp .text-em {
+            color: #111;
+            font-weight: 700;
         }
         @media print {
             body {
@@ -192,7 +205,14 @@
                 line-height: 1.34;
             }
             section > ul { padding-left: 18px; margin-top: 1px; }
-            .bullet-lead { color: #1a4f85; }
+            .bullet-lead { color: #000; }
+            .work-exp .bullet-lead,
+            .project-exp .bullet-lead { color: #555; }
+            .text-em,
+            .bg-text-normal .text-em,
+            .work-exp .text-em { color: #111; }
+            .work-exp .metric,
+            .project-exp .metric { color: #a83232; }
             @page { size: A4; margin: 0; }
         }
     </style>
@@ -214,7 +234,7 @@
         <section>
             <h2>个人总结</h2>
             <p class="bg-text-normal" style="margin-top: 0;">
-                专注 <span class="text-em">B 端 AI 产品</span>与<span class="text-em">数字孪生</span>，以建筑学背景做系统化需求抽象与标品化交付，具备从 0 到 1 平台底座规划经验。代表成果方向：设施运维孪生底座的<span class="text-em">Agent 化业务闭环</span>，以及<span class="text-em">工业仿真编辑器</span>的交付提效。致力于标准化实施、业务闭环与规模化交付。
+                专注 <span class="text-em">B 端 AI 产品</span>与<span class="text-em">数字孪生</span>，以建筑学背景做系统化需求抽象与标品化交付，具备<span class="text-em">从 0 到 1</span> 平台底座规划经验。代表成果方向：设施运维孪生底座的<span class="text-em">Agent 化业务闭环</span>，以及<span class="text-em">工业仿真编辑器</span>的交付提效。致力于标准化实施、业务闭环与规模化交付。
             </p>
         </section>
 
@@ -227,7 +247,7 @@
             </ul>
         </section>
 
-        <section>
+        <section class="work-exp">
             <h2>工作经历</h2>
             <div class="flex-row">
                 <span class="left-name">DataMesh</span>
@@ -236,16 +256,16 @@
             </div>
             <p class="intro-italic">负责数字孪生设施运维（Inspector）、工业仿真编辑（Designer）、MR 工厂培训（Director）三条产品线的规划与落地。</p>
             <ul>
-                <li><span class="bullet-lead">产品规划与生命周期管理</span>：负责 <span class="text-em">3 条产品线、11 个版本迭代</span>；接手 Inspector 后 <span class="text-em">1 个月内</span>协同研发交付可验证核心业务场景的 Demo，次月推动 MVP 达到<span class="text-em">可面客验证与商用交付状态</span>，支撑大客户实施与复制落地。</li>
-                <li><span class="bullet-lead">业务梳理与标品转化</span>：围绕佛吉亚（Faurecia）灯塔工厂、头部通信运营商等行业大客户项目，提取通用业务逻辑并优化功能架构，实现<span class="text-em">约 70% 定制需求向标品转化</span>，降低重复研发与沟通成本。</li>
-                <li><span class="bullet-lead">跨部门协同与产研决策</span>：支撑市场、售前及客户成功团队，配合上述团队完成 <span class="text-em">10+ 个重点项目</span>的面客需求调研、产品介绍与项目交付；在资源受限时评估优先级并提供替代方案，协调前后端研发、美术、测试等多团队保障交付质量。</li>
-                <li><span class="bullet-lead">售前方案与演示资产</span>：协助撰写丰田（Toyota）、澳洲 Goodman 等 <span class="text-em">10+ 份售前方案</span>；协助制作各产品线的功能演示 Demo 视频及售前解决方案 PPT，支撑重点售前项目的客户演示与方案对齐，拉齐售前产研与交付口径。</li>
+                <li><span class="bullet-lead">产品规划与生命周期管理</span>：负责 <span class="metric">3</span> 条产品线、<span class="metric">11</span> 个版本迭代；接手 Inspector 后 <span class="metric">1</span> 个月内协同研发交付可验证核心业务场景的 Demo，次月推动 MVP 达到<span class="text-em">可面客验证与商用交付状态</span>，支撑大客户实施与复制落地。</li>
+                <li><span class="bullet-lead">业务梳理与标品转化</span>：围绕佛吉亚（Faurecia）灯塔工厂、头部通信运营商等行业大客户项目，提取通用业务逻辑并优化功能架构，实现约 <span class="metric">70%</span> <span class="text-em">定制需求向标品转化</span>，降低重复研发与沟通成本。</li>
+                <li><span class="bullet-lead">跨部门协同与产研决策</span>：支撑市场、售前及客户成功团队，配合上述团队完成 <span class="metric">10+</span> 个重点项目的面客需求调研、产品介绍与项目交付；在资源受限时评估优先级并<span class="text-em">提供替代方案</span>，协调前后端研发、美术、测试等多团队保障交付质量。</li>
+                <li><span class="bullet-lead">售前方案与演示资产</span>：协助撰写丰田（Toyota）、澳洲 Goodman 等 <span class="metric">10+</span> 份售前方案；协助制作各产品线的功能演示 Demo 视频及售前解决方案 PPT，支撑重点售前项目的客户演示与方案对齐，拉齐售前产研与交付口径。</li>
                 <li><span class="bullet-lead">POC 设计与商务验证闭环</span>：定义 POC 范围、成功标准与试点节奏，推动方案进入可验证阶段；为日本领先制药、电力、建工等跨境大客户提供产品与技术沟通支持；配合售前推动某日本头部建工企业项目<span class="text-em">由 POC 转入正式合同</span>。</li>
-                <li><span class="bullet-lead">流程优化与团队赋能</span>：制定 <span class="text-em">4 份</span>发布指导与产品验收 <span class="text-em">SOP</span>，重构标准资源包（DLC）线上发布流程，将发布周期由 4 周缩短至 1–2 周，<span class="text-em">交付提效约 75%</span>；沉淀跨产品线交付清单与培训要点，赋能销售与交付团队复用。</li>
+                <li><span class="bullet-lead">流程优化与团队赋能</span>：制定 <span class="metric">4</span> 份发布指导与产品验收 SOP，重构标准资源包（DLC）线上发布流程，将发布周期由 <span class="metric">4</span> 周缩短至 <span class="metric">1–2</span> 周，交付提效约 <span class="metric">75%</span>；沉淀跨产品线交付清单与培训要点，赋能销售与交付团队复用。</li>
             </ul>
         </section>
 
-        <section>
+        <section class="project-exp">
             <h2>项目经历</h2>
             <div class="flex-row">
                 <span class="left-name">Inspector - 数字孪生设施运维底座平台 (从0到1)</span>
@@ -254,10 +274,10 @@
             </div>
             <p class="intro-italic">项目背景：针对过往项目高度定制、成本高的瓶颈，主导构建通用化运维底座，支撑海外标杆客户交付与规模化复制。</p>
             <ul>
-                <li><span class="bullet-lead">需求解构与标品设计</span>：盘点过往定制项目需求，抽象高价值功能，<span class="text-em">从 0 到 1 孵化标准产品</span>；重构产品架构，规划 3D 可视化沙盘、资产追踪、告警可视化及复杂工单流转等核心功能，为构建通用底座确立明确基线。</li>
+                <li><span class="bullet-lead">需求解构与标品设计</span>：盘点过往定制项目需求，抽象高价值功能，从 <span class="metric">0</span> 到 <span class="metric">1</span> <span class="text-em">孵化标准产品</span>；重构产品架构，规划 3D 可视化沙盘、资产追踪、告警可视化及复杂工单流转等核心功能，为构建通用底座确立明确基线。</li>
                 <li><span class="bullet-lead">运维链路 AI 产品与 Agent 设计</span>：规划设施运维 AI 产品，梳理<span class="text-em">告警→诊断→处置闭环</span>，设计 <span class="text-em">Agent 分工</span>；落地 <span class="text-em">RAG 与知识库联动</span>，明确可解释输出、人工确认与兜底，按场景验收持续迭代。</li>
                 <li><span class="bullet-lead">敏捷验证与跨产品矩阵集成</span>：统筹研发、客户成功与美术团队交付业务 Demo，完成 ROI 论证并推动 CEO 立项。主导产品矩阵数据串联，实现「<span class="text-em">场景搭建 - 数据接入 - 运维处置闭环</span>」端到端业务闭环。</li>
-                <li><span class="bullet-lead">商业变现与效能突破</span>：MVP 覆盖海外标杆大客 <span class="text-em">80%+ 高优先级诉求</span>，吸引 <span class="text-em">5 家以上潜在商机</span>；支撑头部通信运营商实施周期<span class="text-em">由 5–6 个月压至 1–2 个月</span>，并参与新加坡数百万级项目方案交付与落地。</li>
+                <li><span class="bullet-lead">商业变现与效能突破</span>：MVP 覆盖海外标杆大客 <span class="metric">80%+</span> <span class="text-em">高优先级诉求</span>，吸引 <span class="metric">5</span> 家以上<span class="text-em">潜在商机</span>；支撑头部通信运营商实施周期由 <span class="metric">5–6</span> 个月压至 <span class="metric">1–2</span> 个月，并参与新加坡数<span class="metric">百万级</span>项目方案交付与落地。</li>
             </ul>
 
             <div class="flex-row project-gap">
