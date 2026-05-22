@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="zh-CN"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <title>李沛宣_B端AI产品经理_简历_产品向修订稿</title>
+    <style>
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+        body {
+            font-family: "PingFang SC", "Microsoft YaHei", sans-serif;
+            line-height: 1.38;
+            color: #222;
+            background: #f0f0f0;
+            font-size: 12.85px;
+            letter-spacing: -0.1px;
+        }
+        .page {
+            width: 210mm;
+            min-height: 297mm;
+            padding: 9mm 11mm 9mm 11mm;
+            background: #fff;
+            margin: 0 auto;
+            overflow: visible;
+            display: flex;
+            flex-direction: column;
+        }
+        .header {
+            position: relative;
+            width: 100%;
+            min-height: 56px;
+            display: flex;
+            justify-content: center;
+            align-items: flex-start;
+            margin-bottom: 8px;
+        }
+        .header-info {
+            text-align: center;
+            width: 100%;
+            padding: 0 78px;
+        }
+        .header-info h1 {
+            font-size: 21px;
+            font-weight: bold;
+            margin-bottom: 4px;
+            letter-spacing: 2px;
+            text-align: center;
+        }
+        .header-info .contact {
+            font-size: 12px;
+            color: #444;
+            text-align: center;
+        }
+        .photo-box {
+            position: absolute;
+            right: 0;
+            top: -18px;
+            width: 74px;
+            height: 92px;
+            overflow: hidden;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            z-index: 10;
+        }
+        .photo-box img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+        header + section {
+            margin-top: 20px;
+        }
+        section { margin-top: 0; margin-bottom: 0; }
+        .page > div > section + section {
+            margin-top: 10px;
+        }
+        h2 {
+            font-size: 15px;
+            color: #1a4f85;
+            font-weight: bold;
+            border-bottom: 1.5px solid #1a4f85;
+            margin: 0 0 5px 0;
+            padding-bottom: 3px;
+        }
+        .page > div > section:first-of-type h2 { margin-top: 0; }
+        section > ul {
+            list-style: disc;
+            margin-top: 2px;
+            margin-bottom: 0;
+            padding-left: 20px;
+        }
+        .flex-row {
+            display: flex;
+            align-items: baseline;
+            font-weight: bold;
+            margin-bottom: 3px;
+            margin-top: 0;
+            font-size: 12.85px;
+            color: #000;
+            flex-wrap: wrap;
+            gap: 2px 8px;
+        }
+        .flex-row.project-gap { margin-top: 10px; }
+        .flex-row.edu-gap { margin-top: 6px; }
+        .flex-row .left-name { flex: 1 1 280px; text-align: left; min-width: 200px; }
+        .flex-row .center-pos { flex: 0 1 auto; text-align: left; font-weight: bold; }
+        .flex-row .right-date {
+            flex: 0 0 auto;
+            margin-left: auto;
+            font-weight: normal;
+            font-size: 12px;
+            color: #555;
+        }
+        .intro-italic {
+            font-style: italic;
+            color: #444;
+            margin: 0 0 5px 0;
+            font-size: 12.85px;
+            text-align: justify;
+            line-height: 1.38;
+            orphans: 2;
+            widows: 2;
+        }
+        .bg-text-normal {
+            font-size: 12.85px;
+            color: #444;
+            margin: 2px 0 0 0;
+            text-align: justify;
+            font-style: normal;
+            line-height: 1.4;
+            orphans: 2;
+            widows: 2;
+        }
+        li {
+            margin-bottom: 3px;
+            text-align: justify;
+            text-justify: inter-ideograph;
+            font-size: 12.85px;
+            font-weight: normal;
+            line-height: 1.38;
+            orphans: 2;
+            widows: 2;
+        }
+        li:last-child { margin-bottom: 0; }
+        .bullet-lead {
+            color: #000;
+            font-weight: 700;
+        }
+        .work-exp .bullet-lead,
+        .project-exp .bullet-lead {
+            color: #555;
+        }
+        .text-em {
+            color: #111;
+            font-weight: 700;
+        }
+        .bg-text-normal .text-em {
+            color: #111;
+            font-weight: 700;
+        }
+        .work-exp .metric,
+        .project-exp .metric {
+            color: #b33a3a;
+            font-weight: 600;
+        }
+        .work-exp .text-em {
+            color: #111;
+            font-weight: 700;
+        }
+        .project-exp .psr-label {
+            font-weight: 700;
+            color: #555;
+        }
+        .project-exp .psr-text {
+            margin: 0 0 4px 0;
+            font-size: 12.85px;
+            text-align: justify;
+            line-height: 1.38;
+            color: #444;
+        }
+        .project-exp .psr-gap {
+            margin-bottom: 2px;
+        }
+        .project-exp ul.psr-list {
+            list-style: disc;
+            margin: 0 0 5px 0;
+            padding-left: 20px;
+        }
+        @media print {
+            body {
+                background: none;
+                font-size: 12.6px;
+                line-height: 1.34;
+                -webkit-print-color-adjust: exact;
+                print-color-adjust: exact;
+            }
+            .page {
+                margin: 0;
+                box-shadow: none;
+                border: none;
+                width: 210mm;
+                min-height: 0;
+                height: auto;
+                padding: 8mm 10mm 8mm 10mm;
+            }
+            .header { margin-bottom: 4px; min-height: 50px; }
+            header + section { margin-top: 18px; }
+            .photo-box { width: 70px; height: 86px; top: -14px; }
+            .header-info { padding: 0 74px; }
+            .header-info h1 { font-size: 20px; margin-bottom: 3px; }
+            .page > div > section + section { margin-top: 8px; }
+            h2 { font-size: 14.5px; margin-bottom: 4px; padding-bottom: 2px; }
+            .flex-row { margin-bottom: 2px; font-size: 12.6px; }
+            .flex-row.project-gap { margin-top: 8px; }
+            .flex-row.edu-gap { margin-top: 5px; }
+            .intro-italic {
+                margin-bottom: 4px;
+                font-size: 12.6px;
+                line-height: 1.34;
+            }
+            .bg-text-normal { font-size: 12.6px; line-height: 1.36; }
+            li {
+                margin-bottom: 2px;
+                font-size: 12.6px;
+                line-height: 1.34;
+            }
+            section > ul { padding-left: 18px; margin-top: 1px; }
+            .bullet-lead { color: #000; }
+            .work-exp .bullet-lead,
+            .project-exp .bullet-lead { color: #555; }
+            .text-em,
+            .bg-text-normal .text-em,
+            .work-exp .text-em { color: #111; }
+            .work-exp .metric,
+            .project-exp .metric { color: #a83232; }
+            .project-exp .psr-text { font-size: 12.6px; line-height: 1.34; margin-bottom: 3px; }
+            .project-exp ul.psr-list { padding-left: 18px; margin-bottom: 4px; }
+            @page { size: A4; margin: 0; }
+        }
+    </style>
+</head>
+<body>
+
+<div class="page">
+    <div>
+        <header class="header">
+            <div class="header-info">
+                <h1>李沛宣 Jane</h1>
+                <p class="contact">求职意向：B 端 AI 产品经理</p>
+                <p class="contact">邮箱：Peixuan_Li0412@outlook.com &nbsp;|&nbsp; 电话/微信：18510404412</p>
+            </div>
+            <div class="photo-box">
+                <img src="./李沛宣_B端AI产品经理_简历_单页_整合修订稿_files/个人照片.jpg" alt="个人照片">
+            </div>
+        </header>
+
+        <section>
+            <h2>个人总结</h2>
+            <p class="bg-text-normal" style="margin-top: 0;">
+                专注 <span class="text-em">B 端 AI 产品</span>，擅长复杂业务场景下的系统化需求抽象、标品化交付与<span class="text-em">从 0 到 1</span> 平台规划。代表成果：设施运维 <span class="text-em">Agent 化业务闭环</span>，以及工业仿真编辑器的交付提效。致力于可验证试点、业务闭环与规模化落地。
+            </p>
+        </section>
+
+        <section>
+            <h2>核心能力</h2>
+            <ul>
+                <li><span class="bullet-lead">AI 与产品融合及提效</span>：构建 B 端 <span class="text-em">LLM/Agent</span> 可交付体系，以 <span class="text-em">AI 辅助实践</span>提升方案验证与跨团队协同效率。</li>
+                <li><span class="bullet-lead">平台化与路线取舍</span>：将大客户共性需求抽象为<span class="text-em">通用模块与实施基线</span>，统筹 Roadmap、版本节奏与优先级取舍。</li>
+                <li><span class="bullet-lead">客户验证与规模化落地</span>：定义 POC/MVP 成功标准与试点节奏，协同市场、售前、客户成功与产研推进面客验证，以可验证结果推动<span class="text-em">试点复制与规模化落地</span>。</li>
+            </ul>
+        </section>
+
+        <section class="work-exp">
+            <h2>工作经历</h2>
+            <div class="flex-row">
+                <span class="left-name">DataMesh</span>
+                <span class="center-pos">B 端产品经理</span>
+                <span class="right-date">2024.12 - 至今</span>
+            </div>
+            <p class="intro-italic">负责数字孪生设施运维（Inspector）、工业仿真编辑（Designer）、MR 工厂培训（Director）三条产品线的规划与落地。</p>
+            <ul>
+                <li><span class="bullet-lead">产品规划与生命周期管理</span>：负责 <span class="metric">3</span> 条产品线、<span class="metric">11</span> 个版本迭代；接手 Inspector 后 <span class="metric">1</span> 个月内协同研发交付可验证核心业务场景的 Demo，次月推动 MVP 达到<span class="text-em">可面客验证与商用交付状态</span>，支撑大客户实施与复制落地。</li>
+                <li><span class="bullet-lead">业务梳理与标品转化</span>：围绕佛吉亚（Faurecia）灯塔工厂、头部通信运营商等行业大客户项目，提取通用业务逻辑并优化功能架构，实现约 <span class="metric">70%</span> <span class="text-em">定制需求向标品转化</span>，降低重复研发与沟通成本。</li>
+                <li><span class="bullet-lead">客户验证与项目落地</span>：支撑市场、售前及客户成功团队，配合上述团队完成 <span class="metric">10+</span> 个重点项目的面客需求调研、产品介绍与项目交付；定义 POC 范围、成功标准与试点节奏，推动多个试点完成验证并<span class="text-em">部分进入正式合同或规模化交付</span>；协助撰写丰田（Toyota）、澳洲 Goodman 等 <span class="metric">10+</span> 份售前方案，协助制作各产品线的功能演示 Demo 视频及售前解决方案 PPT，支撑重点售前项目的客户演示与方案对齐；为日本领先制药、电力、建工等跨境大客户提供产品与技术沟通支持；在资源受限时评估优先级并<span class="text-em">提供替代方案</span>，协调前后端研发、美术、测试等多团队保障交付质量。</li>
+                <li><span class="bullet-lead">流程优化与团队赋能</span>：制定 <span class="metric">4</span> 份发布指导与产品验收 SOP，重构标准资源包（DLC）线上发布流程，将发布周期由 <span class="metric">4</span> 周缩短至 <span class="metric">1–2</span> 周，交付提效约 <span class="metric">75%</span>；沉淀跨产品线交付清单与培训要点，赋能销售与交付团队复用。</li>
+            </ul>
+        </section>
+
+        <section class="project-exp">
+            <h2>项目经历</h2>
+            <div class="flex-row">
+                <span class="left-name">Inspector — 数字孪生设施运维底座平台（从0到1）</span>
+                <span class="center-pos">产品经理</span>
+                <span class="right-date">2025.10 - 至今</span>
+            </div>
+            <p class="psr-text"><span class="psr-label">问题</span>：设施运维客户在规模化复制交付时，面临实施定制程度高、告警处置与数据接入难以标准化、交付周期长的挑战。</p>
+            <p class="psr-text psr-gap"><span class="psr-label">方案</span></p>
+            <ul class="psr-list">
+                <li><span class="bullet-lead">需求解构与标品设计</span>：盘点过往定制项目需求，抽象高价值功能，从 <span class="metric">0</span> 到 <span class="metric">1</span> <span class="text-em">孵化标准产品</span>；重构产品架构，规划 3D 可视化沙盘、资产追踪、告警可视化及复杂工单流转等核心功能，为构建通用底座确立明确基线。</li>
+                <li><span class="bullet-lead">运维链路 AI 产品与 Agent 设计</span>：规划设施运维 AI 产品，梳理<span class="text-em">告警→诊断→处置闭环</span>，设计 <span class="text-em">Agent 分工</span>；落地 <span class="text-em">RAG 与知识库联动</span>，明确可解释输出、人工确认与兜底，按场景验收持续迭代。</li>
+                <li><span class="bullet-lead">敏捷验证与跨产品矩阵集成</span>：统筹研发、客户成功与美术团队交付业务 Demo，完成 ROI 论证并推动 CEO 立项。主导产品矩阵数据串联，实现「<span class="text-em">场景搭建 - 数据接入 - 运维处置闭环</span>」端到端业务闭环。</li>
+            </ul>
+            <p class="psr-text psr-gap"><span class="psr-label">结果</span></p>
+            <ul class="psr-list">
+                <li>MVP 覆盖海外标杆大客 <span class="metric">80%+</span> <span class="text-em">高优先级诉求</span>，吸引 <span class="metric">5</span> 家以上<span class="text-em">潜在商机</span>。</li>
+                <li>支撑头部通信运营商实施周期由 <span class="metric">5–6</span> 个月压至 <span class="metric">1–2</span> 个月。</li>
+                <li>参与新加坡数<span class="metric">百万级</span>项目方案交付与落地。</li>
+            </ul>
+
+            <div class="flex-row project-gap">
+                <span class="left-name">Designer — 虚拟规划与仿真编辑平台</span>
+                <span class="center-pos">产品经理</span>
+                <span class="right-date">2024.12 - 至今</span>
+            </div>
+            <p class="psr-text"><span class="psr-label">问题</span>：孪生场景搭建门槛高、缺乏物理仿真能力与数据闭环，客户验证产线方案依赖外部工具，单次验证周期约 <span class="metric">2</span> 周。</p>
+            <p class="psr-text psr-gap"><span class="psr-label">方案</span></p>
+            <ul class="psr-list">
+                <li><span class="bullet-lead">仿真能力与搭建提效</span>：设计自主寻路、实时碰撞监测等仿真能力，<span class="text-em">对接 Plant Simulation</span> 等客户资产；优化传送带与机械臂编辑及批量搭建流程，缩短实施场景搭建工时。</li>
+                <li><span class="bullet-lead">数据闭环与可视化映射</span>：串联「<span class="text-em">记录生成 - 数据分析 - 3D 结果回顾</span>」链路，设计运行路径、热力图等 <span class="text-em">3D 可视化方案</span>，辅助客户产线瓶颈排查与布局优化。</li>
+                <li><span class="bullet-lead">仿真场景 Prompt 设计</span>：围绕方案对比与产线调优，梳理业务上下文与数据依赖，<span class="text-em">规范 AI 输入输出</span>与孪生体语义；设计提示词分层与输出约束，支撑仿真场景<span class="text-em">智能辅助决策</span>。</li>
+            </ul>
+            <p class="psr-text psr-gap"><span class="psr-label">结果</span></p>
+            <ul class="psr-list">
+                <li>「记录生成 - 数据分析 - 3D 结果回顾」数据闭环成为<span class="text-em">正式交付标准模块</span>，支撑<span class="text-em">某工业智能制造客户、某电力行业客户</span>等项目签单并进入实施。</li>
+                <li>针对<span class="text-em">某日本头部建工企业</span>独立 POC 定义验证范围与演示闭环，推动<span class="text-em">由 POC 转入正式合同</span>。</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>教育背景</h2>
+            <div class="flex-row">
+                <span class="left-name">伦敦大学学院 (UCL) 巴特莱特建筑学院</span>
+                <span class="center-pos">建筑设计 硕士</span>
+                <span class="right-date">2022.09 - 2023.12</span>
+            </div>
+            <div class="flex-row edu-gap">
+                <span class="left-name">中央美术学院 建筑学院（专业前 10%）</span>
+                <span class="center-pos">建筑学 学士</span>
+                <span class="right-date">2017.09 - 2022.06</span>
+            </div>
+        </section>
+
+        <section>
+            <h2>技能清单</h2>
+            <ul>
+                <li><span class="bullet-lead">大模型与 Agent</span>：LLM · RAG · Agent 工作流 · Prompt 设计</li>
+                <li><span class="bullet-lead">领域与技术</span>：数字孪生 · IoT · 3D 可视化 / 空间语义 · XR · C#（基础阅读）</li>
+                <li><span class="bullet-lead">产研与工具</span>：Cursor · Codex · Figma · Axure · XMind · Unity · Blender · AutoCAD</li>
+                <li><span class="bullet-lead">语言</span>：英语（雅思 7，可作为工作语言）</li>
+            </ul>
+        </section>
+    </div>
+</div>
+
+</body></html>
