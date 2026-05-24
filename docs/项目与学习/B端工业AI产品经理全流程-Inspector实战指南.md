@@ -1,7 +1,7 @@
 # B 端工业 AI 产品经理全流程指南（以 Inspector 告警→工单闭环为例）
 
 > 本文档整合 AI 产品管理通用框架与 Inspector「告警—诊断—处置—知识沉淀」实战链路，供学习、面试与项目复盘使用。  
-> 相关深度材料：`ai-agent-alert-diagnosis-story.md`、`agent-skill-rag-explained-for-inspector.md`、`面试问答沉淀.md`
+> 相关深度材料：同目录下 `ai-agent-alert-diagnosis-story.md`、`agent-skill-rag-explained-for-inspector.md`，以及 `docs/面试/面试问答沉淀.md`
 
 ---
 
@@ -438,9 +438,9 @@ Agent 输出诊断 / 方案 / 工单草稿
 
 | 文档 | 用途 |
 |------|------|
-| `docs/ai-agent-alert-diagnosis-story.md` | 面试故事、Agent 架构、调优建议 |
-| `docs/agent-skill-rag-explained-for-inspector.md` | Agent/Skill/RAG 概念与链路详解 |
-| `docs/面试问答沉淀.md` | 问答、STAR、指标表述 |
+| `docs/项目与学习/ai-agent-alert-diagnosis-story.md` | 面试故事、Agent 架构、调优建议 |
+| `docs/项目与学习/agent-skill-rag-explained-for-inspector.md` | Agent/Skill/RAG 概念与链路详解 |
+| `docs/面试/面试问答沉淀.md` | 问答、STAR、指标表述 |
 | `参考资料/商业楼宇设备运维工作场景—FAI.pdf` | 原始业务场景 |
 
 ---
