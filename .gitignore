@@ -5,6 +5,8 @@
 草稿/_docx_tmp/
 草稿/_docx_tmp.zip
 草稿/_docx_project_text.txt
+草稿/_opt_unzip/
+草稿/_opt.zip
 
 # 大体积参考资料（按需取消注释后纳入版本管理）
 参考资料/*.pdf
