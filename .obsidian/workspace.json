@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/简历调整结论-基于外部反馈.md",
+                "file": "README.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "简历调整结论-基于外部反馈"
+              "title": "README"
             }
           }
         ]
@@ -177,7 +177,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -192,5 +193,14 @@
     }
   },
   "active": "b2052037f0791bd6",
-  "lastOpenFiles": []
+  "lastOpenFiles": [
+    "prd-yokogawa-pdm-phase1.md",
+    "README.md",
+    "F-人机协同的预测性维护诊断与处置场景——第一阶段.md",
+    "F-人机协同的预测性维护诊断与处置场景.md",
+    "多agents自主协同场景.md",
+    "未命名.md",
+    "核心制冷机组冷却泵轴承磨损预测.md",
+    "人机协同场景.md"
+  ]
 }
