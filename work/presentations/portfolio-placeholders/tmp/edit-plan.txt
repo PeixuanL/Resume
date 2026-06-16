@@ -1,0 +1,20 @@
+Mode: targeted-edit
+
+Goal:
+- Leave clear editable placeholders where product documents, requirement documents, and material screenshots need to be supplemented.
+- Preserve slide order, typography, palette, and existing story structure.
+
+Edits:
+- Slide 5: add requirement/evidence placeholder strip for 0-1 scoping PRD or review notes.
+- Slide 6: add requirement/evidence placeholder strip for MVP scope, deferral list, and risk-control docs.
+- Slide 8: add Agent design evidence placeholder strip for requirement, prompt/tool-call, and fallback-rule material.
+- Slide 9: add a large screenshot placeholder inside the existing content frame for work-order/SOP state machine or template-library materials.
+- Slide 11: add four screenshot placeholders for dashboard, device detail, diagnosis panel, and work-order draft UI.
+- Slide 12: add Vibe Coding process evidence placeholder strip for PRD-to-prototype process screenshots.
+- Slide 13: add support-case material placeholder strip for DFS, Designer, 3D, and IoT screenshots/docs.
+- Slide 14: keep existing evidence-sufficiency content and add a small "materials slot" note to make the pending evidence visible.
+
+Verification:
+- Render final slides and montage.
+- Inspect slide count remains 14.
+- Confirm final PPTX exists and remains editable.
