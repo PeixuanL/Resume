@@ -1,0 +1,286 @@
+{"kind":"layout","layoutId":"53882e11-b05c-4082-8831-0ae4bea4f520","name":"Master","type":"master"}
+{"kind":"layout","layoutId":"df3cd3e9-564d-48f5-bfd3-201a39861a99","name":"Title Slide","type":"title"}
+{"kind":"slide","id":"sl/68fpzs","slide":1,"title":"CASE STUDY FRAMEWORK","textShapes":13}
+{"kind":"textbox","id":"sh/bq1oryts","slide":1,"text":"CASE STUDY FRAMEWORK","textPreview":"CASE STUDY FRAMEWORK","textChars":20,"textLines":1,"bbox":[72,56,360,28]}
+{"kind":"textbox","id":"sh/4byhgn29","slide":1,"text":"Inspector 设施运维 AI 产品案例","textPreview":"Inspector 设施运维 AI 产品案例","textChars":22,"textLines":1,"bbox":[72,132,950,74]}
+{"kind":"textbox","id":"sh/twra5gbq","slide":1,"text":"作品集框架：面向 AI 产品经理 / 数字孪生产品经理的案例研究","textPreview":"作品集框架：面向 AI 产品经理 / 数字孪生产品经理的案例研究","textChars":32,"textLines":1,"bbox":[76,224,940,44]}
+{"kind":"shape","id":"sh/mhk3q5o7","slide":1,"bbox":[72,326,770,118]}
+{"kind":"textbox","id":"sh/b2hwfyxo","slide":1,"text":"核心主线","textPreview":"核心主线","textChars":4,"textLines":1,"bbox":[90,342,734,30]}
+{"kind":"textbox","id":"sh/4nap4r65","slide":1,"text":"以 Inspector 为主案例，呈现从业务问题定义、产品定位、数据建模、流程设计到 AI 能力规划的完整产品工作链路。","textPreview":"以 Inspector 为主案例，呈现从业务问题定义、产品定位、数据建模、流程设计到 AI 能力规划的完整产品工作链路。","textChars":60,"textLines":1,"bbox":[90,380,734,50]}
+{"kind":"shape","id":"sh/t83itgfm","slide":1,"bbox":[72,486,340,112]}
+{"kind":"textbox","id":"sh/mp0bi9s3","slide":1,"text":"案例范围","textPreview":"案例范围","textChars":4,"textLines":1,"bbox":[90,502,304,30]}
+{"kind":"textbox","id":"sh/bat47y1k","slide":1,"text":"Inspector 设施运维：告警、资产、工单、SOP、3D 场景与 AI 辅助处置","textPreview":"Inspector 设施运维：告警、资产、工单、SOP、3D 场景与 AI 辅助处置","textChars":42,"textLines":1,"bbox":[90,540,304,44]}
+{"kind":"shape","id":"sh/ji5snelo","slide":1,"bbox":[444,486,340,112]}
+{"kind":"textbox","id":"sh/uxc3ylc7","slide":1,"text":"目标岗位","textPreview":"目标岗位","textChars":4,"textLines":1,"bbox":[462,502,304,30]}
+{"kind":"textbox","id":"sh/1kre1w7m","slide":1,"text":"AI 产品经理 / 数字孪生产品经理 / B 端产品经理","textPreview":"AI 产品经理 / 数字孪生产品经理 / B 端产品经理","textChars":28,"textLines":1,"bbox":[462,540,304,44]}
+{"kind":"shape","id":"sh/c3ylc7u5","slide":1,"bbox":[816,486,340,112]}
+{"kind":"textbox","id":"sh/j6tovaho","slide":1,"text":"证据策略","textPreview":"证据策略","textChars":4,"textLines":1,"bbox":[834,502,304,30]}
+{"kind":"textbox","id":"sh/ulwval87","slide":1,"text":"每页围绕一个产品经理动作，匹配需求文档、流程图、数据表、原型或验收材料","textPreview":"每页围绕一个产品经理动作，匹配需求文档、流程图、数据表、原型或验收材料","textChars":35,"textLines":1,"bbox":[834,540,304,44]}
+{"kind":"textbox","id":"sh/1cfa9w3m","slide":1,"text":"李沛宣 Jane · B 端 / AI / 数字孪生产品经理","textPreview":"李沛宣 Jane · B 端 / AI / 数字孪生产品经理","textChars":30,"textLines":1,"bbox":[72,674,680,24]}
+{"kind":"textbox","id":"sh/crmhk3q5","slide":1,"text":"01","textPreview":"01","textChars":2,"textLines":1,"bbox":[1152,674,56,24]}
+{"kind":"slide","id":"sl/d9mcz1","slide":2,"title":"02 · MATERIAL STRATEGY","textShapes":14}
+{"kind":"textbox","id":"sh/ovahoza1","slide":2,"text":"02 · MATERIAL STRATEGY","textPreview":"02 · MATERIAL STRATEGY","textChars":22,"textLines":1,"bbox":[72,42,360,24]}
+{"kind":"textbox","id":"sh/vahoza1g","slide":2,"text":"材料组织：围绕产品能力而非功能截图展开","textPreview":"材料组织：围绕产品能力而非功能截图展开","textChars":19,"textLines":1,"bbox":[72,76,980,64]}
+{"kind":"textbox","id":"sh/6tovahoz","slide":2,"text":"将现有材料映射到产品工作链路：需求识别、定位判断、架构协同、数据建模、流程设计、原型验证与验收交付。","textPreview":"将现有材料映射到产品工作链路：需求识别、定位判断、架构协同、数据建模、流程设计、原型验证与验收交付。","textChars":50,"textLines":1,"bbox":[74,140,1030,34]}
+{"kind":"textbox","id":"sh/d8v6psfi","slide":2,"text":"Inspector Product Case Study","textPreview":"Inspector Product Case Study","textChars":28,"textLines":1,"bbox":[72,676,520,22]}
+{"kind":"textbox","id":"sh/onyd0z61","slide":2,"text":"02","textPreview":"02","textChars":2,"textLines":1,"bbox":[1154,674,54,24]}
+{"kind":"shape","id":"sh/z25kb6xk","slide":2,"bbox":[72,204,300,110]}
+{"kind":"textbox","id":"sh/6hcrmhk3","slide":2,"text":"证明的产品经理能力","textPreview":"证明的产品经理能力","textChars":9,"textLines":1,"bbox":[90,220,264,30]}
+{"kind":"textbox","id":"sh/d4vmtwra","slide":2,"text":"证据组织与案例表达","textPreview":"证据组织与案例表达","textChars":9,"textLines":1,"bbox":[90,258,264,42]}
+{"kind":"shape","id":"sh/oj2t83it","slide":2,"bbox":[404,204,804,110]}
+{"kind":"textbox","id":"sh/2x4nap4r","slide":2,"text":"案例叙事重点","textPreview":"案例叙事重点","textChars":6,"textLines":1,"bbox":[422,220,768,30]}
+{"kind":"textbox","id":"sh/vixczed8","slide":2,"text":"本页说明作品集的阅读方式：每类材料都对应一个明确的产品经理动作，避免变成产品介绍或截图堆叠。","textPreview":"本页说明作品集的阅读方式：每类材料都对应一个明确的产品经理动作，避免变成产品介绍或截图堆叠。","textChars":46,"textLines":1,"bbox":[422,258,768,42]}
+{"kind":"shape","id":"sh/k3q5o7qp","slide":2,"bbox":[72,344,552,178]}
+{"kind":"textbox","id":"sh/donyd0z6","slide":2,"text":"已有证据材料","textPreview":"已有证据材料","textChars":6,"textLines":1,"bbox":[90,360,516,30]}
+{"kind":"textbox","id":"sh/6psfil0r","slide":2,"text":"需求文档、架构图、竞品分析表、产品间流程图、原型图、主数据表、主数据流图、功能清单、Vibe Coding 原型","textPreview":"需求文档、架构图、竞品分析表、产品间流程图、原型图、主数据表、主数据流图、功能清单、Vibe Coding 原型","textChars":56,"textLines":1,"bbox":[90,398,516,110]}
+{"kind":"shape","id":"sh/val87ed8","slide":2,"bbox":[656,344,552,178]}
+{"kind":"textbox","id":"sh/kre1w7mp","slide":2,"text":"待补强材料","textPreview":"待补强材料","textChars":5,"textLines":1,"bbox":[674,360,516,30]}
+{"kind":"textbox","id":"sh/dcbulwva","slide":2,"text":"补充 AI Prompt / Agent 设计、人机协同规则、AI 评测指标，以及已落地 / MVP / 规划中的边界说明","textPreview":"补充 AI Prompt / Agent 设计、人机协同规则、AI 评测指标，以及已落地 / MVP / 规划中的边界说明","textChars":61,"textLines":1,"bbox":[674,398,516,110]}
+{"kind":"textbox","id":"sh/2lszqtcj","slide":2,"text":"材料呈现建议：后续将对应截图或表格裁切放在本页下半区，并保留一行关键结论。","textPreview":"材料呈现建议：后续将对应截图或表格裁切放在本页下半区，并保留一行关键结论。","textChars":37,"textLines":1,"bbox":[72,558,1100,34]}
+{"kind":"slide","id":"sl/x2bcct","slide":3,"title":"03 · BUSINESS CONTEXT","textShapes":14}
+{"kind":"textbox","id":"sh/orytsvu9","slide":3,"text":"03 · BUSINESS CONTEXT","textPreview":"03 · BUSINESS CONTEXT","textChars":21,"textLines":1,"bbox":[72,42,360,24]}
+{"kind":"textbox","id":"sh/z61032ls","slide":3,"text":"业务背景：从被动维修到闭环运维管理","textPreview":"业务背景：从被动维修到闭环运维管理","textChars":17,"textLines":1,"bbox":[72,76,980,64]}
+{"kind":"textbox","id":"sh/al87ed8b","slide":3,"text":"设施运维场景的核心矛盾不是系统缺失，而是告警、资产、工单、SOP 与现场执行之间缺少可追踪闭环。","textPreview":"设施运维场景的核心矛盾不是系统缺失，而是告警、资产、工单、SOP 与现场执行之间缺少可追踪闭环。","textChars":48,"textLines":1,"bbox":[74,140,1030,34]}
+{"kind":"textbox","id":"sh/h0fepkzu","slide":3,"text":"Inspector Product Case Study","textPreview":"Inspector Product Case Study","textChars":28,"textLines":1,"bbox":[72,676,520,22]}
+{"kind":"textbox","id":"sh/sfil0rqd","slide":3,"text":"03","textPreview":"03","textChars":2,"textLines":1,"bbox":[1154,674,54,24]}
+{"kind":"shape","id":"sh/zupwb2hw","slide":3,"bbox":[72,204,300,110]}
+{"kind":"textbox","id":"sh/a9w3m94f","slide":3,"text":"证明的产品经理能力","textPreview":"证明的产品经理能力","textChars":9,"textLines":1,"bbox":[90,220,264,30]}
+{"kind":"textbox","id":"sh/hwfyxobm","slide":3,"text":"复杂业务理解与问题定义","textPreview":"复杂业务理解与问题定义","textChars":11,"textLines":1,"bbox":[90,258,264,42]}
+{"kind":"shape","id":"sh/obm58z25","slide":3,"bbox":[404,204,804,110]}
+{"kind":"textbox","id":"sh/e1w7mp0b","slide":3,"text":"案例叙事重点","textPreview":"案例叙事重点","textChars":6,"textLines":1,"bbox":[422,220,768,30]}
+{"kind":"textbox","id":"sh/7mp0bi9s","slide":3,"text":"通过业务现状归纳运维断点：告警不可处置、资产脱离现场、工单流转割裂、经验难以沉淀。","textPreview":"通过业务现状归纳运维断点：告警不可处置、资产脱离现场、工单流转割裂、经验难以沉淀。","textChars":41,"textLines":1,"bbox":[422,258,768,42]}
+{"kind":"shape","id":"sh/w7mp0bi9","slide":3,"bbox":[72,344,552,178]}
+{"kind":"textbox","id":"sh/psfil0rq","slide":3,"text":"已有证据材料","textPreview":"已有证据材料","textChars":6,"textLines":1,"bbox":[90,360,516,30]}
+{"kind":"textbox","id":"sh/epkzupwb","slide":3,"text":"需求文档：客户场景、痛点归纳、Inspector 8.0 概要设计","textPreview":"需求文档：客户场景、痛点归纳、Inspector 8.0 概要设计","textChars":33,"textLines":1,"bbox":[90,398,516,110]}
+{"kind":"shape","id":"sh/7adsji5s","slide":3,"bbox":[656,344,552,178]}
+{"kind":"textbox","id":"sh/wval87ed","slide":3,"text":"待补强材料","textPreview":"待补强材料","textChars":5,"textLines":1,"bbox":[674,360,516,30]}
+{"kind":"textbox","id":"sh/pg3ex0nu","slide":3,"text":"客户访谈摘要、旧流程痛点截图、现有系统割裂示意，以及关键角色的作业链路说明","textPreview":"客户访谈摘要、旧流程痛点截图、现有系统割裂示意，以及关键角色的作业链路说明","textChars":37,"textLines":1,"bbox":[674,398,516,110]}
+{"kind":"textbox","id":"sh/eloj2t83","slide":3,"text":"材料呈现建议：后续将对应截图或表格裁切放在本页下半区，并保留一行关键结论。","textPreview":"材料呈现建议：后续将对应截图或表格裁切放在本页下半区，并保留一行关键结论。","textChars":37,"textLines":1,"bbox":[72,558,1100,34]}
+{"kind":"slide","id":"sl/i78yy8","slide":4,"title":"04 · MARKET POSITIONING","textShapes":14}
+{"kind":"textbox","id":"sh/wval87ed","slide":4,"text":"04 · MARKET POSITIONING","textPreview":"04 · MARKET POSITIONING","textChars":23,"textLines":1,"bbox":[72,42,360,24]}
+{"kind":"textbox","id":"sh/7adsji5s","slide":4,"text":"产品定位：面向闭环处置的设施运维平台","textPreview":"产品定位：面向闭环处置的设施运维平台","textChars":18,"textLines":1,"bbox":[72,76,980,64]}
+{"kind":"textbox","id":"sh/epkzupwb","slide":4,"text":"基于竞品与场景判断，产品切口不是纯 CMMS 或 3D 大屏，而是告警、资产、工单与 SOP 的闭环协同。","textPreview":"基于竞品与场景判断，产品切口不是纯 CMMS 或 3D 大屏，而是告警、资产、工单与 SOP 的闭环协同。","textChars":53,"textLines":1,"bbox":[74,140,1030,34]}
+{"kind":"textbox","id":"sh/psfil0rq","slide":4,"text":"Inspector Product Case Study","textPreview":"Inspector Product Case Study","textChars":28,"textLines":1,"bbox":[72,676,520,22]}
+{"kind":"textbox","id":"sh/w7mp0bi9","slide":4,"text":"04","textPreview":"04","textChars":2,"textLines":1,"bbox":[1154,674,54,24]}
+{"kind":"shape","id":"sh/7mp0bi9s","slide":4,"bbox":[72,204,300,110]}
+{"kind":"textbox","id":"sh/e1w7mp0b","slide":4,"text":"证明的产品经理能力","textPreview":"证明的产品经理能力","textChars":9,"textLines":1,"bbox":[90,220,264,30]}
+{"kind":"textbox","id":"sh/l0rqd4vm","slide":4,"text":"竞品分析与产品定位","textPreview":"竞品分析与产品定位","textChars":9,"textLines":1,"bbox":[90,258,264,42]}
+{"kind":"shape","id":"sh/wfyxobm5","slide":4,"bbox":[404,204,804,110]}
+{"kind":"textbox","id":"sh/ixczed8v","slide":4,"text":"案例叙事重点","textPreview":"案例叙事重点","textChars":6,"textLines":1,"bbox":[422,220,768,30]}
+{"kind":"textbox","id":"sh/bi9s36hc","slide":4,"text":"通过能力矩阵沉淀定位结论：同类产品分别强在工单、资产、楼控或可视化，机会点在跨系统闭环与 AI 辅助处置。","textPreview":"通过能力矩阵沉淀定位结论：同类产品分别强在工单、资产、楼控或可视化，机会点在跨系统闭环与 AI 辅助处置。","textChars":53,"textLines":1,"bbox":[422,258,768,42]}
+{"kind":"shape","id":"sh/032lszqt","slide":4,"bbox":[72,344,552,178]}
+{"kind":"textbox","id":"sh/tovahoza","slide":4,"text":"已有证据材料","textPreview":"已有证据材料","textChars":6,"textLines":1,"bbox":[90,360,516,30]}
+{"kind":"textbox","id":"sh/i9s36hcr","slide":4,"text":"竞品分析表：能力矩阵、差异点、机会点、功能优先级","textPreview":"竞品分析表：能力矩阵、差异点、机会点、功能优先级","textChars":24,"textLines":1,"bbox":[90,398,516,110]}
+{"kind":"shape","id":"sh/bulwval8","slide":4,"bbox":[656,344,552,178]}
+{"kind":"textbox","id":"sh/0fepkzup","slide":4,"text":"待补强材料","textPreview":"待补强材料","textChars":5,"textLines":1,"bbox":[674,360,516,30]}
+{"kind":"textbox","id":"sh/p0bi9s36","slide":4,"text":"将完整竞品表压缩为 3-5 条结论，并补充差异化定位与第一阶段取舍依据","textPreview":"将完整竞品表压缩为 3-5 条结论，并补充差异化定位与第一阶段取舍依据","textChars":35,"textLines":1,"bbox":[674,398,516,110]}
+{"kind":"textbox","id":"sh/idonyd0z","slide":4,"text":"材料呈现建议：后续将对应截图或表格裁切放在本页下半区，并保留一行关键结论。","textPreview":"材料呈现建议：后续将对应截图或表格裁切放在本页下半区，并保留一行关键结论。","textChars":37,"textLines":1,"bbox":[72,558,1100,34]}
+{"kind":"slide","id":"sl/pttvbn","slide":5,"title":"05 · MVP DEFINITION","textShapes":14}
+{"kind":"textbox","id":"sh/8v6psfil","slide":5,"text":"05 · MVP DEFINITION","textPreview":"05 · MVP DEFINITION","textChars":19,"textLines":1,"bbox":[72,42,360,24]}
+{"kind":"textbox","id":"sh/fa9w3m94","slide":5,"text":"MVP 定义：先验证最短可交付闭环","textPreview":"MVP 定义：先验证最短可交付闭环","textChars":17,"textLines":1,"bbox":[72,76,980,64]}
+{"kind":"textbox","id":"sh/qpg3ex0n","slide":5,"text":"第一阶段聚焦告警识别、人工确认、生成 / 关联工单、执行回写与 SOP 沉淀，避免过早承诺全自动智能运维。","textPreview":"第一阶段聚焦告警识别、人工确认、生成 / 关联工单、执行回写与 SOP 沉淀，避免过早承诺全自动智能运维。","textChars":53,"textLines":1,"bbox":[74,140,1030,34]}
+{"kind":"textbox","id":"sh/x4nap4r6","slide":5,"text":"Inspector Product Case Study","textPreview":"Inspector Product Case Study","textChars":28,"textLines":1,"bbox":[72,676,520,22]}
+{"kind":"textbox","id":"sh/8jqh0fep","slide":5,"text":"05","textPreview":"05","textChars":2,"textLines":1,"bbox":[1154,674,54,24]}
+{"kind":"shape","id":"sh/fyxobm58","slide":5,"bbox":[72,204,300,110]}
+{"kind":"textbox","id":"sh/qd4vmtwr","slide":5,"text":"证明的产品经理能力","textPreview":"证明的产品经理能力","textChars":9,"textLines":1,"bbox":[90,220,264,30]}
+{"kind":"textbox","id":"sh/xs72x4na","slide":5,"text":"MVP 范围管理","textPreview":"MVP 范围管理","textChars":8,"textLines":1,"bbox":[90,258,264,42]}
+{"kind":"shape","id":"sh/87ed8bat","slide":5,"bbox":[404,204,804,110]}
+{"kind":"textbox","id":"sh/ed8v6psf","slide":5,"text":"案例叙事重点","textPreview":"案例叙事重点","textChars":6,"textLines":1,"bbox":[422,220,768,30]}
+{"kind":"textbox","id":"sh/7y1kre1w","slide":5,"text":"本页突出范围判断：AI 产品第一阶段的关键不是全自动，而是让业务闭环可运行、可验收、可持续迭代。","textPreview":"本页突出范围判断：AI 产品第一阶段的关键不是全自动，而是让业务闭环可运行、可验收、可持续迭代。","textChars":48,"textLines":1,"bbox":[422,258,768,42]}
+{"kind":"shape","id":"sh/wjudg7ad","slide":5,"bbox":[72,344,552,178]}
+{"kind":"textbox","id":"sh/p4r65wju","slide":5,"text":"已有证据材料","textPreview":"已有证据材料","textChars":6,"textLines":1,"bbox":[90,360,516,30]}
+{"kind":"textbox","id":"sh/i5sneloj","slide":5,"text":"功能清单、P0/P1/P2、Roadmap、需求文档目录","textPreview":"功能清单、P0/P1/P2、Roadmap、需求文档目录","textChars":28,"textLines":1,"bbox":[90,398,516,110]}
+{"kind":"shape","id":"sh/7qpg3ex0","slide":5,"bbox":[656,344,552,178]}
+{"kind":"textbox","id":"sh/0bi9s36h","slide":5,"text":"待补强材料","textPreview":"待补强材料","textChars":5,"textLines":1,"bbox":[674,360,516,30]}
+{"kind":"textbox","id":"sh/pwb2hwfy","slide":5,"text":"补充范围取舍清单，例如暂缓自动派单、全自动关单、预测性维护大模型化等能力的原因","textPreview":"补充范围取舍清单，例如暂缓自动派单、全自动关单、预测性维护大模型化等能力的原因","textChars":39,"textLines":1,"bbox":[674,398,516,110]}
+{"kind":"textbox","id":"sh/itgfmlkj","slide":5,"text":"材料呈现建议：后续将对应截图或表格裁切放在本页下半区，并保留一行关键结论。","textPreview":"材料呈现建议：后续将对应截图或表格裁切放在本页下半区，并保留一行关键结论。","textChars":37,"textLines":1,"bbox":[72,558,1100,34]}
+{"kind":"slide","id":"sl/v6o2mm","slide":6,"title":"06 · SOLUTION ARCHITECTURE","textShapes":14}
+{"kind":"textbox","id":"sh/3ex0nuxc","slide":6,"text":"06 · SOLUTION ARCHITECTURE","textPreview":"06 · SOLUTION ARCHITECTURE","textChars":26,"textLines":1,"bbox":[72,42,360,24]}
+{"kind":"textbox","id":"sh/szqtcj6t","slide":6,"text":"方案架构：多系统协同下的运维业务流","textPreview":"方案架构：多系统协同下的运维业务流","textChars":17,"textLines":1,"bbox":[72,76,980,64]}
+{"kind":"textbox","id":"sh/lkjm1cfa","slide":6,"text":"Inspector 不是孤立应用，需要与外部告警、BMS / IoT、工单系统、3D 场景和资产主数据协作。","textPreview":"Inspector 不是孤立应用，需要与外部告警、BMS / IoT、工单系统、3D 场景和资产主数据协作。","textChars":54,"textLines":1,"bbox":[74,140,1030,34]}
+{"kind":"textbox","id":"sh/ahoza1gv","slide":6,"text":"Inspector Product Case Study","textPreview":"Inspector Product Case Study","textChars":28,"textLines":1,"bbox":[72,676,520,22]}
+{"kind":"textbox","id":"sh/32lszqtc","slide":6,"text":"06","textPreview":"06","textChars":2,"textLines":1,"bbox":[1154,674,54,24]}
+{"kind":"shape","id":"sh/sneloj2t","slide":6,"bbox":[72,204,300,110]}
+{"kind":"textbox","id":"sh/l87ed8ba","slide":6,"text":"证明的产品经理能力","textPreview":"证明的产品经理能力","textChars":9,"textLines":1,"bbox":[90,220,264,30]}
+{"kind":"textbox","id":"sh/e9cvixcz","slide":6,"text":"系统边界与跨产品协同","textPreview":"系统边界与跨产品协同","textChars":10,"textLines":1,"bbox":[90,258,264,42]}
+{"kind":"shape","id":"sh/3q5o7qpg","slide":6,"bbox":[404,204,804,110]}
+{"kind":"textbox","id":"sh/neloj2t8","slide":6,"text":"案例叙事重点","textPreview":"案例叙事重点","textChars":6,"textLines":1,"bbox":[422,220,768,30]}
+{"kind":"textbox","id":"sh/ytsvu9kn","slide":6,"text":"本页呈现产品边界判断：哪些系统提供数据，哪些模块消费数据，哪些状态需要同步，以及哪些责任不应混入本产品。","textPreview":"本页呈现产品边界判断：哪些系统提供数据，哪些模块消费数据，哪些状态需要同步，以及哪些责任不应混入本产品。","textChars":52,"textLines":1,"bbox":[422,258,768,42]}
+{"kind":"shape","id":"sh/5kb6xkf6","slide":6,"bbox":[72,344,552,178]}
+{"kind":"textbox","id":"sh/czed8v6p","slide":6,"text":"已有证据材料","textPreview":"已有证据材料","textChars":6,"textLines":1,"bbox":[90,360,516,30]}
+{"kind":"textbox","id":"sh/nqxs72x4","slide":6,"text":"架构图、产品间流程图、外部系统对接说明","textPreview":"架构图、产品间流程图、外部系统对接说明","textChars":19,"textLines":1,"bbox":[90,398,516,110]}
+{"kind":"shape","id":"sh/u54zidon","slide":6,"bbox":[656,344,552,178]}
+{"kind":"textbox","id":"sh/5sneloj2","slide":6,"text":"待补强材料","textPreview":"待补强材料","textChars":5,"textLines":1,"bbox":[674,360,516,30]}
+{"kind":"textbox","id":"sh/cbulwval","slide":6,"text":"补充系统责任边界表，区分产品定义、研发实现、外部系统依赖与客户现场配置","textPreview":"补充系统责任边界表，区分产品定义、研发实现、外部系统依赖与客户现场配置","textChars":35,"textLines":1,"bbox":[674,398,516,110]}
+{"kind":"textbox","id":"sh/nuxc3ylc","slide":6,"text":"材料呈现建议：后续将对应截图或表格裁切放在本页下半区，并保留一行关键结论。","textPreview":"材料呈现建议：后续将对应截图或表格裁切放在本页下半区，并保留一行关键结论。","textChars":37,"textLines":1,"bbox":[72,558,1100,34]}
+{"kind":"slide","id":"sl/jmoj1f","slide":7,"title":"07 · MASTER DATA","textShapes":14}
+{"kind":"textbox","id":"sh/byhgn29g","slide":7,"text":"07 · MASTER DATA","textPreview":"07 · MASTER DATA","textChars":16,"textLines":1,"bbox":[72,42,360,24]}
+{"kind":"textbox","id":"sh/0je9cvix","slide":7,"text":"主数据设计：空间、设备、告警、工单与知识对象建模","textPreview":"主数据设计：空间、设备、告警、工单与知识对象建模","textChars":24,"textLines":1,"bbox":[72,76,980,64]}
+{"kind":"textbox","id":"sh/t47y1kre","slide":7,"text":"AI 与数字孪生能力的基础，是资产、空间、设备、告警、工单和 SOP 对象能够被结构化关联。","textPreview":"AI 与数字孪生能力的基础，是资产、空间、设备、告警、工单和 SOP 对象能够被结构化关联。","textChars":46,"textLines":1,"bbox":[74,140,1030,34]}
+{"kind":"textbox","id":"sh/il0rqd4v","slide":7,"text":"Inspector Product Case Study","textPreview":"Inspector Product Case Study","textChars":28,"textLines":1,"bbox":[72,676,520,22]}
+{"kind":"textbox","id":"sh/b6xkf6dc","slide":7,"text":"07","textPreview":"07","textChars":2,"textLines":1,"bbox":[1154,674,54,24]}
+{"kind":"shape","id":"sh/0rqd4vmt","slide":7,"bbox":[72,204,300,110]}
+{"kind":"textbox","id":"sh/tcj6tova","slide":7,"text":"证明的产品经理能力","textPreview":"证明的产品经理能力","textChars":9,"textLines":1,"bbox":[90,220,264,30]}
+{"kind":"textbox","id":"sh/ixczed8v","slide":7,"text":"主数据建模","textPreview":"主数据建模","textChars":5,"textLines":1,"bbox":[90,258,264,42]}
+{"kind":"shape","id":"sh/bi9s36hc","slide":7,"bbox":[404,204,804,110]}
+{"kind":"textbox","id":"sh/rytsvu9k","slide":7,"text":"案例叙事重点","textPreview":"案例叙事重点","textChars":6,"textLines":1,"bbox":[422,220,768,30]}
+{"kind":"textbox","id":"sh/yd0z6103","slide":7,"text":"本页将主数据解释为 AI 和数字孪生的底座：设备 ID 串联位置、状态、告警、工单和知识记录。","textPreview":"本页将主数据解释为 AI 和数字孪生的底座：设备 ID 串联位置、状态、告警、工单和知识记录。","textChars":47,"textLines":1,"bbox":[422,258,768,42]}
+{"kind":"shape","id":"sh/90je9cvi","slide":7,"bbox":[72,344,552,178]}
+{"kind":"textbox","id":"sh/gfmlkjm1","slide":7,"text":"已有证据材料","textPreview":"已有证据材料","textChars":6,"textLines":1,"bbox":[90,360,516,30]}
+{"kind":"textbox","id":"sh/rmhk3q5o","slide":7,"text":"主数据设计表格、主数据流图、资产/告警/工单字段定义","textPreview":"主数据设计表格、主数据流图、资产/告警/工单字段定义","textChars":26,"textLines":1,"bbox":[90,398,516,110]}
+{"kind":"shape","id":"sh/y1kre1w7","slide":7,"bbox":[656,344,552,178]}
+{"kind":"textbox","id":"sh/9s36hcrm","slide":7,"text":"待补强材料","textPreview":"待补强材料","textChars":5,"textLines":1,"bbox":[674,360,516,30]}
+{"kind":"textbox","id":"sh/g7adsji5","slide":7,"text":"补充简化对象关系图：空间、设备、告警、工单、SOP、人员、剧本之间的关键关联","textPreview":"补充简化对象关系图：空间、设备、告警、工单、SOP、人员、剧本之间的关键关联","textChars":38,"textLines":1,"bbox":[674,398,516,110]}
+{"kind":"textbox","id":"sh/nih4byhg","slide":7,"text":"材料呈现建议：后续将对应截图或表格裁切放在本页下半区，并保留一行关键结论。","textPreview":"材料呈现建议：后续将对应截图或表格裁切放在本页下半区，并保留一行关键结论。","textChars":37,"textLines":1,"bbox":[72,558,1100,34]}
+{"kind":"slide","id":"sl/ncxnds","slide":8,"title":"08 · PROCESS MODELING","textShapes":14}
+{"kind":"textbox","id":"sh/6psfil0r","slide":8,"text":"08 · PROCESS MODELING","textPreview":"08 · PROCESS MODELING","textChars":21,"textLines":1,"bbox":[72,42,360,24]}
+{"kind":"textbox","id":"sh/dcbulwva","slide":8,"text":"流程设计：从告警触发到工单处置的状态联动","textPreview":"流程设计：从告警触发到工单处置的状态联动","textChars":20,"textLines":1,"bbox":[72,76,980,64]}
+{"kind":"textbox","id":"sh/kre1w7mp","slide":8,"text":"复杂 B 端产品的关键不是增加入口，而是定义状态、异常分支、关闭条件和跨系统回写规则。","textPreview":"复杂 B 端产品的关键不是增加入口，而是定义状态、异常分支、关闭条件和跨系统回写规则。","textChars":43,"textLines":1,"bbox":[74,140,1030,34]}
+{"kind":"textbox","id":"sh/vixczed8","slide":8,"text":"Inspector Product Case Study","textPreview":"Inspector Product Case Study","textChars":28,"textLines":1,"bbox":[72,676,520,22]}
+{"kind":"textbox","id":"sh/2x4nap4r","slide":8,"text":"08","textPreview":"08","textChars":2,"textLines":1,"bbox":[1154,674,54,24]}
+{"kind":"shape","id":"sh/donyd0z6","slide":8,"bbox":[72,204,300,110]}
+{"kind":"textbox","id":"sh/k3q5o7qp","slide":8,"text":"证明的产品经理能力","textPreview":"证明的产品经理能力","textChars":9,"textLines":1,"bbox":[90,220,264,30]}
+{"kind":"textbox","id":"sh/vu9knih4","slide":8,"text":"流程建模与状态机设计","textPreview":"流程建模与状态机设计","textChars":10,"textLines":1,"bbox":[90,258,264,42]}
+{"kind":"shape","id":"sh/29gr2p8n","slide":8,"bbox":[404,204,804,110]}
+{"kind":"textbox","id":"sh/kre1w7mp","slide":8,"text":"案例叙事重点","textPreview":"案例叙事重点","textChars":6,"textLines":1,"bbox":[422,220,768,30]}
+{"kind":"textbox","id":"sh/dcbulwva","slide":8,"text":"本页聚焦告警转工单：生成 / 关联只是入口，真正难点在状态如何联动、何时关闭、由谁确认。","textPreview":"本页聚焦告警转工单：生成 / 关联只是入口，真正难点在状态如何联动、何时关闭、由谁确认。","textChars":44,"textLines":1,"bbox":[422,258,768,42]}
+{"kind":"shape","id":"sh/6psfil0r","slide":8,"bbox":[72,344,552,178]}
+{"kind":"textbox","id":"sh/val87ed8","slide":8,"text":"已有证据材料","textPreview":"已有证据材料","textChars":6,"textLines":1,"bbox":[90,360,516,30]}
+{"kind":"textbox","id":"sh/k3q5o7qp","slide":8,"text":"产品间流程图、工单流程图、告警状态联动规则","textPreview":"产品间流程图、工单流程图、告警状态联动规则","textChars":21,"textLines":1,"bbox":[90,398,516,110]}
+{"kind":"shape","id":"sh/donyd0z6","slide":8,"bbox":[656,344,552,178]}
+{"kind":"textbox","id":"sh/2x4nap4r","slide":8,"text":"待补强材料","textPreview":"待补强材料","textChars":5,"textLines":1,"bbox":[674,360,516,30]}
+{"kind":"textbox","id":"sh/vixczed8","slide":8,"text":"补充异常分支示例，例如多工单关联、工单驳回、设备信号未恢复、外部系统回写失败","textPreview":"补充异常分支示例，例如多工单关联、工单驳回、设备信号未恢复、外部系统回写失败","textChars":38,"textLines":1,"bbox":[674,398,516,110]}
+{"kind":"textbox","id":"sh/kf6dcbul","slide":8,"text":"材料呈现建议：后续将对应截图或表格裁切放在本页下半区，并保留一行关键结论。","textPreview":"材料呈现建议：后续将对应截图或表格裁切放在本页下半区，并保留一行关键结论。","textChars":37,"textLines":1,"bbox":[72,558,1100,34]}
+{"kind":"slide","id":"sl/4rt2sk","slide":9,"title":"09 · ALERT MODEL","textShapes":14}
+{"kind":"textbox","id":"sh/sfil0rqd","slide":9,"text":"09 · ALERT MODEL","textPreview":"09 · ALERT MODEL","textChars":16,"textLines":1,"bbox":[72,42,360,24]}
+{"kind":"textbox","id":"sh/zupwb2hw","slide":9,"text":"告警模型：从通知消息到可处置事件","textPreview":"告警模型：从通知消息到可处置事件","textChars":16,"textLines":1,"bbox":[72,76,980,64]}
+{"kind":"textbox","id":"sh/a9w3m94f","slide":9,"text":"告警不仅用于展示，还需要支持溯源、合并、下钻、转工单、处置记录与审计追踪。","textPreview":"告警不仅用于展示，还需要支持溯源、合并、下钻、转工单、处置记录与审计追踪。","textChars":37,"textLines":1,"bbox":[74,140,1030,34]}
+{"kind":"textbox","id":"sh/hcrmhk3q","slide":9,"text":"Inspector Product Case Study","textPreview":"Inspector Product Case Study","textChars":28,"textLines":1,"bbox":[72,676,520,22]}
+{"kind":"textbox","id":"sh/orytsvu9","slide":9,"text":"09","textPreview":"09","textChars":2,"textLines":1,"bbox":[1154,674,54,24]}
+{"kind":"shape","id":"sh/z61032ls","slide":9,"bbox":[72,204,300,110]}
+{"kind":"textbox","id":"sh/al87ed8b","slide":9,"text":"证明的产品经理能力","textPreview":"证明的产品经理能力","textChars":9,"textLines":1,"bbox":[90,220,264,30]}
+{"kind":"textbox","id":"sh/hk3q5o7q","slide":9,"text":"业务对象抽象","textPreview":"业务对象抽象","textChars":6,"textLines":1,"bbox":[90,258,264,42]}
+{"kind":"shape","id":"sh/oza1gvy9","slide":9,"bbox":[404,204,804,110]}
+{"kind":"textbox","id":"sh/29gr2p8n","slide":9,"text":"案例叙事重点","textPreview":"案例叙事重点","textChars":6,"textLines":1,"bbox":[422,220,768,30]}
+{"kind":"textbox","id":"sh/vu9knih4","slide":9,"text":"本页体现对象抽象能力：通过外联 ID、JSON 扩展数据、合并规则和历史记录，让告警具备处置属性。","textPreview":"本页体现对象抽象能力：通过外联 ID、JSON 扩展数据、合并规则和历史记录，让告警具备处置属性。","textChars":49,"textLines":1,"bbox":[422,258,768,42]}
+{"kind":"shape","id":"sh/kf6dcbul","slide":9,"bbox":[72,344,552,178]}
+{"kind":"textbox","id":"sh/d0z61032","slide":9,"text":"已有证据材料","textPreview":"已有证据材料","textChars":6,"textLines":1,"bbox":[90,360,516,30]}
+{"kind":"textbox","id":"sh/2lszqtcj","slide":9,"text":"告警管理需求文档、JSON 扩展数据、告警合并机制、外联 ID 设计","textPreview":"告警管理需求文档、JSON 扩展数据、告警合并机制、外联 ID 设计","textChars":34,"textLines":1,"bbox":[90,398,516,110]}
+{"kind":"shape","id":"sh/v6psfil0","slide":9,"bbox":[656,344,552,178]}
+{"kind":"textbox","id":"sh/knih4byh","slide":9,"text":"待补强材料","textPreview":"待补强材料","textChars":5,"textLines":1,"bbox":[674,360,516,30]}
+{"kind":"textbox","id":"sh/d8bat47y","slide":9,"text":"补充告警详情原型、告警卡片 / 抽屉截图，以及字段与处置动作的对应说明","textPreview":"补充告警详情原型、告警卡片 / 抽屉截图，以及字段与处置动作的对应说明","textChars":35,"textLines":1,"bbox":[674,398,516,110]}
+{"kind":"textbox","id":"sh/6psfil0r","slide":9,"text":"材料呈现建议：后续将对应截图或表格裁切放在本页下半区，并保留一行关键结论。","textPreview":"材料呈现建议：后续将对应截图或表格裁切放在本页下半区，并保留一行关键结论。","textChars":37,"textLines":1,"bbox":[72,558,1100,34]}
+{"kind":"slide","id":"sl/bp6sm8","slide":10,"title":"10 · WORK ORDER MODEL","textShapes":14}
+{"kind":"textbox","id":"sh/6psfil0r","slide":10,"text":"10 · WORK ORDER MODEL","textPreview":"10 · WORK ORDER MODEL","textChars":21,"textLines":1,"bbox":[72,42,360,24]}
+{"kind":"textbox","id":"sh/dcbulwva","slide":10,"text":"工单模型：多来源任务的统一承接与执行管理","textPreview":"工单模型：多来源任务的统一承接与执行管理","textChars":20,"textLines":1,"bbox":[72,76,980,64]}
+{"kind":"textbox","id":"sh/kre1w7mp","slide":10,"text":"手动创建、告警转入、故障提报、点巡检和预防性维护任务，统一进入派发、执行、验收、回写链路。","textPreview":"手动创建、告警转入、故障提报、点巡检和预防性维护任务，统一进入派发、执行、验收、回写链路。","textChars":45,"textLines":1,"bbox":[74,140,1030,34]}
+{"kind":"textbox","id":"sh/vixczed8","slide":10,"text":"Inspector Product Case Study","textPreview":"Inspector Product Case Study","textChars":28,"textLines":1,"bbox":[72,676,520,22]}
+{"kind":"textbox","id":"sh/2x4nap4r","slide":10,"text":"10","textPreview":"10","textChars":2,"textLines":1,"bbox":[1154,674,54,24]}
+{"kind":"shape","id":"sh/donyd0z6","slide":10,"bbox":[72,204,300,110]}
+{"kind":"textbox","id":"sh/k3q5o7qp","slide":10,"text":"证明的产品经理能力","textPreview":"证明的产品经理能力","textChars":9,"textLines":1,"bbox":[90,220,264,30]}
+{"kind":"textbox","id":"sh/vu9knih4","slide":10,"text":"复杂入口归一化","textPreview":"复杂入口归一化","textChars":7,"textLines":1,"bbox":[90,258,264,42]}
+{"kind":"shape","id":"sh/29gr2p8n","slide":10,"bbox":[404,204,804,110]}
+{"kind":"textbox","id":"sh/kre1w7mp","slide":10,"text":"案例叙事重点","textPreview":"案例叙事重点","textChars":6,"textLines":1,"bbox":[422,220,768,30]}
+{"kind":"textbox","id":"sh/dcbulwva","slide":10,"text":"本页用流程图说明入口归一：任务来源可以不同，但执行模型必须统一，否则一线执行和后续分析都会断裂。","textPreview":"本页用流程图说明入口归一：任务来源可以不同，但执行模型必须统一，否则一线执行和后续分析都会断裂。","textChars":48,"textLines":1,"bbox":[422,258,768,42]}
+{"kind":"shape","id":"sh/6psfil0r","slide":10,"bbox":[72,344,552,178]}
+{"kind":"textbox","id":"sh/val87ed8","slide":10,"text":"已有证据材料","textPreview":"已有证据材料","textChars":6,"textLines":1,"bbox":[90,360,516,30]}
+{"kind":"textbox","id":"sh/k3q5o7qp","slide":10,"text":"工单管理流程图、工单管理需求文档、执行端流程","textPreview":"工单管理流程图、工单管理需求文档、执行端流程","textChars":22,"textLines":1,"bbox":[90,398,516,110]}
+{"kind":"shape","id":"sh/donyd0z6","slide":10,"bbox":[656,344,552,178]}
+{"kind":"textbox","id":"sh/2x4nap4r","slide":10,"text":"待补强材料","textPreview":"待补强材料","textChars":5,"textLines":1,"bbox":[674,360,516,30]}
+{"kind":"textbox","id":"sh/vixczed8","slide":10,"text":"将现有工单流程图裁切为两段展示：任务来源与生成、一线执行与验收回写","textPreview":"将现有工单流程图裁切为两段展示：任务来源与生成、一线执行与验收回写","textChars":33,"textLines":1,"bbox":[674,398,516,110]}
+{"kind":"textbox","id":"sh/kf6dcbul","slide":10,"text":"材料呈现建议：后续将对应截图或表格裁切放在本页下半区，并保留一行关键结论。","textPreview":"材料呈现建议：后续将对应截图或表格裁切放在本页下半区，并保留一行关键结论。","textChars":37,"textLines":1,"bbox":[72,558,1100,34]}
+{"kind":"slide","id":"sl/j8lr9h","slide":11,"title":"11 · DIGITAL TWIN CONTEXT","textShapes":14}
+{"kind":"textbox","id":"sh/d4vmtwra","slide":11,"text":"11 · DIGITAL TWIN CONTEXT","textPreview":"11 · DIGITAL TWIN CONTEXT","textChars":25,"textLines":1,"bbox":[72,42,360,24]}
+{"kind":"textbox","id":"sh/6dcbulwv","slide":11,"text":"数字孪生场景：面向现场处置的空间上下文","textPreview":"数字孪生场景：面向现场处置的空间上下文","textChars":19,"textLines":1,"bbox":[72,76,980,64]}
+{"kind":"textbox","id":"sh/vy90je9c","slide":11,"text":"3D 场景的价值不是展示大屏，而是帮助定位设备、理解空间关系、查看运行监测并关联处置记录。","textPreview":"3D 场景的价值不是展示大屏，而是帮助定位设备、理解空间关系、查看运行监测并关联处置记录。","textChars":45,"textLines":1,"bbox":[74,140,1030,34]}
+{"kind":"textbox","id":"sh/o7qpg3ex","slide":11,"text":"Inspector Product Case Study","textPreview":"Inspector Product Case Study","textChars":28,"textLines":1,"bbox":[72,676,520,22]}
+{"kind":"textbox","id":"sh/dsji5sne","slide":11,"text":"11","textPreview":"11","textChars":2,"textLines":1,"bbox":[1154,674,54,24]}
+{"kind":"shape","id":"sh/61032lsz","slide":11,"bbox":[72,204,300,110]}
+{"kind":"textbox","id":"sh/vmtwra5g","slide":11,"text":"证明的产品经理能力","textPreview":"证明的产品经理能力","textChars":9,"textLines":1,"bbox":[90,220,264,30]}
+{"kind":"textbox","id":"sh/ovahoza1","slide":11,"text":"数字孪生业务价值判断","textPreview":"数字孪生业务价值判断","textChars":10,"textLines":1,"bbox":[90,258,264,42]}
+{"kind":"shape","id":"sh/dg7adsji","slide":11,"bbox":[404,204,804,110]}
+{"kind":"textbox","id":"sh/1032lszq","slide":11,"text":"案例叙事重点","textPreview":"案例叙事重点","textChars":6,"textLines":1,"bbox":[422,220,768,30]}
+{"kind":"textbox","id":"sh/cfa9w3m9","slide":11,"text":"本页面向数字孪生岗位突出业务判断：让告警和工单拥有空间上下文，而不是把 3D 作为单独展示层。","textPreview":"本页面向数字孪生岗位突出业务判断：让告警和工单拥有空间上下文，而不是把 3D 作为单独展示层。","textChars":47,"textLines":1,"bbox":[422,258,768,42]}
+{"kind":"shape","id":"sh/judg7ads","slide":11,"bbox":[72,344,552,178]}
+{"kind":"textbox","id":"sh/u9knih4b","slide":11,"text":"已有证据材料","textPreview":"已有证据材料","textChars":6,"textLines":1,"bbox":[90,360,516,30]}
+{"kind":"textbox","id":"sh/1orytsvu","slide":11,"text":"原型图、资产详情、3D 定位、设备关系、运行监测、视频流","textPreview":"原型图、资产详情、3D 定位、设备关系、运行监测、视频流","textChars":28,"textLines":1,"bbox":[90,398,516,110]}
+{"kind":"shape","id":"sh/c7u54zid","slide":11,"bbox":[656,344,552,178]}
+{"kind":"textbox","id":"sh/jm1cfa9w","slide":11,"text":"待补强材料","textPreview":"待补强材料","textChars":5,"textLines":1,"bbox":[674,360,516,30]}
+{"kind":"textbox","id":"sh/u18jqh0f","slide":11,"text":"补充设备详情页截图、3D 聚焦截图、资产-工单 Tab 截图，并标注它们服务的处置动作","textPreview":"补充设备详情页截图、3D 聚焦截图、资产-工单 Tab 截图，并标注它们服务的处置动作","textChars":43,"textLines":1,"bbox":[674,398,516,110]}
+{"kind":"textbox","id":"sh/5gbq1ory","slide":11,"text":"材料呈现建议：后续将对应截图或表格裁切放在本页下半区，并保留一行关键结论。","textPreview":"材料呈现建议：后续将对应截图或表格裁切放在本页下半区，并保留一行关键结论。","textChars":37,"textLines":1,"bbox":[72,558,1100,34]}
+{"kind":"slide","id":"sl/twrc47","slide":12,"title":"12 · KNOWLEDGE ASSET","textShapes":14}
+{"kind":"textbox","id":"sh/b6xkf6dc","slide":12,"text":"12 · KNOWLEDGE ASSET","textPreview":"12 · KNOWLEDGE ASSET","textChars":20,"textLines":1,"bbox":[72,42,360,24]}
+{"kind":"textbox","id":"sh/0rqd4vmt","slide":12,"text":"SOP 模板库：维修经验的标准化与资产化","textPreview":"SOP 模板库：维修经验的标准化与资产化","textChars":20,"textLines":1,"bbox":[72,76,980,64]}
+{"kind":"textbox","id":"sh/tcj6tova","slide":12,"text":"闭环的终点不是关单，而是将有效步骤、检查项和处置剧本沉淀为可复用模板。","textPreview":"闭环的终点不是关单，而是将有效步骤、检查项和处置剧本沉淀为可复用模板。","textChars":35,"textLines":1,"bbox":[74,140,1030,34]}
+{"kind":"textbox","id":"sh/idonyd0z","slide":12,"text":"Inspector Product Case Study","textPreview":"Inspector Product Case Study","textChars":28,"textLines":1,"bbox":[72,676,520,22]}
+{"kind":"textbox","id":"sh/byhgn29g","slide":12,"text":"12","textPreview":"12","textChars":2,"textLines":1,"bbox":[1154,674,54,24]}
+{"kind":"shape","id":"sh/0je9cvix","slide":12,"bbox":[72,204,300,110]}
+{"kind":"textbox","id":"sh/t47y1kre","slide":12,"text":"证明的产品经理能力","textPreview":"证明的产品经理能力","textChars":9,"textLines":1,"bbox":[90,220,264,30]}
+{"kind":"textbox","id":"sh/i9s36hcr","slide":12,"text":"产品化与标品沉淀","textPreview":"产品化与标品沉淀","textChars":8,"textLines":1,"bbox":[90,258,264,42]}
+{"kind":"shape","id":"sh/bulwval8","slide":12,"bbox":[404,204,804,110]}
+{"kind":"textbox","id":"sh/j6tovaho","slide":12,"text":"案例叙事重点","textPreview":"案例叙事重点","textChars":6,"textLines":1,"bbox":[422,220,768,30]}
+{"kind":"textbox","id":"sh/ulwval87","slide":12,"text":"本页体现产品化能力：将项目制交付中的一次性经验沉淀为模板库，减少重复填写和专家经验流失。","textPreview":"本页体现产品化能力：将项目制交付中的一次性经验沉淀为模板库，减少重复填写和专家经验流失。","textChars":44,"textLines":1,"bbox":[422,258,768,42]}
+{"kind":"shape","id":"sh/1cfa9w3m","slide":12,"bbox":[72,344,552,178]}
+{"kind":"textbox","id":"sh/crmhk3q5","slide":12,"text":"已有证据材料","textPreview":"已有证据材料","textChars":6,"textLines":1,"bbox":[90,360,516,30]}
+{"kind":"textbox","id":"sh/ji5snelo","slide":12,"text":"SOP 模板库需求、版本控制、Copy on Write、工单沉淀逻辑","textPreview":"SOP 模板库需求、版本控制、Copy on Write、工单沉淀逻辑","textChars":35,"textLines":1,"bbox":[90,398,516,110]}
+{"kind":"shape","id":"sh/uxc3ylc7","slide":12,"bbox":[656,344,552,178]}
+{"kind":"textbox","id":"sh/1kre1w7m","slide":12,"text":"待补强材料","textPreview":"待补强材料","textChars":5,"textLines":1,"bbox":[674,360,516,30]}
+{"kind":"textbox","id":"sh/c3ylc7u5","slide":12,"text":"补充模板库原型图、优质工单转模板示意，以及模板更新与版本管理规则","textPreview":"补充模板库原型图、优质工单转模板示意，以及模板更新与版本管理规则","textChars":32,"textLines":1,"bbox":[674,398,516,110]}
+{"kind":"textbox","id":"sh/jqh0fepk","slide":12,"text":"材料呈现建议：后续将对应截图或表格裁切放在本页下半区，并保留一行关键结论。","textPreview":"材料呈现建议：后续将对应截图或表格裁切放在本页下半区，并保留一行关键结论。","textChars":37,"textLines":1,"bbox":[72,558,1100,34]}
+{"kind":"slide","id":"sl/ubmbfn","slide":13,"title":"13 · PROTOTYPE VALIDATION","textShapes":14}
+{"kind":"textbox","id":"sh/a9w3m94f","slide":13,"text":"13 · PROTOTYPE VALIDATION","textPreview":"13 · PROTOTYPE VALIDATION","textChars":25,"textLines":1,"bbox":[72,42,360,24]}
+{"kind":"textbox","id":"sh/h0fepkzu","slide":13,"text":"原型验证：基于 Vibe Coding 的流程可用性验证","textPreview":"原型验证：基于 Vibe Coding 的流程可用性验证","textChars":28,"textLines":1,"bbox":[72,76,980,64]}
+{"kind":"textbox","id":"sh/sfil0rqd","slide":13,"text":"Vibe Coding 用于提前暴露字段缺失、状态遗漏和交互断点，辅助 PRD 修订与产研评审。","textPreview":"Vibe Coding 用于提前暴露字段缺失、状态遗漏和交互断点，辅助 PRD 修订与产研评审。","textChars":48,"textLines":1,"bbox":[74,140,1030,34]}
+{"kind":"textbox","id":"sh/z61032ls","slide":13,"text":"Inspector Product Case Study","textPreview":"Inspector Product Case Study","textChars":28,"textLines":1,"bbox":[72,676,520,22]}
+{"kind":"textbox","id":"sh/al87ed8b","slide":13,"text":"13","textPreview":"13","textChars":2,"textLines":1,"bbox":[1154,674,54,24]}
+{"kind":"shape","id":"sh/hcrmhk3q","slide":13,"bbox":[72,204,300,110]}
+{"kind":"textbox","id":"sh/orytsvu9","slide":13,"text":"证明的产品经理能力","textPreview":"证明的产品经理能力","textChars":9,"textLines":1,"bbox":[90,220,264,30]}
+{"kind":"textbox","id":"sh/zed8v6ps","slide":13,"text":"原型验证与产研沟通","textPreview":"原型验证与产研沟通","textChars":9,"textLines":1,"bbox":[90,258,264,42]}
+{"kind":"shape","id":"sh/6xkf6dcb","slide":13,"bbox":[404,204,804,110]}
+{"kind":"textbox","id":"sh/8z25kb6x","slide":13,"text":"案例叙事重点","textPreview":"案例叙事重点","textChars":6,"textLines":1,"bbox":[422,220,768,30]}
+{"kind":"textbox","id":"sh/1gvy90je","slide":13,"text":"本页不单纯展示页面，而是说明原型验证发现的问题，例如字段不足、状态不闭环、执行端路径过长。","textPreview":"本页不单纯展示页面，而是说明原型验证发现的问题，例如字段不足、状态不闭环、执行端路径过长。","textChars":45,"textLines":1,"bbox":[422,258,768,42]}
+{"kind":"shape","id":"sh/qtcj6tov","slide":13,"bbox":[72,344,552,178]}
+{"kind":"textbox","id":"sh/je9cvixc","slide":13,"text":"已有证据材料","textPreview":"已有证据材料","textChars":6,"textLines":1,"bbox":[90,360,516,30]}
+{"kind":"textbox","id":"sh/87ed8bat","slide":13,"text":"Vibe Coding 原型页面、原型操作录屏/截图、PRD 修订记录","textPreview":"Vibe Coding 原型页面、原型操作录屏/截图、PRD 修订记录","textChars":35,"textLines":1,"bbox":[90,398,516,110]}
+{"kind":"shape","id":"sh/xs72x4na","slide":13,"bbox":[656,344,552,178]}
+{"kind":"textbox","id":"sh/q1orytsv","slide":13,"text":"待补强材料","textPreview":"待补强材料","textChars":5,"textLines":1,"bbox":[674,360,516,30]}
+{"kind":"textbox","id":"sh/fmlkjm1c","slide":13,"text":"补充复盘表：原型发现的问题、PRD 如何调整、影响哪些角色与流程节点","textPreview":"补充复盘表：原型发现的问题、PRD 如何调整、影响哪些角色与流程节点","textChars":34,"textLines":1,"bbox":[674,398,516,110]}
+{"kind":"textbox","id":"sh/8jqh0fep","slide":13,"text":"材料呈现建议：后续将对应截图或表格裁切放在本页下半区，并保留一行关键结论。","textPreview":"材料呈现建议：后续将对应截图或表格裁切放在本页下半区，并保留一行关键结论。","textChars":37,"textLines":1,"bbox":[72,558,1100,34]}
+{"kind":"slide","id":"sl/aoc8vi","slide":14,"title":"14 · AI CAPABILITY DESIGN","textShapes":14}
+{"kind":"textbox","id":"sh/0nuxc3yl","slide":14,"text":"14 · AI CAPABILITY DESIGN","textPreview":"14 · AI CAPABILITY DESIGN","textChars":25,"textLines":1,"bbox":[72,42,360,24]}
+{"kind":"textbox","id":"sh/72x4nap4","slide":14,"text":"AI 能力规划：人机协同的诊断、建议与处置辅助","textPreview":"AI 能力规划：人机协同的诊断、建议与处置辅助","textChars":23,"textLines":1,"bbox":[72,76,980,64]}
+{"kind":"textbox","id":"sh/ih4byhgn","slide":14,"text":"AI 设计重点不是堆叠 Prompt，而是明确输入输出、责任边界、人工兜底和验收指标。","textPreview":"AI 设计重点不是堆叠 Prompt，而是明确输入输出、责任边界、人工兜底和验收指标。","textChars":43,"textLines":1,"bbox":[74,140,1030,34]}
+{"kind":"textbox","id":"sh/pkzupwb2","slide":14,"text":"Inspector Product Case Study","textPreview":"Inspector Product Case Study","textChars":28,"textLines":1,"bbox":[72,676,520,22]}
+{"kind":"textbox","id":"sh/0z61032l","slide":14,"text":"14","textPreview":"14","textChars":2,"textLines":1,"bbox":[1154,674,54,24]}
+{"kind":"shape","id":"sh/7ed8bat4","slide":14,"bbox":[72,204,300,110]}
+{"kind":"textbox","id":"sh/itgfmlkj","slide":14,"text":"证明的产品经理能力","textPreview":"证明的产品经理能力","textChars":9,"textLines":1,"bbox":[90,220,264,30]}
+{"kind":"textbox","id":"sh/pwb2hwfy","slide":14,"text":"AI 产品设计与风险边界","textPreview":"AI 产品设计与风险边界","textChars":12,"textLines":1,"bbox":[90,258,264,42]}
+{"kind":"shape","id":"sh/0bi9s36h","slide":14,"bbox":[404,204,804,110]}
+{"kind":"textbox","id":"sh/u18jqh0f","slide":14,"text":"案例叙事重点","textPreview":"案例叙事重点","textChars":6,"textLines":1,"bbox":[422,220,768,30]}
+{"kind":"textbox","id":"sh/jm1cfa9w","slide":14,"text":"本页规划四类补充材料：Agent 分工图、Prompt 输入输出样例、人机协同规则、AI 验收指标。","textPreview":"本页规划四类补充材料：Agent 分工图、Prompt 输入输出样例、人机协同规则、AI 验收指标。","textChars":50,"textLines":1,"bbox":[422,258,768,42]}
+{"kind":"shape","id":"sh/c7u54zid","slide":14,"bbox":[72,344,552,178]}
+{"kind":"textbox","id":"sh/1orytsvu","slide":14,"text":"已有证据材料","textPreview":"已有证据材料","textChars":6,"textLines":1,"bbox":[90,360,516,30]}
+{"kind":"textbox","id":"sh/u9knih4b","slide":14,"text":"可从人机协同预测性维护 MD、告警/工单/SOP 材料中提炼","textPreview":"可从人机协同预测性维护 MD、告警/工单/SOP 材料中提炼","textChars":30,"textLines":1,"bbox":[90,398,516,110]}
+{"kind":"shape","id":"sh/judg7ads","slide":14,"bbox":[656,344,552,178]}
+{"kind":"textbox","id":"sh/cfa9w3m9","slide":14,"text":"待补强材料","textPreview":"待补强材料","textChars":5,"textLines":1,"bbox":[674,360,516,30]}
+{"kind":"textbox","id":"sh/1032lszq","slide":14,"text":"补充低置信人工复核、高风险不自动执行、引用来源、前三命中率、字段完整率、误建议率等规则","textPreview":"补充低置信人工复核、高风险不自动执行、引用来源、前三命中率、字段完整率、误建议率等规则","textChars":43,"textLines":1,"bbox":[674,398,516,110]}
+{"kind":"textbox","id":"sh/udg7adsj","slide":14,"text":"材料呈现建议：后续将对应截图或表格裁切放在本页下半区，并保留一行关键结论。","textPreview":"材料呈现建议：后续将对应截图或表格裁切放在本页下半区，并保留一行关键结论。","textChars":37,"textLines":1,"bbox":[72,558,1100,34]}
+{"kind":"slide","id":"sl/jifg6h","slide":15,"title":"15 · CAPABILITY SUMMARY","textShapes":14}
+{"kind":"textbox","id":"sh/2p8nqxs7","slide":15,"text":"15 · CAPABILITY SUMMARY","textPreview":"15 · CAPABILITY SUMMARY","textChars":23,"textLines":1,"bbox":[72,42,360,24]}
+{"kind":"textbox","id":"sh/9gr2p8nq","slide":15,"text":"能力总结：从复杂业务到 AI 产品闭环落地","textPreview":"能力总结：从复杂业务到 AI 产品闭环落地","textChars":21,"textLines":1,"bbox":[72,76,980,64]}
+{"kind":"textbox","id":"sh/gvy90je9","slide":15,"text":"通过 Inspector 案例证明复杂问题定义、数据与流程建模、原型验证、AI 边界设计和版本交付能力。","textPreview":"通过 Inspector 案例证明复杂问题定义、数据与流程建模、原型验证、AI 边界设计和版本交付能力。","textChars":52,"textLines":1,"bbox":[74,140,1030,34]}
+{"kind":"textbox","id":"sh/r2p8nqxs","slide":15,"text":"Inspector Product Case Study","textPreview":"Inspector Product Case Study","textChars":28,"textLines":1,"bbox":[72,676,520,22]}
+{"kind":"textbox","id":"sh/2hwfyxob","slide":15,"text":"15","textPreview":"15","textChars":2,"textLines":1,"bbox":[1154,674,54,24]}
+{"kind":"shape","id":"sh/94fu18jq","slide":15,"bbox":[72,204,300,110]}
+{"kind":"textbox","id":"sh/kjm1cfa9","slide":15,"text":"证明的产品经理能力","textPreview":"证明的产品经理能力","textChars":9,"textLines":1,"bbox":[90,220,264,30]}
+{"kind":"textbox","id":"sh/rqd4vmtw","slide":15,"text":"面试收束","textPreview":"面试收束","textChars":4,"textLines":1,"bbox":[90,258,264,42]}
+{"kind":"shape","id":"sh/25kb6xkf","slide":15,"bbox":[404,204,804,110]}
+{"kind":"textbox","id":"sh/4fu18jqh","slide":15,"text":"案例叙事重点","textPreview":"案例叙事重点","textChars":6,"textLines":1,"bbox":[422,220,768,30]}
+{"kind":"textbox","id":"sh/x0nuxc3y","slide":15,"text":"结尾将案例收束为岗位匹配：能够把 AI 能力嵌入真实 B 端业务闭环，而不是停留在概念层。","textPreview":"结尾将案例收束为岗位匹配：能够把 AI 能力嵌入真实 B 端业务闭环，而不是停留在概念层。","textChars":45,"textLines":1,"bbox":[422,258,768,42]}
+{"kind":"shape","id":"sh/m94fu18j","slide":15,"bbox":[72,344,552,178]}
+{"kind":"textbox","id":"sh/fu18jqh0","slide":15,"text":"已有证据材料","textPreview":"已有证据材料","textChars":6,"textLines":1,"bbox":[90,360,516,30]}
+{"kind":"textbox","id":"sh/83itgfml","slide":15,"text":"前 14 页材料汇总","textPreview":"前 14 页材料汇总","textChars":10,"textLines":1,"bbox":[90,398,516,110]}
+{"kind":"shape","id":"sh/xobm58z2","slide":15,"bbox":[656,344,552,178]}
+{"kind":"textbox","id":"sh/qxs72x4n","slide":15,"text":"待补强材料","textPreview":"待补强材料","textChars":5,"textLines":1,"bbox":[674,360,516,30]}
+{"kind":"textbox","id":"sh/fil0rqd4","slide":15,"text":"补充阶段成果与诚实边界，清晰区分已完成、Demo / MVP、待验证指标与后续规划","textPreview":"补充阶段成果与诚实边界，清晰区分已完成、Demo / MVP、待验证指标与后续规划","textChars":41,"textLines":1,"bbox":[674,398,516,110]}
+{"kind":"textbox","id":"sh/4zidonyd","slide":15,"text":"材料呈现建议：后续将对应截图或表格裁切放在本页下半区，并保留一行关键结论。","textPreview":"材料呈现建议：后续将对应截图或表格裁切放在本页下半区，并保留一行关键结论。","textChars":37,"textLines":1,"bbox":[72,558,1100,34]}
