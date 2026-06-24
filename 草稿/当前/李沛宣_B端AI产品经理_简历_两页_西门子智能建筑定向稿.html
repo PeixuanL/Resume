@@ -273,11 +273,24 @@
             .flex-row.project-gap {
                 padding-top: 10px;
             }
+            .page:nth-of-type(2) > div > section + section {
+                margin-top: 16px;
+            }
             .page:nth-of-type(2) .project-exp li {
-                line-height: 1.72;
+                margin-bottom: 5px;
+                line-height: 1.6;
             }
             .page:nth-of-type(2) .project-exp .project-label {
-                line-height: 1.68;
+                margin-bottom: 4px;
+                line-height: 1.58;
+            }
+            .page:nth-of-type(2) .project-exp .project-label.project-result {
+                margin-top: 3px;
+                line-height: 1.58;
+            }
+            .page:nth-of-type(2) .flex-row.project-gap {
+                margin-top: 14px;
+                padding-top: 8px;
             }
             section > ul { padding-left: 19px; margin-top: 2px; }
             .bullet-lead { color: #555; }
@@ -342,7 +355,7 @@
                 <li><span class="bullet-lead">产品全生命周期管理</span>：覆盖 <span class="metric">3</span> 条产品线、<span class="metric">11</span> 个版本迭代，主导需求调研、竞品分析、方案设计、PRD/原型、研发评审、验收上线与复盘优化，统筹多线并行下的版本节奏与需求优先级。</li>
                 <li><span class="bullet-lead">行业需求抽象与标品化</span>：基于历史项目复盘、行业流程梳理与同类产品能力对照，提炼跨客户高频需求、配置项与实施基线，推动约 <span class="metric">70%</span> 定制诉求向<span class="text-em">标品转化</span>，降低重复研发成本，提升交付复制效率。</li>
                 <li><span class="bullet-lead">数据与 AI 能力产品化</span>：围绕工业互联网与数字孪生场景，协同研发梳理 IoT/设备数据、API 接入、业务对象与知识库调用边界，明确 Agent/AI 能力边界、人工确认与验收标准，推动 AI 能力<span class="text-em">从 Demo 走向可交付</span>。</li>
-                <li><span class="bullet-lead">POC 验证与项目落地支持</span>：参与 <span class="metric">10+</span> 项目客户需求澄清、POC 方案收敛与交付评审，定义 POC 范围、数据前置条件与成功标准/验收清单，输出功能设计与技术边界说明，推动试点转入<span class="text-em">正式合同或规模化交付</span>。</li>
+                <li><span class="bullet-lead">POC 验证与项目落地支持</span>：参与 <span class="metric">10+</span> 项目客户需求澄清、POC 方案收敛与交付评审，定义 POC 范围、数据前置条件与成功标准/验收清单，输出功能设计与技术边界说明，协助市场侧梳理产品 SKU 打包与报价口径，推动试点转入<span class="text-em">正式合同或规模化交付</span>。</li>
                 <li><span class="bullet-lead">流程沉淀与组织赋能</span>：制定 <span class="metric">4</span> 份发布指导与产品验收 SOP，重构标准资源包线上发布流程，将发布周期由 <span class="metric">4</span> 周缩短至 <span class="metric">1–2</span> 周，交付提效约 <span class="metric">75%</span>；沉淀交付清单、验收标准与培训材料，帮助一线团队按统一流程交付。</li>
             </ul>
         </section>
@@ -355,7 +368,6 @@
                 <span class="right-date">2025.10 - 至今</span>
             </div>
             <p class="project-label"><span class="bullet-lead">角色</span>：作为产品负责人，负责产品定义、需求优先级、PRD/原型与研发评审，重点收敛运维数据、流程闭环、权限安全与 AI 输出边界，支撑客户试点落地。</p>
-            <p class="project-label"><span class="bullet-lead">问题</span>：面向园区 / 工厂 / 楼宇类客户，设备、空间、告警、工单与运维知识分散在系统、表格和人工流程中；一线处理故障时需反复查设备信息、历史记录和处置经验，响应慢，同类问题难复用。</p>
         </section>
     </div>
 </div>
@@ -363,10 +375,11 @@
 <div class="page">
     <div>
         <section class="project-exp">
+            <p class="project-label"><span class="bullet-lead">问题</span>：面向园区 / 工厂 / 楼宇类客户，设备、空间、告警、工单与运维知识分散在系统、表格和人工流程中；一线处理故障时需反复查设备信息、历史记录和处置经验，响应慢，同类问题难复用。</p>
             <p class="project-label"><span class="bullet-lead">方案</span>：</p>
             <ul>
                 <li><span class="bullet-lead">需求解构与标品设计</span>：面向智能运维场景，拆解设备、空间、告警、工单与知识库等核心业务对象，收敛首期产品架构、配置项与实施基线，为从项目制交付向<span class="text-em">标准化产品复制</span>建立基线。</li>
-                <li><span class="bullet-lead">Agent/RAG 能力设计</span>：围绕告警研判、知识检索、处置建议与工单草稿生成，定义 Agent 任务边界、Workflow 编排、RAG 知识源、输入输出约束与低置信兜底策略。</li>
+                <li><span class="bullet-lead">Agent/RAG 能力设计</span>：围绕告警研判、知识检索、处置建议、工单草稿生成与派单建议，定义 Agent 任务边界、Workflow 编排、RAG 知识源、输入输出约束与低置信兜底策略。</li>
                 <li><span class="bullet-lead">数据接入与系统映射</span>：协同研发梳理 IoT 设备数据、REST API、视频流与第三方系统接入边界，定义设备状态、告警、工单等数据前置条件、字段映射、状态枚举与检查项，保障运维上下文可被 Agent 调用。</li>
                 <li><span class="bullet-lead">权限安全与人机协同</span>：设计角色权限、客户/租户数据隔离、高风险操作拦截与<span class="text-em">人工确认机制</span>，明确 AI 仅生成诊断建议与工单草稿，不自动执行关键设备处置。</li>
             </ul>
