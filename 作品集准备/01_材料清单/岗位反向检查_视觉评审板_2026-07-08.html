@@ -1,0 +1,85 @@
+﻿<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>岗位反向检查视觉评审板</title>
+<style>
+  :root { --ink:#172033; --muted:#667085; --line:#d9dee8; --bg:#f5f7fb; --card:#fff; --green:#12715b; --amber:#9a5b00; --red:#a52a2a; --blue:#285f9e; }
+  * { box-sizing:border-box; }
+  body { margin:0; font-family: "Segoe UI", "Microsoft YaHei", Arial, sans-serif; color:var(--ink); background:var(--bg); }
+  header { padding:24px 28px 14px; background:#fff; border-bottom:1px solid var(--line); position:sticky; top:0; z-index:5; }
+  h1 { margin:0 0 8px; font-size:24px; letter-spacing:0; }
+  .summary { display:flex; gap:10px; flex-wrap:wrap; color:var(--muted); font-size:14px; }
+  .pill { border:1px solid var(--line); background:#f8fafc; padding:5px 9px; border-radius:6px; }
+  main { padding:20px 28px 32px; }
+  .grid { display:grid; grid-template-columns: repeat(auto-fit, minmax(340px, 1fr)); gap:16px; }
+  .card { background:var(--card); border:1px solid var(--line); border-radius:8px; overflow:hidden; }
+  .card img { width:100%; aspect-ratio:16/9; object-fit:cover; background:#e9edf5; display:block; }
+  .body { padding:14px; }
+  h2 { margin:0 0 8px; font-size:17px; }
+  .tags { display:flex; gap:6px; flex-wrap:wrap; margin:8px 0 10px; }
+  .tag { font-size:12px; padding:3px 7px; border-radius:5px; color:#fff; }
+  .keep { background:var(--green); } .fix { background:var(--amber); } .risk { background:var(--red); } .fit { background:var(--blue); }
+  .row { margin:7px 0; font-size:14px; line-height:1.45; }
+  .label { color:var(--muted); font-weight:600; }
+  .board { margin:0 0 18px; background:#fff; border:1px solid var(--line); border-radius:8px; padding:14px; }
+  .board h2 { font-size:18px; margin-bottom:8px; }
+  .columns { display:grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap:10px; }
+  .mini { border-left:4px solid var(--blue); padding:8px 10px; background:#f8fafc; font-size:14px; line-height:1.5; }
+</style>
+</head>
+<body>
+<header>
+  <h1>岗位反向检查视觉评审板</h1>
+  <div class="summary">
+    <span class="pill">目标：B端 AI 产品经理 / 智能楼宇 / 设施运维 / 数字孪生</span>
+    <span class="pill">结论：方向对，视觉证据还需处理</span>
+    <span class="pill">下一步：打码 + 裁切 + 标注 + 两张重绘图</span>
+  </div>
+</header>
+<main>
+  <section class="board">
+    <h2>反向检查结论</h2>
+    <div class="columns">
+      <div class="mini"><b>结构</b><br>8页主案例合理，不再扩写。核心顺序应是问题、底座、闭环、AI、人机确认、贡献。</div>
+      <div class="mini"><b>能力</b><br>强项是业务闭环、AI边界、B端流程。短板是数据/IoT底座，支撑案例建议优先 DFS。</div>
+      <div class="mini"><b>截图</b><br>5张图逻辑顺，但原始截图不等于竞争力，需要变成带标注的展示资产。</div>
+      <div class="mini"><b>投递</b><br>文案可进入排版；视觉未处理前，不建议直接投递。</div>
+    </div>
+  </section>
+
+  <section class="grid">
+    <article class="card">
+      <img src="../assets/screenshots/最终推荐_2026-07-03/01_3D场景与空间定位.jpg" alt="3D场景与空间定位" />
+      <div class="body"><h2>01 3D场景与空间定位</h2><div class="tags"><span class="tag keep">保留</span><span class="tag fit">岗位强相关</span></div><div class="row"><span class="label">证明：</span>数字孪生/智能楼宇底座，不是普通表单系统。</div><div class="row"><span class="label">风险：</span>如果不加标注，只像漂亮3D截图。</div><div class="row"><span class="label">动作：</span>加 2-3 个标注：空间对象、设备定位、运维上下文。</div></div>
+    </article>
+
+    <article class="card">
+      <img src="../assets/screenshots/最终推荐_2026-07-03/02_告警详情与异常触发.jpg" alt="告警详情与异常触发" />
+      <div class="body"><h2>02 告警详情与异常触发</h2><div class="tags"><span class="tag keep">保留</span><span class="tag fit">业务入口</span></div><div class="row"><span class="label">证明：</span>AI和工单来自真实异常触发。</div><div class="row"><span class="label">风险：</span>细节多，面试官可能看不到重点。</div><div class="row"><span class="label">动作：</span>圈出告警等级、位置、来源、状态；敏感字段打码。</div></div>
+    </article>
+
+    <article class="card">
+      <img src="../assets/screenshots/最终推荐_2026-07-03/03_AI故障诊断建议.png" alt="AI故障诊断建议" />
+      <div class="body"><h2>03 AI故障诊断建议</h2><div class="tags"><span class="tag fix">降级使用</span><span class="tag risk">需防泛AI</span></div><div class="row"><span class="label">证明：</span>AI可做诊断建议和处置建议。</div><div class="row"><span class="label">风险：</span>单看像普通 AI 回答，竞争力不够。</div><div class="row"><span class="label">动作：</span>配合 AI闭环图和结果卡片，不单独当核心证据。</div></div>
+    </article>
+
+    <article class="card">
+      <img src="../assets/screenshots/最终推荐_2026-07-03/04_告警创建工单任务.jpg" alt="告警创建工单任务" />
+      <div class="body"><h2>04 告警创建工单任务</h2><div class="tags"><span class="tag keep">保留</span><span class="tag fit">闭环关键</span></div><div class="row"><span class="label">证明：</span>异常进入人工确认后的任务流转。</div><div class="row"><span class="label">风险：</span>纯表单截图不够体现产品判断。</div><div class="row"><span class="label">动作：</span>加标注：确认、责任人、状态流、执行入口。</div></div>
+    </article>
+
+    <article class="card">
+      <img src="../assets/screenshots/最终推荐_2026-07-03/05_移动端工单执行闭环.jpg" alt="移动端工单执行闭环" />
+      <div class="body"><h2>05 移动端工单执行闭环</h2><div class="tags"><span class="tag keep">保留</span><span class="tag fix">必须裁切</span></div><div class="row"><span class="label">证明：</span>闭环延伸到现场执行，不止后台页面。</div><div class="row"><span class="label">风险：</span>原图质量低且可能有黑边，会拉低专业感。</div><div class="row"><span class="label">动作：</span>裁成手机比例，放入手机框；只保留关键状态。</div></div>
+    </article>
+
+    <article class="card">
+      <img src="../assets/screenshots/最终推荐_2026-07-03/备选_设备详情与关联关系.jpg" alt="设备详情与关联关系" />
+      <div class="body"><h2>备选 设备详情与关联关系</h2><div class="tags"><span class="tag fix">建议加入</span><span class="tag fit">补强IoT/设备上下文</span></div><div class="row"><span class="label">证明：</span>设备上下文、关联关系、影响范围。</div><div class="row"><span class="label">风险：</span>如果单独成页，会打断闭环节奏。</div><div class="row"><span class="label">动作：</span>作为第3页小图或第4页侧图，不替代主闭环。</div></div>
+    </article>
+  </section>
+</main>
+</body>
+</html>

@@ -1,0 +1,220 @@
+{"kind":"deck","id":"pr/uaox50","name":"Deck"}
+{"kind":"layout","layoutId":"abf82ce6-752f-4b38-9259-bd8892a316ca","name":"Master","type":"master"}
+{"kind":"layout","layoutId":"a0ba50e2-4bb8-4bbc-97d2-d2dd65daf3da","name":"Title Slide","type":"title"}
+{"kind":"slide","id":"sl/g7jxcr","slide":1,"title":"框架稿","textShapes":13}
+{"kind":"shape","id":"sh/6hcrmhk3","slide":1,"name":"box","bbox":[0,0,672,720]}
+{"kind":"shape","id":"sh/z25kb6xk","slide":1,"name":"tag","bbox":[56,54,88,28]}
+{"kind":"textbox","id":"sh/ovahoza1","slide":1,"name":"text","text":"框架稿","textPreview":"框架稿","textChars":3,"textLines":1,"bbox":[64,60,72,18]}
+{"kind":"textbox","id":"sh/dg7adsji","slide":1,"name":"text","text":"Inspector 设施运维\nAI 辅助闭环","textPreview":"Inspector 设施运维 | AI 辅助闭环","textChars":22,"textLines":2,"bbox":[56,120,520,150]}
+{"kind":"textbox","id":"sh/6tovahoz","slide":1,"name":"text","text":"面向 B 端 AI 产品经理 / 智能楼宇 / 数字孪生岗位\n用一个主案例证明：0-1 产品闭环、复杂流程拆解、AI 产品化边界。","textPreview":"面向 B 端 AI 产品经理 / 智能楼宇 / 数字孪生岗位 | 用一个主案例证明：0-1 产品闭环、复杂流程拆解、AI 产品化边界。","textChars":65,"textLines":2,"bbox":[60,300,520,82]}
+{"kind":"shape","id":"sh/vahoza1g","slide":1,"name":"process-step","bbox":[60,440,92,58]}
+{"kind":"textbox","id":"sh/o7qpg3ex","slide":1,"name":"text","text":"场景","textPreview":"场景","textChars":2,"textLines":1,"bbox":[68,456,76,34]}
+{"kind":"shape","id":"sh/dsji5sne","slide":1,"name":"process-step","bbox":[162,440,92,58]}
+{"kind":"textbox","id":"sh/pwb2hwfy","slide":1,"name":"text","text":"底座","textPreview":"底座","textChars":2,"textLines":1,"bbox":[170,456,76,34]}
+{"kind":"shape","id":"sh/0bi9s36h","slide":1,"name":"process-step","bbox":[264,440,92,58]}
+{"kind":"textbox","id":"sh/7qpg3ex0","slide":1,"name":"text","text":"闭环","textPreview":"闭环","textChars":2,"textLines":1,"bbox":[272,456,76,34]}
+{"kind":"shape","id":"sh/i5sneloj","slide":1,"name":"process-step","bbox":[366,440,92,58]}
+{"kind":"textbox","id":"sh/p4r65wju","slide":1,"name":"text","text":"AI","textPreview":"AI","textChars":2,"textLines":1,"bbox":[374,456,76,34]}
+{"kind":"shape","id":"sh/wjudg7ad","slide":1,"name":"process-step","bbox":[468,440,92,58]}
+{"kind":"textbox","id":"sh/7y1kre1w","slide":1,"name":"text","text":"验证","textPreview":"验证","textChars":2,"textLines":1,"bbox":[476,456,76,34]}
+{"kind":"shape","id":"sh/ed8v6psf","slide":1,"name":"evidence-slot","bbox":[60,536,500,92]}
+{"kind":"shape","id":"sh/p8nqxs72","slide":1,"name":"tag","bbox":[74,550,92,28]}
+{"kind":"textbox","id":"sh/0nuxc3yl","slide":1,"name":"text","text":"待补证据","textPreview":"待补证据","textChars":4,"textLines":1,"bbox":[82,556,76,18]}
+{"kind":"textbox","id":"sh/wval87ed","slide":1,"name":"text","text":"封面仍需补","textPreview":"封面仍需补","textChars":5,"textLines":1,"bbox":[78,590,464,28]}
+{"kind":"textbox","id":"sh/pg3ex0nu","slide":1,"name":"text","text":"一句更强的岗位定位；可选：个人姓名/目标岗位，不放公司敏感信息。","textPreview":"一句更强的岗位定位；可选：个人姓名/目标岗位，不放公司敏感信息。","textChars":32,"textLines":1,"bbox":[78,626,464,-12]}
+{"kind":"textbox","id":"sh/epkzupwb","slide":1,"name":"text","text":"先看整体感觉：左侧是叙事，右侧是真实产品场景锚点","textPreview":"先看整体感觉：左侧是叙事，右侧是真实产品场景锚点","textChars":24,"textLines":1,"bbox":[56,674,780,24]}
+{"kind":"textbox","id":"sh/7adsji5s","slide":1,"name":"text","text":"01","textPreview":"01","textChars":2,"textLines":1,"bbox":[1176,670,48,28]}
+{"kind":"image","id":"im/s36hcrmh","slide":1,"name":"","alt":"3D scene positioning","bbox":[640,0,640,720]}
+{"kind":"notes","id":"nt/g7jxcr","slide":1,"text":""}
+{"kind":"slide","id":"sl/uwto72","slide":2,"title":"设施运维的问题不是缺 AI，而是链路断裂","textShapes":18}
+{"kind":"textbox","id":"sh/udg7adsj","slide":2,"name":"text","text":"设施运维的问题不是缺 AI，而是链路断裂","textPreview":"设施运维的问题不是缺 AI，而是链路断裂","textChars":20,"textLines":1,"bbox":[56,36,880,58]}
+{"kind":"textbox","id":"sh/54zidony","slide":2,"name":"text","text":"这一页要展示你的问题定义能力，不是展示产品功能。","textPreview":"这一页要展示你的问题定义能力，不是展示产品功能。","textChars":24,"textLines":1,"bbox":[58,92,760,30]}
+{"kind":"textbox","id":"sh/cj6tovah","slide":2,"name":"text","text":"Inspector 主案例框架稿","textPreview":"Inspector 主案例框架稿","textChars":16,"textLines":1,"bbox":[1000,42,220,24]}
+{"kind":"shape","id":"sh/nap4r65w","slide":2,"bbox":[56,128,1168,1]}
+{"kind":"shape","id":"sh/upwb2hwf","slide":2,"name":"box","bbox":[58,166,480,382]}
+{"kind":"textbox","id":"sh/5gbq1ory","slide":2,"name":"text","text":"Before 流程断点","textPreview":"Before 流程断点","textChars":11,"textLines":1,"bbox":[88,196,240,30]}
+{"kind":"shape","id":"sh/cvixczed","slide":2,"name":"process-step","bbox":[88,260,72,58]}
+{"kind":"textbox","id":"sh/jm1cfa9w","slide":2,"name":"text","text":"告警","textPreview":"告警","textChars":2,"textLines":1,"bbox":[96,276,56,34]}
+{"kind":"shape","id":"sh/u18jqh0f","slide":2,"name":"process-step","bbox":[170,260,72,58]}
+{"kind":"textbox","id":"sh/w3m94fu1","slide":2,"name":"text","text":"查设备","textPreview":"查设备","textChars":3,"textLines":1,"bbox":[178,276,56,34]}
+{"kind":"shape","id":"sh/loj2t83i","slide":2,"name":"process-step","bbox":[252,260,72,58]}
+{"kind":"textbox","id":"sh/ex0nuxc3","slide":2,"name":"text","text":"翻 SOP","textPreview":"翻 SOP","textChars":5,"textLines":1,"bbox":[260,276,56,34]}
+{"kind":"shape","id":"sh/3itgfmlk","slide":2,"name":"process-step","bbox":[334,260,72,58]}
+{"kind":"textbox","id":"sh/wb2hwfyx","slide":2,"name":"text","text":"问专家","textPreview":"问专家","textChars":3,"textLines":1,"bbox":[342,276,56,34]}
+{"kind":"shape","id":"sh/lwval87e","slide":2,"name":"process-step","bbox":[416,260,72,58]}
+{"kind":"textbox","id":"sh/e9cvixcz","slide":2,"name":"text","text":"手动建单","textPreview":"手动建单","textChars":4,"textLines":1,"bbox":[424,276,56,34]}
+{"kind":"textbox","id":"sh/3q5o7qpg","slide":2,"name":"text","text":"• 上下文分散\n• 责任流转不清\n• 处置经验难沉淀","textPreview":"• 上下文分散 | • 责任流转不清 | • 处置经验难沉淀","textChars":26,"textLines":3,"bbox":[96,360,360,120]}
+{"kind":"shape","id":"sh/sneloj2t","slide":2,"name":"evidence-slot","bbox":[586,166,290,382]}
+{"kind":"shape","id":"sh/l87ed8ba","slide":2,"name":"tag","bbox":[600,180,92,28]}
+{"kind":"textbox","id":"sh/l0rqd4vm","slide":2,"name":"text","text":"待补证据","textPreview":"待补证据","textChars":4,"textLines":1,"bbox":[608,186,76,18]}
+{"kind":"textbox","id":"sh/wfyxobm5","slide":2,"name":"text","text":"补：需求拆解片段","textPreview":"补：需求拆解片段","textChars":8,"textLines":1,"bbox":[604,220,254,28]}
+{"kind":"textbox","id":"sh/7u54zido","slide":2,"name":"text","text":"从 PRD 或分析文档截 1 小块：用户角色、痛点、业务断点。不要截整页。","textPreview":"从 PRD 或分析文档截 1 小块：用户角色、痛点、业务断点。不要截整页。","textChars":37,"textLines":1,"bbox":[604,256,254,278]}
+{"kind":"shape","id":"sh/ed8bat47","slide":2,"name":"evidence-slot","bbox":[912,166,290,382]}
+{"kind":"shape","id":"sh/lc7u54zi","slide":2,"name":"tag","bbox":[926,180,92,28]}
+{"kind":"textbox","id":"sh/wra5gbq1","slide":2,"name":"text","text":"待补证据","textPreview":"待补证据","textChars":4,"textLines":1,"bbox":[934,186,76,18]}
+{"kind":"textbox","id":"sh/36hcrmhk","slide":2,"name":"text","text":"补：竞品/行业取舍","textPreview":"补：竞品/行业取舍","textChars":9,"textLines":1,"bbox":[930,220,254,28]}
+{"kind":"textbox","id":"sh/eloj2t83","slide":2,"name":"text","text":"只放结论：为什么不做普通 Chatbot，为什么要放进告警-工单闭环。","textPreview":"只放结论：为什么不做普通 Chatbot，为什么要放进告警-工单闭环。","textChars":35,"textLines":1,"bbox":[930,256,254,278]}
+{"kind":"textbox","id":"sh/pg3ex0nu","slide":2,"name":"text","text":"灰色区域 = 需要补的过程证据或待重绘图","textPreview":"灰色区域 = 需要补的过程证据或待重绘图","textChars":20,"textLines":1,"bbox":[56,674,780,24]}
+{"kind":"textbox","id":"sh/wval87ed","slide":2,"name":"text","text":"02","textPreview":"02","textChars":2,"textLines":1,"bbox":[1176,670,48,28]}
+{"kind":"notes","id":"nt/uwto72","slide":2,"text":""}
+{"kind":"slide","id":"sl/6mh6cn","slide":3,"title":"产品底座让 AI 和工单不悬空","textShapes":10}
+{"kind":"textbox","id":"sh/gvy90je9","slide":3,"name":"text","text":"产品底座让 AI 和工单不悬空","textPreview":"产品底座让 AI 和工单不悬空","textChars":15,"textLines":1,"bbox":[56,36,880,58]}
+{"kind":"textbox","id":"sh/ra5gbq1o","slide":3,"name":"text","text":"用真实截图证明对象、位置、异常、状态都存在。","textPreview":"用真实截图证明对象、位置、异常、状态都存在。","textChars":22,"textLines":1,"bbox":[58,92,760,30]}
+{"kind":"textbox","id":"sh/2p8nqxs7","slide":3,"name":"text","text":"Inspector 主案例框架稿","textPreview":"Inspector 主案例框架稿","textChars":16,"textLines":1,"bbox":[1000,42,220,24]}
+{"kind":"shape","id":"sh/94fu18jq","slide":3,"bbox":[56,128,1168,1]}
+{"kind":"shape","id":"sh/9w3m94fu","slide":3,"name":"evidence-slot","bbox":[920,166,284,366]}
+{"kind":"shape","id":"sh/kb6xkf6d","slide":3,"name":"tag","bbox":[934,180,92,28]}
+{"kind":"textbox","id":"sh/2p8nqxs7","slide":3,"name":"text","text":"待补证据","textPreview":"待补证据","textChars":4,"textLines":1,"bbox":[942,186,76,18]}
+{"kind":"textbox","id":"sh/ra5gbq1o","slide":3,"name":"text","text":"补：信息架构小图","textPreview":"补：信息架构小图","textChars":8,"textLines":1,"bbox":[938,220,248,28]}
+{"kind":"textbox","id":"sh/gvy90je9","slide":3,"name":"text","text":"资产/设备、3D、告警、工单、知识库之间的关系。建议重绘，不贴复杂原图。","textPreview":"资产/设备、3D、告警、工单、知识库之间的关系。建议重绘，不贴复杂原图。","textChars":36,"textLines":1,"bbox":[938,256,248,262]}
+{"kind":"textbox","id":"sh/9gr2p8nq","slide":3,"name":"text","text":"能力点：系统化建模","textPreview":"能力点：系统化建模","textChars":9,"textLines":1,"bbox":[64,474,420,30]}
+{"kind":"textbox","id":"sh/2hwfyxob","slide":3,"name":"text","text":"不是只做页面，而是把物理空间、设备对象、异常事件组织成可流转的业务上下文。","textPreview":"不是只做页面，而是把物理空间、设备对象、异常事件组织成可流转的业务上下文。","textChars":37,"textLines":1,"bbox":[64,512,500,56]}
+{"kind":"textbox","id":"sh/r2p8nqxs","slide":3,"name":"text","text":"灰色区域 = 需要补的过程证据或待重绘图","textPreview":"灰色区域 = 需要补的过程证据或待重绘图","textChars":20,"textLines":1,"bbox":[56,674,780,24]}
+{"kind":"textbox","id":"sh/kjm1cfa9","slide":3,"name":"text","text":"03","textPreview":"03","textChars":2,"textLines":1,"bbox":[1176,670,48,28]}
+{"kind":"image","id":"im/tcj6tova","slide":3,"name":"","alt":"3D positioning","bbox":[58,166,500,282]}
+{"kind":"image","id":"im/il0rqd4v","slide":3,"name":"","alt":"alert detail","bbox":[586,166,300,170]}
+{"kind":"image","id":"im/b6xkf6dc","slide":3,"name":"","alt":"device relation","bbox":[586,362,300,170]}
+{"kind":"notes","id":"nt/6mh6cn","slide":3,"text":""}
+{"kind":"slide","id":"sl/on617i","slide":4,"title":"核心闭环把截图变成产品经理案例","textShapes":21}
+{"kind":"textbox","id":"sh/ixczed8v","slide":4,"name":"text","text":"核心闭环把截图变成产品经理案例","textPreview":"核心闭环把截图变成产品经理案例","textChars":15,"textLines":1,"bbox":[56,36,880,58]}
+{"kind":"textbox","id":"sh/tovahoza","slide":4,"name":"text","text":"这一页要让面试官看懂你的端到端链路设计。","textPreview":"这一页要让面试官看懂你的端到端链路设计。","textChars":20,"textLines":1,"bbox":[58,92,760,30]}
+{"kind":"textbox","id":"sh/032lszqt","slide":4,"name":"text","text":"Inspector 主案例框架稿","textPreview":"Inspector 主案例框架稿","textChars":16,"textLines":1,"bbox":[1000,42,220,24]}
+{"kind":"shape","id":"sh/bulwval8","slide":4,"bbox":[56,128,1168,1]}
+{"kind":"shape","id":"sh/i9s36hcr","slide":4,"name":"process-step","bbox":[66,176,128.75,66]}
+{"kind":"textbox","id":"sh/p0bi9s36","slide":4,"name":"text","text":"异常","textPreview":"异常","textChars":2,"textLines":1,"bbox":[74,192,112.75,42]}
+{"kind":"shape","id":"sh/0fepkzup","slide":4,"name":"process-step","bbox":[204.75,176,128.75,66]}
+{"kind":"textbox","id":"sh/byhgn29g","slide":4,"name":"text","text":"上下文","textPreview":"上下文","textChars":3,"textLines":1,"bbox":[212.75,192,112.75,42]}
+{"kind":"shape","id":"sh/idonyd0z","slide":4,"name":"process-step","bbox":[343.5,176,128.75,66]}
+{"kind":"textbox","id":"sh/c7u54zid","slide":4,"name":"text","text":"检索","textPreview":"检索","textChars":2,"textLines":1,"bbox":[351.5,192,112.75,42]}
+{"kind":"shape","id":"sh/1orytsvu","slide":4,"name":"process-step","bbox":[482.25,176,128.75,66]}
+{"kind":"textbox","id":"sh/u18jqh0f","slide":4,"name":"text","text":"建议","textPreview":"建议","textChars":2,"textLines":1,"bbox":[490.25,192,112.75,42]}
+{"kind":"shape","id":"sh/jm1cfa9w","slide":4,"name":"process-step","bbox":[621,176,128.75,66]}
+{"kind":"textbox","id":"sh/cfa9w3m9","slide":4,"name":"text","text":"确认","textPreview":"确认","textChars":2,"textLines":1,"bbox":[629,192,112.75,42]}
+{"kind":"shape","id":"sh/1032lszq","slide":4,"name":"process-step","bbox":[759.75,176,128.75,66]}
+{"kind":"textbox","id":"sh/u9knih4b","slide":4,"name":"text","text":"工单","textPreview":"工单","textChars":2,"textLines":1,"bbox":[767.75,192,112.75,42]}
+{"kind":"shape","id":"sh/judg7ads","slide":4,"name":"process-step","bbox":[898.5,176,128.75,66]}
+{"kind":"textbox","id":"sh/cj6tovah","slide":4,"name":"text","text":"执行","textPreview":"执行","textChars":2,"textLines":1,"bbox":[906.5,192,112.75,42]}
+{"kind":"shape","id":"sh/54zidony","slide":4,"name":"process-step","bbox":[1037.25,176,128.75,66]}
+{"kind":"textbox","id":"sh/9s36hcrm","slide":4,"name":"text","text":"沉淀","textPreview":"沉淀","textChars":2,"textLines":1,"bbox":[1045.25,192,112.75,42]}
+{"kind":"shape","id":"sh/g7adsji5","slide":4,"name":"evidence-slot","bbox":[66,292,520,250]}
+{"kind":"shape","id":"sh/rmhk3q5o","slide":4,"name":"tag","bbox":[80,306,92,28]}
+{"kind":"textbox","id":"sh/y1kre1w7","slide":4,"name":"text","text":"待补证据","textPreview":"待补证据","textChars":4,"textLines":1,"bbox":[88,312,76,18]}
+{"kind":"textbox","id":"sh/90je9cvi","slide":4,"name":"text","text":"补：AI/工单闭环正式图","textPreview":"补：AI/工单闭环正式图","textChars":12,"textLines":1,"bbox":[84,346,484,28]}
+{"kind":"textbox","id":"sh/gfmlkjm1","slide":4,"name":"text","text":"根据现有 Mermaid 草图重绘，突出人工确认闸门和知识沉淀回流。","textPreview":"根据现有 Mermaid 草图重绘，突出人工确认闸门和知识沉淀回流。","textChars":34,"textLines":1,"bbox":[84,382,484,146]}
+{"kind":"shape","id":"sh/rytsvu9k","slide":4,"name":"evidence-slot","bbox":[646,292,520,250]}
+{"kind":"shape","id":"sh/yd0z6103","slide":4,"name":"tag","bbox":[660,306,92,28]}
+{"kind":"textbox","id":"sh/9cvixcze","slide":4,"name":"text","text":"待补证据","textPreview":"待补证据","textChars":4,"textLines":1,"bbox":[668,312,76,18]}
+{"kind":"textbox","id":"sh/gr2p8nqx","slide":4,"name":"text","text":"补：状态机或异常分支","textPreview":"补：状态机或异常分支","textChars":10,"textLines":1,"bbox":[664,346,484,28]}
+{"kind":"textbox","id":"sh/a5gbq1or","slide":4,"name":"text","text":"至少体现退回、改派、完成、验收这类 B 端复杂流程。","textPreview":"至少体现退回、改派、完成、验收这类 B 端复杂流程。","textChars":26,"textLines":1,"bbox":[664,382,484,146]}
+{"kind":"textbox","id":"sh/3m94fu18","slide":4,"name":"text","text":"我的判断","textPreview":"我的判断","textChars":4,"textLines":1,"bbox":[66,570,160,26]}
+{"kind":"textbox","id":"sh/s72x4nap","slide":4,"name":"text","text":"AI 不直接派单或维修，它把分散信息组织成可审核建议，再进入人工确认后的工单流转。","textPreview":"AI 不直接派单或维修，它把分散信息组织成可审核建议，再进入人工确认后的工单流转。","textChars":41,"textLines":1,"bbox":[190,568,840,36]}
+{"kind":"textbox","id":"sh/lszqtcj6","slide":4,"name":"text","text":"灰色区域 = 需要补的过程证据或待重绘图","textPreview":"灰色区域 = 需要补的过程证据或待重绘图","textChars":20,"textLines":1,"bbox":[56,674,780,24]}
+{"kind":"textbox","id":"sh/adsji5sn","slide":4,"name":"text","text":"04","textPreview":"04","textChars":2,"textLines":1,"bbox":[1176,670,48,28]}
+{"kind":"notes","id":"nt/on617i","slide":4,"text":""}
+{"kind":"slide","id":"sl/7mnka3","slide":5,"title":"AI 页要讲输入输出和风险边界","textShapes":14}
+{"kind":"textbox","id":"sh/bq1oryts","slide":5,"name":"text","text":"AI 页要讲输入输出和风险边界","textPreview":"AI 页要讲输入输出和风险边界","textChars":15,"textLines":1,"bbox":[56,36,880,58]}
+{"kind":"textbox","id":"sh/4byhgn29","slide":5,"name":"text","text":"单张 AI 截图不够，必须配产品化拆解。","textPreview":"单张 AI 截图不够，必须配产品化拆解。","textChars":20,"textLines":1,"bbox":[58,92,760,30]}
+{"kind":"textbox","id":"sh/twra5gbq","slide":5,"name":"text","text":"Inspector 主案例框架稿","textPreview":"Inspector 主案例框架稿","textChars":16,"textLines":1,"bbox":[1000,42,220,24]}
+{"kind":"shape","id":"sh/mhk3q5o7","slide":5,"bbox":[56,128,1168,1]}
+{"kind":"textbox","id":"sh/4nap4r65","slide":5,"name":"text","text":"现有截图：可作为证据，但不独立承担 AI 产品化证明","textPreview":"现有截图：可作为证据，但不独立承担 AI 产品化证明","textChars":26,"textLines":1,"bbox":[62,458,470,42]}
+{"kind":"shape","id":"sh/t83itgfm","slide":5,"name":"evidence-slot","bbox":[586,170,284,330]}
+{"kind":"shape","id":"sh/mp0bi9s3","slide":5,"name":"tag","bbox":[600,184,92,28]}
+{"kind":"textbox","id":"sh/bat47y1k","slide":5,"name":"text","text":"待补证据","textPreview":"待补证据","textChars":4,"textLines":1,"bbox":[608,190,76,18]}
+{"kind":"textbox","id":"sh/ji5snelo","slide":5,"name":"text","text":"补：AI 结果卡片","textPreview":"补：AI 结果卡片","textChars":9,"textLines":1,"bbox":[604,224,248,28]}
+{"kind":"textbox","id":"sh/uxc3ylc7","slide":5,"name":"text","text":"原因、依据、建议、引用来源、风险提示、确认按钮。","textPreview":"原因、依据、建议、引用来源、风险提示、确认按钮。","textChars":24,"textLines":1,"bbox":[604,260,248,226]}
+{"kind":"shape","id":"sh/1kre1w7m","slide":5,"name":"evidence-slot","bbox":[918,170,284,330]}
+{"kind":"shape","id":"sh/c3ylc7u5","slide":5,"name":"tag","bbox":[932,184,92,28]}
+{"kind":"textbox","id":"sh/j6tovaho","slide":5,"name":"text","text":"待补证据","textPreview":"待补证据","textChars":4,"textLines":1,"bbox":[940,190,76,18]}
+{"kind":"textbox","id":"sh/ulwval87","slide":5,"name":"text","text":"补：输入输出表","textPreview":"补：输入输出表","textChars":7,"textLines":1,"bbox":[936,224,248,28]}
+{"kind":"textbox","id":"sh/1cfa9w3m","slide":5,"name":"text","text":"输入：SOP/手册/历史工单/设备/告警；输出：原因、步骤、草稿、风险。","textPreview":"输入：SOP/手册/历史工单/设备/告警；输出：原因、步骤、草稿、风险。","textChars":36,"textLines":1,"bbox":[936,260,248,226]}
+{"kind":"textbox","id":"sh/crmhk3q5","slide":5,"name":"text","text":"能力点：AI 产品化边界","textPreview":"能力点：AI 产品化边界","textChars":12,"textLines":1,"bbox":[586,536,280,28]}
+{"kind":"textbox","id":"sh/j2t83itg","slide":5,"name":"text","text":"你负责定义 AI 在业务流里的位置，而不是声称自己训练模型。","textPreview":"你负责定义 AI 在业务流里的位置，而不是声称自己训练模型。","textChars":30,"textLines":1,"bbox":[586,572,560,36]}
+{"kind":"textbox","id":"sh/qh0fepkz","slide":5,"name":"text","text":"灰色区域 = 需要补的过程证据或待重绘图","textPreview":"灰色区域 = 需要补的过程证据或待重绘图","textChars":20,"textLines":1,"bbox":[56,674,780,24]}
+{"kind":"textbox","id":"sh/i5sneloj","slide":5,"name":"text","text":"05","textPreview":"05","textChars":2,"textLines":1,"bbox":[1176,670,48,28]}
+{"kind":"image","id":"im/mhk3q5o7","slide":5,"name":"","alt":"AI diagnosis suggestion","bbox":[58,170,480,270]}
+{"kind":"notes","id":"nt/7mnka3","slide":5,"text":""}
+{"kind":"slide","id":"sl/w2s3mc","slide":6,"title":"工单闭环页最能证明你的产品能力","textShapes":22}
+{"kind":"textbox","id":"sh/z61032ls","slide":6,"name":"text","text":"工单闭环页最能证明你的产品能力","textPreview":"工单闭环页最能证明你的产品能力","textChars":15,"textLines":1,"bbox":[56,36,880,58]}
+{"kind":"textbox","id":"sh/orytsvu9","slide":6,"name":"text","text":"这一页是样板页：产品截图 + 状态机 + PRD片段 + 取舍。","textPreview":"这一页是样板页：产品截图 + 状态机 + PRD片段 + 取舍。","textChars":32,"textLines":1,"bbox":[58,92,760,30]}
+{"kind":"textbox","id":"sh/hcrmhk3q","slide":6,"name":"text","text":"Inspector 主案例框架稿","textPreview":"Inspector 主案例框架稿","textChars":16,"textLines":1,"bbox":[1000,42,220,24]}
+{"kind":"shape","id":"sh/a9w3m94f","slide":6,"bbox":[56,128,1168,1]}
+{"kind":"textbox","id":"sh/sfil0rqd","slide":6,"name":"text","text":"结果截图：告警进入工单任务","textPreview":"结果截图：告警进入工单任务","textChars":13,"textLines":1,"bbox":[62,430,420,26]}
+{"kind":"shape","id":"sh/h0fepkzu","slide":6,"name":"process-step","bbox":[530,170,75.75,54]}
+{"kind":"textbox","id":"sh/65wjudg7","slide":6,"name":"text","text":"创建","textPreview":"创建","textChars":2,"textLines":1,"bbox":[538,186,59.75,30]}
+{"kind":"shape","id":"sh/zqtcj6to","slide":6,"name":"process-step","bbox":[615.75,170,75.75,54]}
+{"kind":"textbox","id":"sh/zupwb2hw","slide":6,"name":"text","text":"分派","textPreview":"分派","textChars":2,"textLines":1,"bbox":[623.75,186,59.75,30]}
+{"kind":"shape","id":"sh/a9w3m94f","slide":6,"name":"process-step","bbox":[701.5,170,75.75,54]}
+{"kind":"textbox","id":"sh/h0fepkzu","slide":6,"name":"text","text":"执行","textPreview":"执行","textChars":2,"textLines":1,"bbox":[709.5,186,59.75,30]}
+{"kind":"shape","id":"sh/sfil0rqd","slide":6,"name":"process-step","bbox":[787.25,170,75.75,54]}
+{"kind":"textbox","id":"sh/z61032ls","slide":6,"name":"text","text":"退回","textPreview":"退回","textChars":2,"textLines":1,"bbox":[795.25,186,59.75,30]}
+{"kind":"shape","id":"sh/al87ed8b","slide":6,"name":"process-step","bbox":[873,170,75.75,54]}
+{"kind":"textbox","id":"sh/hcrmhk3q","slide":6,"name":"text","text":"改派","textPreview":"改派","textChars":2,"textLines":1,"bbox":[881,186,59.75,30]}
+{"kind":"shape","id":"sh/orytsvu9","slide":6,"name":"process-step","bbox":[958.75,170,75.75,54]}
+{"kind":"textbox","id":"sh/zed8v6ps","slide":6,"name":"text","text":"完成","textPreview":"完成","textChars":2,"textLines":1,"bbox":[966.75,186,59.75,30]}
+{"kind":"shape","id":"sh/6xkf6dcb","slide":6,"name":"process-step","bbox":[1044.5,170,75.75,54]}
+{"kind":"textbox","id":"sh/e1w7mp0b","slide":6,"name":"text","text":"验收","textPreview":"验收","textChars":2,"textLines":1,"bbox":[1052.5,186,59.75,30]}
+{"kind":"shape","id":"sh/7mp0bi9s","slide":6,"name":"process-step","bbox":[1130.25,170,75.75,54]}
+{"kind":"textbox","id":"sh/w7mp0bi9","slide":6,"name":"text","text":"评价","textPreview":"评价","textChars":2,"textLines":1,"bbox":[1138.25,186,59.75,30]}
+{"kind":"shape","id":"sh/psfil0rq","slide":6,"name":"evidence-slot","bbox":[530,256,320,210]}
+{"kind":"shape","id":"sh/epkzupwb","slide":6,"name":"tag","bbox":[544,270,92,28]}
+{"kind":"textbox","id":"sh/7adsji5s","slide":6,"name":"text","text":"待补证据","textPreview":"待补证据","textChars":4,"textLines":1,"bbox":[552,276,76,18]}
+{"kind":"textbox","id":"sh/wval87ed","slide":6,"name":"text","text":"补：PRD 片段","textPreview":"补：PRD 片段","textChars":8,"textLines":1,"bbox":[548,310,284,28]}
+{"kind":"textbox","id":"sh/pg3ex0nu","slide":6,"name":"text","text":"截用户故事/验收标准/字段说明。只要 1 小块，证明你把需求写成可开发规则。","textPreview":"截用户故事/验收标准/字段说明。只要 1 小块，证明你把需求写成可开发规则。","textChars":38,"textLines":1,"bbox":[548,346,284,106]}
+{"kind":"shape","id":"sh/eloj2t83","slide":6,"name":"evidence-slot","bbox":[884,256,322,210]}
+{"kind":"shape","id":"sh/36hcrmhk","slide":6,"name":"tag","bbox":[898,270,92,28]}
+{"kind":"textbox","id":"sh/t83itgfm","slide":6,"name":"text","text":"待补证据","textPreview":"待补证据","textChars":4,"textLines":1,"bbox":[906,276,76,18]}
+{"kind":"textbox","id":"sh/4nap4r65","slide":6,"name":"text","text":"补：异常分支","textPreview":"补：异常分支","textChars":6,"textLines":1,"bbox":[902,310,286,28]}
+{"kind":"textbox","id":"sh/b2hwfyxo","slide":6,"name":"text","text":"退回、改派、SLA、评价、移动端/离线执行，任选最能证明复杂度的 1-2 个。","textPreview":"退回、改派、SLA、评价、移动端/离线执行，任选最能证明复杂度的 1-2 个。","textChars":39,"textLines":1,"bbox":[902,346,286,106]}
+{"kind":"shape","id":"sh/mhk3q5o7","slide":6,"name":"box","bbox":[530,498,676,76]}
+{"kind":"textbox","id":"sh/twra5gbq","slide":6,"name":"text","text":"我的取舍","textPreview":"我的取舍","textChars":4,"textLines":1,"bbox":[548,512,120,24]}
+{"kind":"textbox","id":"sh/4byhgn29","slide":6,"name":"text","text":"不把告警停留在“看到”，而是进入责任明确、状态可追踪、异常可回退的处置流程。","textPreview":"不把告警停留在“看到”，而是进入责任明确、状态可追踪、异常可回退的处置流程。","textChars":38,"textLines":1,"bbox":[668,512,500,40]}
+{"kind":"textbox","id":"sh/bq1oryts","slide":6,"name":"text","text":"优先补这一页的材料，它会立刻把作品集从产品介绍变成能力展示","textPreview":"优先补这一页的材料，它会立刻把作品集从产品介绍变成能力展示","textChars":29,"textLines":1,"bbox":[56,674,780,24]}
+{"kind":"textbox","id":"sh/m58z25kb","slide":6,"name":"text","text":"06","textPreview":"06","textChars":2,"textLines":1,"bbox":[1176,670,48,28]}
+{"kind":"image","id":"im/m94fu18j","slide":6,"name":"","alt":"create work order from alert","bbox":[58,166,440,248]}
+{"kind":"notes","id":"nt/w2s3mc","slide":6,"text":""}
+{"kind":"slide","id":"sl/bvqber","slide":7,"title":"现场执行页证明闭环没有停在后台","textShapes":12}
+{"kind":"textbox","id":"sh/ed8bat47","slide":7,"name":"text","text":"现场执行页证明闭环没有停在后台","textPreview":"现场执行页证明闭环没有停在后台","textChars":15,"textLines":1,"bbox":[56,36,880,58]}
+{"kind":"textbox","id":"sh/l0rqd4vm","slide":7,"name":"text","text":"展示移动端/现场/离线/反馈这些真实执行约束。","textPreview":"展示移动端/现场/离线/反馈这些真实执行约束。","textChars":23,"textLines":1,"bbox":[58,92,760,30]}
+{"kind":"textbox","id":"sh/wfyxobm5","slide":7,"name":"text","text":"Inspector 主案例框架稿","textPreview":"Inspector 主案例框架稿","textChars":16,"textLines":1,"bbox":[1000,42,220,24]}
+{"kind":"shape","id":"sh/36hcrmhk","slide":7,"bbox":[56,128,1168,1]}
+{"kind":"textbox","id":"sh/lc7u54zi","slide":7,"name":"text","text":"现有图需要裁切或套手机框","textPreview":"现有图需要裁切或套手机框","textChars":12,"textLines":1,"bbox":[92,530,320,24]}
+{"kind":"shape","id":"sh/wra5gbq1","slide":7,"name":"evidence-slot","bbox":[500,166,326,340]}
+{"kind":"shape","id":"sh/7adsji5s","slide":7,"name":"tag","bbox":[514,180,92,28]}
+{"kind":"textbox","id":"sh/epkzupwb","slide":7,"name":"text","text":"待补证据","textPreview":"待补证据","textChars":4,"textLines":1,"bbox":[522,186,76,18]}
+{"kind":"textbox","id":"sh/8jqh0fep","slide":7,"name":"text","text":"补：原型验证说明","textPreview":"补：原型验证说明","textChars":8,"textLines":1,"bbox":[518,220,290,28]}
+{"kind":"textbox","id":"sh/x4nap4r6","slide":7,"name":"text","text":"这张图验证了什么？接单、查看上下文、执行、提交、验收中的哪一步。","textPreview":"这张图验证了什么？接单、查看上下文、执行、提交、验收中的哪一步。","textChars":32,"textLines":1,"bbox":[518,256,290,236]}
+{"kind":"shape","id":"sh/qd4vmtwr","slide":7,"name":"evidence-slot","bbox":[872,166,326,340]}
+{"kind":"shape","id":"sh/fyxobm58","slide":7,"name":"tag","bbox":[886,180,92,28]}
+{"kind":"textbox","id":"sh/8v6psfil","slide":7,"name":"text","text":"待补证据","textPreview":"待补证据","textChars":4,"textLines":1,"bbox":[894,186,76,18]}
+{"kind":"textbox","id":"sh/xczed8v6","slide":7,"name":"text","text":"补：现场约束","textPreview":"补：现场约束","textChars":6,"textLines":1,"bbox":[890,220,290,28]}
+{"kind":"textbox","id":"sh/qpg3ex0n","slide":7,"name":"text","text":"离线、剧本/AR/3D资源、设备详情工单 Tab；没有截图就用流程小图。","textPreview":"离线、剧本/AR/3D资源、设备详情工单 Tab；没有截图就用流程小图。","textChars":36,"textLines":1,"bbox":[890,256,290,236]}
+{"kind":"textbox","id":"sh/fa9w3m94","slide":7,"name":"text","text":"灰色区域 = 需要补的过程证据或待重绘图","textPreview":"灰色区域 = 需要补的过程证据或待重绘图","textChars":20,"textLines":1,"bbox":[56,674,780,24]}
+{"kind":"textbox","id":"sh/8z25kb6x","slide":7,"name":"text","text":"07","textPreview":"07","textChars":2,"textLines":1,"bbox":[1176,670,48,28]}
+{"kind":"image","id":"im/jqh0fepk","slide":7,"name":"","alt":"mobile work order execution","bbox":[78,156,356,356]}
+{"kind":"notes","id":"nt/bvqber","slide":7,"text":""}
+{"kind":"slide","id":"sl/j43n08","slide":8,"title":"最后一页把能力归因到你身上","textShapes":17}
+{"kind":"textbox","id":"sh/rqd4vmtw","slide":8,"name":"text","text":"最后一页把能力归因到你身上","textPreview":"最后一页把能力归因到你身上","textChars":13,"textLines":1,"bbox":[56,36,880,58]}
+{"kind":"textbox","id":"sh/kb6xkf6d","slide":8,"name":"text","text":"避免只证明产品好，要证明你为什么适合目标岗位。","textPreview":"避免只证明产品好，要证明你为什么适合目标岗位。","textChars":23,"textLines":1,"bbox":[58,92,760,30]}
+{"kind":"textbox","id":"sh/9w3m94fu","slide":8,"name":"text","text":"Inspector 主案例框架稿","textPreview":"Inspector 主案例框架稿","textChars":16,"textLines":1,"bbox":[1000,42,220,24]}
+{"kind":"shape","id":"sh/2t83itgf","slide":8,"bbox":[56,128,1168,1]}
+{"kind":"shape","id":"sh/re1w7mp0","slide":8,"name":"box","bbox":[70,168,170,56]}
+{"kind":"textbox","id":"sh/kzupwb2h","slide":8,"name":"text","text":"主导","textPreview":"主导","textChars":2,"textLines":1,"bbox":[92,184,126,24]}
+{"kind":"textbox","id":"sh/9knih4by","slide":8,"name":"text","text":"设施运维 0-1 产品闭环、PRD/流程/状态机/页面结构沉淀","textPreview":"设施运维 0-1 产品闭环、PRD/流程/状态机/页面结构沉淀","textChars":31,"textLines":1,"bbox":[280,178,760,42]}
+{"kind":"shape","id":"sh/2p8nqxs7","slide":8,"name":"box","bbox":[70,250,170,56]}
+{"kind":"textbox","id":"sh/ra5gbq1o","slide":8,"name":"text","text":"负责","textPreview":"负责","textChars":2,"textLines":1,"bbox":[92,266,126,24]}
+{"kind":"textbox","id":"sh/3m94fu18","slide":8,"name":"text","text":"工单闭环、告警/资产/3D 与运维流程的信息架构串联","textPreview":"工单闭环、告警/资产/3D 与运维流程的信息架构串联","textChars":26,"textLines":1,"bbox":[280,260,760,42]}
+{"kind":"shape","id":"sh/a5gbq1or","slide":8,"name":"box","bbox":[70,332,170,56]}
+{"kind":"textbox","id":"sh/lszqtcj6","slide":8,"name":"text","text":"参与","textPreview":"参与","textChars":2,"textLines":1,"bbox":[92,348,126,24]}
+{"kind":"textbox","id":"sh/s72x4nap","slide":8,"name":"text","text":"AI Agent/RAG 的产品化表达、输入输出、风险边界","textPreview":"AI Agent/RAG 的产品化表达、输入输出、风险边界","textChars":29,"textLines":1,"bbox":[280,342,760,42]}
+{"kind":"shape","id":"sh/3ylc7u54","slide":8,"name":"box","bbox":[70,414,170,56]}
+{"kind":"textbox","id":"sh/adsji5sn","slide":8,"name":"text","text":"方法","textPreview":"方法","textChars":2,"textLines":1,"bbox":[92,430,126,24]}
+{"kind":"textbox","id":"sh/h4byhgn2","slide":8,"name":"text","text":"用 AI 工具辅助 PRD 结构化、流程图/状态机、原型验证","textPreview":"用 AI 工具辅助 PRD 结构化、流程图/状态机、原型验证","textChars":30,"textLines":1,"bbox":[280,424,760,42]}
+{"kind":"shape","id":"sh/sji5snel","slide":8,"name":"evidence-slot","bbox":[910,504,280,96]}
+{"kind":"shape","id":"sh/za1gvy90","slide":8,"name":"tag","bbox":[924,518,92,28]}
+{"kind":"textbox","id":"sh/ap4r65wj","slide":8,"name":"text","text":"待补证据","textPreview":"待补证据","textChars":4,"textLines":1,"bbox":[932,524,76,18]}
+{"kind":"textbox","id":"sh/yd0z6103","slide":8,"name":"text","text":"补：贡献证据","textPreview":"补：贡献证据","textChars":6,"textLines":1,"bbox":[928,558,244,28]}
+{"kind":"textbox","id":"sh/rytsvu9k","slide":8,"name":"text","text":"可放确认版贡献分层、PRD目录、评审记录、原型验证结果。","textPreview":"可放确认版贡献分层、PRD目录、评审记录、原型验证结果。","textChars":28,"textLines":1,"bbox":[928,594,244,-8]}
+{"kind":"textbox","id":"sh/gfmlkjm1","slide":8,"name":"text","text":"不写虚构 ROI、准确率、自动派单。重点写：方案沉淀、Demo/原型验证、可复用业务闭环。","textPreview":"不写虚构 ROI、准确率、自动派单。重点写：方案沉淀、Demo/原型验证、可复用业务闭环。","textChars":45,"textLines":1,"bbox":[72,536,780,52]}
+{"kind":"textbox","id":"sh/90je9cvi","slide":8,"name":"text","text":"这一页用于面试追问，不要堆结果，要讲清贡献边界","textPreview":"这一页用于面试追问，不要堆结果，要讲清贡献边界","textChars":23,"textLines":1,"bbox":[56,674,780,24]}
+{"kind":"textbox","id":"sh/y1kre1w7","slide":8,"name":"text","text":"08","textPreview":"08","textChars":2,"textLines":1,"bbox":[1176,670,48,28]}
+{"kind":"notes","id":"nt/j43n08","slide":8,"text":""}
