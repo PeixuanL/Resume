@@ -8,22 +8,30 @@ function getQuestion(id = state.selectedId){ return state.questions.find(q => q.
 function getMergedQuestion(id = state.selectedId){ const q = getQuestion(id); return { ...q, ...(state.edits[id] || {}) }; }
 function categories(){ return ["全部", ...Array.from(new Set(state.questions.map(q => q.category)))]; }
 function escapeHtml(value){ return String(value).replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;").replace(/\"/g,"&quot;").replace(/'/g,"&#039;"); }
+function currentMode(){ return $("modeSelect").value; }
+function currentSearch(){ return $("searchInput").value.trim().toLowerCase(); }
+function matchesMode(q, mode = currentMode()){ return mode === "warmup" ? q.mode.includes("warmup") : q.mode.includes(mode) || q.mode.includes("warmup"); }
+function matchesSearch(q, search = currentSearch()){
+  const haystack = [q.question, q.chinese, q.category, q.tests, q.simple, q.notes].join(" ").toLowerCase();
+  return !search || haystack.includes(search);
+}
+function matchesCategory(q, category){ return category === "全部" || q.category === category; }
+function countForCategory(category){
+  const mode = currentMode();
+  const search = currentSearch();
+  return state.questions.filter(q => matchesCategory(q, category) && matchesMode(q, mode) && matchesSearch(q, search)).length;
+}
 
 function filteredQuestions(){
-  const mode = $("modeSelect").value;
-  const search = $("searchInput").value.trim().toLowerCase();
-  return state.questions.filter(q => {
-    const byCategory = state.selectedCategory === "全部" || q.category === state.selectedCategory;
-    const byMode = mode === "warmup" ? q.mode.includes("warmup") : q.mode.includes(mode) || q.mode.includes("warmup");
-    const haystack = [q.question, q.chinese, q.category, q.tests, q.simple, q.notes].join(" ").toLowerCase();
-    return byCategory && byMode && (!search || haystack.includes(search));
-  });
+  const mode = currentMode();
+  const search = currentSearch();
+  return state.questions.filter(q => matchesCategory(q, state.selectedCategory) && matchesMode(q, mode) && matchesSearch(q, search));
 }
 
 function renderCategories(){
   const nav = $("categoryNav"); nav.innerHTML = "";
   for (const cat of categories()) {
-    const count = cat === "全部" ? state.questions.length : state.questions.filter(q => q.category === cat).length;
+    const count = countForCategory(cat);
     const btn = document.createElement("button"); btn.type = "button";
     btn.className = cat === state.selectedCategory ? "active" : "";
     btn.innerHTML = `<span>${cat}</span><span>${count}</span>`;
@@ -109,7 +117,7 @@ function importEdits(){
 
 function bindEvents(){
   $("modeSelect").addEventListener("change", () => renderAll());
-  $("searchInput").addEventListener("input", () => renderQuestionList());
+  $("searchInput").addEventListener("input", () => { renderCategories(); renderQuestionList(); });
   $("randomBtn").addEventListener("click", randomQuestion);
   $("saveEditBtn").addEventListener("click", saveCurrentEdit);
   $("resetBtn").addEventListener("click", resetCurrentEdit);
