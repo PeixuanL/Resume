@@ -1,0 +1,145 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Moatable C端产品经理 · 互动面试练习器</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="app-shell">
+    <aside class="sidebar" aria-label="Interview prep navigation">
+      <div class="brand-block">
+        <div class="eyebrow">Interactive BQ Prep</div>
+        <h1>Moatable / Trucker Path</h1>
+        <p>C端产品经理 · 外籍 HR 一面</p>
+      </div>
+
+      <div class="mode-panel">
+        <label for="modeSelect">练习模式</label>
+        <select id="modeSelect">
+          <option value="warmup">快速热身</option>
+          <option value="hr">外籍 HR 模拟</option>
+          <option value="behavior">宝洁八大问</option>
+          <option value="gap">缺口救场</option>
+          <option value="pressure">压力追问</option>
+        </select>
+        <button id="randomBtn" class="primary-btn" type="button">随机抽题</button>
+      </div>
+
+      <nav id="categoryNav" class="category-nav"></nav>
+
+      <div class="quick-panel">
+        <div class="panel-title">今天只背这句</div>
+        <p id="coreLine">I turn complex real-world workflows into structured product solutions.</p>
+        <button id="speakCoreBtn" type="button">朗读</button>
+      </div>
+    </aside>
+
+    <main class="main-stage">
+      <header class="topbar">
+        <div>
+          <div class="eyebrow">Practice, not memorization</div>
+          <h2 id="pageTitle">面试驾驶舱</h2>
+        </div>
+        <div class="top-actions">
+          <button id="exportBtn" type="button">导出修改稿</button>
+          <button id="importBtn" type="button">导入</button>
+          <button id="resetBtn" type="button">重置当前题</button>
+        </div>
+      </header>
+
+      <section class="coach-strip" aria-label="memory coaching">
+        <div>
+          <strong>记忆策略</strong>
+          <span>先说结论，再讲一个案例，只用 3-5 句英文。卡住时用 “Let me think for a second.”</span>
+        </div>
+        <div>
+          <strong>事实边界</strong>
+          <span>不硬说懂 trucking / UGC / 模型训练。说迁移能力和学习方法。</span>
+        </div>
+      </section>
+
+      <section class="practice-grid">
+        <article class="question-panel">
+          <div class="question-meta">
+            <span id="categoryPill" class="pill">HR 常规</span>
+            <span id="difficultyPill" class="pill muted">Easy English</span>
+          </div>
+          <h3 id="questionText">Tell me about yourself.</h3>
+          <p id="questionChinese" class="question-cn">请介绍一下你自己。</p>
+
+          <div class="timer-row">
+            <button id="timer60" type="button">60s</button>
+            <button id="timer90" type="button">90s</button>
+            <button id="timer120" type="button">120s</button>
+            <button id="stopTimer" type="button">停止</button>
+            <div id="timerDisplay" class="timer-display">00:00</div>
+          </div>
+
+          <div class="answer-tabs" role="tablist" aria-label="Answer levels">
+            <button class="tab active" data-tab="intent" type="button">回答意图</button>
+            <button class="tab" data-tab="simple" type="button">简单英文</button>
+            <button class="tab" data-tab="full" type="button">完整版本</button>
+            <button class="tab" data-tab="followups" type="button">追问</button>
+          </div>
+
+          <div id="tabContent" class="tab-content"></div>
+
+          <div class="shadow-box">
+            <div class="shadow-head">
+              <strong>跟读训练</strong>
+              <button id="speakAnswerBtn" type="button">朗读当前答案</button>
+            </div>
+            <ol id="shadowLines"></ol>
+          </div>
+        </article>
+
+        <aside class="builder-panel">
+          <div class="panel-title">回答搭建器</div>
+          <div class="builder-block">
+            <label>你的结论句</label>
+            <textarea id="editableSimple" rows="5"></textarea>
+          </div>
+          <div class="builder-block">
+            <label>你的完整回答</label>
+            <textarea id="editableFull" rows="11"></textarea>
+          </div>
+          <div class="builder-block">
+            <label>临场备注 / 中文钩子</label>
+            <textarea id="editableNotes" rows="5"></textarea>
+          </div>
+          <div class="builder-actions">
+            <button id="saveEditBtn" class="primary-btn" type="button">保存本题修改</button>
+            <button id="copySimpleBtn" type="button">复制简单版</button>
+          </div>
+          <div id="saveStatus" class="save-status">编辑只保存在本浏览器 localStorage，不会改动原文件。</div>
+        </aside>
+      </section>
+
+      <section class="question-list-section">
+        <div class="section-head">
+          <h3>题库</h3>
+          <input id="searchInput" type="search" placeholder="搜索问题、能力、关键词...">
+        </div>
+        <div id="questionList" class="question-list"></div>
+      </section>
+    </main>
+  </div>
+
+  <dialog id="importDialog">
+    <form method="dialog" class="dialog-form">
+      <h3>导入本地修改</h3>
+      <p>粘贴之前导出的 JSON。只会更新浏览器本地保存。</p>
+      <textarea id="importText" rows="10"></textarea>
+      <div class="dialog-actions">
+        <button value="cancel" type="submit">取消</button>
+        <button id="confirmImportBtn" value="default" class="primary-btn" type="button">导入</button>
+      </div>
+    </form>
+  </dialog>
+
+  <script src="questions.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

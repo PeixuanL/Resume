@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Offer Strategy · Moatable × C端产品经理 — 李沛宣 Jane</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@400;500;700;900&family=Noto+Serif+SC:wght@400;700;900&display=swap" rel="stylesheet">
+<style>
+:root{--ink:#10100f;--paper:#fafaf7;--paper2:#f1f1ea;--card:#fffdf6;--muted:#686862;--line:#d9d9d2;--go:#15803d;--warn:#d97706;--stop:#c2410c;--accent:#facc15;--display:"SF Pro Display","Noto Sans SC",Arial,sans-serif;--body:-apple-system,BlinkMacSystemFont,"Noto Sans SC","Microsoft YaHei",sans-serif;--serif:"Times New Roman","Noto Serif SC",serif;--mono:"SF Mono",Consolas,"Noto Sans SC",monospace}
+*{box-sizing:border-box}html,body{margin:0;background:var(--paper);color:var(--ink);font-family:var(--body);line-height:1.62;font-size:15px}.page{max-width:980px;margin:0 auto;padding:52px 54px 92px}a{color:#1d4ed8;text-decoration:none;border-bottom:1px solid currentColor}h1{font-family:var(--display);font-size:54px;line-height:1.08;margin:0 0 14px;font-weight:900;letter-spacing:-.02em}h1 span{display:block;font-size:17px;font-weight:500;color:var(--muted);margin-top:12px;letter-spacing:0}.meta{display:flex;gap:10px;flex-wrap:wrap;color:var(--muted);font-size:12px;text-transform:uppercase;letter-spacing:.1em;margin-bottom:18px}.rule{height:2px;background:var(--ink);margin:26px 0}.role-row{display:grid;grid-template-columns:repeat(4,1fr);border-top:1px solid var(--line);border-bottom:1px solid var(--line);margin-bottom:28px}.cell{padding:14px 16px;border-left:1px solid var(--line)}.cell:first-child{border-left:0;padding-left:0}.label{font-size:10px;letter-spacing:.12em;text-transform:uppercase;color:var(--muted);margin-bottom:5px}.value{font-weight:700}.toc{display:grid;grid-template-columns:100px 1fr;gap:16px;background:var(--paper2);border:1px solid var(--line);border-radius:6px;padding:18px 20px;margin:28px 0}.toc ol{columns:2;list-style:none;margin:0;padding:0}.toc li{break-inside:avoid;padding:2px 0;font-size:13px}.notice{background:#fff8e6;border-left:4px solid var(--accent);padding:16px 20px;border-radius:0 5px 5px 0;margin:24px 0}.verdict{display:grid;grid-template-columns:1fr auto;gap:30px;background:var(--ink);color:var(--paper);padding:34px 38px;border-radius:8px;margin:28px 0}.verdict h2{font-size:31px;line-height:1.22;margin:0 0 10px}.stars{font-size:35px;color:var(--accent);white-space:nowrap}.tldr{background:white;border:1px solid var(--ink);border-radius:8px;padding:22px 26px;margin:28px 0}.tldr li{margin:10px 0}.numbers{display:grid;grid-template-columns:1fr 1fr;gap:18px;margin:30px 0}.num{background:var(--paper2);border:1px solid var(--line);border-radius:8px;padding:22px}.big{font-family:var(--display);font-size:48px;font-weight:900;line-height:1}.bar{height:12px;border-radius:99px;background:white;border:1px solid var(--line);margin-top:14px;overflow:hidden}.fill{height:100%;border-radius:99px}.fill.go{background:linear-gradient(90deg,#22c55e,var(--go));width:66%}.fill.warn{background:linear-gradient(90deg,#f59e0b,var(--warn));width:45%}.scale{display:flex;justify-content:space-between;color:var(--muted);font-size:10px;margin-top:6px}section{margin:54px 0;scroll-margin-top:24px}.head{display:flex;gap:15px;align-items:baseline;border-bottom:1px solid var(--ink);padding-bottom:10px;margin-bottom:20px}.head .n{font-family:var(--serif);font-style:italic;color:var(--muted)}h3{font-size:25px;margin:0;font-weight:900}.grid2{display:grid;grid-template-columns:1fr 1fr;gap:16px}.card{background:var(--card);border:1px solid var(--line);border-radius:8px;padding:18px}.card h4{margin:0 0 8px;font-size:16px}.quote{font-family:var(--serif);font-style:italic;border-left:3px solid var(--accent);padding-left:12px}.tag{font-family:var(--mono);font-size:11px;padding:2px 7px;border-radius:4px;background:var(--paper2);color:var(--muted)}table{width:100%;border-collapse:collapse;background:white;border:1px solid var(--line);font-size:13px}th{background:var(--ink);color:var(--paper);text-align:left;padding:10px 12px;font-size:11px;letter-spacing:.08em;text-transform:uppercase}td{border-top:1px solid var(--line);padding:11px 12px;vertical-align:top}.ok{color:var(--go);font-weight:800}.mid{color:var(--warn);font-weight:800}.bad{color:var(--stop);font-weight:800}.duo{display:grid;grid-template-columns:1fr 1fr;gap:18px}.yes{background:#eefbf3;border-left:4px solid var(--go)}.no{background:#fff3ea;border-left:4px solid var(--stop)}.q{border-left:3px solid var(--ink);background:var(--paper2);padding:12px 14px;margin:10px 0;border-radius:0 5px 5px 0}.timeline{display:grid;grid-template-columns:repeat(3,1fr);gap:14px}.export-tools{position:fixed;right:18px;bottom:18px;display:flex;gap:8px;z-index:5}.export-btn{border:1px solid var(--ink);background:var(--ink);color:var(--paper);border-radius:99px;padding:8px 12px;font-size:12px;cursor:pointer}footer{margin-top:40px}.brand-block{display:grid;grid-template-columns:1fr auto;gap:36px;align-items:end;padding:44px 0 28px;border-top:1px solid var(--line)}.brand-block .brand-mark{font-family:var(--display);font-weight:800;font-size:92px;line-height:.92;letter-spacing:-.045em;color:var(--ink);margin:0}.brand-block .brand-mark .dot-yellow{color:var(--accent);-webkit-text-stroke:1px var(--ink)}.brand-block .brand-sub{font-family:var(--serif);font-style:italic;font-size:15px;color:var(--muted);margin-top:10px}.brand-block .brand-sub strong{font-style:normal;font-family:var(--display);font-weight:700;color:var(--ink)}.socials{display:flex;gap:12px;align-items:center}.socials a{display:inline-flex;align-items:center;justify-content:center;width:46px;height:46px;border:1.5px solid var(--ink);border-radius:50%;background:var(--paper);color:var(--ink);transition:all .18s ease}.socials a:hover{background:var(--ink);color:var(--paper);transform:translateY(-2px)}.socials a svg{width:20px;height:20px;display:block}.socials a.xhs{width:46px;height:46px;padding:0;border-radius:11px;background:#ff2442;border:1.5px solid #ff2442;color:white;font-family:"PingFang SC","Hiragino Sans GB","Microsoft YaHei",sans-serif;font-weight:900;font-size:11px;font-style:italic;letter-spacing:-.02em;line-height:1}.socials a.xhs span{display:inline-block;transform:skewX(-6deg);white-space:nowrap}.socials a.xhs:hover{background:#d11838;border-color:#d11838;transform:translateY(-2px)}.foot-meta{font-size:11px;color:var(--muted);line-height:1.75;padding-top:16px}@media(max-width:720px){.page{padding:30px 20px}.role-row,.numbers,.grid2,.duo,.timeline{grid-template-columns:1fr}.toc{grid-template-columns:1fr}.toc ol{columns:1}.verdict{grid-template-columns:1fr}.brand-block{grid-template-columns:1fr;gap:18px}.brand-block .brand-mark{font-size:56px}}@media print{.export-tools{display:none!important}.page{padding:0;max-width:none}body{background:white}.card,.q,.num,.notice,.verdict,.tldr,tr{break-inside:avoid}h1,h2,h3,h4,.head{break-after:avoid}section{margin-bottom:18px}}
+</style>
+</head>
+<body>
+<div class="export-tools"><button class="export-btn" onclick="window.print()">Export PDF</button><button class="export-btn" onclick="downloadMd()">Export Markdown</button></div>
+<div class="page">
+  <div class="meta">Offer Strategy Report · JD Skill · 2026-07-09</div>
+  <h1>Moatable × C端产品经理<span>北京酒仙桥 · 20-25K × 14薪 · 3-5年 · C端产品 / 社区产品</span></h1>
+  <div class="rule"></div>
+  <div class="role-row">
+    <div class="cell"><div class="label">Candidate</div><div class="value">李沛宣 Jane</div></div>
+    <div class="cell"><div class="label">Current Profile</div><div class="value">B端 / AI / 工业互联网 PM</div></div>
+    <div class="cell"><div class="label">JD Shape</div><div class="value">垂直行业 C端 App PM</div></div>
+    <div class="cell"><div class="label">Status</div><div class="value">Matched · 建议 Tailor 后投</div></div>
+  </div>
+  <div class="toc">
+    <div class="label">Inside</div>
+    <ol>
+      <li><a href="#assumptions">Assumptions</a></li><li><a href="#metrics">Metrics</a></li>
+      <li><a href="#company">Company</a></li><li><a href="#product">Product</a></li>
+      <li><a href="#decode">JD Decode</a></li><li><a href="#match">Match Matrix</a></li>
+      <li><a href="#gap">Gap</a></li><li><a href="#yes-no">Why / Why Not</a></li>
+      <li><a href="#salary">Salary</a></li><li><a href="#nextstep">Next Step</a></li>
+      <li><a href="#questions">Top Questions</a></li><li><a href="#timeline">Timeline</a></li>
+    </ol>
+  </div>
+  <div id="assumptions" class="notice">
+    <strong>假设说明：</strong>本报告基于 Boss 截图 JD、当前主稿简历、背景事实汇总与 Moatable / Trucker Path 官方公开信息生成。假设你接受北京酒仙桥现场或高频线下、20-25K × 14薪区间可谈、愿意从 B端 AI/工业产品转向垂直行业 C端 App、当前目标是争取面试而非直接定薪。任一假设不对，告诉我重新生成。
+  </div>
+  <div class="verdict">
+    <div><div class="label">Verdict</div><h2>值得投，但不要裸投。它是“相邻领域跳转”，不是直接对口。</h2><p>你的产品生命周期、PRD/原型、复杂业务拆解和跨部门交付很强；主要短板是 C端社区、UGC/增长、北美卡车/GPS 导航经验。策略应是把自己定位为“复杂真实场景 + 位置/实时信息 + 用户工作流”的产品经理。</p></div>
+    <div><div class="stars">★★★☆</div><div class="label">3.5 / 5</div></div>
+  </div>
+  <div class="tldr">
+    <div class="label">If you only read three things</div>
+    <ul>
+      <li><strong>这不是泛 C端社区岗。</strong>结合 Trucker Path，它更像司机社区、实时 POI/路况/停车信息、导航与货运场景的数据产品。</li>
+      <li><strong>你能讲通“复杂场景产品化”。</strong>工单、路径、位置、跨系统、实时信息这些能力可迁移，但必须转译成 App 用户价值语言。</li>
+      <li><strong>投递前必须补一句 C端叙事。</strong>否则简历第一眼会被读成 B端工业 PM，HR 可能担心你不懂社区、增长和移动端体验。</li>
+    </ul>
+  </div>
+  <div id="metrics" class="numbers">
+    <div class="num"><div class="label">Match Score</div><div class="big">62-70%</div><p>Must Have 60% + Nice to Have 20% + Hidden Signal 20%。属于相邻领域型匹配。</p><div class="bar"><div class="fill go"></div></div><div class="scale"><span>0</span><span>55</span><span>70</span><span>85</span><span>100</span></div></div>
+    <div class="num"><div class="label">Interview Probability</div><div class="big">35-50%</div><p>Tailor 后 + Boss 主动沟通语境；裸投估计 20-30%。若有内推或 HR 已约聊，可上调。</p><div class="bar"><div class="fill warn"></div></div><div class="scale"><span>low</span><span>base</span><span>good</span><span>strong</span></div></div>
+  </div>
+
+  <section id="company">
+    <div class="head"><span class="n">§1</span><h3>公司背景</h3></div>
+    <div class="grid2">
+      <div class="card"><h4>Moatable</h4><p>Moatable 官网称其构建和规模化 AI-native SaaS solutions，并为 portfolio companies 提供运营经验和资金资源。这个岗位虽然叫 C端产品经理，但公司画像更接近“垂直行业 SaaS / App portfolio”。</p><p class="tag">Source: moatable.com</p></div>
+      <div class="card"><h4>Trucker Path</h4><p>Moatable 官网把 Trucker Path 描述为北美长途卡车司机、经纪人、车队使用的移动 App；Trucker Path 官网称其为面向 truckers and fleets 的 #1 platform，强调安全、效率、路上便利。</p><p class="tag">Source: truckerpath.com</p></div>
+    </div>
+  </section>
+
+  <section id="product">
+    <div class="head"><span class="n">§2</span><h3>本职位产品分析</h3></div>
+    <div class="grid2">
+      <div class="card"><h4>真实产品难题</h4><ul><li>如何让司机愿意持续贡献停车、油价、称重站、POI 状态等 UGC。</li><li>如何控制用户贡献信息的准确性、时效性和可信度。</li><li>如何把导航、社区、货运、车队侧商业化放进同一产品生态。</li><li>如何把北美卡车行业的复杂工作流翻译成简单移动端体验。</li></ul></div>
+      <div class="card"><h4>Role 的真实 Scope</h4><p>JD 写的是产品全生命周期，但结合优先项，它实际想找的是能独立做用户/市场/竞品洞察、拆战略、出 PRD/原型、推动研发上线，并能持续优化 C端体验和社区/增长机制的 PM。</p></div>
+    </div>
+  </section>
+
+  <section id="decode">
+    <div class="head"><span class="n">§3</span><h3>JD 深度解读</h3></div>
+    <div class="grid2">
+      <div class="card"><div class="quote">“C端产品、社区产品；UGC 用户生成内容类产品优先”</div><p><strong>真实诉求：</strong>不是单纯画 App 页面，而是要提升用户贡献、内容质量、留存和社区信任。面试会追问你如何设计贡献激励、质量控制和冷启动。</p></div>
+      <div class="card"><div class="quote">“产品全生命周期、产品路线图、上线发布”</div><p><strong>真实诉求：</strong>招聘经理想要能从问题定义到上线复盘端到端负责的人，而不是只接需求写文档的人。你这点较强。</p></div>
+      <div class="card"><div class="quote">“货运、卡车运输、GPS定位、导航类优先”</div><p><strong>真实诉求：</strong>行业经验是加分但不是硬卡；真正关心的是你能否理解移动场景、位置数据、路径规划、实时信息可信度。</p></div>
+      <div class="card"><div class="quote">“严谨细致、责任心、结果导向”</div><p><strong>Hidden Signal：</strong>团队可能希望 PM 能自己盯细节、推动跨时区或跨部门落地，不适合只做宏观规划、不管上线质量的人。</p></div>
+    </div>
+  </section>
+
+  <section id="match">
+    <div class="head"><span class="n">§4</span><h3>JD ↔ 简历逐条匹配</h3></div>
+    <table>
+      <thead><tr><th>JD 要求</th><th>简历证据</th><th>评分 + Gap</th></tr></thead>
+      <tbody>
+        <tr><td>产品全生命周期 / Roadmap / 上线</td><td>“负责 11 个版本迭代的 Roadmap 与优先级取舍”；“定义 POC 成功标准”。</td><td><span class="ok">强命中</span><br>可直接放在简历前 1/3。</td></tr>
+        <tr><td>产品方案、PRD、原型、规格文档</td><td>背景事实含 50+ PRD/验收文档；主稿体现需求解构、标品架构、端到端闭环。</td><td><span class="ok">强命中</span><br>建议补“App 原型/交互原型”关键词。</td></tr>
+        <tr><td>复杂业务分析与问题解决</td><td>设施运维、告警→诊断→处置、跨系统数据、3D/空间数据、工单流转。</td><td><span class="ok">强命中</span><br>但要翻译为用户工作流，而非工业术语。</td></tr>
+        <tr><td>跨部门沟通协作</td><td>“统筹研发、客户成功与美术交付”；“销售与交付复用”。</td><td><span class="ok">强命中</span><br>可以补市场/销售协作例子。</td></tr>
+        <tr><td>3年以上 App 产品管理 / 产品设计</td><td>现职 PM 从 2024.12；UCL/CAFA 有设计背景，但简历不是典型 3 年 App PM。</td><td><span class="mid">部分命中</span><br>这是 HR 侧最大硬风险。</td></tr>
+        <tr><td>UGC / 社区 / 增长策略</td><td>当前简历未直接体现 UGC、社区贡献、增长漏斗、留存指标。</td><td><span class="bad">弱命中</span><br>投前必须补一段相邻经验或学习方案。</td></tr>
+        <tr><td>货运 / 卡车 / GPS / 导航</td><td>有物流大客售前、路径/空间/仿真、实时信息经验，但非卡车运输或 GPS 导航。</td><td><span class="mid">相邻命中</span><br>面试中要诚实承认行业学习曲线。</td></tr>
+      </tbody>
+    </table>
+  </section>
+
+  <section id="gap">
+    <div class="head"><span class="n">§5</span><h3>Gap 要提升的</h3></div>
+    <div class="grid2">
+      <div class="card"><h4>Gap 1 · C端社区 / UGC</h4><p>HM 会担心你只熟悉企业工作流，不熟悉用户贡献、内容质量、互动激励和社区治理。4 周补法：拆 Trucker Path、Waze、小红书/地图类 POI 贡献机制，形成 1 页对比。</p></div>
+      <div class="card"><h4>Gap 2 · 增长指标</h4><p>JD 优先用户增长。你需要准备 activation、retention、contribution rate、content freshness、DAU/MAU、cohort 的基本口径。</p></div>
+      <div class="card"><h4>Gap 3 · 卡车行业语境</h4><p>不要说“我懂美国卡车行业”。更稳的说法是：我理解实时位置、路径、现场决策与信息可信度，会快速补行业用户研究。</p></div>
+      <div class="card"><h4>Gap 4 · App 端作品呈现</h4><p>简历里 B端/3D/Agent 太强，C端 App 感弱。建议准备一页“移动端用户流程/UGC 信息闭环”的 mini case。</p></div>
+    </div>
+  </section>
+
+  <section id="yes-no">
+    <div class="head"><span class="n">§6</span><h3>为什么投 / 不投</h3></div>
+    <div class="duo">
+      <div class="card yes"><h4>为什么值得投</h4><ol><li>垂直行业真实问题，不是浅层社区运营，能承接你的复杂场景产品化优势。</li><li>Moatable/Trucker Path 有 AI-native / over-the-road AI tools 叙事，可与你的 AI 产品化经历连接。</li><li>薪资与年限要求不是高不可攀，适合争取面试练兵并探索 C端转向。</li></ol></div>
+      <div class="card no"><h4>为什么不值得盲投</h4><ol><li>硬性 3年+ App PM 经验可能被 HR 卡。回应：强调产品全流程和移动端/交互补强，而非硬说自己是资深 C端。</li><li>UGC/增长是明显缺口。回应：准备一个 Trucker Path 贡献机制改进思路。</li><li>行业经验不直接。回应：把物流大客、空间路径、实时信息可信度作为迁移桥。</li></ol></div>
+    </div>
+  </section>
+
+  <section id="salary">
+    <div class="head"><span class="n">§7</span><h3>薪资 Reality Check</h3></div>
+    <p>JD 标注 20-25K × 14薪，年包约 28-35万税前。若你当前期望在此范围内，这份机会可以谈；若底线明显高于 25K，则这份岗位更适合作为面试练兵或 C端转向信号，不建议投入过重。薪资谈判点应放在英文/跨国协作、AI 产品化、复杂场景产品落地，而不是强调纯 C端增长。</p>
+  </section>
+
+  <section id="nextstep">
+    <div class="head"><span class="n">§8</span><h3>Next Step · 叙事 + 内推 + Portfolio</h3></div>
+    <div class="grid2">
+      <div class="card"><h4>推荐叙事</h4><p>“我不是泛社区 PM，而是擅长把复杂真实场景拆成可落地产品的人。Trucker Path 这类产品的价值在于位置、实时信息、用户贡献和行业工作流，我能把 B端复杂场景经验迁移到司机端 App。”</p></div>
+      <div class="card"><h4>简历 Tailor 关键词</h4><p>C端 App、用户工作流、UGC 信息质量、实时位置数据、产品全生命周期、PRD/原型、跨部门推进、用户洞察、产品迭代。</p></div>
+      <div class="card"><h4>内推 / HR DM</h4><p>“我看到了 C端产品经理岗位，对 Trucker Path 这种围绕司机真实工作流、位置数据和社区信息质量的产品很感兴趣。我目前做复杂业务场景产品化和 AI 工作流落地，希望有机会聊聊这个岗位。”</p></div>
+      <div class="card"><h4>Portfolio 补强</h4><p>补一页 mini case：从“司机找停车/称重站状态/油价信息”切入，画出用户贡献 → 校验 → 展示 → 反馈 → 留存的闭环。</p></div>
+    </div>
+  </section>
+
+  <section id="questions">
+    <div class="head"><span class="n">§9</span><h3>Top 10 面试题预测</h3></div>
+    <div class="q"><strong>1. 你为什么从 B端 AI/工业产品转向 C端 App？</strong><br>准备方向：不要说“想转 C端”，说你被真实场景、位置数据、社区信息质量吸引。</div>
+    <div class="q"><strong>2. 如果让你优化 Trucker Path 的用户贡献信息质量，你会怎么做？</strong><br>准备方向：贡献动机、可信度、时效性、反作弊、反馈闭环。</div>
+    <div class="q"><strong>3. 讲一个你端到端负责产品从需求到上线的项目。</strong><br>准备 Inspector 或 Designer 的 0→1/版本迭代故事。</div>
+    <div class="q"><strong>4. 你缺少卡车行业经验，如何快速 ramp up？</strong><br>准备用户访谈计划、竞品拆解、司机任务流地图。</div>
+    <div class="q"><strong>5. 你如何做竞品分析和产品路线图？</strong><br>用 11 个版本 Roadmap 与优先级取舍作证据。</div>
+    <div class="q"><strong>6. 如何定义一个社区/UGC 功能是否成功？</strong><br>准备贡献率、内容新鲜度、采纳率、留存、错误报告率。</div>
+    <div class="q"><strong>7. 讲一次跨部门推进中出现阻力，你怎么解决？</strong><br>用资源紧张下提供替代方案的故事。</div>
+    <div class="q"><strong>8. 你如何把复杂业务问题拆成产品方案？</strong><br>用告警→诊断→处置闭环或工单流转说明。</div>
+    <div class="q"><strong>9. 你做 App 原型和交互细节的能力如何证明？</strong><br>准备 Figma/Axure/Cursor 原型截图或流程。</div>
+    <div class="q"><strong>10. 你为什么选择 Moatable / Trucker Path？</strong><br>连接 AI-native SaaS、北美 trucker/fleet 平台、真实行业问题。</div>
+  </section>
+
+  <section id="timeline">
+    <div class="head"><span class="n">§10</span><h3>6 周行动时间线</h3></div>
+    <div class="timeline">
+      <div class="card"><h4>投递前 48 小时</h4><ul><li>把简历摘要改成垂直行业 C端/位置数据。</li><li>补 UGC/增长关键词。</li><li>准备 Boss 招呼语。</li></ul></div>
+      <div class="card"><h4>第 1-2 周</h4><ul><li>拆 Trucker Path、Waze、地图 POI。</li><li>准备 3 个产品题 talking points。</li><li>用 BQ Skill 挖 ownership / ambiguity 故事。</li></ul></div>
+      <div class="card"><h4>第 3-6 周</h4><ul><li>形成一页 mini portfolio。</li><li>模拟 HR 面和 PM 面。</li><li>若进入下一轮，再做更完整产品改进方案。</li></ul></div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="brand-block">
+      <div>
+        <h2 class="brand-mark">JD SKILL<span class="dot-yellow">.</span></h2>
+        <div class="brand-sub">Created by <strong>Dreameryanyan</strong> · Job Description Decoder</div>
+      </div>
+      <div class="socials">
+        <a href="https://www.linkedin.com/in/yanliudesign/" target="_blank" rel="noopener" aria-label="LinkedIn" title="LinkedIn · yanliudesign"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M20.45 20.45h-3.55v-5.57c0-1.33-.03-3.04-1.85-3.04-1.86 0-2.14 1.45-2.14 2.95v5.66H9.36V9h3.41v1.56h.05c.48-.9 1.64-1.85 3.37-1.85 3.6 0 4.27 2.37 4.27 5.46v6.28zM5.34 7.43a2.06 2.06 0 1 1 0-4.12 2.06 2.06 0 0 1 0 4.12zM7.12 20.45H3.56V9h3.56v11.45zM22.22 0H1.77C.79 0 0 .77 0 1.72v20.56C0 23.23.79 24 1.77 24h20.45c.98 0 1.78-.77 1.78-1.72V1.72C24 .77 23.2 0 22.22 0z"/></svg></a>
+        <a href="https://x.com/yanliudreamer" target="_blank" rel="noopener" aria-label="X (Twitter)" title="X · @yanliudreamer"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg></a>
+        <a class="xhs" href="https://www.xiaohongshu.com/user/profile/5b2afdf311be104ac3c22931" target="_blank" rel="noopener" aria-label="Xiaohongshu" title="小红书 · Dreameryanyan"><span>小红书</span></a>
+      </div>
+    </div>
+    <div class="foot-meta">
+      Generated 2026-07-09 · Moatable × C端产品经理 · Candidate: 李沛宣 Jane · Source: Boss 截图 JD + <a href="https://www.moatable.com/" target="_blank">Moatable 官网</a> + <a href="https://truckerpath.com/" target="_blank">Trucker Path 官网</a><br>
+      数据来源：JD 原文 + 用户简历 + 公开公司情报。薪资 / 假设见顶部「假设说明」。Match 按 0.6/0.2/0.2 权重，拿面概率按 go-no-go 估算法，均为区间非单点。<strong>无杜撰事实</strong>。<br>
+      下游：整体简历打磨 → Resume Skill · 完整 Top 20 + Behavior 故事 → BQ Skill。
+    </div>
+  </footer>
+</div>
+<script>
+function downloadMd(){const text=document.body.innerText.replace(/\n{3,}/g,"\n\n");const blob=new Blob([text],{type:"text/markdown;charset=utf-8"});const a=document.createElement("a");a.href=URL.createObjectURL(blob);a.download="offer-strategy-moatable-c-product-manager-202607.md";a.click();URL.revokeObjectURL(a.href)}
+</script>
+</body>
+</html>
