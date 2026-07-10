@@ -45,8 +45,8 @@
         <div class="top-actions">
           <button id="exportBtn" type="button">导出修改稿</button>
           <button id="importBtn" type="button">导入</button>
-          <button id="reviewHubBtn" class="primary-btn" type="button">集中复习</button>
-          <button id="practiceHubBtn" type="button" hidden>返回练习</button>
+          <button id="reviewHubBtn" class="primary-btn" type="button" onclick="setView('review')">集中复习</button>
+          <button id="practiceHubBtn" type="button" onclick="setView('practice')" hidden>返回练习</button>
           <button id="resetBtn" type="button">重置当前题</button>
         </div>
       </header>
@@ -188,7 +188,7 @@
   </dialog>
 
   <script src="questions.js"></script>
-  <script src="phrase-bank.js"></script>
-  <script src="app.js"></script>
+  <script src="phrase-bank.js?v=20260710-review-hub-3"></script>
+  <script src="app.js?v=20260710-review-hub-3"></script>
 </body>
 </html>

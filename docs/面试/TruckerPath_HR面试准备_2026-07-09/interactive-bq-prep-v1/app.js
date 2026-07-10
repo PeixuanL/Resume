@@ -78,6 +78,7 @@ function setView(view){
   $("pageTitle").textContent = isReview ? "集中复习" : "面试驾驶舱";
   if (isReview) renderReviewHub();
 }
+window.setView = setView;
 function reviewMatches(text, search){ return !search || text.toLowerCase().includes(search); }
 function renderReviewAction(text){
   const actions = document.createElement("div");
