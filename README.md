@@ -41,6 +41,7 @@ Resume/
 | 最新投递 PDF | `完成稿/当前投递/` |
 | 历史 PDF 备查 | `完成稿/归档/` |
 | 面试口述 | `docs/面试/面试问答沉淀.md` |
+| Trucker Path 手机复习入口 | `truckerpath/index.html` 或 `docs/truckerpath/index.html` |
 | AI 改简历前必读 | `docs/协作规范/RESUME_COPILOT_CHARTER.md` |
 
 ## 命名约定

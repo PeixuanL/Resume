@@ -25,6 +25,24 @@ http://127.0.0.1:8787/
 
 这两个文件都在当前目录，可以随 Git 一起提交和推送到 GitHub。换电脑后，拉取仓库并用 `node server.js` 启动，页面会从 `saved-edits.json` 读取保存过的修改。
 
+
+## 手机复习版
+
+电脑关闭后，`http://127.0.0.1:8787/` 不能继续访问。需要先把仓库推送到 GitHub，并用 GitHub Pages 发布静态页面。
+
+推荐手机入口：
+
+```text
+https://peixuanl.github.io/Resume/truckerpath/
+```
+
+如果 GitHub Pages 选择的是仓库根目录发布，也可以使用：
+
+```text
+https://peixuanl.github.io/Resume/docs/truckerpath/
+```
+
+手机复习版适合看题、背句式、集中复习；它不能直接把修改写回仓库文件。需要保存修改时，仍然回到电脑端用 `node server.js` 启动后编辑，保存到 `saved-edits.json` / `saved-edits.md`，再 commit 和 push。
 ## 推送前检查
 
 ```powershell
