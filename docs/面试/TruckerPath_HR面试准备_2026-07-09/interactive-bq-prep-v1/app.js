@@ -2,27 +2,40 @@ const STORAGE_KEY = "moatable_interactive_bq_prep_v1";
 const state = { questions: window.INTERVIEW_QUESTIONS, phraseBank: window.PHRASE_BANK || [], reviewFocus: window.REVIEW_FOCUS || [], selectedId: window.INTERVIEW_QUESTIONS[0].id, selectedCategory: "全部", selectedTab: "intent", activeView: "practice", edits: {}, timer: null, timerRemaining: 0 };
 const $ = (id) => document.getElementById(id);
 const FILE_SYNC_URL = "/api/edits";
+const STATIC_SAVE_URL = "saved-edits.json";
 let autoSaveTimer = null;
 let fileSyncAvailable = false;
 
 function loadEdits(){ try { state.edits = JSON.parse(localStorage.getItem(STORAGE_KEY) || "{}"); } catch { state.edits = {}; } }
 function persistEdits(){ localStorage.setItem(STORAGE_KEY, JSON.stringify(state.edits)); }
+function applyLoadedEdits(payload, message, canWriteToFile){
+  if (!payload.edits || typeof payload.edits !== "object") return false;
+  state.edits = { ...state.edits, ...payload.edits };
+  persistEdits();
+  fileSyncAvailable = canWriteToFile;
+  renderAll();
+  $("saveStatus").textContent = message;
+  return true;
+}
 async function loadFileEdits(){
   try {
     const response = await fetch(FILE_SYNC_URL, { cache: "no-store" });
     if (!response.ok) throw new Error(`HTTP ${response.status}`);
     const payload = await response.json();
-    if (payload.edits && typeof payload.edits === "object") {
-      state.edits = { ...state.edits, ...payload.edits };
-      persistEdits();
-      fileSyncAvailable = true;
-      renderAll();
-      $("saveStatus").textContent = "已加载仓库文件 saved-edits.json 中的修改。";
-    }
+    if (applyLoadedEdits(payload, "已加载仓库文件 saved-edits.json 中的修改。", true)) return;
   } catch {
-    fileSyncAvailable = false;
-    $("saveStatus").textContent = "当前未连接文件保存服务：修改只会保存在本浏览器。请用 node server.js 启动。";
   }
+
+  try {
+    const response = await fetch(STATIC_SAVE_URL, { cache: "no-store" });
+    if (!response.ok) throw new Error(`HTTP ${response.status}`);
+    const payload = await response.json();
+    if (applyLoadedEdits(payload, "已加载静态 saved-edits.json。当前为手机/Pages 只读复习模式。", false)) return;
+  } catch {
+  }
+
+  fileSyncAvailable = false;
+  $("saveStatus").textContent = "当前未连接文件保存服务：修改只会保存在本浏览器。请用 node server.js 启动。";
 }
 async function syncEditsToFile(message){
   try {
