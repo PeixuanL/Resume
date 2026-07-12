@@ -225,7 +225,7 @@ dialog { border: 1px solid var(--line); border-radius: 10px; box-shadow: var(--s
         <section class="review-section">
           <div class="section-head compact">
             <h3>词汇速记</h3>
-            <span>产品、UGC、卡车 / 货运 / 导航</span>
+            <span>产品红词、协作部门、价值生命周期、UGC、卡车 / 货运 / 导航</span>
           </div>
           <div id="reviewVocabList" class="review-grid vocab-review-grid"></div>
         </section>
@@ -325,11 +325,38 @@ window.INTERVIEW_QUESTIONS = [
 {
  id:"self_intro",category:"HR 常规",mode:["warmup","hr"],difficulty:"Easy English",
  question:"Tell me about yourself.",chinese:"请介绍一下你自己。",tests:"英文结构、主线是否清楚、能否把 B 端经验迁移到 Trucker Path。",
- intent:[["先定位","建筑背景出身，后来转到 B2B / industrial product，强项是复杂真实场景产品化。"],["再诚实","不是传统 C 端社区 PM，也没直接做过 trucking。"],["最后迁移","Trucker Path 也是现实工作流产品：位置、实时信息、司机决策和社区贡献。"]],
- simple:"Hi, I am Peixuan. I started from an architecture background and later moved into product management. In my current role, I work on B2B AI and digital twin products for industrial and facility operations. My strength is understanding complex real-world workflows and turning them into clear product solutions. I have not worked on trucking or a mature consumer community product directly, but I see a real connection with Trucker Path: location-based decisions, real-time information, operational workflows, and trusted user contributions.",
- full:"Hi, I am Peixuan. My background is a little non-linear. I studied architecture, so I was trained to understand people, space, constraints, and real-world systems. Later, I moved into product management because I wanted to work closer to users, business problems, and product delivery.\n\nIn my current role at DataMesh, I focus on B2B AI and digital twin products for industrial and facility operations. I have worked on user research, requirement analysis, PRD and prototype design, cross-functional delivery, launch, and iteration. My core strength is turning complex real-world workflows into structured product solutions.\n\nTo be honest, I have not directly worked on trucking, and I am not a traditional consumer community PM. But I see Trucker Path as a product that also solves real operational problems: drivers need reliable location-based information, parking availability, fuel prices, weigh station status, route planning, and community updates to make better decisions. That is why I think my workflow and product thinking can transfer, while I also need to learn more about consumer growth and UGC mechanisms.",
- notes:"中文钩子：建筑训练 -> 产品转型 -> B2B复杂工作流 -> 没做过trucking/成熟UGC -> 但能迁移到司机真实决策。",
+ intent:[["先定位","DataMesh B 端产品经理，承认和 Trucker Path C 端 App 不完全一样。"],["三点能力","复杂场景拆解、跨团队落地和价值传递、快速学习。"],["最后迁移","Trucker Path 是围绕司机工作流、位置数据、实时信息和用户贡献解决实际问题的产品。"]],
+ simple:"Thank you for this opportunity. I’m Peixuan Li, currently a B2B product manager at DataMesh, focusing on digital twin and facility operations products. My main strength is breaking down complex workflows and turning them into clear product solutions. I also work with cross-functional teams to define product scope, move MVPs forward, and communicate product value. Since facility operations was also a new domain for me, I quickly turned my learning into a clear product plan and demo scope within about one month. I hope to bring this structured problem-solving, fast learning, and execution experience to Trucker Path.",
+ full:"Thank you for this opportunity. I’m glad to speak with you today.\n\nMy name is Peixuan Li, and I’m currently a B2B product manager at DataMesh, focusing on digital twin and facility operations products.\n\nMy main strength is breaking down complex real-world workflows and turning them into clear product solutions. For example, in a facility operations product, I mapped the user journey from issue discovery to resolution, and turned it into modules such as asset management and work orders for the MVP.\n\nIn this process, I worked closely with engineering, design, and testing teams to define the product scope and move the demo forward. I also supported demo videos, product materials, and internal explanations, so sales and project teams could communicate the product value clearly.\n\nSince facility operations was also a new domain for me, I had to quickly understand building operations, data centers, and related operational workflows, and translate that understanding into a clear product plan and demo scope within about one month.\n\nAlthough I have not directly worked on trucking, navigation, or consumer community products before, I understand Trucker Path as a practical product that helps drivers make better decisions through real-time information and user contributions. I hope to bring my structured problem-solving, fast learning, and cross-functional execution experience to this role.",
+ notes:"中文钩子：复杂工作流拆解 -> 跨团队落地和价值传递 -> 新领域快速学习并在一个月左右转成产品计划和 Demo 范围 -> 迁移到 Trucker Path。",
  followups:["Why did you move from architecture to product management?","Why do you want to move from B2B to C-side products?","What is the strongest connection between your current work and Trucker Path?","Can you make it shorter?"]
+},
+{
+ id:"zero_to_one",category:"0-1 项目",mode:["warmup","behavior","hr"],difficulty:"Medium",
+ question:"Tell me about a product you owned from 0 to 1.",chinese:"讲一个你从 0 到 1 的产品经历。",tests:"Ownership、产品全生命周期、复杂问题拆解。",
+ intent:[["S","过去类似客户项目多，但需求偏定制，重复沟通和配置带来交付成本。"],["T","把反复出现的项目需求收敛成更标准化的产品方案。"],["A","复盘历史需求、看竞品/同类方案、抽核心流程、定义 MVP、写 PRD/原型、对齐研发、推进 Demo。"],["R","支撑标准化交付，部分运营商项目实施周期从 5-6 个月缩短到 1-2 个月。"]],
+ simple:"In short, this project was about turning repeated customized requirements into a more standardized product solution. I reviewed past project requirements, identified repeated scenarios, and found that the first MVP should not cover everything. It should first run through one core workflow: issue confirmation, task creation, assignment, processing, and result recording. Then I broke this workflow into modules, defined the MVP scope, wrote the PRD and prototype, aligned with engineering, and helped move the demo forward. This later supported more standardized delivery and shortened some implementation cycles.",
+ full:"One project I can talk about is a facility operations product that I worked on at DataMesh.\n\nThe pain point was that when an abnormal issue happened, frontline staff had to check different systems to understand what happened, which equipment was involved, what to do next, and how to follow up. The information and process were scattered, so the response was slow and hard to standardize.\n\nAt the same time, we had delivered many similar projects before, but many requirements were still customized. So my task was to help turn repeated operational needs into a more standardized product solution.\n\nWhat I did first was review past project requirements and separate repeated scenarios from one-off custom needs. I also looked at similar products and competitor solutions to understand how they handled incident response, task assignment, and standardized delivery.\n\nAfter that, I realized the first priority was not to build many separate features. It was to make one core workflow run clearly: when an abnormal issue happens, how the issue is confirmed, how a task is created, how it is assigned and processed, and how the result is recorded.\n\nSo when defining the first MVP, I focused on this core workflow. I broke it down into modules, defined what should be included in the first version and what could wait, then turned it into PRD, prototype, and review materials. I also aligned with engineering on scope, priorities, and acceptance criteria, and helped move the demo forward.\n\nAs a result, this direction later supported more standardized delivery. For some operator projects, the implementation cycle was shortened from around five to six months to one to two months.\n\nFor me, the key learning was that a product manager should not just respond to individual requests. We need to turn scattered requirements into a product path that can actually run and be delivered.",
+ notes:"中文钩子：重复定制 -> 复盘需求和竞品 -> 抽核心闭环 -> 定 MVP/PRD/原型 -> 对齐研发和 Demo -> 标准化交付。不要说客户方/实施方确认现场流程。",
+ followups:["How did you decide what should be included in the MVP?","What was your personal contribution?","How did you validate the MVP?"]
+},
+{
+ id:"mvp_scope",category:"项目深挖",mode:["behavior","pressure"],difficulty:"Medium",
+ question:"How did you decide what should be included in the MVP?",chinese:"你怎么判断 MVP 第一版做什么、不做什么？",tests:"产品优先级、MVP 边界、是否能解释取舍逻辑。",
+ intent:[["先讲原则","不是谁声音大，也不是哪个功能更炫，而是核心流程能否端到端跑通。"],["再讲范围","异常确认、生成任务、分派处理、结果回写。"],["最后讲取舍","支撑主流程的进第一版，高级配置和 nice-to-have 放后续。"]],
+ simple:"I did not prioritize based on who asked louder or which feature looked more impressive. I prioritized based on whether the core workflow could run end to end. For the first MVP, I focused on the path from issue confirmation to task creation, assignment, processing, and result recording.",
+ full:"I did not prioritize based on who asked louder or which feature looked more impressive. I prioritized based on whether the core workflow could run end to end.\n\nFor the first MVP, I focused on the path from issue confirmation to task creation, assignment, processing, and result recording. If a feature was necessary for this workflow, I kept it in the first version. If it was more like an advanced configuration or nice-to-have improvement, I moved it to later iterations.",
+ notes:"中文钩子：按核心闭环排优先级，不按声音大小或功能炫不炫。先跑通 issue confirmation -> task creation -> assignment -> processing -> result recording。",
+ followups:["Can you give one example of a feature you postponed?","How did you align this scope with engineering?","How did you validate the MVP after the demo?"]
+},
+{
+ id:"product_understanding",category:"岗位匹配",mode:["hr","gap"],difficulty:"Easy English",
+ question:"What do you know about Trucker Path?",chinese:"你对 Trucker Path 的产品有什么了解？",tests:"是否做过具体产品研究，是否能讲出官网细节，又不过度装懂行业。",
+ intent:[["具体来源","官网看到 truckers and fleets、truck-safe navigation、parking、fuel prices、weigh station、driver community、load-related services。"],["用户观察","看过 truck driver vlog，初步感受到司机在停车、路线、时间安排和不确定性上的压力。"],["产品理解","不是普通导航，而是帮助司机减少不确定性的决策支持产品。"],["能力连接","我能贡献的是拆用户流程、提高信息质量、把复杂场景变成清晰产品流。"]],
+ simple:"I saw on your website that Trucker Path is positioned as a platform for truckers and fleets, not just a navigation app. It includes truck-safe navigation, parking information, fuel prices, weigh station status, driver community updates, and load-related services. I also watched some truck driver vlogs, and my initial impression is that many problems are about planning, timing, uncertainty, and reliable information.",
+ full:"Yes, I did some research on Trucker Path. I saw on your website that the product is positioned as a platform for truckers and fleets, not just a navigation app. The product includes truck-safe navigation, trip planning, truck stops, parking information, fuel prices, weigh station status, driver community updates, and load-related services.\n\nOne thing that caught my attention is parking and real-time road information. I also watched some truck driver vlogs, and my impression is that drivers spend a lot of mental energy planning where to stop, whether parking is available, how to avoid wrong routes, and how to reduce uncertainty on the road.\n\nSo from a product perspective, I see Trucker Path as a decision-support product for drivers. The value is not only showing information, but helping drivers make better decisions at the right moment.\n\nI do not want to overclaim that I already understand the trucking industry deeply. But I did notice that many driver problems are not only about navigation. They are about planning, timing, uncertainty, and reliable information. This connects with my previous experience because I worked on products where users also had to make decisions based on scattered operational information. I think I can contribute by understanding the user workflow, improving information quality, and turning complex scenarios into clear product flows.",
+ notes:"中文钩子：官网具体产品点 + 看过司机 vlog + 核心词 reduce uncertainty。不要说自己已经懂 trucking，只说初步观察和产品逻辑。",
+ followups:["What driver pain point impressed you most?","How would you learn more about truck drivers?","How is this connected to your previous experience?"]
 },
 {
  id:"why_role",category:"岗位匹配",mode:["warmup","hr"],difficulty:"Easy English",
@@ -366,15 +393,6 @@ window.INTERVIEW_QUESTIONS = [
  full:"My architecture background is actually an important part of how I think. It trained me to observe people, understand space and constraints, and balance different needs in a real-world system.\n\nBut during my study and early career exploration, I realized that I was more interested in the logic behind user needs and in solutions that can keep evolving after launch. In architecture, a project can be very meaningful, but the feedback loop is usually long. Product management attracted me because it is closer to users, business problems, data, iteration, and cross-functional delivery.\n\nSo I do not see it as abandoning architecture. I see it as transferring my training in structured thinking and real-world problem solving into a product role.",
  notes:"中文钩子：建筑不是绕路，是观察人/空间/约束/系统；产品反馈更快、更靠近用户和业务。",
  followups:["What did architecture teach you as a product manager?","Was it difficult to switch careers?","How did you learn product management?"]
-},
-{
- id:"zero_to_one",category:"0-1 项目",mode:["warmup","behavior","hr"],difficulty:"Medium",
- question:"Tell me about a product you owned from 0 to 1.",chinese:"讲一个你从 0 到 1 的产品经历。",tests:"Ownership、产品全生命周期、复杂问题拆解。",
- intent:[["S","设施运维项目高度定制，资产、告警、工单、SOP、知识分散。"],["T","做可复用的产品闭环，不再纯项目制。"],["A","定义范围、PRD/原型逻辑、告警到工单、AI辅助诊断、人机确认。"],["R","MVP覆盖高优诉求，支撑商机，形成产品基线。"]],
- simple:"One 0-to-1 example is an AI-enabled facility operations product. The problem was that assets, alarms, work orders, SOPs, and knowledge were scattered. I helped define a reusable workflow that connected asset information, alarm management, work orders, knowledge base, and AI-assisted diagnosis. The MVP covered most high-priority requirements from a benchmark client and supported several business opportunities.",
- full:"One representative 0-to-1 product experience was an AI-enabled facility operations product I worked on at DataMesh.\n\nThe situation was that many facility operations projects were highly customized. Asset information, alarms, work orders, SOPs, and operational knowledge were scattered across different systems, so delivery was difficult to standardize.\n\nMy task was to help define a reusable product workflow. On the product side, I worked on requirement analysis, product scope, PRD and prototype logic, and cross-functional alignment with engineering and delivery teams. The core workflow connected asset information, alarm management, work orders, knowledge base, and AI-assisted diagnosis. I also helped define human confirmation and fallback rules, because in operational scenarios AI output needs to be explainable and controllable.\n\nThe MVP covered most high-priority requirements from a benchmark client and supported several business opportunities. The biggest learning for me was that AI products should not just be impressive demos. They need to fit into a real operational workflow, with clear boundaries, human confirmation, and measurable delivery value.",
- notes:"中文钩子：高定制 -> 标准闭环 -> AI不是聊天框 -> 告警/工单/SOP/人机确认。",
- followups:["What was your personal contribution?","What was the hardest trade-off?","How did you validate the MVP?"]
 },
 {
  id:"agent_rag",category:"简历追问",mode:["hr","pressure"],difficulty:"Easy English",
@@ -625,6 +643,9 @@ const PHRASE_BANK = [
       { text: "The key value is helping drivers make better decisions before and during a trip." },
       { text: "For truck drivers, outdated information is not just inconvenient. It can affect time, cost, safety, and income." },
       { text: "I would be very interested in understanding how the product encourages drivers to contribute real-time updates and how the team verifies user-generated information." },
+      { text: "I saw on your website that Trucker Path includes truck-safe navigation, parking information, fuel prices, weigh station status, driver community updates, and load-related services." },
+      { text: "After watching some truck driver vlogs, my initial impression is that many driver problems are about planning, timing, uncertainty, and reliable information." },
+      { text: "I see Trucker Path as a decision-support product for drivers, not only an information display product." },
     ],
   },
   {
@@ -651,6 +672,83 @@ const PHRASE_BANK = [
       { term: "user research", translation: "用户调研" },
       { term: "competitive analysis", translation: "竞品分析" },
       { term: "product requirement", translation: "产品需求" },
+    ],
+  },
+  {
+    title: "产品红词唤醒",
+    type: "vocabulary",
+    items: [
+      { term: "validate", translation: "验证：check if an idea is true or useful" },
+      { term: "constraint", translation: "约束 / 限制条件：limitation" },
+      { term: "ambiguous", translation: "模糊的 / 不明确的：unclear" },
+      { term: "workflow", translation: "流程：the steps users follow" },
+      { term: "drive", translation: "推进：move something forward" },
+      { term: "trade-off", translation: "取舍：choose between two things" },
+      { term: "dependency", translation: "依赖：need someone or something else first" },
+      { term: "insight", translation: "洞察：useful finding" },
+      { term: "iterate", translation: "迭代：improve version by version" },
+      { term: "ownership", translation: "责任 / 主导：take responsibility and follow through" },
+      { term: "assumption", translation: "假设 / 未验证前提：something you believe before proving it" },
+      { term: "clarify", translation: "澄清：make something clear" },
+      { term: "scope", translation: "范围 / 边界：what is included and not included" },
+      { term: "align", translation: "对齐：make sure people share the same understanding" },
+      { term: "stakeholder", translation: "相关方：people involved or affected" },
+      { term: "take over", translation: "接手：start being responsible for something from someone else" },
+      { term: "handover / transition", translation: "交接 / 过渡：pass work from one person or team to another" },
+    ],
+  },
+  {
+    title: "产品协作 / 部门常见词",
+    type: "vocabulary",
+    items: [
+      { term: "engineering team", translation: "研发 / 技术团队" },
+      { term: "development team", translation: "开发团队" },
+      { term: "tech team", translation: "技术团队，比较口语" },
+      { term: "R&D team", translation: "研发团队，偏正式部门名称" },
+      { term: "cross-functional teams", translation: "跨职能团队 / 合作的其他部门" },
+      { term: "product team", translation: "产品团队" },
+      { term: "design team", translation: "设计团队" },
+      { term: "operations team", translation: "运营团队" },
+      { term: "Customer Success team", translation: "客户成功团队" },
+      { term: "Customer Success Manager / CSM", translation: "客户成功经理" },
+      { term: "customer support team", translation: "客服 / 客户支持团队" },
+      { term: "sales team", translation: "销售团队" },
+      { term: "pre-sales team", translation: "售前团队" },
+      { term: "implementation / delivery team", translation: "实施 / 交付团队" },
+      { term: "data team / analytics team", translation: "数据 / 分析团队" },
+      { term: "QA team", translation: "测试团队" },
+      { term: "business team", translation: "业务部门" },
+    ],
+  },
+  {
+    title: "产品价值 / 生命周期常见词",
+    type: "vocabulary",
+    items: [
+      { term: "deliver product value", translation: "交付产品价值，让用户真正用出价值" },
+      { term: "deliver value to users", translation: "向用户交付价值" },
+      { term: "communicate product value", translation: "讲清楚产品价值" },
+      { term: "value delivery", translation: "价值传递 / 价值交付过程" },
+      { term: "value proposition", translation: "价值主张" },
+      { term: "product adoption", translation: "产品采用 / 客户真正用起来" },
+      { term: "retention", translation: "留存 / 续费" },
+      { term: "churn", translation: "流失" },
+      { term: "business value", translation: "业务价值" },
+      { term: "full product lifecycle", translation: "产品全生命周期" },
+      { term: "full customer lifecycle", translation: "客户全生命周期" },
+      { term: "end-to-end", translation: "端到端 / 从头到尾" },
+      { term: "from requirements to launch", translation: "从需求到上线" },
+      { term: "from zero to one", translation: "从 0 到 1" },
+      { term: "post-launch iteration", translation: "上线后的迭代" },
+      { term: "on-premise deployment / on-prem deployment", translation: "私有化部署 / 本地化部署" },
+      { term: "private deployment", translation: "私有化部署，偏直白说法" },
+      { term: "private cloud deployment", translation: "私有云部署" },
+      { term: "customization", translation: "定制化" },
+      { term: "customized requirements", translation: "定制化需求" },
+      { term: "customer-specific needs", translation: "客户特定需求" },
+      { term: "common industry requirements", translation: "行业通用需求" },
+      { term: "industry-common needs", translation: "行业通用需求，更适合分层表达" },
+      { term: "standardized product capability", translation: "标准化产品能力" },
+      { term: "standard product baseline", translation: "标准产品基线" },
     ],
   },
   {
@@ -710,10 +808,32 @@ const PHRASE_BANK = [
     ],
   },
   {
+    title: "产品词开口句",
+    type: "phrase",
+    items: [
+      { text: "I worked closely with cross-functional teams, including engineering, design, operations, and Customer Success." },
+      { text: "My role was to align different stakeholders and make sure the team had a shared understanding of the goal, scope, and priority." },
+      { text: "I care about not only building features, but also making sure those features deliver real value to users." },
+      { text: "I participated in the full product lifecycle, from identifying user needs to launching and iterating the product." },
+      { text: "Customer Success helped us collect real customer feedback after launch, which was useful for prioritizing product improvements." },
+      { text: "One constraint was the limited timeline, so we had to make a trade-off between speed and quality." },
+      { text: "The requirement was ambiguous at first, so I clarified the scope with the engineering team before moving forward." },
+      { text: "We validated the assumption through user feedback and iterated on the workflow." },
+      { text: "I took over the project in the middle, so my first step was to understand the current status, key risks, and next steps." },
+      { text: "After the handover, I clarified the project scope and aligned with the team on the most urgent priorities." },
+      { text: "I tried to identify common industry requirements from customized client requests." },
+      { text: "My work was about turning customized client requirements into more standardized product capabilities for common industry needs." },
+      { text: "For enterprise clients, some projects required on-premise deployment or customer-specific customization." },
+    ],
+  },
+  {
     title: "收尾句",
     type: "phrase",
     items: [
       { text: "Overall, I believe my strength is bringing structured product thinking into complex real-world scenarios, and I’m excited about the opportunity to apply that to a global product like Trucker Path." },
+      { text: "This project was about turning repeated customized requirements into a more standardized product solution." },
+      { text: "For the first MVP, I focused on whether the core workflow could run end to end." },
+      { text: "We need to turn scattered requirements into a product path that can actually run and be delivered." },
     ],
   },
 ];
@@ -727,6 +847,11 @@ const REVIEW_FOCUS = [
   { text: "Trucker Path is not just a navigation app. It is a workflow and community platform for North American truck drivers." },
   { text: "The key value is helping drivers make better decisions before and during a trip." },
   { text: "For truck drivers, outdated information is not just inconvenient. It can affect time, cost, safety, and income." },
+  { text: "After watching some truck driver vlogs, my initial impression is that many driver problems are about planning, timing, uncertainty, and reliable information." },
+  { text: "I see Trucker Path as a decision-support product for drivers, not only an information display product." },
+  { text: "This project was about turning repeated customized requirements into a more standardized product solution." },
+  { text: "For the first MVP, I focused on whether the core workflow could run end to end." },
+  { text: "We need to turn scattered requirements into a product path that can actually run and be delivered." },
   { text: "That’s a good question. Let me think for a second." },
   { text: "Based on my current understanding, I would say..." },
   { text: "Overall, I believe my strength is bringing structured product thinking into complex real-world scenarios, and I’m excited about the opportunity to apply that to a global product like Trucker Path." },

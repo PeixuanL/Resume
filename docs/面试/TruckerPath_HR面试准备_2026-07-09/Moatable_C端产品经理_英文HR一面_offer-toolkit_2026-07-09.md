@@ -34,26 +34,46 @@
 
 ## 2. 你的主叙事
 
+### 中文定稿记录
+
+```text
+您好，非常感谢您今天抽时间和我沟通。我是李沛宣，目前在 DataMesh 做 B 端产品经理。虽然我之前负责的产品和 Trucker Path 这种 C 端 App 不完全一样，但我过去有几项能力，我认为是可以迁移的。
+
+第一，是复杂场景拆解和产品方案输出的能力。我之前负责的产品更多面向工业和楼宇运维场景，业务流程比较复杂。以设施运维产品为例，我会先梳理一线用户从发现问题到处理问题的完整路径，再把这个路径拆成告警、设备信息、资产管理和工单流转等核心模块，最后形成研发和设计可以执行的 MVP 方案。
+
+第二，是跨团队协作和价值传递的能力。在 0 到 1 产品推进中，我经常和研发、设计、测试团队配合，把模糊需求圈定边界，拆成 MVP 或 POC 阶段可以落地的范围，并明确优先级和核心用户路径。产品初步成型后，我也会支持演示视频、宣传素材和产品说明内容的制作，向售前和项目团队传递产品价值，帮助他们理解产品解决什么问题、适合什么场景。
+
+第三，是快速学习和跨领域迁移的能力。我在接手设施运维方向时，需要在较短时间内补充楼宇运维、IDC 机房、设备告警和工单流程相关知识，并在一个月左右完成第一阶段产品规划，随后和研发团队推进 Demo 输出。所以我比较习惯快速进入新领域，并把学习结果转成具体方案和交付物。
+
+所以虽然我不是直接做过 Trucker Path 这类 C 端社区和导航产品，但我理解它不是泛娱乐社区，而是围绕卡车司机真实工作流、位置数据、实时信息和用户贡献来解决实际问题的产品。我希望把自己在复杂场景拆解、跨团队落地和价值传递、快速学习上的经验，迁移到一个更贴近用户、反馈更快、也更强调真实场景理解的产品里。
+```
+
 ### 20 秒版本
 
 ```text
-I am a product manager with a B2B and industrial product background. My strength is turning complex real-world workflows into structured product solutions. For Trucker Path, I see a strong connection in location data, real-time information, driver workflows, and community contribution, so I believe my experience is transferable.
+I am a B2B product manager at DataMesh. My strength is breaking down complex real-world workflows and turning them into clear product solutions. Although I have not directly worked on trucking or consumer community products, I see Trucker Path as a practical workflow product built around location data, real-time information, and user contribution.
 ```
 
-### 60 秒自我介绍
+### 60-120 秒英文自我介绍
 
 ```text
-Hi, I’m Peixuan. I’m currently a B2B product manager at DataMesh, working on AI-enabled digital twin products for industrial and facility operations.
+Thank you for this opportunity. I’m glad to speak with you today.
 
-My core strength is turning complex real-world workflows into structured product solutions. In my current role, I work across requirement analysis, PRD and prototype logic, roadmap prioritization, cross-functional alignment, delivery validation, and iteration. For example, I have worked on an AI-enabled facility operations product from 0 to 1, connecting assets, alarms, work orders, SOP knowledge, and AI-assisted diagnosis into a more standardized workflow.
+My name is Peixuan Li, and I’m currently a B2B product manager at DataMesh, focusing on digital twin and facility operations products.
 
-I know my background is not a traditional consumer social product background. But I see Trucker Path as a product that solves real operational problems for truck drivers through location data, real-time information, truck-safe navigation, parking availability, fuel prices, weigh station status, and driver community. That is why I think my product thinking is transferable, and I’m also excited to grow in consumer product metrics, UGC mechanisms, and community engagement.
+My main strength is breaking down complex real-world workflows and turning them into clear product solutions. For example, in a facility operations product, I mapped the user journey from issue discovery to resolution, and turned it into modules such as asset management and work orders for the MVP.
+
+In this process, I worked closely with engineering, design, and testing teams to define the product scope and move the demo forward. I also supported demo videos, product materials, and internal explanations, so sales and project teams could communicate the product value clearly.
+
+Since facility operations was also a new domain for me, I had to quickly understand building operations, data centers, and related operational workflows, and translate that understanding into a clear product plan and demo scope within about one month.
+
+Although I have not directly worked on trucking, navigation, or consumer community products before, I understand Trucker Path as a practical product that helps drivers make better decisions through real-time information and user contributions. I hope to bring my structured problem-solving, fast learning, and cross-functional execution experience to this role.
 ```
 
 ### 如果 HR 打断，让你更短
 
 ```text
-In short, I bring structured product thinking, cross-functional delivery, and experience with complex real-world workflows. I’m interested in applying that to a more user-facing, global product like Trucker Path.
+In short, I bring structured problem-solving, fast learning, cross-functional execution, and experience with complex real-world workflows. I’m interested in applying those strengths to a more user-facing product like Trucker Path.
 ```
 
 ## 3. Top 20 可能问题
@@ -106,13 +126,17 @@ In short, I bring structured product thinking, cross-functional delivery, and ex
 框架：短版 CAR，不要讲成长史。
 
 ```text
-I’m Peixuan, currently a B2B product manager at DataMesh.
+Thank you for this opportunity. I’m glad to speak with you today.
 
-My main experience is in AI-enabled digital twin products for industrial and facility operations. The core of my work is to take complex real-world workflows, such as assets, alarms, work orders, SOPs, and operational knowledge, and turn them into structured product modules and deliverable workflows.
+My name is Peixuan Li, and I’m currently a B2B product manager at DataMesh, focusing on digital twin and facility operations products.
 
-In my current role, I work across requirement analysis, PRD and prototype logic, roadmap prioritization, cross-functional alignment, and delivery validation. I have worked on 11 product version iterations and supported multiple customer-facing projects.
+My main strength is breaking down complex real-world workflows and turning them into clear product solutions. For example, in a facility operations product, I mapped the user journey from issue discovery to resolution, and turned it into modules such as asset management and work orders for the MVP.
 
-I know this role is more consumer-facing, but I see a strong connection with Trucker Path. It also solves real operational problems, but for truck drivers: navigation, parking, fuel prices, weigh station status, real-time road information, and community contribution. I’m interested in bringing my structured product thinking into a larger, user-facing, global product context.
+In this process, I worked closely with engineering, design, and testing teams to define the product scope and move the demo forward. I also supported demo videos, product materials, and internal explanations, so sales and project teams could communicate the product value clearly.
+
+Since facility operations was also a new domain for me, I had to quickly understand building operations, data centers, and related operational workflows, and translate that understanding into a clear product plan and demo scope within about one month.
+
+Although I have not directly worked on trucking, navigation, or consumer community products before, I understand Trucker Path as a practical product that helps drivers make better decisions through real-time information and user contributions. I hope to bring my structured problem-solving, fast learning, and cross-functional execution experience to this role.
 ```
 
 中文记忆点：
