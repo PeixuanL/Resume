@@ -12,6 +12,8 @@
 参考资料/*.pdf
 
 # Local render/browser artifacts
+.superpowers/
+**/node_modules/
 tmp_pdf_preview/chrome-*/
 tmp_pdf_preview/*.pdf
 tmp_pdf_preview/siemens_innovation_resume-*.png
