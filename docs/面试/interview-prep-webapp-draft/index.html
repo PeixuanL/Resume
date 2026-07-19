@@ -15,21 +15,19 @@
         <p id="roleName">Bilingual practice pack</p>
       </section>
 
-      <section class="control-panel" aria-label="Language and view controls">
-        <div class="segmented" id="languageSwitch" role="group" aria-label="Language">
-          <button type="button" data-lang="zh" class="active">中文</button>
-          <button type="button" data-lang="en">English</button>
-        </div>
-        <nav class="view-nav" id="viewNav" aria-label="Primary views"></nav>
-      </section>
-
-      <section class="control-panel">
-        <label for="modeSelect" id="modeLabel">练习模式</label>
-        <select id="modeSelect"></select>
+      <section class="control-panel" id="modeFilterPanel">
+        <label class="panel-title" for="modeSelect" id="modeLabel">题目筛选</label>
+        <select id="modeSelect" aria-label="Question filters"></select>
         <button class="primary-btn" id="randomBtn" type="button">随机抽题</button>
       </section>
 
-      <section class="quick-panel">
+      <section class="question-nav-panel" id="questionNavPanel">
+        <div class="panel-title" id="questionListTitle">题库</div>
+        <input id="sidebarQuestionSearch" type="search" placeholder="搜索问题、能力、关键词...">
+        <div id="sidebarQuestionList" class="sidebar-question-list"></div>
+      </section>
+
+      <section class="quick-panel" id="quickPanel">
         <div class="panel-title" id="coreLineTitle">今天只背这句</div>
         <p id="coreLine"></p>
         <button id="speakCoreBtn" type="button">朗读</button>
@@ -38,14 +36,21 @@
 
     <main class="main-stage">
       <header class="topbar">
-        <div>
+        <div class="top-heading">
           <div class="eyebrow" id="pageKicker">Draft</div>
           <h2 id="pageTitle">Practice</h2>
         </div>
-        <div class="top-actions">
-          <button id="exportBtn" type="button">导出</button>
-          <button id="importBtn" type="button">导入</button>
-          <button id="resetBtn" type="button">重置当前题</button>
+        <nav class="view-nav" id="viewNav" aria-label="Primary views"></nav>
+        <div class="utility-cluster">
+          <div class="segmented" id="languageSwitch" role="group" aria-label="Language">
+            <button type="button" data-lang="zh" class="active">中文</button>
+            <button type="button" data-lang="en">English</button>
+          </div>
+          <div class="top-actions">
+            <button id="exportBtn" type="button">导出</button>
+            <button id="importBtn" type="button">导入</button>
+            <button id="resetBtn" type="button">重置</button>
+          </div>
         </div>
       </header>
 
@@ -101,14 +106,6 @@
             <div id="saveStatus" class="save-status"></div>
           </aside>
         </div>
-
-        <section class="question-list-section">
-          <div class="section-head">
-            <h3 id="questionListTitle">题库</h3>
-            <input id="searchInput" type="search" placeholder="搜索问题、能力、关键词...">
-          </div>
-          <div id="questionList" class="question-list"></div>
-        </section>
       </section>
 
       <section class="view-panel" id="reviewView" data-view="review">

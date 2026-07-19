@@ -15,13 +15,13 @@ const state = {
 
 const labels = {
   zh: {
-    mode: "练习模式",
+    mode: "题目筛选",
     random: "随机抽题",
     coreTitle: "今天只背这句",
     speak: "朗读",
     export: "导出",
     import: "导入",
-    reset: "重置当前题",
+    reset: "重置",
     boundaryPrefix: "事实边界",
     intent: "意图",
     simple: "简短",
@@ -56,15 +56,26 @@ const labels = {
     sourceDate: "搜索日期",
     sources: "来源",
     interviewUse: "面试用法",
+    intentBoardKicker: "评分维度",
+    intentBoardTitle: "这题在考什么能力信号",
+    intentBoardSubtitle: "先判断面试官的标准，再选择答案里的证据。",
+    intentCardTitle: "考察信号",
+    intentEvidenceTitle: "回答证据",
+    intentEvidenceFallback: "回到简短答案里的核心证据",
+    intentCueTitle: "答案提示钩子",
+    intentCueBody: "开口可以先说",
+    followupIntent: "回答思路",
+    followupSimple: "简短回答",
+    followupFull: "完整回答",
   },
   en: {
-    mode: "Practice mode",
+    mode: "Question filters",
     random: "Random",
     coreTitle: "One line to remember",
     speak: "Speak",
     export: "Export",
     import: "Import",
-    reset: "Reset current",
+    reset: "Reset",
     boundaryPrefix: "Fact boundary",
     intent: "Intent",
     simple: "Short",
@@ -99,6 +110,17 @@ const labels = {
     sourceDate: "Research date",
     sources: "Sources",
     interviewUse: "Interview use",
+    intentBoardKicker: "Rubric lens",
+    intentBoardTitle: "What capability signal this question tests",
+    intentBoardSubtitle: "Read the standard first, then choose evidence from your answer.",
+    intentCardTitle: "Signal",
+    intentEvidenceTitle: "Answer evidence",
+    intentEvidenceFallback: "Use the strongest evidence from the short answer",
+    intentCueTitle: "Answer hook",
+    intentCueBody: "Open with",
+    followupIntent: "Answer strategy",
+    followupSimple: "Short answer",
+    followupFull: "Full answer",
   },
 };
 
@@ -177,11 +199,9 @@ async function syncEditsToFile() {
 }
 
 function filteredQuestions() {
-  const search = $("searchInput")?.value.trim().toLowerCase() || "";
+  const search = $("sidebarQuestionSearch")?.value.trim().toLowerCase() || "";
   return data.questions.filter((question) => {
-    const matchesMode = state.mode === "warmup"
-      ? question.mode.includes("warmup")
-      : question.mode.includes(state.mode) || question.framework === state.mode;
+    const matchesMode = matchesQuestionMode(question, state.mode);
     const haystack = [
       question.zh.question,
       question.en.question,
@@ -195,6 +215,15 @@ function filteredQuestions() {
   });
 }
 
+function matchesQuestionMode(question, mode) {
+  if (mode === "warmup") return question.mode.includes("warmup");
+  return question.mode.includes(mode) || question.framework === mode;
+}
+
+function countForMode(mode) {
+  return data.questions.filter((question) => matchesQuestionMode(question, mode.id)).length;
+}
+
 function setView(view) {
   state.view = view;
   document.querySelectorAll(".view-panel").forEach((panel) => {
@@ -204,11 +233,18 @@ function setView(view) {
     button.classList.toggle("active", button.dataset.view === view);
   });
   $("resetBtn").hidden = view !== "practice";
+  setPracticeSidebarVisible(view === "practice");
   $("pageTitle").textContent = localized(data.views.find((item) => item.id === view)) || view;
   $("pageKicker").textContent = view === "practice" ? data.meta.round : data.meta.company;
   if (view === "review") renderReview();
   if (view === "company") renderCompany();
   if (view === "map") renderMap();
+}
+
+function setPracticeSidebarVisible(isPractice) {
+  $("modeFilterPanel").hidden = !isPractice;
+  $("questionNavPanel").hidden = !isPractice;
+  $("quickPanel").hidden = !isPractice;
 }
 
 function renderMeta() {
@@ -231,7 +267,7 @@ function renderMeta() {
   $("saveEditBtn").textContent = t("save");
   $("copySimpleBtn").textContent = t("copy");
   $("questionListTitle").textContent = t("questionList");
-  $("searchInput").placeholder = t("questionSearch");
+  $("sidebarQuestionSearch").placeholder = t("questionSearch");
   $("reviewTitle").textContent = t("reviewTitle");
   $("reviewSubtitle").textContent = t("reviewSubtitle");
   $("reviewSearchInput").placeholder = t("reviewSearch");
@@ -266,10 +302,10 @@ function renderModeOptions() {
   for (const mode of data.modes) {
     const option = document.createElement("option");
     option.value = mode.id;
-    option.textContent = localized(mode);
+    option.textContent = `${localized(mode)} (${countForMode(mode)})`;
+    option.selected = mode.id === state.mode;
     $("modeSelect").appendChild(option);
   }
-  $("modeSelect").value = state.mode;
 }
 
 function renderTabs() {
@@ -301,9 +337,9 @@ function renderQuestion() {
   $("editableNotes").value = item.notes;
 
   if (state.tab === "intent") {
-    $("tabContent").innerHTML = `<ul>${item.intent.map((line) => `<li>${escapeHtml(line)}</li>`).join("")}</ul>`;
+    $("tabContent").innerHTML = renderIntentPoints(item.intent, item);
   } else if (state.tab === "followups") {
-    $("tabContent").innerHTML = `<ul>${item.followups.map((line) => `<li>${escapeHtml(line)}</li>`).join("")}</ul>`;
+    $("tabContent").innerHTML = renderFollowups(item.followups);
   } else {
     $("tabContent").textContent = item[state.tab];
   }
@@ -314,17 +350,104 @@ function renderQuestion() {
     .join("");
 }
 
+function renderIntentPoints(points, item) {
+  const evidence = buildIntentEvidence(item, points);
+  const answerHook = buildAnswerHook(item);
+  return `
+    <div class="intent-board">
+      <div class="intent-board-head">
+        <span>${t("intentBoardKicker")}</span>
+        <strong>${t("intentBoardTitle")}</strong>
+        <p>${t("intentBoardSubtitle")}</p>
+      </div>
+      <div class="intent-rubric-list">
+        ${points.map((point, index) => `
+          <div class="intent-rubric-card">
+            <span class="intent-index">${String(index + 1).padStart(2, "0")}</span>
+            <div class="intent-rubric-copy">
+              <strong class="intent-card-title">${t("intentCardTitle")}</strong>
+              <p>${escapeHtml(point)}</p>
+            </div>
+            <div class="intent-signal">
+              <strong>${t("intentEvidenceTitle")}</strong>
+              <span>${escapeHtml(evidence[index])}</span>
+            </div>
+          </div>
+        `).join("")}
+      </div>
+      <div class="intent-cue">
+        <strong>${t("intentCueTitle")}</strong>
+        <span class="intent-hook-steps">${escapeHtml(answerHook)}</span>
+      </div>
+    </div>
+  `;
+}
+
+function buildIntentEvidence(item, points) {
+  const sentences = splitEvidenceSentences(item.simple || item.full || "");
+  return points.map((_, index) => {
+    return sentences[index] || sentences[sentences.length - 1] || item.notes || t("intentEvidenceFallback");
+  });
+}
+
+function buildAnswerHook(item) {
+  const [opening] = splitEvidenceSentences(item.simple || item.full || item.question || "");
+  if (!opening) return t("intentCueBody");
+  return `${t("intentCueBody")}: ${opening}`;
+}
+
+function splitEvidenceSentences(text) {
+  const compactText = String(text)
+    .replace(/\n+/g, " ")
+    .replace(/\s+/g, " ")
+    .trim();
+  if (!compactText) return [];
+  return (compactText.match(/[^。！？.!?]+[。！？.!?]?/g) || [])
+    .map((line) => line.trim())
+    .filter(Boolean)
+    .slice(0, 4);
+}
+
+function renderFollowups(followups) {
+  return `
+    <div class="followup-list">
+      ${followups.map((followup, index) => `
+        <details class="followup-card"${index === 0 ? " open" : ""}>
+          <summary>${escapeHtml(followup.question)}</summary>
+          <div class="followup-body">
+            <div>
+              <strong>${t("followupIntent")}</strong>
+              <p>${escapeHtml(followup.intent)}</p>
+            </div>
+            <div>
+              <strong>${t("followupSimple")}</strong>
+              <p>${escapeHtml(followup.simple)}</p>
+            </div>
+            ${followup.full ? `
+              <div>
+                <strong>${t("followupFull")}</strong>
+                <p>${escapeHtml(followup.full)}</p>
+              </div>
+            ` : ""}
+          </div>
+        </details>
+      `).join("")}
+    </div>
+  `;
+}
+
 function renderQuestionList() {
   const questions = filteredQuestions();
-  $("questionList").innerHTML = "";
+  $("sidebarQuestionList").innerHTML = "";
   if (!questions.length) {
-    $("questionList").innerHTML = `<div class="list-item">${t("noResult")}</div>`;
+    $("sidebarQuestionList").innerHTML = `<div class="sidebar-question-empty">${t("noResult")}</div>`;
     return;
   }
+  const selectedIndex = questions.findIndex((question) => question.id === state.selectedId);
   for (const question of questions) {
     const button = document.createElement("button");
     button.type = "button";
-    button.className = `list-item${question.id === state.selectedId ? " active" : ""}`;
+    button.className = `sidebar-question-item${question.id === state.selectedId ? " active" : ""}`;
     button.innerHTML = `
       <div class="item-title">${escapeHtml(question[state.lang].question)}</div>
       <div class="item-meta">${escapeHtml(localized(question.category))} · ${escapeHtml(localized(question.difficulty))}</div>
@@ -333,12 +456,18 @@ function renderQuestionList() {
       state.selectedId = question.id;
       renderPractice();
     });
-    $("questionList").appendChild(button);
+    $("sidebarQuestionList").appendChild(button);
+  }
+  if (selectedIndex >= 0) {
+    $("questionListTitle").textContent = `${t("questionList")} ${selectedIndex + 1}/${questions.length}`;
+  } else {
+    $("questionListTitle").textContent = `${t("questionList")} 0/${questions.length}`;
   }
 }
 
 function renderPractice() {
   renderTabs();
+  renderModeOptions();
   if (!filteredQuestions().some((question) => question.id === state.selectedId)) {
     state.selectedId = filteredQuestions()[0]?.id || data.questions[0].id;
   }
@@ -538,11 +667,6 @@ function bindEvents() {
     renderAll();
   });
 
-  $("modeSelect").addEventListener("change", () => {
-    state.mode = $("modeSelect").value;
-    renderPractice();
-  });
-
   $("randomBtn").addEventListener("click", () => {
     const questions = filteredQuestions();
     const next = questions[Math.floor(Math.random() * questions.length)];
@@ -552,7 +676,12 @@ function bindEvents() {
     }
   });
 
-  $("searchInput").addEventListener("input", renderQuestionList);
+  $("modeSelect").addEventListener("change", () => {
+    state.mode = $("modeSelect").value;
+    renderPractice();
+  });
+
+  $("sidebarQuestionSearch").addEventListener("input", renderQuestionList);
   $("reviewSearchInput").addEventListener("input", renderReview);
   $("companySearchInput").addEventListener("input", renderCompany);
 
