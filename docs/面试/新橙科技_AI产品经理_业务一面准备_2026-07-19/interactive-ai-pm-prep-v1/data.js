@@ -50,6 +50,15 @@
         },
       },
       {
+        id: "product",
+        zh: "产品理解",
+        en: "Product understanding",
+        guide: {
+          zh: "把新橙理解成法律人的工作操作系统：法律数据和检索是底座，AI 任务工具是能力层，案件协作和律所管理是工作流承接。",
+          en: "Understand Xincheng as a legal work operating system: legal data and search as the foundation, AI task tools as the capability layer, and case collaboration plus firm management as workflow adoption.",
+        },
+      },
+      {
         id: "ai",
         zh: "AI 产品专项",
         en: "AI product deep dive",
@@ -86,43 +95,80 @@
         difficulty: { zh: "核心", en: "Core" },
         zh: {
           question: "请做一个 60 秒自我介绍，重点贴合这个 AI 产品经理岗位。",
-          intent: ["快速建立 B 端 AI PM 定位", "突出最相关项目", "控制表达长度"],
-          simple: "您好，我是李沛宣，目前在 DataMesh 做 B 端产品经理，主要负责设施运维、数字孪生和 AI 产品化方向。我比较擅长三件事：第一，基于真实业务流程做 AI 产品化，把 AI 放到诊断、建议生成、草稿生成和人工复核这些具体环节里，而不是单独做一个聊天入口；第二，有 0 到 1 的产品经验，能从客户项目里提炼共性痛点，把零散需求抽象成可复用的产品能力；第三，能支持商业交付，把产品逻辑转成售前方案、演示视频、PPT 和 POC 材料，帮助客户理解产品价值。最相关的例子是 Inspector 设施运维 Agent 产品。我做的事情，是把分散的设备告警、空间位置、SOP、历史工单和维修知识，抽象成告警、设备、知识源、处置建议、工单草稿、人工确认和结果回写这条 AI 辅助闭环。新橙这个岗位虽然是法律科技，但底层也是把法律问答、合同审查、文书写作和知识库做成真实可用的 AI 产品流程。法律行业我需要补课，但业务流程拆解、AI 产品化、需求抽象、研发协作和价值传递这些能力，我是可以迁移的。",
-          full: "您好，我是李沛宣，目前在 DataMesh 做 B 端产品经理，主要负责设施运维、数字孪生和 AI 产品化方向。\n\n我比较擅长三件事：第一，基于真实业务流程做 AI 产品化，把 AI 放到诊断、建议生成、草稿生成和人工复核这些具体环节里，而不是单独做一个聊天入口；第二，有 0 到 1 的产品经验，能从客户项目里提炼共性痛点，把零散需求抽象成可复用的产品能力；第三，能支持商业交付，把产品逻辑转成售前方案、演示视频、PPT 和 POC 材料，帮助客户理解产品价值。\n\n最相关的例子是 Inspector 设施运维 Agent 产品。这个产品解决的是楼宇或 IDC 运维里的一个典型问题：设备告警、空间位置、SOP、历史工单和维修知识分散在不同系统里，一线人员看到异常后，还要自己判断原因、找处理路径、再进入工单流程。我做的事情，是把这些分散信息抽象成告警、设备、知识源、处置建议、工单草稿、人工确认和结果回写这条 AI 辅助闭环，并把它落到 PRD、原型、验收标准和售前交付材料里。\n\n所以我理解新橙这个岗位虽然是法律科技，但底层也是把法律问答、合同审查、文书写作和知识库做成真实可用的 AI 产品流程。法律行业我需要补课，但我过去也有从陌生业务切入、快速抽象流程并推动落地的经验；业务流程拆解、AI 产品化、需求抽象、研发协作和价值传递这些能力，我是可以迁移的。",
-          notes: "目标 60-75 秒。先讲擅长方向：AI 产品化、0 到 1、需求抽象、商业交付；再用 Inspector 证明，少用专业术语。",
+          intent: ["自然建立 B 端 AI PM 定位", "观点先行，每点只给一个轻量例子", "不要讲成项目详情复述"],
+          simple: "您好，我是李沛宣，目前在 DataMesh 做 B 端产品经理，主要负责设施运维、数字孪生和 AI 产品化相关产品。\n\n我过去做得比较多的是复杂专业场景里的产品设计和落地。结合这个岗位，我觉得比较相关的有三点。第一，我做产品会先回到用户的真实工作流，而不是先从功能或者模型出发。比如设计 AI 能力时，我会先看用户在哪个任务里需要帮助、AI 输出怎么被使用、最后怎么回到业务结果里。第二，我有把模糊需求抽象成产品结构的经验。客户需求一开始经常比较散，我会把它拆成用户任务、产品对象和流程状态，再收敛成 MVP 或可复用模块。第三，我比较熟悉跨团队推进落地，能和研发、设计、测试、售前、交付一起对齐范围、验收标准和演示口径。\n\n所以我理解新橙的法律问答、合同审查、文书写作和知识库，本质上也是专业任务流产品。如果进入这个方向，我会先抓法律人的工作流、知识来源和审查标准，再把这些理解转成可落地的产品设计。",
+          full: "您好，我是李沛宣，目前在 DataMesh 做 B 端产品经理，主要负责设施运维、数字孪生和 AI 产品化相关产品。\n\n我过去做得比较多的是复杂专业场景里的产品设计和落地。结合这个岗位，我觉得比较相关的有三点。\n\n第一，我做产品会先回到用户的真实工作流，而不是先从功能或者模型出发。比如设计 AI 能力时，我会先看用户在哪个任务里需要帮助、AI 输出给谁用、最后怎么回到业务结果里。这个习惯和法律 AI 也比较相关，因为法律问答、合同审查、文书写作都不是孤立功能，而是法律人工作流程里的一部分。\n\n第二，我有把模糊需求抽象成产品结构的经验。客户需求一开始经常比较散，我会把它拆成用户任务、产品对象和流程状态，再判断首期要验证什么，哪些能力后续可以沉淀成通用模块。\n\n第三，我比较熟悉跨团队推进落地。除了 PRD 和原型，我也会和研发、设计、测试、售前、交付一起对齐范围、验收标准和演示口径，让产品方案能被实现，也能在 POC 或客户沟通里讲清楚价值。\n\n所以我理解新橙的法律问答、合同审查、文书写作和知识库，本质上也是专业任务流产品。如果进入这个方向，我会先抓法律人的工作流、知识来源和审查标准，再把这些理解转成可落地的产品设计。",
+          notes: "simple 版目标 75-90 秒，full 版目标 1.5-2 分钟。能力标签：Customer Obsession / Dealing with Ambiguity / Stakeholder Management。语气要像解释自己的工作方法，不要主动点破行业差异；学习能力放在最后的进入新场景方法里。",
           followups: [
             {
               question: "你和这个岗位最匹配的地方是什么？",
               intent: "要求一句话提炼价值。",
-              simple: "最匹配的是基于业务流程做 AI 产品化的能力：我能把客户需求抽象成通用痛点和产品闭环，再推进研发、验收和商业交付。",
-              full: "最匹配的是基于业务流程做 AI 产品化的能力。这个岗位要做法律问答、AI 知识库、文本写作、合同审查这类产品，关键不是接一个模型，而是把 AI 放进真实任务流里，让用户能用、敢用，并且能验收。我过去做过类似的产品侧拆解，能把业务场景转成 PRD、原型、输出结构、验收标准和售前交付材料。",
+              simple: "最匹配的是我做过专业场景里的 AI 产品化：先拆真实业务流程，再定义知识源、输出结构、人工复核和验收标准。",
+              full: "最匹配的是我做过专业场景里的 AI 产品化。这个岗位要做法律问答、AI 知识库、文本写作、合同审查这类产品，关键不是只接一个模型，而是把 AI 放进真实任务流里，让专业用户能用、敢用，并且能验收。我过去做过类似的产品侧拆解，可以把业务场景转成 PRD、原型、输出结构、边界规则和验收标准。",
             },
             {
               question: "能更短吗？",
               intent: "测试你是否能压缩表达。",
-              simple: "可以。我是 B 端 AI 产品经理，做过从 0 到 1 的设施运维 Agent 产品。我的优势是基于业务流程做 AI 产品化，把客户需求抽象成通用产品能力，并支持售前方案、演示和交付落地。",
-              full: "可以。我是 B 端 AI 产品经理，做过从 0 到 1 的设施运维 Agent 产品。我的优势是基于业务流程做 AI 产品化，把客户需求抽象成通用产品能力，并支持售前方案、演示和交付落地。法律行业我需要补课，但法律问答、合同审查和知识库本质上也需要这种业务流程拆解和 AI 产品化能力。",
+              simple: "可以。我是 B 端 AI 产品经理，主要做设施运维、数字孪生和 AI 产品化。我比较擅长三件事：基于真实业务流程设计 AI 能力，把分散需求抽象成可复用产品模块，以及推动需求、研发、验收和 POC 表达落地。这些能力和新橙的法律 AI 任务流是相通的。",
+              full: "可以。我是 B 端 AI 产品经理，主要做设施运维、数字孪生和 AI 产品化。我比较擅长三件事：第一，基于真实业务流程设计 AI 能力；第二，把客户场景里的分散需求抽象成可复用产品模块；第三，推动需求、研发、验收和 POC 表达落地。法律行业我需要补课，但法律问答、合同审查和知识库本质上也需要这种专业任务流拆解和 AI 产品化能力。",
             },
           ],
         },
         en: {
           question: "Please give a 60-second self-introduction tailored to this AI Product Manager role.",
-          intent: ["Position yourself as a B2B AI PM", "Use the most relevant project", "Keep it concise"],
-          simple: "Hi, I am Jane Li, currently a B2B product manager at DataMesh, focusing on facility operations SaaS, digital twins, and AI productization. My most relevant experience is designing an Agent/RAG workflow that connects equipment data, alerts, work orders, SOPs, and knowledge bases into an assisted diagnosis and work-order draft loop. Although this role is in legal tech, the core product logic is similar: trusted knowledge sources, structured output, human confirmation, and data-driven iteration.",
-          full: "Hi, I am Jane Li, currently a B2B product manager at DataMesh, focusing on facility operations SaaS, digital twins, and AI productization.\n\nMy most relevant project is the Inspector facility operations product foundation. I worked on turning equipment, spaces, alerts, work orders, SOPs, and knowledge bases into reusable product workflows, and designed Agent/RAG-based assisted diagnosis, recommended actions, work-order drafts, low-confidence fallback, and human confirmation.\n\nI understand this role is not about building a generic AI chatbot. It is about making legal Q&A, knowledge bases, writing, contract review, and questionnaire products usable, trustworthy, and measurable. I need to learn the legal domain, but I can transfer B2B AI workflow design, complex product abstraction, PRD/acceptance work, and cross-functional execution.",
-          notes: "Aim for 60-75 seconds. Keep only Inspector plus transferable strengths.",
+          intent: ["Sound natural in an interview", "Lead with viewpoints and use light examples", "Avoid turning the opening into a project deep dive"],
+          simple: "Hi, I am Jane Li, currently a B2B product manager at DataMesh, focusing on facility operations, digital twins, and AI productization.\n\nMost of my work has been about designing and delivering products for complex professional scenarios. For this role, I see three relevant strengths. First, I usually start from the user's real workflow, not from a feature list or a model. When designing AI capability, I first clarify which task needs support, who will use the output, and how it returns to a business result. Second, I have experience turning ambiguous requirements into product structure. Customer needs often start scattered, so I break them down into user tasks, product objects, and process states, then narrow them into an MVP or reusable modules. Third, I am used to cross-functional delivery, working with R&D, design, QA, presales, and delivery teams on scope, acceptance criteria, and demo narratives.\n\nMy understanding is that legal Q&A, contract review, legal writing, and knowledge-base products are also professional workflow products. If I join this direction, I would first understand legal users' workflows, knowledge sources, and review standards, then translate that understanding into practical product design.",
+          full: "Hi, I am Jane Li, currently a B2B product manager at DataMesh, focusing on facility operations, digital twins, and AI productization.\n\nMost of my work has been about designing and delivering products for complex professional scenarios. For this role, I see three relevant strengths.\n\nFirst, I usually start from the user's real workflow, not from a feature list or a model. When designing AI capability, I first clarify which task needs support, who will use the output, and how it returns to a business result. I think this is relevant to legal AI, because legal Q&A, contract review, and legal writing are not isolated features; they are parts of a lawyer's daily workflow.\n\nSecond, I have experience turning ambiguous requirements into product structure. Customer needs often start scattered, so I break them down into user tasks, product objects, and process states, then decide what the MVP should validate first and which parts can become reusable modules later.\n\nThird, I am used to cross-functional delivery. Besides PRDs and prototypes, I work with R&D, design, QA, presales, and delivery teams to align scope, acceptance criteria, and demo narratives, so a product idea can be implemented and validated in POC or customer-facing scenarios.\n\nMy understanding is that Xincheng's legal Q&A, contract review, legal writing, and knowledge-base products are also professional workflow products. If I join this direction, I would first understand legal users' workflows, knowledge sources, and review standards, then translate that understanding into practical product design.",
+          notes: "Aim for 75-90 seconds for simple and 1.5-2 minutes for full. Competency tags: Customer Obsession / Dealing with Ambiguity / Stakeholder Management. Sound like explaining a work method, not reciting labels.",
           followups: [
             {
               question: "What is your strongest fit for this role?",
               intent: "Forces one-line positioning.",
-              simple: "My strongest fit is B2B AI workflow design: I can break a business scenario into knowledge sources, Agent roles, output contracts, fallback logic, and acceptance criteria.",
-              full: "My strongest fit is B2B AI workflow design. For legal Q&A, AI knowledge bases, writing, and contract review, the key is not just connecting a model. The key is making outputs trustworthy, explainable, confirmable, and measurable. I have done similar product-side breakdowns and can turn them into PRDs, prototypes, output schema, acceptance criteria, and R&D alignment.",
+              simple: "My strongest fit is AI productization in professional workflows: I can break a scenario into knowledge sources, output structure, human review, and acceptance criteria.",
+              full: "My strongest fit is AI productization in professional workflows. For legal Q&A, AI knowledge bases, writing, and contract review, the key is not only connecting a model. The key is making outputs trustworthy, structured, reviewable, and measurable. I have done similar product-side breakdowns and can turn them into PRDs, prototypes, output schema, boundary rules, and acceptance criteria.",
             },
             {
               question: "Can you make it shorter?",
               intent: "Tests concise delivery.",
-              simple: "Sure. I am a B2B AI product manager with experience designing an Agent/RAG workflow for facility operations. I need to learn legal tech, but the product method is relevant: trusted knowledge, structured output, human confirmation, and measurable workflow.",
-              full: "Sure. I am a B2B AI product manager focused on turning complex workflows into deliverable AI product loops. I have designed Agent/RAG diagnosis, work-order drafts, fallback, and human confirmation. Legal tech is a domain I need to learn, but the AI product method is highly transferable.",
+              simple: "Sure. I am a B2B AI product manager focusing on facility operations, digital twins, and AI productization. My strengths are workflow-based AI design, product abstraction from scattered customer needs, and cross-functional delivery from requirements to POC validation. These are transferable to legal AI task flows.",
+              full: "Sure. I am a B2B AI product manager focusing on facility operations, digital twins, and AI productization. My strengths are workflow-based AI design, product abstraction from scattered customer needs, and cross-functional delivery from requirements to POC validation. I still need to learn legal tech, but legal Q&A, contract review, and knowledge-base products also require professional workflow breakdown and AI productization.",
+            },
+          ],
+        },
+      },
+      {
+        id: "why_legal_ai_product",
+        framework: "role",
+        category: { zh: "投递动机", en: "Motivation" },
+        mode: ["warmup", "role", "pressure"],
+        difficulty: { zh: "核心", en: "Core" },
+        zh: {
+          question: "为什么要投他们这个行业的产品？",
+          intent: ["解释动机但不说成转行业", "强调专业场景 AI 产品吸引力", "连接过往方法和新橙产品难点"],
+          simple: "我投这个岗位，主要是因为我对专业场景里的 AI 产品很感兴趣。法律 AI 和我过去做的设施运维 AI 一样，都不是泛聊天，而是要把专业知识、用户材料、结构化输出和人工复核串成可信任务流。新橙做的法律问答、合同审查、文书写作和知识库，正好是这种高专业度、高可信要求的 AI 产品，所以我觉得这个方向既和我过去的方法相通，也有很大的学习和成长空间。",
+          full: "我投这个岗位，主要不是因为我一开始就把自己限定在法律行业，而是因为我对专业场景里的 AI 产品很感兴趣。\n\n我过去做的设施运维、数字孪生和 AI 产品化，本质上也是在复杂业务场景里，把分散的信息、专业知识和用户流程整理成可落地的产品能力。比如用户不是只需要一个 AI 回答，而是需要可靠的信息来源、结构化输出、人工确认和后续流程闭环。\n\n我看新橙的产品，包括法律问答、合同审查、文书写作、知识库这些方向，也有类似的产品难点：法律 AI 不能只是生成一段话，而是要有可信依据、可追溯引用、结构化结果和律师复核。这个方向对产品经理的要求不是只会做页面，而是要理解专业任务流，并和专家、研发一起把 AI 能力做得可用、可信、可落地。\n\n所以我觉得这个岗位和我过去的方法是相通的，同时又能让我进入一个更专业、更高要求的 AI 应用场景。这也是我比较想投的原因。",
+          notes: "按用户要求保留原文，不重新改写。重点：投的是专业任务流 AI 产品，不是泛泛说想转法律行业。",
+          followups: [
+            {
+              question: "能更短吗？",
+              intent: "压缩动机回答。",
+              simple: "我投这个岗位，主要是因为我对专业场景里的 AI 产品很感兴趣。法律 AI 和我过去做的设施运维 AI 一样，都不是泛聊天，而是要把专业知识、用户材料、结构化输出和人工复核串成可信任务流。新橙做的法律问答、合同审查、文书写作和知识库，正好是这种高专业度、高可信要求的 AI 产品，所以我觉得这个方向既和我过去的方法相通，也有很大的学习和成长空间。",
+              full: "我投这个岗位，主要是因为我对专业场景里的 AI 产品很感兴趣。法律 AI 和我过去做的设施运维 AI 一样，都不是泛聊天，而是要把专业知识、用户材料、结构化输出和人工复核串成可信任务流。新橙做的法律问答、合同审查、文书写作和知识库，正好是这种高专业度、高可信要求的 AI 产品，所以我觉得这个方向既和我过去的方法相通，也有很大的学习和成长空间。",
+            },
+          ],
+        },
+        en: {
+          question: "Why are you interested in products in this industry?",
+          intent: ["Explain motivation without framing it as a random industry switch", "Emphasize professional-scenario AI products", "Connect previous product method to Xincheng's product challenges"],
+          simple: "I am mainly interested in this role because I am interested in AI products for professional scenarios. Legal AI, like the facility-operations AI products I worked on, is not generic chat. It needs to connect professional knowledge, user materials, structured output, and human review into a trustworthy task flow. Xincheng's legal Q&A, contract review, legal writing, and knowledge-base products fit this type of high-professionalism, high-trust AI product, so I see both a strong connection to my previous product method and a meaningful learning opportunity.",
+          full: "I am mainly interested in this role because I am interested in AI products for professional scenarios, not because I want to randomly switch industries.\n\nMy previous work in facility operations, digital twins, and AI productization was also about turning scattered information, professional knowledge, and user workflows into deliverable product capabilities in complex business scenarios. Users do not only need an AI answer; they need reliable information sources, structured output, human confirmation, and workflow closure.\n\nFrom what I understand, Xincheng's products, including legal Q&A, contract review, legal writing, and knowledge bases, have similar product challenges. Legal AI cannot only generate a paragraph. It needs trusted evidence, traceable citations, structured results, and lawyer review. This requires PMs to understand professional task flows and work with experts and engineering to make AI usable, trustworthy, and deliverable.\n\nSo I see this role as connected to my previous product method, while also giving me exposure to a more professional and higher-standard AI application scenario.",
+          notes: "English support version. Chinese is the main memorization version for this interview.",
+          followups: [
+            {
+              question: "Can you make it shorter?",
+              intent: "Compresses motivation answer.",
+              simple: "I am interested because legal AI is a professional workflow product, not generic chat. It needs trusted knowledge, user materials, structured output, and human review. That is similar to my previous work in facility-operations AI, and Xincheng's legal Q&A, contract review, writing, and knowledge-base products are exactly this type of high-trust AI product.",
+              full: "I am interested because legal AI is a professional workflow product, not generic chat. It needs trusted knowledge, user materials, structured output, and human review. That is similar to my previous work in facility-operations AI, and Xincheng's legal Q&A, contract review, writing, and knowledge-base products are exactly this type of high-trust AI product.",
             },
           ],
         },
@@ -232,6 +278,30 @@ AI is not a standalone chatbot here. It is placed inside the workflow to support
               full: "我不会只给研发一句“做个智能体”。我会先把业务流程转成研发能讨论的协议：输入有哪些字段，输出有哪些结构化字段，设备不存在、SOP 缺失、多个同名设备、告警已恢复、低置信等异常情况怎么处理。调试时，我会和研发一起看 bad case 分类：是数据缺失、检索不准、输出结构不稳定、Prompt 越界，还是产品流程没有让用户补充必要信息。不同原因对应不同改法，而不是笼统说模型不准。",
             },
             {
+              question: "你刚才提到 RAG，具体是怎么定义的？",
+              intent: "追 RAG 是否真能落到产品协议，而不是只会说概念。",
+              simple: "我会先讲边界：我定义的是产品侧 RAG 规则，不是算法实现。具体会定义五件事：第一，知识源清单，比如 SOP、设备资料、历史工单、告警说明、客户经验库，标清来源、权限、更新时间和适用范围；第二，触发条件，比如什么告警类型、设备类型或诊断场景需要检索，缺少设备 ID 或告警码时要先补信息；第三，检索结果怎么进入答案，比如必须展示来源、命中片段和匹配原因，没召回依据时不能强给确定结论；第四，输出结构，比如可能原因、依据、置信度、缺失信息、建议检查项和工单草稿字段；第五，验收和 bad case，比如典型告警能不能召回正确 SOP、相似历史工单是否相关、引用是否对应结论、低置信时有没有兜底。",
+              full: "我会先把边界讲清楚：我定义的是产品侧 RAG 规则，不是算法实现细节。具体我会拆五件事。\n\n第一是知识源清单。先明确哪些内容应该进知识库，比如 SOP、设备资料、历史工单、告警说明、客户经验库；同时标清来源、负责人、更新时间、权限、适用设备类型和适用场景。这样后面检索错了，才能知道是知识缺失、版本问题，还是标签不够。\n\n第二是触发条件。不是所有问题都无脑检索。我会定义什么场景需要 RAG，比如某类设备告警、诊断建议、处置步骤生成或工单草稿生成；也会定义前置字段，比如设备 ID、告警码、空间位置、告警等级。如果关键字段缺失，产品上要先提示补信息，而不是让 AI 自由发挥。\n\n第三是检索结果怎么进入答案。我的要求不是只把材料塞给模型，而是让用户能看到依据：来源标题、知识类型、命中片段、匹配原因和更新时间。没有召回可靠依据时，输出里要提示依据不足，不能强行给确定结论。\n\n第四是输出结构。我会要求 AI 输出固定字段，比如可能原因、判断依据、置信度、缺失信息、建议检查项、风险提示和工单草稿字段。这样研发能做字段校验，测试也能写用例。\n\n第五是验收和 bad case。验收不是看答案顺不顺，而是看典型告警能不能召回正确 SOP，历史工单是否相关，引用内容是否支撑结论，输出字段是否完整，低置信或无依据时是否兜底。bad case 我也会拆成知识库缺内容、文档切分或标签不合理、检索召回不准、引用错配、输出结构不稳、流程缺少必要输入几类，再和研发分别处理。",
+            },
+            {
+              question: "RAG 和 prompt 有什么区别？",
+              intent: "看你是否理解 RAG 的产品价值，而不是把所有 AI 能力都归为提示词。",
+              simple: "Prompt 更像是告诉模型怎么回答，RAG 是给模型补充外部可信上下文。法律 AI 里，prompt 可以规定输出格式和角色边界，但真正支撑答案可信度的是知识源和检索依据。所以我会把 prompt 看成输出控制，把 RAG 看成依据补全。",
+              full: "Prompt 更像是告诉模型怎么回答，RAG 是给模型补充外部可信上下文。法律 AI 里，prompt 可以规定输出格式和角色边界，但真正支撑答案可信度的是知识源和检索依据。所以我会把 prompt 看成输出控制，把 RAG 看成依据补全。",
+            },
+            {
+              question: "怎么判断 RAG 效果好不好？",
+              intent: "看你能否把 RAG 效果拆成检索层、生成层和产品验收。",
+              simple: "我会分两层看。检索层看有没有召回正确法规、案例、模板或 SOP；生成层看模型有没有基于召回内容回答，有没有乱引用、漏引用、过度推断。产品验收上可以用典型场景集和 bad case 集，看召回是否相关、依据是否可追溯、输出字段是否完整、低置信时是否兜底。",
+              full: "我会分两层看。检索层看有没有召回正确法规、案例、模板或 SOP；生成层看模型有没有基于召回内容回答，有没有乱引用、漏引用、过度推断。产品验收上可以用典型场景集和 bad case 集，看召回是否相关、依据是否可追溯、输出字段是否完整、低置信时是否兜底。",
+            },
+            {
+              question: "RAG 召回错了怎么办？",
+              intent: "看你是否能把“召回错”拆成可定位、可修复的问题。",
+              simple: "我会先分类，不会直接说“模型不准”。可能是知识库缺内容、文档切分不合理、标签或元数据不足、检索策略不对、用户问题没有被正确识别，也可能是模型生成时没有严格基于引用。不同问题对应不同动作：补知识库、优化切分和标签、调整召回策略、增加任务识别，或收紧输出规则。",
+              full: "我会先分类，不会直接说“模型不准”。可能是知识库缺内容、文档切分不合理、标签或元数据不足、检索策略不对、用户问题没有被正确识别，也可能是模型生成时没有严格基于引用。不同问题对应不同动作：补知识库、优化切分和标签、调整召回策略、增加任务识别，或收紧输出规则。",
+            },
+            {
               question: "AI 产品真实上线了吗？如果没有，成果怎么讲？",
               intent: "防止夸大上线或模型训练。",
               simple: "我会诚实讲边界：AI 这部分不是大规模全量上线，也不是我训练模型；它处在产品方案验证、Demo/POC 和客户场景验证阶段。成果是把 AI 从概念变成研发可评审、客户可理解、POC 可验证的产品方案。",
@@ -257,6 +327,30 @@ AI is not a standalone chatbot here. It is placed inside the workflow to support
               intent: "Checks implementation collaboration.",
               simple: "I aligned engineering around input fields, output schema, exception paths, logs, and scenario-based test cases, then classified bad cases into data gaps, retrieval issues, unstable output, prompt overreach, or workflow gaps.",
               full: "I did not just ask engineering to build an Agent. I converted the workflow into implementation contracts: required input fields, structured output, exception paths, logs, and acceptance cases. During debugging, we classified bad cases into data gaps, retrieval issues, unstable output structure, prompt overreach, or missing user context in the workflow, and each category led to a different fix.",
+            },
+            {
+              question: "You mentioned RAG. How exactly did you define it?",
+              intent: "Checks whether RAG was translated into product requirements instead of just used as a buzzword.",
+              simple: "I would first clarify that I defined product-side RAG rules, not algorithm implementation. I defined five things: knowledge sources such as SOPs, equipment documents, historical work orders, alert descriptions, and customer knowledge; trigger conditions such as alert types, equipment types, or diagnosis and work-order drafting scenarios; how retrieved evidence enters the answer, including source, snippet, match reason, and fallback when no evidence is found; output fields such as possible causes, evidence, confidence, missing information, suggested checks, and work-order draft fields; and validation cases such as whether the correct SOP is retrieved, historical work orders are relevant, citations support conclusions, and low-confidence cases fall back safely.",
+              full: "I would first clarify the boundary: I defined product-side RAG rules, not algorithm implementation details.\n\nFirst, I defined the knowledge-source list: SOPs, equipment documents, historical work orders, alert descriptions, and customer-specific experience. For each source, I would clarify ownership, update frequency, permission, applicable equipment type, and applicable scenario.\n\nSecond, I defined trigger conditions. Not every user question should trigger retrieval. I would define when RAG is needed, such as specific equipment alerts, diagnostic suggestions, action-plan generation, or work-order drafting. I would also define required context fields, such as equipment ID, alert code, location, and severity. If key fields were missing, the product should ask for missing information before generating a confident answer.\n\nThird, I defined how retrieved evidence enters the answer. The user should be able to see source title, knowledge type, matched snippet, match reason, and update time. If no reliable evidence is retrieved, the output should say the evidence is insufficient instead of forcing a conclusion.\n\nFourth, I defined the output structure: possible causes, supporting evidence, confidence, missing information, suggested checks, risk notes, and work-order draft fields. This makes the output testable and easier for engineering to validate.\n\nFifth, I defined validation and bad-case handling. Validation is not about whether the answer sounds fluent. It is about whether the correct SOP is retrieved, whether historical work orders are relevant, whether citations support the conclusion, whether fields are complete, and whether low-confidence or no-evidence cases fall back safely. Bad cases are classified into missing knowledge, poor chunking or metadata, retrieval mismatch, citation mismatch, unstable output structure, or missing workflow input.",
+            },
+            {
+              question: "What is the difference between RAG and prompt?",
+              intent: "Checks whether the answer separates output control from evidence retrieval.",
+              simple: "A prompt tells the model how to answer, while RAG provides external trusted context. In legal AI, prompts can define output format and role boundaries, but the credibility of the answer depends on knowledge sources and retrieved evidence. So I see prompt as output control and RAG as evidence completion.",
+              full: "A prompt tells the model how to answer, while RAG provides external trusted context. In legal AI, prompts can define output format and role boundaries, but the credibility of the answer depends on knowledge sources and retrieved evidence. So I see prompt as output control and RAG as evidence completion.",
+            },
+            {
+              question: "How would you evaluate whether RAG works well?",
+              intent: "Checks whether RAG quality is evaluated at both retrieval and generation levels.",
+              simple: "I would look at two layers. At the retrieval layer, I would check whether the correct laws, cases, templates, or SOPs are retrieved. At the generation layer, I would check whether the model answers based on the retrieved content, and whether it hallucinates, misses citations, or over-infers. Product validation can use typical scenarios and bad-case sets to check relevance, traceability, complete output fields, and low-confidence fallback.",
+              full: "I would look at two layers. At the retrieval layer, I would check whether the correct laws, cases, templates, or SOPs are retrieved. At the generation layer, I would check whether the model answers based on the retrieved content, and whether it hallucinates, misses citations, or over-infers. Product validation can use typical scenarios and bad-case sets to check relevance, traceability, complete output fields, and low-confidence fallback.",
+            },
+            {
+              question: "What would you do if RAG retrieves the wrong evidence?",
+              intent: "Checks whether retrieval errors can be classified into actionable fixes.",
+              simple: "I would classify the issue first instead of just saying the model is inaccurate. It could be missing knowledge, poor document chunking, weak tags or metadata, wrong retrieval strategy, poor user-question understanding, or generation not being strictly grounded in citations. Each cause maps to a different action: add knowledge, improve chunking and tags, adjust retrieval strategy, add task recognition, or tighten output rules.",
+              full: "I would classify the issue first instead of just saying the model is inaccurate. It could be missing knowledge, poor document chunking, weak tags or metadata, wrong retrieval strategy, poor user-question understanding, or generation not being strictly grounded in citations. Each cause maps to a different action: add knowledge, improve chunking and tags, adjust retrieval strategy, add task recognition, or tighten output rules.",
             },
             {
               question: "Was it launched?",
@@ -864,6 +958,22 @@ AI is not a standalone chatbot here. It is placed inside the workflow to support
         ],
       },
       {
+        title: { zh: "新橙产品理解", en: "Xincheng product understanding" },
+        items: [
+          { zh: "新橙不是只做法律 ChatGPT，而是在做法律人的工作操作系统。", en: "Xincheng is not only building a legal ChatGPT; it is building a legal work operating system." },
+          { zh: "底座是法律数据和检索，能力层是合同审查、文书写作、阅卷、咨询和案情分析，承接层是案件协作、知识管理和律所管理。", en: "The foundation is legal data and search; the capability layer includes contract review, writing, document review, consultation, and case analysis; the adoption layer is case collaboration, knowledge management, and firm management." },
+          { zh: "法律 AI 的价值不是替律师拍板，而是让检索、分析、写作和复核更快、更可信、更结构化。", en: "The value of legal AI is not replacing lawyers' judgment, but making search, analysis, writing, and review faster, more trustworthy, and more structured." },
+        ],
+      },
+      {
+        title: { zh: "合同审查拆解", en: "Contract-review breakdown" },
+        items: [
+          { zh: "合同审查不是上传文件等答案，而是合同解析、条款识别、风险点匹配、依据召回、修改建议、人工确认和导出闭环。", en: "Contract review is not uploading a file and waiting for an answer; it is a loop of parsing, clause recognition, risk matching, evidence retrieval, suggested edits, human confirmation, and export." },
+          { zh: "我会优先看审查清单、法规/案例/模板依据、客户私域规则、风险等级和修改建议是否能稳定结构化输出。", en: "I would first look at whether checklists, laws/cases/templates, private client rules, risk levels, and suggested edits can be produced in a stable structured format." },
+          { zh: "Inspector 是告警到工单；法律 AI 可以类比成合同到审查意见、案情到法律意见、材料到文书草稿。", en: "Inspector is alert-to-work-order; legal AI can be framed as contract-to-review-comments, case-facts-to-legal-opinion, and materials-to-draft-document." },
+        ],
+      },
+      {
         title: { zh: "法律行业迁移", en: "Legal-domain transfer" },
         items: [
           { zh: "法律行业我要补课，但底层产品方法相关。", en: "I need to learn legal tech, but the underlying product method is relevant." },
@@ -877,16 +987,29 @@ AI is not a standalone chatbot here. It is placed inside the workflow to support
       { zh: "AI 经历边界：产品侧方案验证 / Demo / POC 设计，不 claim 模型训练或全量上线。", en: "AI boundary: product-side validation / demo / POC design, not model training or full-scale rollout." },
       { zh: "最相关证据只讲 Inspector：Agent/RAG、工单草稿、人工确认、bad case 验收。", en: "Use Inspector as the main evidence: Agent/RAG, work-order draft, human confirmation, and bad-case validation." },
       { zh: "法律 AI 的关键词：法规/案例/模板/私域知识、引用来源、审查清单、人工复核。", en: "Legal AI keywords: laws/cases/templates/private knowledge, citations, review checklists, and human review." },
+      { zh: "新橙的产品可以按三层理解：法律数据与检索底座、法律 AI 任务工具、律所/团队工作流系统。", en: "Xincheng's product can be understood in three layers: legal data and search foundation, legal AI task tools, and firm/team workflow systems." },
+      { zh: "面试里不要说“我懂法律”，要说“我理解法律 AI 的落地关键是可信依据、结构化输出和人工复核”。", en: "Do not say 'I know law'; say 'I understand that legal AI adoption depends on trusted evidence, structured output, and human review.'." },
+      { zh: "合同审查的产品闭环：合同解析、条款识别、风险点匹配、依据召回、修改建议、人工确认、导出和 bad case 回流。", en: "Contract-review product loop: contract parsing, clause recognition, risk matching, evidence retrieval, suggested edits, human confirmation, export, and bad-case feedback." },
       { zh: "回答压缩法：结论一句 + 证据一句 + 边界或结果一句。", en: "Concise answer method: one conclusion, one evidence point, one boundary or impact line." },
       { zh: "不要平均铺开多个 AI 方向；先选合同审查或法律问答做闭环。", en: "Do not spread across every AI direction; start with contract review or legal Q&A as one complete loop." },
     ],
     companyResearch: {
-      researchedAt: "2026-07-19",
+      researchedAt: "2026-07-21",
       factBoundary: {
-        zh: "公司官网请面试前再确认。以下基于公开网页和招聘页整理：新橙科技与 iCourt/Alpha 法律科技产品相关，信息用于面试理解，不作为绝对事实背诵。",
-        en: "Please confirm the official company site before the interview. The notes below are summarized from public websites and recruiting pages: Xincheng Technology appears related to iCourt/Alpha legal-tech products. Use this for interview orientation, not as absolute memorized facts.",
+        zh: "以下基于 2026-07-21 可检索公开网页整理，用于面试理解，不作为内部信息背诵。表达时避免说成确定的内部产品规划，优先说“我从公开资料理解”。",
+        en: "The notes below are based on public webpages available on 2026-07-21. Use them for interview orientation, not as internal facts. In interviews, frame them as 'my understanding from public materials' rather than confirmed internal roadmap.",
       },
       sources: [
+        {
+          label: "iCourt Alpha official site",
+          url: "https://www.icourt.cc/",
+          accessedAt: "2026-07-21",
+        },
+        {
+          label: "AlphaGPT legal-tech competition product page",
+          url: "https://legaltech-carnival.lawyers.org.cn/info/32b91490e071440599973eb9c93530d2",
+          accessedAt: "2026-07-21",
+        },
         {
           label: "律动 / LegalDance official site",
           url: "https://legaldance.cn/",
@@ -907,12 +1030,162 @@ AI is not a standalone chatbot here. It is placed inside the workflow to support
         {
           title: { zh: "公司与产品定位", en: "Company and product positioning" },
           body: {
-            zh: "公开资料显示，新橙科技/iCourt/Alpha 面向法律人、律所和企业法务提供法律科技产品，覆盖法律检索、案例、写作、合同审查、证据、知识管理等方向。",
-            en: "Public materials suggest Xincheng/iCourt/Alpha provides legal-tech products for legal professionals, law firms, and enterprise legal teams, covering legal search, cases, writing, contract review, evidence, and knowledge management.",
+            zh: "公开资料显示，新橙科技 / iCourt / Alpha 面向法律人、律师团队、律所和企业法务提供法律科技产品，覆盖法律检索、合同审查、文书起草、案情分析、阅卷、证据、知识管理、案件协作和律所管理等方向。",
+            en: "Public materials suggest Xincheng / iCourt / Alpha provides legal-tech products for legal professionals, lawyer teams, law firms, and enterprise legal teams, covering legal search, contract review, legal writing, case analysis, document review, evidence, knowledge management, case collaboration, and firm management.",
           },
           interviewUse: {
-            zh: "面试时把它理解成专业任务型 AI 产品：核心不是聊天，而是帮助法律人更快、更可信地完成检索、审查和写作。",
-            en: "Frame it as professional task-oriented AI: not generic chat, but helping legal users complete search, review, and writing faster and more trustworthily.",
+            zh: "面试时把它理解成法律人的工作操作系统：核心不是泛聊天，而是把检索、审查、写作、分析和协作变成更快、更可信、更结构化的工作流。",
+            en: "Frame it as a legal work operating system: not generic chat, but making search, review, writing, analysis, and collaboration faster, more trustworthy, and more structured.",
+          },
+        },
+        {
+          title: { zh: "AI 产品深度理解（原文版）", en: "Deep AI Product Understanding" },
+          body: {
+            zh: `1. 产品矩阵
+公开资料里最核心的是 Alpha 法律智能操作系统 + AlphaGPT。
+
+Alpha 官网把自己定位成面向律师与律所的法律科技平台，包含法律大数据、协同办案、律所管理、法律 AI 等模块。AlphaGPT 则是其中更偏 AI 助手 / AI 工作台的部分，覆盖合同审查、文书写作、律师阅卷、法律咨询、案情分析等场景。
+
+可以把它分成三层：
+
+底座层：法律数据和知识库
+法规、案例、司法观点、类案同判、公司主体库、项目模板、律所知识库。这个是它区别于通用大模型的关键，因为法律 AI 不能只靠模型“会说”，还要有专业来源。
+
+AI 任务层：AlphaGPT / 法律 AI 工具
+合同审查 GPT、文书写作 GPT、律师阅卷 GPT、法律咨询 GPT、案情分析 GPT、法律检索 / 研究等。
+
+工作流层：协同办案与律所管理
+案件管理、项目推进、知识管理、客户管理、计时汇报、审批、利冲、财务等。这个层决定 AI 产出能不能真的进入律师团队日常流程。
+
+2. 核心 AI 场景
+比较值得重点理解的是这五类。
+
+合同审查
+不是简单“上传合同，AI 给建议”，而是：识别合同类型、主体、关键条款、权利义务、风险点，再结合法规、案例、模板、客户审查规则，生成风险说明和修改建议。iCourt 官网提到合同审查 GPT 侧重识别风险点并提供修改建议。
+
+文书写作
+核心是把案件材料、事实、诉求、证据、法规依据转成起诉状、答辩状、法律意见书等文书草稿。它的价值不是替律师最终定稿，而是减少重复写作、材料翻阅和格式组织成本。
+
+律师阅卷 / 材料阅读
+这是很典型的 AI 场景。律师面对大量材料时，需要提取关键事实、时间线、证据清单、争议焦点、人物关系。这个和你之前做“信息分散 -> 结构化处理路径”的经验很接近。
+
+法律咨询 / 法律检索
+通用 AI 可以回答法律问题，但专业法律 AI 更重要的是：能不能检索到法规、案例、司法观点，并把结论和依据对应起来。Alpha 的法律大数据底座在这里很关键。
+
+案情分析 / 法律研究
+这个更像“法律推理辅助”：根据事实材料梳理法律关系、争议焦点、证据缺口、可能路径和风险。产品难点是不能乱给结论，要把依据、假设和不确定性说清楚。
+
+3. 它和普通 ChatGPT 的区别
+普通 ChatGPT 更像开放问答。
+AlphaGPT / 法律 AI 更像专业任务流助手。
+
+区别在于：
+有法律数据底座：法规、案例、司法观点、模板、知识库
+有固定任务场景：合同审查、文书写作、阅卷、案情分析
+有可追溯依据：结论最好能看到来源
+有结构化输出：风险点、依据、等级、建议、待补信息
+有人工复核：律师保留最终判断权
+有团队流程承接：输出可以进入案件、文书、知识库或律所管理系统
+
+4. 产品经理真正要关注的难点
+可以从这几个角度理解他们的 AI 产品：
+
+第一，可信度。
+法律场景不能“差不多”。AI 输出要有依据、引用、边界，不能把不确定内容说成确定结论。
+
+第二，结构化。
+用户不只是要一段回答，而是要风险清单、审查意见、文书结构、证据清单、时间线、待补材料。
+
+第三，场景闭环。
+合同审查要能导出意见或修订建议；文书写作要能继续编辑；阅卷要能生成证据清单；知识库要能沉淀复用。
+
+第四，私域适配。
+不同律所、律师、企业法务对合同审查标准、文书风格、风险偏好可能不同。产品不能只做统一答案，还要考虑团队知识库和审查规则配置。
+
+第五，专家协作。
+AI 产品经理不需要自己当法律专家，但要会和法律专家一起把审查清单、知识源优先级、验收标准、bad case 规则定义清楚。`,
+            en: "Chinese original note preserved in the Chinese view. It covers four parts: product matrix, core AI scenarios, differences from generic ChatGPT, and key PM challenges in legal AI.",
+          },
+          interviewUse: {
+            zh: "这张卡保留原文细节，用于面试前深读。真正口述时不要整段背，优先压缩成：数据底座 + AI 任务工具 + 工作流承接；可信依据 + 结构化输出 + 人工复核。",
+            en: "Use this as a deep-reading card before the interview. Do not recite it verbatim; compress it into data foundation plus AI task tools plus workflow adoption, and trusted evidence plus structured output plus human review.",
+          },
+        },
+        {
+          title: { zh: "三层产品地图", en: "Three-layer product map" },
+          body: {
+            zh: "可以把新橙 / iCourt 的 AI 产品理解成“法律数据底座 + AI 任务工具 + 律师工作流承接”。第一层是法律数据与知识库，包括法规、案例、司法观点、类案同判、公司主体、项目模板和律所知识库。第二层是 AI 任务工具，包括合同审查 GPT、文书写作 GPT、律师阅卷 GPT、法律咨询 GPT、案情分析 GPT 和法律检索 / 研究。第三层是工作流承接，包括案件管理、项目推进、知识管理、客户管理、计时汇报、审批、利冲和财务等律所管理场景。",
+            en: "Xincheng / iCourt's AI product can be understood as legal data foundation plus AI task tooling plus lawyer workflow adoption. Layer one is legal data and knowledge: laws, cases, judicial viewpoints, similar-case analysis, company entities, project templates, and firm knowledge bases. Layer two is AI task tooling: contract-review GPT, legal-writing GPT, document-review GPT, legal consultation GPT, case-analysis GPT, and legal search/research. Layer three is workflow adoption: case management, project progress, knowledge management, client management, time reporting, approvals, conflict checks, finance, and other firm-management scenarios.",
+          },
+          interviewUse: {
+            zh: "可以说：我不会把 AlphaGPT 只理解成一个聊天入口，而会看它如何依托 Alpha 的数据底座，嵌入律师检索、审查、写作和案件协作流程。",
+            en: "You can say: I would not understand AlphaGPT as only a chat entry point; I would look at how it relies on Alpha's data foundation and embeds into legal search, review, writing, and case-collaboration workflows.",
+          },
+        },
+        {
+          title: { zh: "核心 AI 场景：合同审查", en: "Core AI scenario: contract review" },
+          body: {
+            zh: "合同审查不是简单“上传合同，AI 给建议”，而是识别合同类型、主体、关键条款、权利义务和风险点，再结合法规、案例、模板、客户审查规则生成风险说明和修改建议。产品上要关注合同解析、条款识别、风险点匹配、依据召回、风险等级、修改建议、人工编辑、导出审查意见和 bad case 回流。",
+            en: "Contract review is not simply uploading a contract and receiving advice. It involves identifying contract type, parties, key clauses, rights and obligations, and risk points, then generating risk explanations and suggested edits based on laws, cases, templates, and client review rules. Product work should focus on parsing, clause recognition, risk matching, evidence retrieval, risk levels, suggested edits, human editing, export of review comments, and bad-case feedback.",
+          },
+          interviewUse: {
+            zh: "可以说：合同审查的关键不是生成一段好看的总结，而是把合同解析、风险识别、依据召回、修改建议和人工复核做成稳定流程。",
+            en: "You can say: the key to contract review is not generating a polished summary, but making contract parsing, risk detection, evidence retrieval, suggested edits, and human review into a stable workflow.",
+          },
+        },
+        {
+          title: { zh: "核心 AI 场景：文书写作与阅卷", en: "Core AI scenario: legal writing and document review" },
+          body: {
+            zh: "文书写作的价值在于把案件材料、事实、诉求、证据和法规依据组织成起诉状、答辩状、法律意见书等草稿，减少重复写作和格式组织成本。律师阅卷 / 材料阅读则更偏信息抽取：从大量材料里提取关键事实、时间线、证据清单、争议焦点和人物关系。这类场景和“信息分散 -> 结构化任务流”的产品方法非常接近。",
+            en: "Legal writing is about turning case materials, facts, claims, evidence, and legal basis into drafts such as complaints, defense statements, and legal opinions, reducing repetitive writing and formatting cost. Lawyer document review is more about information extraction: identifying key facts, timelines, evidence lists, dispute focuses, and relationships from large volumes of material. These scenarios are close to the product method of turning scattered information into a structured task flow.",
+          },
+          interviewUse: {
+            zh: "可以说：文书写作和阅卷不只是生成文本，更重要的是把材料理解、事实提取、结构组织和律师复核串起来。",
+            en: "You can say: legal writing and document review are not only text generation; the real product loop connects material understanding, fact extraction, structure organization, and lawyer review.",
+          },
+        },
+        {
+          title: { zh: "核心 AI 场景：法律咨询、检索与案情分析", en: "Core AI scenario: consultation, search, and case analysis" },
+          body: {
+            zh: "法律咨询 / 法律检索不只是回答问题，更重要的是能检索法规、案例、司法观点，并把结论和依据对应起来。案情分析更像法律推理辅助：根据事实材料梳理法律关系、争议焦点、证据缺口、可能路径和风险。产品难点是不能乱给确定结论，要把依据、假设、不确定性和待补材料说清楚。",
+            en: "Legal consultation and search are not only about answering questions; they need to retrieve laws, cases, and judicial viewpoints, then connect conclusions with evidence. Case analysis is more like legal reasoning assistance: organizing legal relationships, dispute focuses, evidence gaps, possible paths, and risks based on facts and materials. The product challenge is not to force definitive conclusions, but to clarify evidence, assumptions, uncertainty, and missing materials.",
+          },
+          interviewUse: {
+            zh: "可以说：法律 AI 的高级价值不是“答得像”，而是能把结论、依据、假设和不确定性拆清楚，让律师可以继续判断。",
+            en: "You can say: the higher value of legal AI is not sounding plausible, but separating conclusions, evidence, assumptions, and uncertainty so lawyers can continue making professional judgments.",
+          },
+        },
+        {
+          title: { zh: "和普通 ChatGPT 的区别", en: "Difference from generic ChatGPT" },
+          body: {
+            zh: "普通 ChatGPT 更像开放问答；AlphaGPT / 法律 AI 更像专业任务流助手。区别在于：它依赖法律数据底座和团队知识库；有固定任务场景，如合同审查、文书写作、阅卷和案情分析；需要可追溯依据；需要结构化输出，如风险点、依据、等级、建议和待补信息；需要人工复核；还要能接入案件、文书、知识库或律所管理系统。",
+            en: "Generic ChatGPT is closer to open-ended Q&A; AlphaGPT / legal AI is closer to a professional task-flow assistant. The difference is that it relies on legal data and team knowledge bases; it targets fixed tasks such as contract review, legal writing, document review, and case analysis; it needs traceable evidence; it needs structured outputs such as risk points, evidence, levels, suggestions, and missing information; it needs human review; and it should connect back to cases, documents, knowledge bases, or firm-management systems.",
+          },
+          interviewUse: {
+            zh: "可以说：我会把它看成专业工作流产品，而不是普通聊天产品；PM 要关注知识源、结构化输出、人审和流程承接。",
+            en: "You can say: I would treat it as a professional workflow product, not a generic chat product; a PM should focus on knowledge sources, structured output, human review, and workflow adoption.",
+          },
+        },
+        {
+          title: { zh: "法律 AI 的核心产品难点", en: "Core product challenges in legal AI" },
+          body: {
+            zh: "法律 AI 不能只追求回答流畅，更要解决五个产品难点。第一是可信度：输出要有依据、引用和边界。第二是结构化：用户需要风险清单、审查意见、文书结构、证据清单、时间线和待补材料，而不只是一段自然语言。第三是场景闭环：合同审查要能导出意见，文书写作要能继续编辑，阅卷要能生成证据清单，知识库要能沉淀复用。第四是私域适配：不同律所、律师和企业法务有不同审查标准、文书风格和风险偏好。第五是专家协作：PM 要和法律专家一起定义审查清单、知识源优先级、验收标准和 bad case 规则。",
+            en: "Legal AI cannot only optimize for fluent answers. It needs to solve five product challenges. First, trustworthiness: outputs need evidence, citations, and boundaries. Second, structure: users need risk lists, review comments, document structures, evidence lists, timelines, and missing materials, not just prose. Third, scenario closure: contract review should export comments, legal writing should continue into editing, document review should produce evidence lists, and knowledge bases should support reuse. Fourth, private-domain adaptation: different firms, lawyers, and enterprise legal teams have different review standards, writing styles, and risk preferences. Fifth, expert collaboration: PMs need to define review checklists, knowledge-source priorities, acceptance standards, and bad-case rules with legal experts.",
+          },
+          interviewUse: {
+            zh: "可以说：我会优先关注知识源可信、引用可追溯、审查清单结构化、低置信兜底和人工复核，因为这些决定法律 AI 能不能被专业用户信任。",
+            en: "You can say: I would prioritize trusted knowledge sources, traceable citations, structured review checklists, low-confidence fallback, and human review because these determine whether legal AI can be trusted by professional users.",
+          },
+        },
+        {
+          title: { zh: "合同审查产品闭环", en: "Contract-review product loop" },
+          body: {
+            zh: "合同审查可以拆成：合同上传与解析、条款识别、风险点匹配、法规 / 案例 / 模板 / 客户规则依据召回、风险等级判断、修改建议生成、人工确认编辑、导出审查意见或修订稿、bad case 回流。产品经理要把这些步骤拆成字段、状态、输出 Schema、兜底规则和验收用例。",
+            en: "Contract review can be broken down into upload and parsing, clause recognition, risk matching, retrieval of laws/cases/templates/client rules, risk-level judgment, suggested edits, human confirmation and editing, export of review comments or revised drafts, and bad-case feedback. A PM needs to turn these steps into fields, states, output schema, fallback rules, and acceptance cases.",
+          },
+          interviewUse: {
+            zh: "把它和 Inspector 类比：Inspector 是告警、设备、SOP、历史工单到工单草稿；合同审查是合同、交易背景、审查清单、法律依据到审查意见。底层都是专业任务流 AI 产品化。",
+            en: "Connect it to Inspector: Inspector goes from alerts, equipment, SOPs, and historical work orders to a work-order draft; contract review goes from contract, transaction context, review checklist, and legal evidence to review comments. Both are professional workflow AI productization.",
           },
         },
         {
