@@ -128,6 +128,85 @@
         },
       },
       {
+        id: "inspector_business_intro_backup",
+        framework: "role",
+        category: { zh: "项目介绍备用", en: "Project intro backup" },
+        mode: ["warmup", "role", "ai"],
+        difficulty: { zh: "备用", en: "Backup" },
+        zh: {
+          question: "如果还没聊到 AI 深挖，怎么用通俗方式介绍 Inspector 项目？",
+          intent: ["让非本行业面试官听懂产品", "先讲业务痛点而不是技术名词", "自然带出个人贡献和岗位迁移能力"],
+          simple: `我可以先用一个场景来讲这个项目。比如一个商业楼宇或者 IDC 机房里，半夜空调机组突然报警，系统提示“温度异常”。这个时候对一线运维人员来说，真正的问题不是“有没有看到告警”，而是他接下来要判断：是哪台设备、在哪个空间、影响哪些区域、以前有没有类似故障、应该先查哪个部件、要不要生成工单。但在传统流程里，这些信息是分散的。设备台账可能在一个系统，告警在一个系统，历史工单在另一个系统，SOP 可能还是文档，很多处理经验还在老师傅脑子里。所以客户真正缺的不是一个更漂亮的告警页面，而是一条从“看到告警”到“知道怎么处理”的工作流。我参与的 Inspector 就是在解决这个问题。它本质上是一个设施运维产品，帮助楼宇、园区或者 IDC 运维人员把设备、空间、告警、历史工单、SOP 和工单流程串起来。告警来了以后，系统先帮用户定位设备和空间，再补充历史记录和处理知识，然后给出可能原因、建议检查项和工单草稿，最后由人工确认后再派发。我在这个项目里主要做的，是把这个复杂流程拆成产品能落地的结构。比如我会先拆业务流：告警触发以后，用户需要经过设备定位、上下文补全、诊断建议、工单草稿、人工确认和结果回写。然后我会拆业务对象：设备、空间、告警、SOP、历史工单、知识源、工单字段和状态。AI 在这里不是一个单独的聊天框，而是放在这条业务链路里，辅助用户做诊断和建议生成。所以我也会和研发一起定义：AI 每一步拿什么输入、输出什么结构、哪些情况不能给确定结论、哪些高风险操作必须人工确认、工单草稿要包含哪些字段。这段经历对我来说，最重要的是我不是只做功能列表，而是把现场人员真实的工作过程拆成了产品流程，再把 AI 放到合适的位置，让它可用、可解释、可复核。这个能力我觉得和法律 AI 是相通的。比如合同审查也不是做一个聊天框，而是要把合同类型、交易背景、审查清单、法律依据、风险点、修改建议和人工复核串成一个可信的工作流。`,
+          full: `我可以先用一个场景来讲这个项目。
+
+比如一个商业楼宇或者 IDC 机房里，半夜空调机组突然报警，系统提示“温度异常”。这个时候对一线运维人员来说，真正的问题不是“有没有看到告警”，而是他接下来要判断：是哪台设备、在哪个空间、影响哪些区域、以前有没有类似故障、应该先查哪个部件、要不要生成工单。
+
+但在传统流程里，这些信息是分散的。设备台账可能在一个系统，告警在一个系统，历史工单在另一个系统，SOP 可能还是文档，很多处理经验还在老师傅脑子里。所以客户真正缺的不是一个更漂亮的告警页面，而是一条从“看到告警”到“知道怎么处理”的工作流。
+
+我参与的 Inspector 就是在解决这个问题。它本质上是一个设施运维产品，帮助楼宇、园区或者 IDC 运维人员把设备、空间、告警、历史工单、SOP 和工单流程串起来。告警来了以后，系统先帮用户定位设备和空间，再补充历史记录和处理知识，然后给出可能原因、建议检查项和工单草稿，最后由人工确认后再派发。
+
+我在这个项目里主要做的，是把这个复杂流程拆成产品能落地的结构。比如我会先拆业务流：告警触发以后，用户需要经过设备定位、上下文补全、诊断建议、工单草稿、人工确认和结果回写。然后我会拆业务对象：设备、空间、告警、SOP、历史工单、知识源、工单字段和状态。
+
+AI 在这里不是一个单独的聊天框，而是放在这条业务链路里，辅助用户做诊断和建议生成。所以我也会和研发一起定义：AI 每一步拿什么输入、输出什么结构、哪些情况不能给确定结论、哪些高风险操作必须人工确认、工单草稿要包含哪些字段。
+
+这段经历对我来说，最重要的是我不是只做功能列表，而是把现场人员真实的工作过程拆成了产品流程，再把 AI 放到合适的位置，让它可用、可解释、可复核。这个能力我觉得和法律 AI 是相通的。比如合同审查也不是做一个聊天框，而是要把合同类型、交易背景、审查清单、法律依据、风险点、修改建议和人工复核串成一个可信的工作流。`,
+          notes: "适合项目经历开场或面试官不是设施运维/工业背景时使用。先讲半夜告警场景，再讲信息分散，再讲 Inspector 是什么，最后讲个人贡献和迁移到法律 AI。",
+          followups: [
+            {
+              question: "所以你具体贡献是什么？",
+              intent: "把通俗故事收回个人贡献。",
+              simple: "我个人主要贡献是三块：第一，把客户现场比较散的需求整理成清晰的业务流程和产品对象；第二，把 AI 能力拆成输入、输出、边界和验收标准，方便研发实现和测试验证；第三，控制边界，确保 AI 是辅助诊断和生成草稿，而不是替人做高风险决策。",
+              full: "我个人主要贡献是三块。第一，我把客户现场比较散的需求整理成清晰的业务流程和产品对象，比如设备、空间、告警、SOP、历史工单和工单状态。第二，我把 AI 能力拆成输入、输出、边界和验收标准，方便研发实现和测试验证。第三，我一直在控制边界，确保 AI 是辅助诊断和生成草稿，而不是替人做高风险决策。",
+            },
+            {
+              question: "这和新橙科技的法律 AI 有什么关系？",
+              intent: "把设施运维迁移到法律任务流。",
+              simple: "底层能力是相通的：都不是做一个聊天框，而是把专业知识、用户材料、输出结构和人工复核串成可信工作流。Inspector 是告警、设备、SOP、工单；法律 AI 是合同、交易背景、审查清单、法律依据、风险点和修改建议。",
+              full: "我觉得底层能力是相通的。Inspector 里不是把告警丢给 AI 随便回答，而是要知道设备是谁、在哪里、历史有没有类似故障、SOP 怎么写、最后要生成什么工单。法律 AI 也类似，合同审查不是把合同丢给 AI 让它随便说风险，而是要知道合同类型、交易背景、审查清单、法律依据、风险点、修改建议和人工复核。两者都是专业任务流 AI。",
+            },
+            {
+              question: "如果时间很短，30 秒怎么讲？",
+              intent: "压缩表达，避免讲散。",
+              simple: "Inspector 是一个设施运维产品，解决楼宇/IDC 运维里告警、设备台账、历史工单、SOP 分散的问题。客户看到告警后，不只是想知道哪里报警，更想知道原因、影响范围和下一步怎么处理。我做的是把这些信息整理成从告警、设备定位、知识补充、处置建议、工单草稿到人工确认和结果回写的产品闭环。",
+              full: "30 秒我会说：Inspector 是一个设施运维产品，解决楼宇/IDC 运维里告警、设备台账、历史工单、SOP 分散的问题。客户看到告警后，不只是想知道哪里报警，更想知道原因、影响范围和下一步怎么处理。我做的是把这些分散信息整理成从告警、设备定位、知识补充、处置建议、工单草稿到人工确认和结果回写的产品闭环。AI 在里面是辅助诊断和建议生成能力，但我会把它放在业务流程里讲，而不是单独包装成聊天机器人。",
+            },
+          ],
+        },
+        en: {
+          question: "How would you explain Inspector in a simple way before going into AI technical details?",
+          intent: ["Make the product understandable to non-domain interviewers", "Start from business pain instead of technical terms", "Show personal contribution and transferable skills"],
+          simple: "I would start with a concrete scenario. Imagine a commercial building or IDC room triggers an air-conditioning alert at night. The operator does not only need to see the alert. They need to know which equipment it is, where it is, what area may be affected, whether similar issues happened before, what to check first, and whether a work order should be created. Traditionally, equipment records, alerts, historical work orders, SOPs, and expert experience are scattered. Inspector is a facility-operations product that connects equipment, space, alerts, SOPs, historical work orders, and the work-order process. My work was to turn that scattered process into a product workflow: alert, equipment location, context enrichment, diagnostic suggestion, work-order draft, human confirmation, and result writeback. AI is not a standalone chatbot here. It is embedded in the workflow to support diagnosis and draft generation. This is transferable to legal AI because contract review also needs trusted knowledge, user materials, structured outputs, and human review in one workflow.",
+          full: `I would start with a concrete scenario. Imagine a commercial building or IDC room triggers an air-conditioning alert at night. For the operator, the real question is not just whether they can see the alert. They need to know which equipment it is, where it is, what area may be affected, whether similar issues happened before, what component to check first, and whether a work order should be created.
+
+Traditionally, those pieces of information are scattered. Equipment records may be in one system, alerts in another, historical work orders somewhere else, SOPs in documents, and a lot of experience in senior technicians' heads. So the customer does not just need a nicer alert page. They need a workflow from seeing an alert to knowing how to handle it.
+
+Inspector is a facility-operations product that solves this problem. It connects equipment, space, alerts, SOPs, historical work orders, and the work-order process. When an alert comes in, the system helps locate the equipment and space, adds historical records and handling knowledge, provides possible causes and suggested checks, then creates a work-order draft for human confirmation.
+
+My role was to turn that complex process into a product structure. I broke down the business flow from alert triggering to equipment location, context enrichment, diagnostic suggestion, work-order draft, human confirmation, and result writeback. I also broke down business objects such as equipment, space, alerts, SOPs, historical work orders, knowledge sources, work-order fields, and states.
+
+AI is not a standalone chatbot here. It is placed inside the workflow to support diagnosis and suggestion generation. That experience is transferable to legal AI, because contract review also needs contract type, transaction background, review checklist, legal basis, risk points, suggested edits, and human review in a trustworthy workflow.`,          notes: "Use this when the interviewer may not understand facility operations. Start with the night alert scenario, then explain the product and your contribution.",
+          followups: [
+            {
+              question: "What was your specific contribution?",
+              intent: "Moves from story to personal contribution.",
+              simple: "I organized scattered customer needs into a clear workflow and product objects, translated AI capability into inputs, outputs, boundaries, and acceptance criteria, and kept AI as diagnostic assistance rather than high-risk automatic decision-making.",
+              full: "My specific contribution had three parts. First, I organized scattered customer needs into a clear workflow and product objects. Second, I translated AI capability into inputs, outputs, boundaries, and acceptance criteria so engineering and QA could implement and validate it. Third, I kept the risk boundary clear: AI should assist diagnosis and generate drafts, not replace people in high-risk decisions.",
+            },
+            {
+              question: "How is this relevant to legal AI?",
+              intent: "Connects facility operations to legal-tech tasks.",
+              simple: "The underlying capability is the same: turning a professional task into a trustworthy workflow with knowledge sources, user materials, structured outputs, and human review.",
+              full: "The underlying capability is the same. In Inspector, we do not throw an alert into AI and let it answer freely. We need equipment identity, location, historical cases, SOPs, and work-order outputs. In legal AI, contract review is similar: we need contract type, transaction background, review checklists, legal basis, risk points, suggested edits, and human review. Both are professional workflow AI products.",
+            },
+            {
+              question: "Can you make it 30 seconds?",
+              intent: "Compresses for short interview slots.",
+              simple: "Inspector is a facility-operations product that solves scattered alerts, equipment records, SOPs, and work orders. My work was to turn them into an alert-to-resolution workflow with AI-assisted diagnosis, work-order draft, human confirmation, and result writeback.",
+              full: "Inspector is a facility-operations product that solves scattered alerts, equipment records, SOPs, and work orders in buildings or IDC operations. Operators do not only want to know where the alert is; they want to know the reason, impact, and next action. My work was to turn those scattered inputs into an alert-to-resolution workflow with AI-assisted diagnosis, work-order draft, human confirmation, and result writeback.",
+            },
+          ],
+        },
+      },      {
         id: "inspector_project_star",
         framework: "role",
         category: { zh: "项目经历", en: "Project experience" },
@@ -189,6 +268,94 @@
         },
       },
       {
+        id: "ai_application_deep_story",
+        framework: "ai",
+        category: { zh: "AI 应用深挖", en: "AI application deep dive" },
+        mode: ["ai", "pressure", "role"],
+        difficulty: { zh: "高压深挖", en: "Deep dive" },
+        zh: {
+          question: "详细讲讲你在项目里怎么做 AI 应用：怎么拆业务流、定义 Agent、配合研发、验收和调优？",
+          intent: ["证明真实做过 AI 产品化", "讲清业务流到研发协议", "展示用户反馈和 bad case 调优方法"],
+          simple: `我做 Inspector 里 AI 应用时，一开始没有先想“做一个 Agent”，而是先看设施运维人员真实的一天。客户现场有告警、设备台账、工单系统、SOP 和历史维修记录，但这些信息是散的；系统能告诉你“温度异常”或“设备离线”，却不会告诉你为什么异常、过去有没有类似问题、该先查哪个部件、要不要生成工单。所以我把 AI 定义成嵌入“告警到工单”的业务闭环：告警触发后先识别设备和空间，再补设备台账、历史工单、SOP、时序数据等上下文，然后输出可能原因、依据、置信度、缺失信息和建议检查项，最后生成工单草稿，由人工确认后派发，执行结果再回写知识库。定义 Agent 时，我把它拆成告警理解、知识检索、诊断、方案生成、工单草稿几个职责，每个职责都定义输入、输出、触发时机和边界。跟研发配合时，我不会说“做个智能诊断”，而是把它拆成字段、接口、状态和验收脚本：设备 ID 能不能拿到，SOP 有没有结构化，历史工单有没有真实原因字段，AI 输出能不能按结构返回，低置信和没有依据时怎么兜底。验收上我不看回答是否漂亮，而看设备识别是否正确、依据是否召回、字段是否完整、低置信是否兜底、高风险是否人工确认。调优时，如果没有线上指标，我会看用户反馈和 bad case，把问题拆成知识缺失、检索不准、输出太泛、Schema 不稳、流程缺输入或风险边界不清，再分别补知识库、调检索、收紧输出结构、增加引用/置信度或加人工确认。`,
+          full: `我做 Inspector 里 AI 应用的时候，其实一开始没有先想“我要做一个 Agent”。我当时先看的，是设施运维人员真实的一天。
+
+客户现场已经有告警系统、设备台账、工单系统、SOP、历史维修记录，但问题是这些东西是散的。比如一个空调机组报警，系统能告诉你“温度异常”或者“设备离线”，但不会告诉你为什么异常、过去有没有类似问题、应该先查哪个部件、要不要派工单。一线人员还是要自己翻台账、问老师傅、查历史工单、看 SOP。于是我意识到，这个 AI 能力不能做成一个孤立聊天框，而应该嵌进“告警到工单”的业务主流程里。
+
+我先把业务流拆成几步：告警触发以后，系统先识别告警对象是谁，在哪个空间，属于哪个设备系统；然后补上下文，包括设备台账、空间关系、历史工单、SOP、实时或历史数据；再让 AI 生成可能原因、判断依据、置信度、缺失信息和建议检查项；如果用户认可，再生成工单草稿；最后由人工确认、执行、回写结果，并把高价值案例沉淀回知识库。
+
+所以我的第一步不是定义 Agent，而是定义业务闭环：告警 -> 上下文补全 -> 诊断建议 -> 处置方案 -> 工单草稿 -> 人工确认 -> 执行回写 -> 知识沉淀。
+
+然后我再反过来拆 Agent。Agent 不是一个万能机器人，而是业务链路里不同职责的智能模块。告警理解 Agent 负责把原始告警转成结构化问题；RAG / 知识检索模块负责找 SOP、历史工单、设备资料；诊断 Agent 负责输出可能原因和依据；方案生成 Agent 负责给检查步骤；工单生成 Agent 只生成草稿，不自动派发。
+
+我给每个 Agent 都定义四件事：输入是什么、输出是什么、什么时候触发、边界在哪里。比如诊断 Agent 的输入不是一句“帮我看看这个告警”，而是告警 ID、设备 ID、空间位置、告警等级、历史曲线、历史工单、SOP 检索结果。它的输出也不能是一句“可能是水阀问题”，而要包含可能原因、判断依据、置信度、缺失信息、建议动作和风险提示。
+
+这也是我跟研发配合最核心的地方。我不会跟研发说“我们做个智能诊断吧”，这句话太虚了，研发也很难落地。我会把它拆成字段、接口、状态和验收脚本。比如设备 ID 能不能稳定拿到，SOP 有没有结构化，历史工单里有没有真实原因字段，AI 输出能不能按 JSON 或固定字段返回，低置信时怎么走分支，没有检索到 SOP 时能不能强制不生成确定结论。
+
+当时我们也遇到过一个典型问题：大家很容易把 AI 想成“给一个完整答案”。但现场运维不是这样工作的。一线人员不一定需要 AI 直接告诉他“就是某个部件坏了”，他更需要的是：我应该先查什么，为什么先查这个，有没有历史类似案例，这个建议有多可靠，哪些地方还缺信息。所以我后来把输出从“结论型”调成“排查型 + 依据型”。
+
+比如原来可能是：可能是冷却水阀异常，建议维修。这就太粗了。调优后我希望它变成：可能原因是冷却水阀异常；依据是当前温度异常与冷却水流量下降同时出现，历史工单中同区域出现过类似情况；置信度是中；缺失信息是现场阀门开度和管路压力；建议动作是先检查阀门开度、过滤器和管路压力，确认后再生成工单草稿。这样一线人员会更容易信任，因为它不是在替我决定，而是在帮我组织排查路径。
+
+业务目标我也拆过。对客户来说，目标不是“用了 AI”，而是告警处理更快、经验能沉淀、新人也能按流程排查。对产品来说，目标是把一次性的客户方案沉淀成可复用能力。对研发来说，目标是先跑通一个最小闭环，而不是一口气覆盖所有设备、所有故障、所有 SOP。
+
+所以我会把目标拆成三层。第一层是 MVP 闭环：选一个典型设备或告警类型，跑通“告警识别 - SOP/历史工单检索 - 建议输出 - 工单草稿”。第二层是可信机制：引用、置信度、缺失信息、人工确认。第三层才是规模化：更多设备类型、更多客户知识库、更多历史案例回流。
+
+判断 AI 成果是否符合预期时，如果还没有稳定线上指标，我不会硬讲准确率。我会用场景验收来判断：一个典型告警来了以后，它有没有识别对设备，有没有召回正确 SOP，有没有引用历史工单，输出字段是不是完整，低置信时有没有兜底，高风险场景有没有要求人工确认，工单草稿能不能被运维人员少量修改后使用。
+
+调优上，如果没有量化指标，我会主要看用户反馈和 bad case。我会把反馈拆成几类：输出太泛，说明可能要改成固定检查项和工单字段；依据不足，说明要补引用来源、知识源优先级和可解释展示；现场规则不匹配，说明要区分通用知识库和客户专属知识库；风险边界不清，说明高风险设备必须加人工确认或专家升级。
+
+我指导研发调优时，也不会笼统说“模型不准”。我会先把 bad case 分类：是数据缺失、检索没召回、召回了但引用错、Prompt 越界、输出 Schema 不稳定，还是产品流程没有让用户补充必要信息。不同问题对应不同解法。知识缺失就补知识库；检索不准就调检索策略和标签；输出不稳定就收紧 Schema；用户不信任就增加引用和置信度；风险太高就加人工确认。
+
+所以如果面试官问我这段经历，我不会说我训练了模型，也不会说 AI 已经完全替代人工。我会说，我做的是 AI 产品经理应该负责的那部分：把业务问题拆成流程，把流程拆成 Agent 职责，把 Agent 拆成输入输出和边界，再用场景验收、用户反馈和 bad case 迭代，让 AI 从一个概念变成研发能实现、客户能理解、现场敢用的产品闭环。`,
+          notes: "这题适合被深挖时讲 3-5 分钟。核心顺序：业务流 -> Agent 职责 -> 研发协议 -> 验收 -> 用户反馈 / bad case 调优 -> 边界。注意仍需补一条真实客户或内部评审反馈。",
+          followups: [
+            {
+              question: "你具体输出了什么？",
+              intent: "追产品产物，而不是泛泛讲参与。",
+              simple: "我输出的不是一句“做智能诊断”，而是一组产品协议：业务流程图、业务对象清单、Agent 职责说明、输入输出字段、输出结构、异常分支、人机边界和验收脚本。这样研发能讨论接口和状态，测试能写用例，客户也能理解这个能力到底怎么用。",
+              full: "我输出的不是一句“做智能诊断”，而是一组产品协议。包括业务流程图，说明告警到诊断、方案、工单和回写怎么走；业务对象清单，定义告警、设备、空间、SOP、历史工单、知识库和工单字段；Agent 职责说明，定义每个 Agent 的触发时机、输入、输出和失败路径；还有输出结构、人机边界和验收脚本。这样研发能讨论接口和状态，测试能写用例，客户也能理解这个能力到底怎么用。",
+            },
+            {
+              question: "如果用户反馈 AI 建议太泛，你怎么处理？",
+              intent: "看用户反馈到产品调优的闭环。",
+              simple: "我会先判断是任务定义太大、知识源不足，还是输出结构太松。如果是输出太松，就改成固定结构，比如可能原因、依据、缺失信息、建议检查项和工单字段；如果是知识源不足，就补 SOP、历史工单和客户专属经验库；如果是场景太大，就先收敛到某一类设备或某一类告警。",
+              full: "我不会只说“再调一下模型”。我会先判断用户说的“太泛”到底是哪类问题：是任务定义太大、知识源不足，还是输出结构太松。如果是输出结构太松，就把答案改成固定结构，比如可能原因、依据、缺失信息、建议检查项和工单字段；如果是知识源不足，就补 SOP、历史工单和客户专属经验库；如果是场景太大，就先收敛到某一类设备或某一类告警，把 MVP 闭环跑通。",
+            },
+            {
+              question: "怎么指导研发调优？",
+              intent: "看是否能把 bad case 翻译成工程动作。",
+              simple: "我不会笼统说“模型不准”，而是把 bad case 分类：知识缺失、检索错误、引用错误、Prompt 越界、输出 Schema 不稳定、流程缺少必要输入。不同原因对应不同动作：补知识库、调检索策略、收紧输出协议、增加缺失信息提示，或加入人工确认。",
+              full: "我会先把 bad case 拆到具体层级，而不是笼统说模型不准。比如知识缺失，就补 SOP、历史工单或客户专属经验库；检索错误，就调标签、召回策略或知识源优先级；引用错误，就强化引用展示和来源校验；Prompt 越界，就收紧指令和高风险边界；输出 Schema 不稳定，就改输出协议和字段校验；流程缺输入，就在产品流程里增加缺失信息提示。这样研发拿到的是可执行动作。",
+            },
+          ],
+        },
+        en: {
+          question: "Walk me through how you applied AI in the project: business flow, Agent design, engineering collaboration, validation, and tuning.",
+          intent: ["Prove real AI productization experience", "Translate workflow into engineering contracts", "Show feedback and bad-case iteration"],
+          simple: "In Inspector, I did not start by saying we should build an Agent. I first mapped the real facility-operations workflow. The customer already had alerts, equipment records, work orders, SOPs, and maintenance history, but they were scattered. So I embedded AI into the alert-to-work-order loop: identify equipment and location, retrieve records, SOPs, historical work orders, and time-series context, then output possible causes, evidence, confidence, missing information, suggested checks, and a work-order draft for human confirmation. I defined Agents by responsibility: alert understanding, retrieval, diagnosis, action-plan generation, and work-order drafting. With engineering, I translated the idea into fields, APIs, states, output schema, exception paths, and acceptance scripts. For validation, I checked whether the device was identified correctly, evidence was retrieved, output fields were complete, low-confidence cases fell back safely, and high-risk cases required human confirmation. When there were no online metrics, I used user feedback and bad cases, classifying them into missing knowledge, poor retrieval, overly generic output, unstable schema, missing workflow inputs, or unclear risk boundaries.",
+          full: "In Inspector, I did not start by saying we should build an Agent. I first mapped the real day-to-day workflow of facility operators. The customer already had alert systems, equipment records, work orders, SOPs, and historical maintenance records, but they were scattered. That made me realize the AI capability should not be a standalone chatbot. It should be embedded into the alert-to-work-order workflow. I broke the loop into alert, context enrichment, diagnostic suggestion, action plan, work-order draft, human confirmation, execution writeback, and knowledge capture. Then I defined Agents according to business responsibility: alert understanding, knowledge retrieval, diagnosis, action-plan generation, and work-order drafting. For each Agent, I defined input, output, trigger, and boundary. With engineering, I translated the idea into fields, APIs, states, output schema, exception paths, and acceptance scripts. For validation, I would not judge whether the answer sounded fluent. I checked whether the right equipment was identified, whether the right SOP or historical work order was retrieved, whether output fields were complete, whether low-confidence cases fell back safely, whether high-risk cases required human confirmation, and whether the draft work order could be used with minor edits. When there were no stable online metrics, I used user feedback and bad cases. I classified them into missing knowledge, retrieval failure, wrong citation, prompt overreach, unstable schema, or missing user input in the workflow, then mapped each category to a concrete product or engineering action.",
+          notes: "Use this for a 3-5 minute deep dive. Keep the boundary clear: product-side validation / Demo / POC, not model training or full production launch.",
+          followups: [
+            {
+              question: "What exactly did you deliver?",
+              intent: "Asks for concrete product artifacts.",
+              simple: "I delivered product contracts: workflow diagrams, business-object mapping, Agent responsibilities, input/output fields, exception branches, human-review boundaries, and acceptance scripts.",
+              full: "I delivered product contracts rather than a vague feature name. These included workflow diagrams, business-object mapping, Agent responsibilities, input and output fields, output schema, exception branches, human-review boundaries, and acceptance scripts. That allowed engineering to discuss interfaces and states, QA to write cases, and customers to understand how the capability would work.",
+            },
+            {
+              question: "What if users said the AI suggestion was too generic?",
+              intent: "Checks feedback-to-tuning loop.",
+              simple: "I would identify whether the task scope was too broad, knowledge was missing, or the output structure was too loose, then narrow the scenario, add knowledge, or tighten the output schema.",
+              full: "I would not just ask engineering to tune the model. I would identify the root cause: task scope too broad, missing knowledge, or overly loose output structure. If the structure was loose, I would turn the answer into fixed fields such as possible cause, evidence, missing information, suggested checks, and work-order fields. If knowledge was missing, I would add SOPs, historical work orders, or customer-specific knowledge. If the scenario was too broad, I would narrow the MVP to one equipment type or alert type.",
+            },
+            {
+              question: "How did you guide engineering tuning?",
+              intent: "Checks whether bad cases became engineering actions.",
+              simple: "I classified bad cases into missing knowledge, retrieval error, citation error, prompt overreach, unstable schema, or missing workflow input, then mapped each category to a concrete fix.",
+              full: "I classified bad cases into missing knowledge, retrieval error, citation error, prompt overreach, unstable schema, or missing workflow input. Each category mapped to a concrete fix: add knowledge, tune retrieval strategy, validate citations, tighten prompts and guardrails, enforce output schema, or add missing-information prompts and human confirmation in the workflow.",
+            },
+          ],
+        },
+      },      {
         id: "ai_experience_gap",
         framework: "ai",
         category: { zh: "AI 经验边界", en: "AI boundary" },
