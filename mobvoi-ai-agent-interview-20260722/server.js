@@ -75,7 +75,7 @@ function savePaths(rootDir = ROOT) {
 function readSavedPayload(rootDir = ROOT) {
   const paths = savePaths(rootDir);
   if (!fs.existsSync(paths.json)) return normalizeEditsPayload({ edits: {} });
-  const raw = JSON.parse(fs.readFileSync(paths.json, "utf8"));
+  const raw = JSON.parse(fs.readFileSync(paths.json, "utf8").replace(/^\uFEFF/, ""));
   return normalizeEditsPayload(raw, raw.savedAt || fs.statSync(paths.json).mtime.toISOString());
 }
 

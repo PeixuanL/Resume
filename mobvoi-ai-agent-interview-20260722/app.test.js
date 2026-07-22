@@ -4,7 +4,7 @@ const path = require("node:path");
 
 const ROOT = __dirname;
 const { INTERVIEW_PREP_DATA } = require("./data.js");
-const { normalizeEditsPayload, renderEditsMarkdown } = require("./server.js");
+const { normalizeEditsPayload, renderEditsMarkdown, readSavedPayload } = require("./server.js");
 
 function test(name, fn) {
   try {
@@ -180,4 +180,21 @@ test("server renders saved edits as reviewable markdown", () => {
   assert.match(markdown, /## 请做一个 60 秒自我介绍，重点贴合这个 AI 产品经理岗位。/);
   assert.match(markdown, /### 中文简短回答/);
   assert.match(markdown, /English full/);
+});
+
+test("server reads saved edits when json starts with a byte order mark", () => {
+  const tmpRoot = fs.mkdtempSync(path.join(ROOT, ".tmp-bom-"));
+  try {
+    fs.writeFileSync(
+      path.join(tmpRoot, "saved-edits.json"),
+      "\uFEFF{\"savedAt\":\"2026-07-22T00:00:00.000Z\",\"edits\":{}}\n",
+      "utf8",
+    );
+    assert.deepEqual(readSavedPayload(tmpRoot), {
+      savedAt: "2026-07-22T00:00:00.000Z",
+      edits: {},
+    });
+  } finally {
+    fs.rmSync(tmpRoot, { recursive: true, force: true });
+  }
 });
