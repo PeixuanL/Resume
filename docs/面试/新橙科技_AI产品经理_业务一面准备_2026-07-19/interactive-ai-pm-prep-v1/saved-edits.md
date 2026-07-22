@@ -1,6 +1,6 @@
 # Interview Prep Saved Edits
 
-> Saved at: 2026-07-21T13:50:32.973Z
+> Saved at: 2026-07-22T03:17:28.183Z
 > Source: local draft webapp save service.
 
 ## 请做一个 60 秒自我介绍，重点贴合这个 AI 产品经理岗位。
@@ -10,9 +10,11 @@ English: Please give a 60-second self-introduction tailored to this AI Product M
 ### 中文简短回答
 您好，我是李沛宣，目前在 DataMesh 做 B 端产品经理，主要负责设施运维、数字孪生和 AI 产品化相关产品。
 
-我过去做得比较多的是复杂专业场景里的产品设计和落地。结合这个岗位，我觉得比较相关的有三点。第一，我做产品会先回到用户的真实工作流，而不是先从功能或者模型出发。比如设计 AI 能力时，我会先看用户在哪个任务里需要帮助、AI 输出怎么被使用、最后怎么回到业务结果里。第二，我有把模糊需求抽象成产品结构的经验。客户需求一开始经常比较散，我会把它拆成用户任务、产品对象和流程状态，再收敛成 MVP 或可复用模块。第三，我比较熟悉跨团队推进落地，能和研发、设计、测试、售前、交付一起对齐范围、验收标准和演示口径。
+我比较核心的能力，是把复杂专业场景拆成可交付的产品闭环。面对一个新场景，我会先看用户真实工作流、关键知识来源、输出如何被使用、哪些结果需要人工复核，再把这些拆成产品对象、流程状态、验收标准和研发可实现的方案。
 
-所以我理解新橙的法律问答、合同审查、文书写作和知识库，本质上也是专业任务流产品。如果进入这个方向，我会先抓法律人的工作流、知识来源和审查标准，再把这些理解转成可落地的产品设计。
+过去在设施运维方向，我做过类似的 AI 产品化设计，把告警、设备、知识源、处置建议、工单草稿、人工确认和结果回写串成闭环。这让我比较熟悉 B 端 AI 落地时要处理的几个关键问题：业务对象怎么建模、AI 输出怎么结构化、什么场景必须人审、怎么做验收和 bad case 迭代。
+
+所以我理解新橙的法律问答、合同审查、文书写作和知识库，本质上也是专业任务流产品。法律行业我需要补课，但把专业知识、用户材料、结构化输出和人工复核串成可信工作流，这个产品方法我是可以迁移的。
 
 ### 中文完整回答
 您好，我是李沛宣，目前在 DataMesh 做 B 端产品经理，主要负责设施运维、数字孪生和 AI 产品化相关产品。
@@ -33,9 +35,11 @@ simple 版目标 75-90 秒，full 版目标 1.5-2 分钟。能力标签：Custom
 ### English Simple Answer
 Hi, I am Jane Li, currently a B2B product manager at DataMesh, focusing on facility operations, digital twins, and AI productization.
 
-Most of my work has been about designing and delivering products for complex professional scenarios. For this role, I see three relevant strengths. First, I usually start from the user's real workflow, not from a feature list or a model. When designing AI capability, I first clarify which task needs support, who will use the output, and how it returns to a business result. Second, I have experience turning ambiguous requirements into product structure. Customer needs often start scattered, so I break them down into user tasks, product objects, and process states, then narrow them into an MVP or reusable modules. Third, I am used to cross-functional delivery, working with R&D, design, QA, presales, and delivery teams on scope, acceptance criteria, and demo narratives.
+My core strength is turning complex professional scenarios into deliverable product workflows. When facing a new scenario, I first look at the user's real workflow, key knowledge sources, how the output will be used, and which results need human review. Then I translate those into product objects, process states, acceptance criteria, and feasible solutions for engineering.
 
-My understanding is that legal Q&A, contract review, legal writing, and knowledge-base products are also professional workflow products. If I join this direction, I would first understand legal users' workflows, knowledge sources, and review standards, then translate that understanding into practical product design.
+In facility operations, I worked on similar AI productization by connecting alerts, equipment, knowledge sources, handling suggestions, work-order drafts, human confirmation, and result writeback into one workflow. This gave me hands-on experience with key B2B AI questions: how to model business objects, structure AI outputs, define human-review boundaries, validate results, and iterate on bad cases.
+
+So my understanding is that Xincheng's legal Q&A, contract review, legal writing, and knowledge-base products are also professional workflow products. I still need to learn the legal domain, but the product method of connecting professional knowledge, user materials, structured outputs, and human review into a trusted workflow is transferable.
 
 ### English Full Answer
 Hi, I am Jane Li, currently a B2B product manager at DataMesh, focusing on facility operations, digital twins, and AI productization.
@@ -53,9 +57,9 @@ My understanding is that Xincheng's legal Q&A, contract review, legal writing, a
 ### English Notes
 Aim for 75-90 seconds for simple and 1.5-2 minutes for full. Competency tags: Customer Obsession / Dealing with Ambiguity / Stakeholder Management. Sound like explaining a work method, not reciting labels.
 
-## 如果还没聊到 AI 深挖，怎么用通俗方式介绍 Inspector 项目？
+## inspector_business_intro_backup
 
-English: How would you explain Inspector in a simple way before going into AI technical details?
+English: inspector_business_intro_backup
 
 ### 中文简短回答
 我可以先用一个场景来讲这个项目。比如一个商业楼宇或者 IDC 机房里，半夜空调机组突然报警，系统提示“温度异常”。这个时候对一线运维人员来说，真正的问题不是“有没有看到告警”，而是他接下来要判断：是哪台设备、在哪个空间、影响哪些区域、以前有没有类似故障、应该先查哪个部件、要不要生成工单。但在传统流程里，这些信息是分散的。设备台账可能在一个系统，告警在一个系统，历史工单在另一个系统，SOP 可能还是文档，很多处理经验还在老师傅脑子里。所以客户真正缺的不是一个更漂亮的告警页面，而是一条从“看到告警”到“知道怎么处理”的工作流。我参与的 Inspector 就是在解决这个问题。它本质上是一个设施运维产品，帮助楼宇、园区或者 IDC 运维人员把设备、空间、告警、历史工单、SOP 和工单流程串起来。告警来了以后，系统先帮用户定位设备和空间，再补充历史记录和处理知识，然后给出可能原因、建议检查项和工单草稿，最后由人工确认后再派发。我在这个项目里主要做的，是把这个复杂流程拆成产品能落地的结构。比如我会先拆业务流：告警触发以后，用户需要经过设备定位、上下文补全、诊断建议、工单草稿、人工确认和结果回写。然后我会拆业务对象：设备、空间、告警、SOP、历史工单、知识源、工单字段和状态。AI 在这里不是一个单独的聊天框，而是放在这条业务链路里，辅助用户做诊断和建议生成。所以我也会和研发一起定义：AI 每一步拿什么输入、输出什么结构、哪些情况不能给确定结论、哪些高风险操作必须人工确认、工单草稿要包含哪些字段。这段经历对我来说，最重要的是我不是只做功能列表，而是把现场人员真实的工作过程拆成了产品流程，再把 AI 放到合适的位置，让它可用、可解释、可复核。这个能力我觉得和法律 AI 是相通的。比如合同审查也不是做一个聊天框，而是要把合同类型、交易背景、审查清单、法律依据、风险点、修改建议和人工复核串成一个可信的工作流。
@@ -94,3 +98,36 @@ AI is not a standalone chatbot here. It is placed inside the workflow to support
 
 ### English Notes
 Use this when the interviewer may not understand facility operations. Start with the night alert scenario, then explain the product and your contribution.
+
+## 业务一面最后你准备反问什么？
+
+English: What questions would you ask at the end of the business interview?
+
+### 中文简短回答
+我会问三个问题：第一，这个岗位前 3-6 个月最希望解决的是哪条法律 AI 产品主线；第二，团队现在判断 AI 输出质量，最看重专业准确、引用可追溯、效率提升还是商业转化；第三，PM 和法律专家、研发、销售之间如何协作定义审查清单和验收标准。
+
+### 中文完整回答
+我会优先问三个问题。
+
+第一，我看到 JD 里同时提到问答 GPT、AI 知识库、合同审查、文本写作和问卷类产品。想请教一下，目前团队最希望这个岗位优先突破的是哪一条主线？是先做一个强闭环，还是多个 AI 工具并行推进？
+
+第二，这个岗位和研发的协作边界大概是什么？产品经理需要定义到输出 Schema、异常路径、验收用例这一级，还是更偏需求和原型层面？
+
+第三，我自己比较关注把 AI 从 Demo 做成可交付闭环，所以也想请教一下：团队现在最希望产品经理补上的，是前期产品规划能力、AI 场景落地能力，还是客户反馈到产品迭代的闭环能力？
+
+4. 法律 AI 产品里，团队现在最关注的质量标准是什么？比如专业准确性、引用可追溯、律师采纳率、人工修改率、客户续费/转化，还是 bad case 收敛速度？
+
+5.如果从您视角看，这个岗位前 90 天做成什么，您会觉得是一次成功的加入？是产品方案、某个场景上线、客户试点推进，还是 AI 输出质量的提升？
+
+6.现在法律专家、产品和研发是怎么协作定义 AI 输出标准的？比如风险点、依据、风险等级、修改建议这些字段，是由法律专家先定规则，还是产品和研发一起从用户反馈里迭代？
+
+### 中文备注
+选 2-3 个问即可；根据面试官前面说过的内容调整。
+
+### English Simple Answer
+
+
+### English Full Answer
+
+
+### English Notes
