@@ -13,6 +13,10 @@
 
 # Local render/browser artifacts
 .superpowers/
+.cache/
+.codex_deps/
+mobvoi-ai-agent-interview-20260722/mobvoi_chunk_*.txt
+mobvoi-ai-agent-interview-20260722/transcribe_sfspeech.swift
 **/node_modules/
 tmp_pdf_preview/chrome-*/
 tmp_pdf_preview/*.pdf
