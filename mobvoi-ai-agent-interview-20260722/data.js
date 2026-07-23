@@ -260,6 +260,61 @@ Product-wise, I would focus on the first-recording aha moment, the workflow from
         ans("Your background is more B2B and industrial. How would you address the gap in overseas consumer or tool products?", ["Acknowledge gap", "Reframe role", "Learning plan"],
           `I would acknowledge the gap. My direct experience is more in B2B industrial and delivery-heavy products, not typical overseas consumer growth. But this role is not only consumer marketing. The core is AI Agent task experience: task creation, context management, execution, confirmation, collaboration, and copy. That connects with my previous AI workflow productization experience. I would close the gap by deeply using Mobvoi products and competitors, reading overseas reviews and communities, and starting with small improvements such as onboarding, templates, result confirmation, subscription explanation, and privacy copy.`)
       ),
+      q("first_90_days_plan", "role", "入职规划", ["role", "product", "overseas", "pressure"], "高频",
+        ans("如果你入职，前 90 天会怎么开展这个海外 AI Agent 产品工作？", ["证明上手路径", "把 JD 职责转成执行计划", "避免只说学习业务"],
+          `我会分三阶段。
+
+前 30 天先建立真实产品理解：深用出门问问现有海外产品，尤其是 TicNote 这类录音到知识资产的 Agentic 工作流；同时拆主要竞品的任务创建、上下文补全、执行可见性、结果确认、订阅和隐私表达；再把用户评论按 onboarding、结果质量、协作、价格、隐私和英文文案分类。
+
+31 到 60 天，我会选一个最小任务闭环做改进，比如首次录音后的总结到 action items、项目 Wiki 建立，或跨文件问答。重点不是先做大功能，而是把用户输入、Agent 步骤、结果结构、确认机制和失败兜底设计清楚。
+
+61 到 90 天，我会和研发、设计、增长一起跑小版本验证，看任务创建成功率、结果采纳率、编辑率、二次追问、bad case 类型和用户反馈，再决定是继续优化体验、补模板，还是调整商业化和英文引导。`,
+          "", "这题回答要体现你不是等需求的人，而是能把模糊岗位拆成调研、闭环、指标和协作。"),
+        ans("If you joined, how would you approach the first 90 days for this overseas AI Agent product role?", ["Onboarding plan", "Translate JD into execution", "Avoid only saying learning"],
+          `I would split it into three stages. In the first 30 days, I would deeply use Mobvoi's overseas products, especially TicNote, and compare competitors around task creation, context enrichment, execution visibility, result confirmation, subscription, and privacy messaging. I would also categorize user feedback into onboarding, result quality, collaboration, pricing, privacy, and copywriting.
+
+From day 31 to 60, I would pick one minimum task loop to improve, such as first recording to summary and action items, project Wiki creation, or cross-file Q&A. The goal is to clarify input, Agent steps, output structure, confirmation, and fallback.
+
+From day 61 to 90, I would work with engineering, design, and growth to validate a small release, then track task creation, adoption, edit rate, follow-up questions, bad cases, and qualitative feedback.`)
+      ),
+      q("agent_bad_case_iteration", "ai", "Bad case 迭代", ["ai", "product", "pressure"], "高频",
+        ans("如果 AI Agent 结果不稳定、用户说不可信，你会怎么排查和迭代？", ["质量评估", "bad case 分类", "体现产品经理能和技术协作"],
+          `我不会只把问题归因成模型不够好，会先把 bad case 分层。
+
+第一层是上下文问题：用户没给足材料、材料太散、权限不够，或者 Agent 没提示缺什么。产品动作是让上下文输入更清楚，展示已使用和缺失材料。
+
+第二层是检索和工具问题：找错文件、跨项目误召回、工具执行失败、状态不可见。产品动作是补元数据、限定范围、展示执行步骤和失败原因。
+
+第三层是生成和结果结构问题：答案太泛、引用不清、把假设说成事实、没有下一步动作。产品动作是固定输出结构，比如结论、依据、假设、缺失信息、建议动作和确认按钮。
+
+第四层是用户预期问题：用户以为它会自动完成全部工作，但产品实际只适合生成草稿或建议。这里要通过 onboarding、英文文案和确认机制把边界说清楚。最后我会把 bad case 变成标签和看板，持续看高频问题是否收敛。`,
+          "", "可迁移 Inspector：SOP 冲突、低置信不下结论、高风险人工确认。"),
+        ans("If an AI Agent's results are unstable and users do not trust it, how would you diagnose and iterate?", ["Quality evaluation", "Bad-case taxonomy", "PM-tech collaboration"],
+          `I would not simply blame the model. I would classify bad cases into four layers. First, context issues: missing materials, scattered inputs, permission gaps, or unclear missing information. Second, retrieval and tool issues: wrong files, cross-project retrieval, failed execution, or invisible status. Third, generation and output-structure issues: generic answers, unclear citations, assumptions stated as facts, or missing next actions. Fourth, expectation issues: users expecting full automation when the product should only provide a draft or recommendation.
+
+The product response is to make context visible, constrain retrieval scope, show execution status, structure outputs with evidence and assumptions, and add confirmation for risky actions. I would turn these bad cases into tags and monitor whether high-frequency issues decrease.`)
+      ),
+      q("overseas_onboarding_copy", "overseas", "海外体验与文案", ["overseas", "product", "warmup"], "加分",
+        ans("如果让你优化 TicNote 这类海外 AI 录音产品的新手体验和英文文案，你会怎么做？", ["海外产品感", "英文产品文案", "从 aha moment 出发"],
+          `我会先抓首次成功体验，而不是先堆功能介绍。
+
+TicNote 这类产品的 aha moment 应该是：用户录下一段真实对话后，马上看到可搜索的摘要、action items、项目知识和后续追问入口。所以 onboarding 要围绕一个真实任务走，比如 Meeting、Interview、Lecture、Sales Call，而不是只告诉用户有 transcription、summary、Wiki 这些功能。
+
+英文文案上我会避免堆 Agentic、LLM、RAG 这类术语，改成任务导向。例如：
+
+Turn this recording into notes, tasks, and project knowledge.
+
+Ask follow-up questions across your recordings.
+
+Keep the original transcript, summary, and action items connected.
+
+同时要把隐私和订阅说清楚：哪些内容会被处理、能不能删除、哪些 AI 能力包含在订阅里，避免海外用户在信任和付费上有阻力。`,
+          "", "这题能拉开差距：你既懂 Agent 闭环，也能落到海外用户看得懂的英文表达。"),
+        ans("How would you improve onboarding and English copy for an overseas AI recording product like TicNote?", ["Overseas UX", "English copy", "Aha moment"],
+          `I would start from the first successful experience, not a long feature tour. For TicNote, the aha moment should be: after one real recording, the user sees searchable notes, action items, project knowledge, and a follow-up Q&A entry. So onboarding should start from real tasks, such as Meeting, Interview, Lecture, or Sales Call.
+
+For copy, I would avoid heavy AI terms and use task-oriented language, such as: Turn this recording into notes, tasks, and project knowledge. Ask follow-up questions across your recordings. Keep the original transcript, summary, and action items connected. I would also make privacy and subscription boundaries clear.`)
+      ),
       q("reverse_questions", "reverse", "反问", ["reverse", "warmup"], "必练",
         ans("最后你准备反问面试官什么？", ["关注真实工作", "不问空泛问题", "围绕成功标准"],
           `我会优先问三个问题。
@@ -279,7 +334,8 @@ Product-wise, I would focus on the first-recording aha moment, the workflow from
       bi("不要说：我训练过模型 / AI 已全量上线。要说：我负责产品侧方案验证、Demo/POC、输出协议、验收脚本和 bad case 迭代。", "Do not claim model training or full rollout. Say product-side validation, demo/POC, output protocol, acceptance scripts, and bad-case iteration."),
       bi("出门问问理解：语音交互和 AIGC 技术底座 + 创作者/企业/消费者产品矩阵 + 海外 AI CoPilot/Agent 工作流。", "Mobvoi lens: voice and AIGC foundation + creator/enterprise/consumer product matrix + overseas AI CoPilot/Agent workflows."),
       bi("Agent 产品回答公式：用户任务 -> 上下文 -> 执行状态 -> 结构化输出 -> 人工确认 -> 协作交付 -> 反馈回流。", "Agent formula: user task -> context -> execution state -> structured output -> human confirmation -> collaboration -> feedback."),
-      bi("压力题底线：承认 C 端/海外增长经验不足，但强调岗位本质是 AI 工具任务体验，并给出深用产品、看评论、做小迭代的补齐路径。", "Pressure answer: acknowledge less consumer-growth experience, frame the role as AI tool workflow UX, and give a concrete learning plan.")
+      bi("压力题底线：承认 C 端/海外增长经验不足，但强调岗位本质是 AI 工具任务体验，并给出深用产品、看评论、做小迭代的补齐路径。", "Pressure answer: acknowledge less consumer-growth experience, frame the role as AI tool workflow UX, and give a concrete learning plan."),
+      bi("首轮打法：开场先讲 Agent 闭环；项目深挖讲 Inspector；产品感讲 TicNote；压力题承认海外 C 端短板但给出 90 天补齐路径。", "First-round playbook: open with Agent loops; use Inspector for project deep dives; use TicNote for product sense; acknowledge overseas consumer gaps and give a 90-day plan.")
     ],
     phraseBank: [
       { title: bi("开场高频句", "Opening lines"), items: [
@@ -296,6 +352,11 @@ Product-wise, I would focus on the first-recording aha moment, the workflow from
         bi("Turn every conversation into searchable notes, tasks, and project knowledge.", "Turn every conversation into searchable notes, tasks, and project knowledge."),
         bi("Record once, work with it anytime.", "Record once, work with it anytime."),
         bi("Make the Agent's context, steps, and results visible enough for users to trust and control.", "Make the Agent's context, steps, and results visible enough for users to trust and control.")
+      ] },
+      { title: bi("90 天计划句", "90-day plan lines"), items: [
+        bi("我会先深用产品和竞品，再选一个最小任务闭环做小版本验证。", "I would deeply use the product and competitors first, then validate one minimum task loop."),
+        bi("前期重点不是做大功能，而是把首次成功体验、结果确认和 bad case 分类跑通。", "The early focus is not a big feature, but the first success moment, result confirmation, and bad-case taxonomy."),
+        bi("我会把用户反馈拆成 onboarding、结果质量、协作、价格、隐私和英文文案几个桶。", "I would bucket user feedback into onboarding, result quality, collaboration, pricing, privacy, and English copy.")
       ] }
     ],
     companyResearch: {
@@ -313,7 +374,8 @@ Product-wise, I would focus on the first-recording aha moment, the workflow from
         { title: bi("产品矩阵", "Product matrix"), body: bi("官网列出 AIGC 产品矩阵，包括魔音工坊、元创岛、奇妙元、奇妙问、DupDub、LivGen；智能可穿戴包括 TicWatch、TicNote 等；企业解决方案包括车载、私有化、定制音库、智能可穿戴、嵌入式语音交互和语音对话机器人。", "The official site lists an AIGC product matrix including Moyin Workshop, YuanChuangDao, Weta365, AI Ask365, DupDub, and LivGen; wearables including TicWatch and TicNote; and enterprise solutions such as in-vehicle voice, on-premise solutions, customized voice, smart wearables, embedded voice interaction, and conversational systems."), interviewUse: bi("把岗位放进海外 AIGC/Agent 产品体验里讲，不要只围绕硬件展开。", "Place the role inside overseas AIGC/Agent product experience, not only hardware.") },
         { title: bi("TicNote 机会", "TicNote opportunity"), body: bi("TicNote 官方页面强调录音、转写、总结、实时翻译、Smart Templates、Project Wiki、Cross-File Tasking、Podcast Creation 和隐私承诺。它更像从语音输入到知识资产的 Agentic 工作流。", "The TicNote official page emphasizes recording, transcription, summaries, live translation, smart templates, Project Wiki, cross-file tasking, podcast creation, and privacy messaging. It is closer to an Agentic workflow from voice input to knowledge assets."), interviewUse: bi("可迁移你的 Inspector 口径：Inspector 是告警到工单，TicNote 是录音到笔记、任务、项目知识和后续追问。", "Map Inspector to TicNote: Inspector is alert to work order; TicNote is recording to notes, tasks, project knowledge, and follow-up queries.") },
         { title: bi("JD 能力信号", "JD signals"), body: bi("截图 JD 强调 Agent 协作产品体验优化、任务创建、上下文管理、Agent 执行、结果确认、协作交付、AI Agent/AI IDE/效率工具动态、用户反馈、数据分析、英文阅读写作和产品文案。", "The screenshots emphasize Agent collaboration UX, task creation, context management, Agent execution, result confirmation, collaborative delivery, AI Agent/AI IDE/productivity trends, user feedback, data analysis, English reading and writing, and product copy."), interviewUse: bi("每个回答都尽量落到任务闭环、体验卡点、英文表达和跨团队落地。", "Anchor answers in task loops, UX friction, English expression, and cross-functional delivery.") },
-        { title: bi("匹配画像", "Fit profile"), body: bi("强匹配：AI 产品化、Agent 闭环、结构化表达、研发协作、英文阅读、AI 工具深用。弱项：海外 C 端增长与具体消费硬件经验，需要用产品深用、社区反馈和小迭代补齐。", "Strong fit: AI productization, Agent loops, structured thinking, engineering collaboration, English reading, and hands-on AI-tool usage. Gap: overseas consumer growth and consumer-hardware experience, to be closed through deep product use, community feedback, and small iterations."), interviewUse: bi("压力题不要躲，按承认差距、岗位本质、迁移能力、补齐计划回答。", "For pressure questions, use acknowledge, role essence, transferable strength, and learning plan.") }
+        { title: bi("匹配画像", "Fit profile"), body: bi("强匹配：AI 产品化、Agent 闭环、结构化表达、研发协作、英文阅读、AI 工具深用。弱项：海外 C 端增长与具体消费硬件经验，需要用产品深用、社区反馈和小迭代补齐。", "Strong fit: AI productization, Agent loops, structured thinking, engineering collaboration, English reading, and hands-on AI-tool usage. Gap: overseas consumer growth and consumer-hardware experience, to be closed through deep product use, community feedback, and small iterations."), interviewUse: bi("压力题不要躲，按承认差距、岗位本质、迁移能力、补齐计划回答。", "For pressure questions, use acknowledge, role essence, transferable strength, and learning plan.") },
+        { title: bi("首轮打法", "First-round playbook"), body: bi("建议把所有回答收束到四个钩子：Agent 闭环、TicNote 海外任务体验、英文产品文案、90 天小版本验证。这样既不显得只懂工业 B 端，也不会硬装消费增长专家。", "Anchor answers in four hooks: Agent task loops, TicNote's overseas task experience, English product copy, and 90-day small-release validation. This avoids sounding like only an industrial B2B PM or overstating consumer-growth expertise."), interviewUse: bi("遇到开放题先给结论，再选钩子：自我介绍用 Agent 闭环，产品题用 TicNote，压力题用 90 天计划。", "For open questions, answer with a conclusion first, then choose the hook: Agent loops for intro, TicNote for product sense, and the 90-day plan for pressure questions.") }
       ]
     }
   };
