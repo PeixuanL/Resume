@@ -30,3 +30,10 @@ tmp_pdf_preview/siemens_innovation_resume-*.png
 tmp/pdfs/target_innovation_check-*.png
 output/pdf/*.tmp.pdf
 output/pdf/*.[0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f].pdf
+**/server-*.pid
+**/server.stderr.log
+**/server.stdout.log
+_tmp_truckerpath_hr_raw/
+xincheng-offline/
+tmp/pdfs/latest_innovation_resume-*.png
+work/presentations/portfolio-framework-20260708/
