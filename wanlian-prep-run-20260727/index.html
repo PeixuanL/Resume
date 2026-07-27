@@ -1,0 +1,116 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>万联易达园区版产品经理面试速练</title>
+  <style>
+    :root { color-scheme: light; --ink:#172033; --muted:#637084; --line:#d9e1ea; --panel:#f7f9fc; --brand:#146b64; --accent:#b36b20; }
+    * { box-sizing: border-box; }
+    body { margin:0; font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif; color:var(--ink); background:#eef3f7; line-height:1.6; }
+    .shell { display:grid; grid-template-columns:300px 1fr; min-height:100vh; }
+    aside { background:#101a2a; color:white; padding:24px; position:sticky; top:0; height:100vh; overflow:auto; }
+    h1 { margin:0 0 8px; font-size:28px; }
+    aside p { color:#bfd0dd; margin:0 0 24px; }
+    nav { display:grid; gap:8px; }
+    button { border:1px solid transparent; border-radius:8px; padding:10px 12px; text-align:left; font:inherit; cursor:pointer; }
+    nav button { background:#18283e; color:#e8f0f6; }
+    nav button.active { background:#f4f7fb; color:#101a2a; }
+    main { padding:32px; max-width:980px; }
+    .card { background:white; border:1px solid var(--line); border-radius:8px; padding:24px; margin-bottom:18px; box-shadow:0 8px 24px rgba(26,40,60,.06); }
+    .kicker { color:var(--brand); font-weight:700; font-size:13px; text-transform:uppercase; letter-spacing:.04em; }
+    h2 { margin:4px 0 14px; font-size:26px; }
+    h3 { margin:22px 0 8px; font-size:18px; }
+    p { margin:10px 0; }
+    blockquote { margin:12px 0; padding:12px 16px; border-left:4px solid var(--brand); background:#f1faf8; }
+    .script { white-space:pre-wrap; background:#fbfcfe; border:1px solid var(--line); border-radius:8px; padding:16px; }
+    .pill { display:inline-block; background:#fff4e7; color:#7c430f; border:1px solid #f1d0a8; border-radius:999px; padding:3px 10px; margin:2px 4px 2px 0; font-size:13px; }
+    ul,ol { padding-left:22px; }
+    @media (max-width: 760px) { .shell { grid-template-columns:1fr; } aside { position:relative; height:auto; } main { padding:18px; } }
+  </style>
+</head>
+<body>
+  <div class="shell">
+    <aside>
+      <h1>万联易达</h1>
+      <p>园区版产品经理 · 面试速练</p>
+      <nav id="nav"></nav>
+    </aside>
+    <main id="main"></main>
+  </div>
+  <script>
+    const sections = [
+      {
+        id:"intro90", title:"90 秒自我介绍", kicker:"主稿",
+        body:`您好，我是李沛宣，目前在 DataMesh 做 B 端产品经理，主要负责数字孪生、设施运维和 AI 产品化相关产品。我理解万联易达这个岗位，不是单纯做园区门户，而是围绕管委会、企业和服务商三端，把政策服务、供需撮合、服务券、产业图谱、数据驾驶舱和 AI 企业服务串成一套可落地的平台。我和这个岗位比较匹配的地方主要有三点。
+
+第一，我做过复杂 B 端场景的 0 到 1 产品化。比如 Inspector 设施运维产品，本身就是从楼宇、园区、IDC 机房这类现场运维需求里沉淀出来的。客户现场的设备、空间、告警、SOP、历史工单和处置记录原来是分散的，我的工作是把这些拆成用户路径、产品对象、状态流、PRD、原型和验收标准，让它从一个项目需求变成可复用的产品能力。
+
+第二，我有把 AI 放进真实业务流的经验。比如在告警到工单的链路里，我不是把 AI 做成单独聊天框，而是把它放在告警理解、上下文检索、诊断建议、工单草稿、人工确认和结果回写这些节点里。迁移到园区企服场景，我理解 AI 企业参谋、政策智能匹配、产业链补链分析，也应该基于企业画像、政策库、服务商资源和产业图谱，输出可解释、可审核、可跟进的建议。
+
+第三，我做过半定制需求到平台能力的收敛，也比较熟悉售前、实施、研发之间的协同。过去在大客项目里，我们会把需求拆成平台底座、配置项和项目定制，团队整体约 70% 定制诉求转向标品化；在运营商相关项目里，实施周期也从原来的 5-6 个月压缩到 1-2 个月。
+
+所以园区政策、服务券和供应链金融细节我需要快速补课，但复杂 B 端流程拆解、AI 任务流、数据/孪生产品和本地化半定制交付这些能力，我是可以迁移到这个岗位里的。`
+      },
+      {
+        id:"intro60", title:"60 秒压缩版", kicker:"被打断版",
+        body:`您好，我是李沛宣，目前在 DataMesh 做 B 端产品经理，主要负责数字孪生、设施运维和 AI 产品化方向。
+
+我比较适合这个岗位的地方，是做过复杂 B 端场景里的 0 到 1 产品化、AI 任务闭环和半定制交付。比如 Inspector 设施运维产品里，我会把设备、空间、告警、SOP、历史工单和工单状态拆成用户路径、产品对象、状态流和验收标准；AI 部分也不是做聊天框，而是放在告警理解、诊断建议、工单草稿、人工确认和结果回写这些节点里。
+
+我理解万联易达园区版产品经理要做的是管委会、企业和服务商三端协同，把政策服务、供需撮合、产业图谱、监管驾驶舱和 AI 企服工具组织成平台。园区政策细节我需要补课，但复杂流程、AI 产品化和本地化交付能力可以迁移。`
+      },
+      {
+        id:"role", title:"岗位理解", kicker:"一句话",
+        body:`这个岗位不是普通园区中后台，而是企业全生命周期的一站式数智服务平台。
+
+三端分别是：管委会、入驻企业、本地服务商。产品价值不是把三个端分别做出来，而是让它们围绕同一条业务闭环协作：企业发需求、平台匹配政策或服务商、服务商响应、管委会监管、服务券核销、企业评价。
+
+它同时考三类能力：流程闭环、数据闭环、AI 任务闭环。回答时不要只说页面和模块，要说角色、对象、状态流、数据来源、权限和验收。`
+      },
+      {
+        id:"pressure", title:"六个高压题", kicker:"速练",
+        body:`Q1. 如果只能先做一个 MVP，你选什么？
+我会先选企业诉求到服务履约闭环，或者政策匹配到申报审核闭环。第一版不平均铺开产业大脑、招商雷达、供应链金融和所有 AI 工具，先证明平台能帮企业办成事、帮管委会看见进度。
+
+Q2. AI 企业参谋怎么避免变成聊天框？
+把它定义成专业任务流。输入是企业画像、产业标签、诉求、所在园区、政策和服务目录；输出是推荐政策或服务、匹配理由、缺失材料、风险点、下一步动作和人工确认标记。
+
+Q3. 政策计算器怎么设计？
+不是搜政策，而是规则匹配、材料准备、流程跟踪和审核留痕。政策规则要结构化，企业画像字段要对齐，输出要有匹配理由、缺失材料、风险提示和申报状态。
+
+Q4. 没有园区实操经验，怎么胜任？
+先承认没有国家级经开区平台实操经验，但强调做过复杂 B 端、多角色、多系统、多数据源和半定制落地。园区平台也可以拆成角色、对象、状态流和配置边界。
+
+Q5. 一个园区一个样，产品会不会被做散？
+先分平台底座、园区配置、项目定制。底座沉淀用户组织、企业画像、服务目录、政策规则、审核流、数据指标、AI 输出协议；园区差异用配置承接。
+
+Q6. 供应链金融助贷怎么理解？
+不包装成金融专家，先拆业务链路：融资申请、数据授权、交易/物流/仓储/应收数据校验、风险初筛、机构匹配、材料补充、审批状态回写。AI 可以做材料预审和风险摘要，但不能替代审批。`
+      },
+      {
+        id:"questions", title:"反问", kicker:"最后 3 个",
+        body:`1. 这个岗位入职前 90 天，最希望先跑通哪条业务闭环：政策申报、企业诉求、服务券、招商雷达，还是 AI 企服工具？
+
+2. 园区版产品当前更偏标准化平台复制，还是重点园区半定制落地？
+
+3. 对 AI 企业参谋这类能力，团队现在更看重知识准确性、流程自动化、企业使用率，还是服务转化？
+
+如果只能问一个：从您视角看，这个岗位前 90 天做成什么，您会觉得是一次成功的加入？`
+      }
+    ];
+
+    const nav = document.getElementById("nav");
+    const main = document.getElementById("main");
+
+    function render(id = sections[0].id) {
+      const item = sections.find((section) => section.id === id) || sections[0];
+      nav.innerHTML = sections.map((section) => `<button class="${section.id === item.id ? "active" : ""}" data-id="${section.id}">${section.title}</button>`).join("");
+      main.innerHTML = `<section class="card"><div class="kicker">${item.kicker}</div><h2>${item.title}</h2><div class="script">${item.body}</div></section>
+        <section class="card"><h3>临场提示</h3><span class="pill">先给结论</span><span class="pill">三点证据</span><span class="pill">不装园区专家</span><span class="pill">AI 讲任务流</span><span class="pill">结果保守表达</span></section>`;
+      for (const button of nav.querySelectorAll("button")) button.onclick = () => render(button.dataset.id);
+    }
+    render();
+  </script>
+</body>
+</html>
