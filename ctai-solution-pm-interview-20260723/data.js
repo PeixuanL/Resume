@@ -282,6 +282,86 @@ Pricing should be decomposed into platform subscription, resource consumption, i
           `I would follow six steps: clarify the business scenario, map users and decision makers, audit data and systems, design the minimum task loop, define acceptance criteria, and produce solution materials. The key is not to say the model can do everything. Government-enterprise customers need explainability, auditability, deliverability, and clear fallback responsibilities.`,
           `For POC scope, I would choose scenarios that are high-frequency, high-value, data-ready, integration-feasible, and risk-controllable.`)
       ),
+      q("second_round_gtm_pressure", "commercial", "二面GTM追问", ["commercial", "pressure", "role"], "必练",
+        ans("你过去更偏产品，怎么证明你能做 GTM 和商业化推广？", ["补齐二面最大风险", "把产品经历转成商业化语言", "证明能支持销售、渠道、省公司"],
+          `我不会把 GTM 理解成市场宣传，而是理解成产品能力如何被客户理解、被销售讲清、被渠道复用、被交付验收。
+
+我过去虽然 title 是产品经理，但实际做过售前方案、POC 范围、演示脚本、产品材料、项目培训和反馈沉淀，支持过 10+ 份方案/POC/产品材料。比如产品上线或对外推广时，我不是把二十多个功能全部讲出来，而是和售前、项目、市场侧一起筛出十个真正能打客户痛点的推广点，转成客户价值、Demo 话术和交付边界。
+
+如果迁移到星辰智能体，我会按四步做：客户分层、价值主张、可复用资产、反馈闭环。客户分层要区分个人/小团队、企业部门、政企行业客户、省公司/渠道；价值主张要把模型、RAG、工作流、工具调用、评测翻译成客户能买单的业务结果；可复用资产包括标准 Demo、方案模板、版本矩阵、竞品对比、POC 验收和常见异议；反馈闭环要看销售是否讲得清、客户是否愿意试用、POC 卡在哪里，再反哺产品包装和 Roadmap。`,
+          "",
+          "这题不要只说“我愿意学市场”。要把 GTM 拆成客户分层、价值主张、渠道材料、POC 转化和反馈闭环。",
+          [
+            fu("你没有背过收入指标怎么办？", "承认边界，但证明能贡献商业化上游。", "我没有独立背过销售收入指标，但我做过影响线索转化和 POC 推进的上游工作，比如产品包装、方案材料、演示脚本和验收边界。入职后我会先对齐团队指标，再把产品侧产出和线索转化、POC 成功率、渠道复用率挂钩。"),
+            fu("渠道和省公司不会讲智能体怎么办？", "考渠道赋能。", "我会给他们标准话术和工具包：客户痛点、适用行业、5 分钟 Demo、竞品差异、部署前置条件、价格组成、常见异议和成功案例，避免渠道只会说大模型很强。"),
+            fu("怎么判断推广材料有用？", "补量化指标。", "我会看销售是否复用、客户是否能听懂价值、是否推进到 POC、POC 前置条件是否更清楚，以及高频问题是否被沉淀成 FAQ 或产品改进。")
+          ]),
+        ans("Your past experience is more product-oriented. How can you prove you can handle GTM and commercialization?", ["Second-round risk", "Translate product work into GTM language", "Show sales/channel enablement"],
+          `I do not see GTM as only marketing campaigns. I see it as making product capabilities understandable to customers, explainable by sales, reusable by channels, and acceptable by delivery teams. Although my title has been product manager, I have worked on presales solutions, POC scope, demo scripts, product materials, training, and feedback loops. I supported 10+ solution, POC, and product-material efforts.
+
+For Xingchen Agent, I would approach GTM through customer segmentation, value propositions, reusable enablement assets, and feedback loops. The goal is to translate models, RAG, workflows, tool use, and evaluation into customer value, demo scripts, editions, POC acceptance criteria, and roadmap inputs.`,
+          `The key is to make AI sellable and deliverable, not only technically impressive.`)
+      ),
+      q("custom_to_standard_70", "product", "定制转标品", ["product", "commercial", "pressure"], "必练",
+        ans("你说约 70% 定制需求转标品，具体怎么判断和落地？", ["补齐量化结果", "考产品取舍", "连接行业版本沉淀"],
+          `我会谨慎表达这个数字：约 70% 指的是一批项目需求没有被做成单客户代码，而是沉淀成标准能力、配置项、模板或产品规则。它不是财务口径，而是项目需求复盘里的产品化口径。
+
+判断上我分三类。第一类是客户偏好，比如字段显示、入口位置、命名习惯、流程顺序，这类尽量做成配置项或模板。第二类是跨客户共性业务问题，比如资产台账、设备关系、3D 空间定位、告警到工单、SOP 模板、知识库引用、人工审核，这类如果反复出现，就抽象成标准模块。第三类是和产品定位冲突的需求，比如客户希望产品变成一次性脚本或纯项目工具，我会回到真实痛点，用更符合平台架构的方式解决。
+
+落地上，我会让需求从项目交付件变成产品资产：配置项、模板、实施基线、Demo 脚本、交付手册和 Roadmap。这个经验迁移到贵司，就是未来从通用办公智能体进入行业版本时，不能每个省公司、每个客户都做一套，而要把高频场景沉淀成可复制方案包。`,
+          "",
+          "70% 是已确认可用数字，但要说清它是标品化经验口径，不是收入或上线效果口径。",
+          [
+            fu("客户强势要求定制但你判断不该做，怎么办？", "考产品立场和沟通。", "我会先承认客户场景重要，再把需求背后的业务目标拆出来。如果目标可以用配置、模板或标准流程满足，我会给替代方案；如果确实是专属集成，就明确成本、边界和是否进入行业包验证。"),
+            fu("剩下 30% 怎么办？", "考边界管理。", "一部分是真正客户专属集成，一部分是当前产品阶段不做，一部分放进后续行业包验证。关键是每类都有决策记录、交付边界和后续观察口径。"),
+            fu("怎么证明这不是事后包装？", "考证据链完整性。", "我会拿需求清单、PRD/配置项、模板、交付手册、Demo 脚本和后续复用场景来证明，而不是只用一句“沉淀了”。")
+          ]),
+        ans("You mentioned around 70% of custom requests became standard product capabilities. How did you decide and execute that?", ["Quantified result", "Product tradeoff", "Industry-version packaging"],
+          `I would phrase the 70% carefully. It means that a large portion of project requests were not implemented as one-off customer code, but were converted into standard capabilities, configuration options, templates, or product rules. It is a productization estimate, not a revenue metric.
+
+My framework has three buckets: customer preferences that should become configuration; cross-customer business problems that should become standard modules; and requests that conflict with product positioning, where I return to the underlying pain point and solve it in a more platform-consistent way.`,
+          `For China Telecom AI, this maps to turning repeated provincial or industry customer needs into reusable solution packages instead of isolated customization.`)
+      ),
+      q("agent_acceptance_pressure", "ai", "智能体定义与验收", ["ai", "product", "pressure"], "必练",
+        ans("你怎么定义一个智能体产品？怎么验收它不是 Demo？", ["考 AI 产品定义", "补验收标准", "防止被质疑只是概念"],
+          `我会把智能体定义成围绕业务任务运行的 AI 应用，而不是聊天框。它至少要有任务目标、用户输入、知识源、工具/API、工作流、输出协议、权限边界、人审节点、失败兜底和评测机制。
+
+验收也不能只看“能不能答”。我会分六项：场景验收，是否覆盖目标用户的高频任务；知识验收，是否命中正确对象、正确知识源、正确版本和有效证据；输出验收，是否按约定结构输出结论、依据、置信度、缺失信息和下一步动作；风险验收，低置信、高风险、跨权限、缺资料时是否触发人审或兜底；业务验收，业务人员是否愿意采纳，人工修改量是否可接受，结果是否能进入下一流程；交付验收，部署环境、数据源、接口、权限、运维责任和培训材料是否齐备。
+
+所以从 Demo 到可验收产品，中间差的是业务闭环、知识治理、权限审计、评测样例、人审机制、运维责任和持续 bad case 迭代。`,
+          "",
+          "这是二面 AI 深挖的主防线：你不写底层模型，但你会定义任务、边界和验收。",
+          [
+            fu("它和聊天机器人有什么区别？", "考产品本质。", "聊天机器人主要完成对话回复，智能体要完成业务任务：理解目标、检索知识、调用工具、推进流程、输出结构化结果，并在必要时触发人工确认。"),
+            fu("怎么验收 RAG 准不准？", "接到 RAG 细节。", "不是看相似度，而是看是否命中正确业务对象、正确任务类型、正确知识源、正确版本和有效证据；错对象、错场景、错版本、越权限都不能算合格。"),
+            fu("客户说智能体不可信怎么办？", "接 bad case 调优。", "我会按知识缺失、切片问题、标签问题、检索问题、生成问题分层排查，并把 bad case 沉淀成评测集、知识库治理规则和验收样例。")
+          ]),
+        ans("How do you define an agent product, and how do you validate that it is more than a demo?", ["AI product definition", "Acceptance criteria", "Avoid concept-only risk"],
+          `I define an agent as an AI application that runs around a business task, not a chat interface. It needs a task goal, user inputs, knowledge sources, tools or APIs, workflow, output protocol, permission boundaries, human review, fallback rules, and evaluation.
+
+Acceptance should cover the scenario, knowledge retrieval, output structure, risk handling, business adoption, and delivery readiness. From demo to product, the missing pieces are task loops, knowledge governance, permissions, evaluation samples, human review, operational ownership, and continuous bad-case iteration.`,
+          `This is why I focus on making agents acceptable and operable, not just buildable.`)
+      ),
+      q("quantified_results_defense", "pressure", "量化结果防守", ["pressure", "commercial", "role"], "必练",
+        ans("你讲的数字偏过程，怎么证明真实业务结果？", ["防二面质疑", "区分事实结果和验收指标", "保持事实边界"],
+          `我会先承认边界：我不会把没有上线口径的数据包装成业务结果。已确认的结果我会讲事实数字，比如入职后快速接手两条产品线、第二周参与演示、一个月梳理 MVP、约 70% 定制需求沉淀为标品、支持 10+ 份方案/POC/产品材料、从二十多个功能里筛出十个推广点。
+
+这些数字确实有一部分是过程指标，但它们证明的是这个岗位需要的上游能力：快速进入复杂产品、把项目需求变成标准能力、把功能翻译成客户价值、支持售前和推广闭环。
+
+如果面试官问 AI Agent 的业务效果，我会把它定义成验收指标，而不是虚构上线结果。比如正确召回率、样例问题通过率、人工修改量、结果采纳率、平均处理时长、低置信触发人审比例、bad case 重复率、渠道材料复用率、POC 推进率。`,
+          "",
+          "这题要守事实边界。不要为了显得硬而编准确率、收入、节省人力。",
+          [
+            fu("只能讲一个最硬数字，你讲哪个？", "选择最有岗位相关性的数字。", "我会讲约 70% 定制需求转标品，因为它最贴这个岗位从客户反馈到标准产品、行业版本和推广规则沉淀的职责。"),
+            fu("除了 70%，还有什么能证明商业化？", "补商业化证据。", "10+ 份方案/POC/产品材料，以及从二十多个功能筛出十个客户价值推广点，能证明我不是只写 PRD，也参与过售前、项目、市场和客户表达。"),
+            fu("如果他们追问收入怎么办？", "承认没有收入归因。", "我不会把收入归因到自己身上。我的贡献在收入前链路：产品包装、方案可信度、POC 边界、渠道材料和反馈沉淀。收入指标入职后要跟团队口径对齐。")
+          ]),
+        ans("Your numbers sound process-oriented. How do you prove real business impact?", ["Pressure defense", "Separate facts from acceptance metrics", "Keep factual boundary"],
+          `I would acknowledge the boundary first. I would not turn unverified rollout data into business impact. The confirmed numbers I can use are taking over two product lines quickly, joining demos in the second week, defining MVP scope within one month, converting around 70% of custom requests into standard capabilities or configurations, supporting 10+ solution/POC/product-material efforts, and narrowing 20+ features into 10 customer-facing promotion points.
+
+Some of these are process metrics, but they prove the upstream capabilities this role needs: entering complex products quickly, standardizing customer needs, translating features into customer value, and supporting presales and GTM loops.`,
+          `For AI-agent impact, I would define acceptance metrics instead of inventing rollout results: correct retrieval, sample pass rate, human modification volume, adoption rate, handling time, low-confidence human-review triggers, repeated bad-case rate, channel material reuse, and POC progression.`)
+      ),
       q("first_90_days_plan", "role", "90天计划", ["role", "product", "commercial"], "高频",
         ans("如果你入职，前 90 天会怎么开展工作？", ["证明上手路径", "把 JD 变成计划", "体现产品和方案两手抓"],
           `我会分三阶段。
