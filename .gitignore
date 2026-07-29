@@ -23,6 +23,7 @@ interview_review/*.tsv
 interview_review/*.txt
 interview_review/*.vtt
 interview_review/bin/
+ctai-solution-pm-interview-20260723/transcript-20260729/
 **/node_modules/
 tmp_pdf_preview/chrome-*/
 tmp_pdf_preview/*.pdf
