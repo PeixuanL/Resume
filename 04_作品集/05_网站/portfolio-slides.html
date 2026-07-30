@@ -1,0 +1,734 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<title>B端数字孪生 AI 产品经理 · 作品集</title>
+<style>
+  @font-face { font-family: "TsangerJinKai02"; src: url("../fonts/TsangerJinKai02-W04.ttf") format("truetype"), url("https://cdn.jsdelivr.net/gh/tw93/Kami@main/assets/fonts/TsangerJinKai02-W04.ttf") format("truetype"); font-weight: 400; }
+  @font-face { font-family: "TsangerJinKai02"; src: url("../fonts/TsangerJinKai02-W05.ttf") format("truetype"), url("https://cdn.jsdelivr.net/gh/tw93/Kami@main/assets/fonts/TsangerJinKai02-W05.ttf") format("truetype"); font-weight: 500; }
+  @font-face { font-family: "JetBrains Mono"; src: url("../fonts/JetBrainsMono.woff2") format("woff2"); font-weight: 400; }
+
+  @page {
+    size: 280mm 158mm;
+    margin: 0;
+    background: #f5f4ed;
+  }
+
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+
+  :root {
+    --parchment:  #f5f4ed;
+    --ivory:      #faf9f5;
+    --near-black: #141413;
+    --dark-warm:  #3d3d3a;
+    --olive:      #504e49;
+    --stone:      #6b6a64;
+    --brand:      #1B365D;
+    --brand-tint: #EEF2F7;
+    --border:     #e8e6dc;
+    --border-soft:#e5e3d8;
+
+    --serif: "TsangerJinKai02", "Source Han Serif SC", "Noto Serif CJK SC", "Songti SC", "STSong", Georgia, serif;
+    --sans:  var(--serif);
+    --mono:  "JetBrains Mono", "SF Mono", "Fira Code", Consolas, Monaco, "TsangerJinKai02", "Source Han Serif SC", monospace;
+
+    --rhythm-module:  14pt;
+    --rhythm-section: 18pt;
+  }
+
+  body {
+    color: var(--near-black);
+    font-family: var(--sans);
+    font-size: 13pt;
+    line-height: 1.55;
+    letter-spacing: 0.3pt;
+  }
+
+  .slide {
+    width: 280mm;
+    height: 158mm;
+    padding: 16mm 20mm;
+    background: var(--parchment);
+    break-after: page;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+  }
+  .slide:last-child { break-after: auto; }
+
+  .eyebrow {
+    font-family: var(--mono);
+    font-size: 9.5pt;
+    letter-spacing: 2pt;
+    text-transform: uppercase;
+    color: var(--stone);
+    margin-bottom: 2pt;
+  }
+
+  .page-num {
+    position: absolute;
+    bottom: 10mm;
+    right: 20mm;
+    font-family: var(--mono);
+    font-size: 9pt;
+    color: var(--stone);
+    letter-spacing: 0.5pt;
+    font-variant-numeric: tabular-nums;
+  }
+
+  .footer-mark {
+    position: absolute;
+    bottom: 10mm;
+    left: 20mm;
+    font-family: var(--mono);
+    font-size: 9pt;
+    color: var(--stone);
+    letter-spacing: 1.5pt;
+  }
+
+  h2 {
+    font-family: var(--serif);
+    font-size: 24pt;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.3pt;
+    color: var(--near-black);
+    margin-bottom: var(--rhythm-module);
+  }
+
+  h3 {
+    font-family: var(--serif);
+    font-size: 15pt;
+    font-weight: 500;
+    line-height: 1.3;
+    letter-spacing: 0.3pt;
+    color: var(--brand);
+    margin-bottom: 8pt;
+  }
+
+  .lead {
+    font-family: var(--sans);
+    font-size: 12pt;
+    font-weight: 400;
+    line-height: 1.55;
+    letter-spacing: 0.3pt;
+    color: var(--olive);
+    margin-bottom: 8pt;
+  }
+
+  .mt {
+    font-family: var(--serif);
+    font-size: 16pt;
+    font-weight: 500;
+    line-height: 1.3;
+    letter-spacing: 0.3pt;
+    color: var(--near-black);
+    margin-bottom: 8pt;
+  }
+
+  .ml {
+    font-family: var(--serif);
+    font-size: 24pt;
+    font-weight: 500;
+    color: var(--brand);
+    margin-right: 6pt;
+  }
+
+  .ms {
+    font-family: var(--mono);
+    font-size: 7.5pt;
+    letter-spacing: 1.5pt;
+    text-transform: uppercase;
+    color: var(--stone);
+    border-bottom: 0.3pt solid var(--border);
+    padding-bottom: 4pt;
+    margin-bottom: var(--rhythm-module);
+  }
+
+  .mb {
+    font-family: var(--sans);
+    font-size: 11pt;
+    line-height: 1.55;
+    letter-spacing: 0.3pt;
+    color: var(--dark-warm);
+    margin-bottom: var(--rhythm-section);
+  }
+
+  .mi {
+    font-family: var(--sans);
+    font-size: 11pt;
+    line-height: 1.55;
+    letter-spacing: 0.3pt;
+    color: var(--dark-warm);
+    padding: 8pt 0;
+  }
+
+  .mc {
+    font-family: var(--sans);
+    font-size: 9.5pt;
+    line-height: 1.5;
+    letter-spacing: 0.3pt;
+    color: var(--olive);
+    border-top: 0.3pt solid var(--border);
+    padding-top: 8pt;
+    margin-top: var(--rhythm-section);
+  }
+
+  .co {
+    font-family: var(--sans);
+    font-size: 11pt;
+    font-weight: 500;
+    line-height: 1.55;
+    letter-spacing: 0.3pt;
+    color: var(--brand);
+    position: absolute;
+    bottom: 12mm;
+    left: 20mm;
+    right: 20mm;
+  }
+
+  .c2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 22pt;
+  }
+
+  .t2x2 {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 22pt 18pt;
+    margin: -18pt -22pt;
+  }
+  .t2x2 td {
+    vertical-align: top;
+    width: 50%;
+  }
+
+  table.data {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  table.data td {
+    padding: 8pt;
+    border-bottom: 0.3pt solid var(--border);
+    font-size: 11pt;
+    line-height: 1.55;
+    letter-spacing: 0.3pt;
+  }
+  table.data td:first-child {
+    font-weight: 500;
+    color: var(--brand);
+  }
+
+  svg {
+    max-height: 105mm;
+    width: auto;
+  }
+
+  .cover {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  .cover h1 {
+    font-family: var(--serif);
+    font-size: 38pt;
+    font-weight: 500;
+    line-height: 1.1;
+    letter-spacing: 0.3pt;
+    color: var(--near-black);
+    margin-bottom: 12pt;
+  }
+  .cover .sub {
+    font-family: var(--sans);
+    font-size: 14pt;
+    line-height: 1.5;
+    letter-spacing: 0.3pt;
+    color: var(--olive);
+    max-width: 50ch;
+    margin-bottom: 32pt;
+  }
+  .cover .meta {
+    font-family: var(--sans);
+    font-size: 10pt;
+    color: var(--stone);
+    letter-spacing: 0.3pt;
+  }
+
+  ul.clean {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  ul.clean li {
+    position: relative;
+    padding-left: 14pt;
+    margin-bottom: 6pt;
+    font-size: 11pt;
+    line-height: 1.55;
+    color: var(--dark-warm);
+  }
+  ul.clean li::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 6pt;
+    width: 5pt;
+    height: 1.5pt;
+    background: var(--brand);
+  }
+
+  .tag-row {
+    display: flex;
+    gap: 8pt;
+    flex-wrap: wrap;
+    margin-top: 8pt;
+  }
+  .tag {
+    font-family: var(--mono);
+    font-size: 8.5pt;
+    letter-spacing: 0.5pt;
+    color: var(--brand);
+    background: var(--brand-tint);
+    padding: 3pt 8pt;
+    border-radius: 2pt;
+  }
+
+  .hl { color: var(--brand); font-weight: 500; }
+
+  .flow-box {
+    border: 0.5pt solid var(--border);
+    padding: 10pt;
+    background: var(--ivory);
+    border-radius: 4pt;
+  }
+  .flow-box h4 {
+    font-family: var(--serif);
+    font-size: 12pt;
+    font-weight: 500;
+    color: var(--brand);
+    margin-bottom: 6pt;
+  }
+  .flow-box p {
+    font-size: 10pt;
+    color: var(--dark-warm);
+    line-height: 1.5;
+  }
+
+  .arch-row {
+    display: flex;
+    gap: 12pt;
+    align-items: stretch;
+  }
+  .arch-col {
+    flex: 1;
+    border: 0.5pt solid var(--border);
+    padding: 10pt;
+    background: var(--ivory);
+    border-radius: 4pt;
+  }
+  .arch-col h4 {
+    font-family: var(--serif);
+    font-size: 12pt;
+    font-weight: 500;
+    color: var(--brand);
+    margin-bottom: 6pt;
+  }
+
+  .state-flow {
+    display: flex;
+    align-items: center;
+    gap: 6pt;
+    flex-wrap: wrap;
+  }
+  .state-node {
+    border: 0.5pt solid var(--brand);
+    padding: 6pt 10pt;
+    background: var(--ivory);
+    font-size: 10pt;
+    color: var(--dark-warm);
+    border-radius: 3pt;
+  }
+  .state-node.hl {
+    background: var(--brand);
+    color: var(--ivory);
+  }
+  .state-arrow {
+    font-size: 12pt;
+    color: var(--stone);
+  }
+</style>
+</head>
+<body>
+
+<!-- 封面 -->
+<section class="slide cover">
+  <h1>B端数字孪生 AI 产品经理</h1>
+  <div class="sub">设施运维 AI Agent 0-1 实践作品集</div>
+  <div class="meta">求职者作品集 · 2025</div>
+</section>
+
+<!-- 02 能力三角 -->
+<section class="slide">
+  <span class="eyebrow">02 · SETUP</span>
+  <h2>我的能力三角, 数字孪生 × AI Agent × B端闭环</h2>
+  <p class="lead">三个能力域的交集, 正是设施运维 AI 产品的核心战场。</p>
+
+  <table class="t2x2">
+    <tr>
+      <td>
+        <div class="mt"><span class="ml">A</span>数字孪生底座</div>
+        <p class="mb">IoT 数据接入、设备资产建模、3D/GIS/BIM 场景、DFS 多源融合。知道底座能支撑什么, 也清楚边界在哪。</p>
+      </td>
+      <td>
+        <div class="mt"><span class="ml">B</span>AI Agent 设计</div>
+        <p class="mb">RAG 检索、工具调用、多 Agent 协作、置信度输出。不做聊天框 Demo, 做嵌入业务流程的 AI 能力。</p>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <div class="mt"><span class="ml">C</span>B端业务闭环</div>
+        <p class="mb">工单状态机、审批流、SOP 沉淀、ROI 与可交付性。从告警到知识沉淀, 闭环可验收。</p>
+      </td>
+      <td>
+        <div class="mt" style="color: var(--brand);">交集 · 设施运维 AI Agent</div>
+        <p class="mb">同时调用三项能力的 0-1 实践: 告警触发 → AI 诊断 → 工单草稿 → 人工确认 → 执行回写。</p>
+      </td>
+    </tr>
+  </table>
+
+  <div class="co">差异化: 不只做 AI 功能, 也不只做 3D 大屏, 而是做两者交汇处的业务闭环。</div>
+  <div class="page-num">02</div>
+  <div class="footer-mark">设施运维 AI Agent</div>
+</section>
+
+<!-- 03 场景选择 -->
+<section class="slide">
+  <span class="eyebrow">03 · SETUP</span>
+  <h2>告警-工单闭环, 是 AI 落地的最佳第一阶段切口</h2>
+  <p class="lead">选择这个场景不是因为最大, 而是因为最可验证、最闭环、失败成本最低。</p>
+
+  <div class="c2">
+    <div>
+      <h3>选择逻辑</h3>
+      <ul class="clean">
+        <li>数据可得: IoT 告警、设备台账、历史工单已有积累</li>
+        <li>流程闭环: 从告警到工单有明确状态机, 可端到端验收</li>
+        <li>价值可感: 减少诊断时间、降低漏派工、沉淀维修知识</li>
+      </ul>
+    </div>
+    <div>
+      <h3>一句话闭环</h3>
+      <div class="flow-box">
+        <p>告警触发 → AI 辅助诊断 → 维修方案筹备 → 工单草稿生成 → <span class="hl">人工确认</span> → 工单执行 → 结果回写 / SOP 沉淀</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="co">核心判断: 先做"告警到工单草稿", 而不是全链路无人化。闭环可验证, 风险可控。</div>
+  <div class="page-num">03</div>
+  <div class="footer-mark">设施运维 AI Agent</div>
+</section>
+
+<!-- 04 业务痛点 -->
+<section class="slide">
+  <span class="eyebrow">04 · SETUP</span>
+  <h2>传统运维四大痛点: 告警淹没、诊断靠经验、派工低效、知识流失</h2>
+  <p class="lead">这些痛点来自与运维值班工程师、维修主管、IT 负责人的访谈归纳。</p>
+
+  <table class="t2x2">
+    <tr>
+      <td>
+        <div class="mt">告警淹没</div>
+        <p class="mb">日均大量告警涌入, 无效告警占比高, 值班人员长期处于疲劳状态, 容易漏掉关键告警。</p>
+      </td>
+      <td>
+        <div class="mt">诊断依赖经验</div>
+        <p class="mb">老工程师退休后, 新人面对复杂告警无从下手。经验没有结构化沉淀, 每次故障都是重新摸索。</p>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <div class="mt">派工低效</div>
+        <p class="mb">从告警到工单平均耗时较长, 涉及多个系统切换, 信息反复录入, 响应速度受人为因素制约。</p>
+      </td>
+      <td>
+        <div class="mt">知识流失</div>
+        <p class="mb">维修记录散在 Excel 或纸质文档, 无法复用为 SOP。老师傅的笔记本丢了, 经验就断了。</p>
+      </td>
+    </tr>
+  </table>
+
+  <div class="co">根因: 人是瓶颈。AI 的价值不是替代人, 而是把人的时间从重复判断中释放出来。</div>
+  <div class="page-num">04</div>
+  <div class="footer-mark">设施运维 AI Agent</div>
+</section>
+
+<!-- 05 0-1产品判断 -->
+<section class="slide">
+  <span class="eyebrow">05 · EVIDENCE</span>
+  <h2>0-1 判断: 为什么先做告警→工单草稿, 而不是全链路无人化</h2>
+  <p class="lead">客户想要"智能运维大脑", 我把它拆成三阶段, 第一阶段只做最小可验证单元。</p>
+
+  <div class="c2">
+    <div>
+      <h3>保留 · 第一阶段 MVP</h3>
+      <ul class="clean">
+        <li>告警接入与过滤规则</li>
+        <li>AI 诊断建议, 多假设 + 置信度</li>
+        <li>工单草稿自动生成</li>
+        <li>人工确认节点, 强制拦截</li>
+      </ul>
+    </div>
+    <div>
+      <h3>砍掉 · 降低交付风险</h3>
+      <ul class="clean">
+        <li>自动派单, 组织未准备好</li>
+        <li>预测性维护, 数据质量不足</li>
+        <li>跨 ERP/采购系统联动, 集成成本过高</li>
+        <li>全链路无人决策, 失败不可承受</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="co">交付策略: 4-6 周 Demo 验证核心链路, 再决定产品化投入。不赌全链路。</div>
+  <div class="page-num">05</div>
+  <div class="footer-mark">设施运维 AI Agent</div>
+</section>
+
+<!-- 06 业务闭环设计 -->
+<section class="slide">
+  <span class="eyebrow">06 · EVIDENCE</span>
+  <h2>业务闭环: 告警触发到工单执行回写的六步状态机</h2>
+  <p class="lead">每一步都有明确的输入输出、验收标准和异常降级路径。</p>
+
+  <div class="state-flow" style="margin-bottom: 14pt;">
+    <span class="state-node">告警触发</span>
+    <span class="state-arrow">→</span>
+    <span class="state-node">AI 诊断</span>
+    <span class="state-arrow">→</span>
+    <span class="state-node">方案筹备</span>
+    <span class="state-arrow">→</span>
+    <span class="state-node">工单草稿</span>
+    <span class="state-arrow">→</span>
+    <span class="state-node hl">人工确认</span>
+    <span class="state-arrow">→</span>
+    <span class="state-node">执行回写</span>
+  </div>
+
+  <table class="data">
+    <tr><td>告警触发</td><td>IoT 阈值 / 规则引擎触发, 生成结构化告警事件</td><td>输入物完整</td></tr>
+    <tr><td>AI 诊断</td><td>RAG 检索知识库 + 设备参数匹配, 输出故障假设列表</td><td>多假设并列</td></tr>
+    <tr><td>方案筹备</td><td>调用 SOP 模板库 + 历史相似工单, 推荐维修步骤</td><td>模板可复用</td></tr>
+    <tr><td>工单草稿</td><td>自动填充设备、位置、建议措施、所需物料</td><td>字段完整</td></tr>
+    <tr><td>人工确认</td><td>工程师审核、修改、批准。高风险动作强制确认</td><td>不可跳过</td></tr>
+    <tr><td>执行回写</td><td>维修结果更新设备状态, 经验沉淀为新 SOP</td><td>闭环验收</td></tr>
+  </table>
+
+  <div class="co">状态机不是概念图, 是研发验收标准。每步都有输入输出和异常分支。</div>
+  <div class="page-num">06</div>
+  <div class="footer-mark">设施运维 AI Agent</div>
+</section>
+
+<!-- 07 AI Agent设计 -->
+<section class="slide">
+  <span class="eyebrow">07 · EVIDENCE</span>
+  <h2>AI Agent 架构: 诊断输出置信度, 人工确认后生成工单</h2>
+  <p class="lead">AI 的输入、输出、工具调用、人工介入点全部明确定义, 不是黑盒。</p>
+
+  <div class="c2">
+    <div class="flow-box">
+      <h4>诊断 Agent</h4>
+      <p><strong>输入:</strong> 告警文本 + 设备 ID + 实时参数 + 历史工单</p>
+      <p><strong>输出:</strong> 故障假设列表, 每项带置信度 + 建议排查步骤</p>
+      <p><strong>工具:</strong> RAG 检索知识库、设备资产查询接口</p>
+      <p><strong>边界:</strong> 置信度 &lt; 70% 标记为"需人工复核"</p>
+    </div>
+    <div class="flow-box">
+      <h4>工单生成 Agent</h4>
+      <p><strong>输入:</strong> 人工确认后的诊断结果 + SOP 模板</p>
+      <p><strong>输出:</strong> 工单草稿, 字段已填充 + 所需物料清单</p>
+      <p><strong>工具:</strong> SOP 模板库、物料库存查询</p>
+      <p><strong>边界:</strong> 草稿须经工程师修改批准后才生效</p>
+    </div>
+  </div>
+
+  <div class="co">产品侧定义: 场景、数据输入输出、算法评估指标、验收标准、人机协同边界。不碰模型训练。</div>
+  <div class="page-num">07</div>
+  <div class="footer-mark">设施运维 AI Agent</div>
+</section>
+
+<!-- 08 数据与系统架构 -->
+<section class="slide">
+  <span class="eyebrow">08 · EVIDENCE</span>
+  <h2>数据架构: IoT、设备资产、知识库、3D 场景的四层融合</h2>
+  <p class="lead">设备 ID 是统一主键, 串联感知层、资产层、知识层与应用层。</p>
+
+  <div class="c2">
+    <div>
+      <h3>四层数据</h3>
+      <ul class="clean">
+        <li><span class="hl">感知层</span> · IoT 传感器, 时序数据库, 告警规则引擎</li>
+        <li><span class="hl">资产层</span> · 设备台账, 空间关系, BIM/GIS 模型</li>
+        <li><span class="hl">知识层</span> · SOP 模板库, 历史工单, 维修手册, RAG 向量库</li>
+        <li><span class="hl">应用层</span> · 运维看板, 诊断面板, 工单系统, 3D 定位</li>
+      </ul>
+    </div>
+    <div>
+      <h3>3D 场景的作用</h3>
+      <div class="flow-box">
+        <p>不是大屏装饰, 是告警定位工具:</p>
+        <p>· 点击告警 → 三维空间定位设备</p>
+        <p>· 显示楼层、邻近设备、关联系统</p>
+        <p>· 辅助维修路径规划</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="co">数字孪生不是好看, 是"告警定位"这个具体价值。底座能力来自 DFS / Designer。</div>
+  <div class="page-num">08</div>
+  <div class="footer-mark">设施运维 AI Agent</div>
+</section>
+
+<!-- 09 人机协同与风险控制 -->
+<section class="slide">
+  <span class="eyebrow">09 · EVIDENCE</span>
+  <h2>人机协同: 高风险动作强制人工确认, 低置信度自动降级</h2>
+  <p class="lead">B端 AI 最大的风险不是不够聪明, 是太自信。三层控制 + 异常兜底。</p>
+
+  <table class="data">
+    <tr><td>输入控制</td><td>告警过滤规则减少无效输入; 设备参数校验防脏数据</td></tr>
+    <tr><td>输出控制</td><td>置信度阈值拦截; 多假设并列不强制单选; 高风险动作白名单</td></tr>
+    <tr><td>执行控制</td><td>工单审批流; 操作权限分级; 审计日志全记录</td></tr>
+    <tr><td>异常兜底</td><td>AI 超时 fallback 传统模板; 知识库为空标记专家介入</td></tr>
+    <tr><td>审计追溯</td><td>每条 AI 建议关联原始数据源, 可追溯到具体知识库条目</td></tr>
+  </table>
+
+  <div class="co">原则: AI 可以建议, 不能替人决定。停机、断电等高风险动作必须弹出确认框。</div>
+  <div class="page-num">09</div>
+  <div class="footer-mark">设施运维 AI Agent</div>
+</section>
+
+<!-- 10 Vibe Coding -->
+<section class="slide">
+  <span class="eyebrow">10 · EVIDENCE</span>
+  <h2>Vibe Coding: 用 PRD 和接口假设快速验证原型, 而非替代研发</h2>
+  <p class="lead">产品经理的验证工具, 不是研发替代方案。价值在"提前发现错误"。</p>
+
+  <div class="c2">
+    <div>
+      <h3>输入物</h3>
+      <ul class="clean">
+        <li>PRD: 用户故事、验收标准</li>
+        <li>流程图: 状态机、异常分支</li>
+        <li>接口字段假设: 请求 / 响应结构</li>
+        <li>UI 规则: 布局、交互、校验逻辑</li>
+      </ul>
+    </div>
+    <div>
+      <h3>输出物</h3>
+      <ul class="clean">
+        <li>可交互原型, 快速走通主流程</li>
+        <li>边界问题发现: 状态机遗漏、字段缺失</li>
+        <li>需求澄清: 给研发的具体问题清单</li>
+        <li>与研发开会前的共识基础</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="co">案例: 用 Vibe Coding 验证告警→工单草稿链路, 提前发现漏了"紧急程度"字段。</div>
+  <div class="page-num">10</div>
+  <div class="footer-mark">设施运维 AI Agent</div>
+</section>
+
+<!-- 11 阶段成果与诚实边界 -->
+<section class="slide">
+  <span class="eyebrow">11 · EVIDENCE</span>
+  <h2>阶段成果与诚实边界: Demo 验证了什么, MVP 待验证什么</h2>
+  <p class="lead">不包装未完成的成果。所有量化指标均标注"待补充验证数据"。</p>
+
+  <table class="data">
+    <tr><td>Demo 阶段</td><td>告警→诊断→工单草稿链路可跑通; RAG 对常见故障有效; 人工确认交互合理</td><td>已完成</td></tr>
+    <tr><td>MVP 阶段</td><td>多 Agent 协作稳定性; 现有工单系统 API 对接; 实际置信度分布</td><td>进行中</td></tr>
+    <tr><td>产品化阶段</td><td>跨项目可复制性; ROI 量化指标</td><td>待启动</td></tr>
+  </table>
+
+  <div class="tag-row">
+    <span class="tag">准确率 · 待补充</span>
+    <span class="tag">效率提升 · 待补充</span>
+    <span class="tag">成本降低 · 待补充</span>
+  </div>
+
+  <div class="co">Demo 证明"值得做", 没证明"已经做好"。产品经理的操守: 未验证数据不写入承诺。</div>
+  <div class="page-num">11</div>
+  <div class="footer-mark">设施运维 AI Agent</div>
+</section>
+
+<!-- 12 支撑案例 -->
+<section class="slide">
+  <span class="eyebrow">12 · EVIDENCE</span>
+  <h2>支撑案例: DFS / Designer 底座的能力边界与融合逻辑</h2>
+  <p class="lead">主案例考验 AI 嵌入业务流程, 支撑案例考验对物理世界数字化底座的理解。</p>
+
+  <div class="c2">
+    <div class="flow-box">
+      <h4>DFS 数据融合</h4>
+      <p><strong>能力:</strong> 多源数据接入、时序存储、设备关联</p>
+      <p><strong>边界:</strong> 不替代 SCADA/PLC, 做汇聚层</p>
+      <p>IoT 数据 → DFS 汇聚 → 统一设备状态</p>
+    </div>
+    <div class="flow-box">
+      <h4>Designer 场景编辑器</h4>
+      <p><strong>能力:</strong> 3D 场景搭建、设备绑定、可视化规则</p>
+      <p><strong>边界:</strong> 工业级轻量渲染, 非游戏引擎</p>
+      <p>告警 → 3D 自动定位高亮设备</p>
+    </div>
+  </div>
+
+  <div class="co">价值: 知道底座能做什么、不能做什么, 不会过度承诺。</div>
+  <div class="page-num">12</div>
+  <div class="footer-mark">设施运维 AI Agent</div>
+</section>
+
+<!-- 13 总结页 -->
+<section class="slide">
+  <span class="eyebrow">13 · RESOLUTION</span>
+  <h2>我为什么适合这个岗位: 懂物理世界数字化, 也懂 AI 交付边界</h2>
+  <p class="lead">三个差异化标签, 也是 B端数字孪生 AI 产品经理的核心壁垒。</p>
+
+  <div class="c2">
+    <div>
+      <div class="mt">01 · 懂 B端业务闭环</div>
+      <p class="mb">不只是做功能, 做从告警到 SOP 沉淀的完整链路。每一步可验收、可审计、可回滚。</p>
+      <div class="mt">02 · 懂 AI 边界</div>
+      <p class="mb">不追求无人化, 追求"人机协同 + 风险控制"。AI 建议, 人决策, 系统兜底。</p>
+    </div>
+    <div>
+      <div class="mt">03 · 懂数字孪生底座</div>
+      <p class="mb">知道 IoT、3D、数据融合能支撑什么、不能支撑什么。3D 是告警定位工具, 不是大屏。</p>
+      <div class="mt" style="color: var(--brand);">04 · 能用 Vibe Coding 加速验证</div>
+      <p class="mb">清楚它是工具不是魔法。输入 PRD, 输出原型验证。提前发现需求遗漏。</p>
+    </div>
+  </div>
+
+  <div class="co">交集价值: 同时站在 AI 与物理世界数字化的交汇点, 知道边界在哪。</div>
+  <div class="page-num">13</div>
+  <div class="footer-mark">设施运维 AI Agent</div>
+</section>
+
+<!-- 14 结尾 -->
+<section class="slide cover">
+  <h1 style="font-size: 32pt;">下一步</h1>
+  <div class="sub">期待讨论贵司设施运维或工业数字孪生的 AI 产品路径</div>
+  <div class="meta" style="margin-top: 24pt;">
+    <p>可讨论方向:</p>
+    <p>· 告警-工单闭环的 AI 化路径</p>
+    <p>· 数字孪生底座与 AI 应用的融合策略</p>
+    <p>· 人机协同的产品设计原则</p>
+  </div>
+</section>
+
+</body>
+</html>
