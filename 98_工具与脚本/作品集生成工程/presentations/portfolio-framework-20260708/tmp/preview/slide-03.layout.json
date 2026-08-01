@@ -1,0 +1,818 @@
+{
+  "schema": "openai.presentation.layout/v4",
+  "unit": "px",
+  "slide": {
+    "aid": "sl/6mh6cn",
+    "id": "6mh6cn",
+    "slide": 3,
+    "layoutId": "a0ba50e2-4bb8-4bbc-97d2-d2dd65daf3da",
+    "layoutName": "Title Slide",
+    "layoutType": "title",
+    "masterLayoutId": "abf82ce6-752f-4b38-9259-bd8892a316ca",
+    "masterLayoutName": "Master",
+    "backgroundColor": "#FFFFFF",
+    "frame": {
+      "left": 0,
+      "top": 0,
+      "width": 1280,
+      "height": 720
+    }
+  },
+  "theme": {
+    "colorSchemeName": "ChatGPT",
+    "colors": {
+      "accent1": "#156082",
+      "accent2": "#E97132",
+      "accent3": "#196B24",
+      "accent4": "#0F9ED5",
+      "accent5": "#A02B93",
+      "accent6": "#4EA72E",
+      "bg1": "#FFFFFF",
+      "bg2": "#000000",
+      "tx1": "#1F1F1F",
+      "tx2": "#FFFFFF",
+      "dk1": "#000000",
+      "lt1": "#FFFFFF",
+      "dk2": "#0E2841",
+      "lt2": "#E8E8E8",
+      "hlink": "#467886",
+      "folHlink": "#96607D"
+    },
+    "typefaces": [
+      "+mn-lt"
+    ]
+  },
+  "inheritedLayers": [
+    {
+      "scope": "layout",
+      "id": "a0ba50e2-4bb8-4bbc-97d2-d2dd65daf3da",
+      "name": "Title Slide",
+      "type": "title",
+      "parentLayoutId": "abf82ce6-752f-4b38-9259-bd8892a316ca",
+      "elements": []
+    },
+    {
+      "scope": "master",
+      "id": "abf82ce6-752f-4b38-9259-bd8892a316ca",
+      "name": "Master",
+      "type": "master",
+      "elements": []
+    }
+  ],
+  "elements": [
+    {
+      "order": 1,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/gvy90je9",
+      "id": "1",
+      "name": "text",
+      "bbox": [
+        56,
+        36,
+        880,
+        58
+      ],
+      "geometry": "rect",
+      "text": "产品底座让 AI 和工单不悬空",
+      "textPreview": "产品底座让 AI 和工单不悬空",
+      "resolvedFontSize": 34,
+      "resolvedTextStyle": {
+        "fontSize": 34,
+        "typeface": "+mn-lt",
+        "color": "#111827",
+        "bold": true,
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "产品底座让 AI 和工单不悬空"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "产品底座让 AI 和工单不悬空",
+          "resolvedTextStyle": {
+            "fontSize": 34,
+            "color": "#111827",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "产品底座让 AI 和工单不悬空",
+              "fontSize": 34,
+              "color": "#111827",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 2,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/ra5gbq1o",
+      "id": "2",
+      "name": "text",
+      "bbox": [
+        58,
+        92,
+        760,
+        30
+      ],
+      "geometry": "rect",
+      "text": "用真实截图证明对象、位置、异常、状态都存在。",
+      "textPreview": "用真实截图证明对象、位置、异常、状态都存在。",
+      "resolvedFontSize": 16,
+      "resolvedTextStyle": {
+        "fontSize": 16,
+        "typeface": "+mn-lt",
+        "color": "#5B6472",
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "用真实截图证明对象、位置、异常、状态都存在。"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "用真实截图证明对象、位置、异常、状态都存在。",
+          "resolvedTextStyle": {
+            "fontSize": 16,
+            "color": "#5B6472",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "用真实截图证明对象、位置、异常、状态都存在。",
+              "fontSize": 16,
+              "color": "#5B6472",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 3,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/2p8nqxs7",
+      "id": "3",
+      "name": "text",
+      "bbox": [
+        1000,
+        42,
+        220,
+        24
+      ],
+      "geometry": "rect",
+      "text": "Inspector 主案例框架稿",
+      "textPreview": "Inspector 主案例框架稿",
+      "resolvedFontSize": 14,
+      "resolvedTextStyle": {
+        "fontSize": 14,
+        "typeface": "+mn-lt",
+        "color": "#5B6472",
+        "alignment": "right",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Inspector 主案例框架稿"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Inspector 主案例框架稿",
+          "resolvedTextStyle": {
+            "fontSize": 14,
+            "color": "#5B6472",
+            "alignment": "right"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Inspector 主案例框架稿",
+              "fontSize": 14,
+              "color": "#5B6472",
+              "alignment": "right"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 4,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/94fu18jq",
+      "id": "4",
+      "bbox": [
+        56,
+        128,
+        1168,
+        1
+      ],
+      "geometry": "rect",
+      "fillColor": "#D0D5DD",
+      "lineColor": "#D0D5DD",
+      "lineWidth": 0
+    },
+    {
+      "order": 5,
+      "kind": "image",
+      "scope": "slide",
+      "aid": "im/tcj6tova",
+      "id": "5",
+      "bbox": [
+        58,
+        166,
+        500,
+        282
+      ],
+      "alt": "3D positioning",
+      "contentType": "image/jpeg",
+      "imageFit": "cover",
+      "asset": {
+        "assetId": "a80ad143-661c-44c9-a627-19fdbc397fbc",
+        "contentType": "image/jpeg",
+        "byteLength": 115049
+      }
+    },
+    {
+      "order": 6,
+      "kind": "image",
+      "scope": "slide",
+      "aid": "im/il0rqd4v",
+      "id": "6",
+      "bbox": [
+        586,
+        166,
+        300,
+        170
+      ],
+      "alt": "alert detail",
+      "contentType": "image/jpeg",
+      "imageFit": "cover",
+      "asset": {
+        "assetId": "75762900-4cdd-4c43-a7bd-1a36825613f1",
+        "contentType": "image/jpeg",
+        "byteLength": 98197
+      }
+    },
+    {
+      "order": 7,
+      "kind": "image",
+      "scope": "slide",
+      "aid": "im/b6xkf6dc",
+      "id": "7",
+      "bbox": [
+        586,
+        362,
+        300,
+        170
+      ],
+      "alt": "device relation",
+      "contentType": "image/jpeg",
+      "imageFit": "cover",
+      "asset": {
+        "assetId": "24282be4-f162-47b3-ae1c-d287fc285692",
+        "contentType": "image/jpeg",
+        "byteLength": 87120
+      }
+    },
+    {
+      "order": 8,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/9w3m94fu",
+      "id": "8",
+      "name": "evidence-slot",
+      "bbox": [
+        920,
+        166,
+        284,
+        366
+      ],
+      "geometry": "rect",
+      "fillColor": "#F8FAFC",
+      "lineColor": "#D0D5DD",
+      "lineWidth": 1
+    },
+    {
+      "order": 9,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/kb6xkf6d",
+      "id": "9",
+      "name": "tag",
+      "bbox": [
+        934,
+        180,
+        92,
+        28
+      ],
+      "geometry": "rect",
+      "fillColor": "#9A6200",
+      "lineColor": "#9A6200",
+      "lineWidth": 1
+    },
+    {
+      "order": 10,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/2p8nqxs7",
+      "id": "10",
+      "name": "text",
+      "bbox": [
+        942,
+        186,
+        76,
+        18
+      ],
+      "geometry": "rect",
+      "text": "待补证据",
+      "textPreview": "待补证据",
+      "resolvedFontSize": 12,
+      "resolvedTextStyle": {
+        "fontSize": 12,
+        "typeface": "+mn-lt",
+        "color": "#FFFFFF",
+        "bold": true,
+        "alignment": "center",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "待补证据"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "待补证据",
+          "resolvedTextStyle": {
+            "fontSize": 12,
+            "color": "#FFFFFF",
+            "bold": true,
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "待补证据",
+              "fontSize": 12,
+              "color": "#FFFFFF",
+              "bold": true,
+              "alignment": "center"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 11,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/ra5gbq1o",
+      "id": "11",
+      "name": "text",
+      "bbox": [
+        938,
+        220,
+        248,
+        28
+      ],
+      "geometry": "rect",
+      "text": "补：信息架构小图",
+      "textPreview": "补：信息架构小图",
+      "resolvedFontSize": 20,
+      "resolvedTextStyle": {
+        "fontSize": 20,
+        "typeface": "+mn-lt",
+        "color": "#111827",
+        "bold": true,
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "补：信息架构小图"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "补：信息架构小图",
+          "resolvedTextStyle": {
+            "fontSize": 20,
+            "color": "#111827",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "补：信息架构小图",
+              "fontSize": 20,
+              "color": "#111827",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 12,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/gvy90je9",
+      "id": "12",
+      "name": "text",
+      "bbox": [
+        938,
+        256,
+        248,
+        262
+      ],
+      "geometry": "rect",
+      "text": "资产/设备、3D、告警、工单、知识库之间的关系。建议重绘，不贴复杂原图。",
+      "textPreview": "资产/设备、3D、告警、工单、知识库之间的关系。建议重绘，不贴复杂原图。",
+      "resolvedFontSize": 15,
+      "resolvedTextStyle": {
+        "fontSize": 15,
+        "typeface": "+mn-lt",
+        "color": "#5B6472",
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 3,
+        "lines": [
+          {
+            "index": 1,
+            "text": "资产/设备、3D、告警、工单、知"
+          },
+          {
+            "index": 2,
+            "text": "识库之间的关系。建议重绘，不贴"
+          },
+          {
+            "index": 3,
+            "text": "复杂原图。"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "资产/设备、3D、告警、工单、知识库之间的关系。建议重绘，不贴复杂原图。",
+          "resolvedTextStyle": {
+            "fontSize": 15,
+            "color": "#5B6472",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "资产/设备、3D、告警、工单、知识库之间的关系。建议重绘，不贴复杂原图。",
+              "fontSize": 15,
+              "color": "#5B6472",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 13,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/9gr2p8nq",
+      "id": "13",
+      "name": "text",
+      "bbox": [
+        64,
+        474,
+        420,
+        30
+      ],
+      "geometry": "rect",
+      "text": "能力点：系统化建模",
+      "textPreview": "能力点：系统化建模",
+      "resolvedFontSize": 22,
+      "resolvedTextStyle": {
+        "fontSize": 22,
+        "typeface": "+mn-lt",
+        "color": "#111827",
+        "bold": true,
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "能力点：系统化建模"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "能力点：系统化建模",
+          "resolvedTextStyle": {
+            "fontSize": 22,
+            "color": "#111827",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "能力点：系统化建模",
+              "fontSize": 22,
+              "color": "#111827",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 14,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/2hwfyxob",
+      "id": "14",
+      "name": "text",
+      "bbox": [
+        64,
+        512,
+        500,
+        56
+      ],
+      "geometry": "rect",
+      "text": "不是只做页面，而是把物理空间、设备对象、异常事件组织成可流转的业务上下文。",
+      "textPreview": "不是只做页面，而是把物理空间、设备对象、异常事件组织成可流转的业务上下文。",
+      "resolvedFontSize": 18,
+      "resolvedTextStyle": {
+        "fontSize": 18,
+        "typeface": "+mn-lt",
+        "color": "#5B6472",
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 2,
+        "lines": [
+          {
+            "index": 1,
+            "text": "不是只做页面，而是把物理空间、设备对象、异常事件组织"
+          },
+          {
+            "index": 2,
+            "text": "成可流转的业务上下文。"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "不是只做页面，而是把物理空间、设备对象、异常事件组织成可流转的业务上下文。",
+          "resolvedTextStyle": {
+            "fontSize": 18,
+            "color": "#5B6472",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "不是只做页面，而是把物理空间、设备对象、异常事件组织成可流转的业务上下文。",
+              "fontSize": 18,
+              "color": "#5B6472",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 15,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/r2p8nqxs",
+      "id": "15",
+      "name": "text",
+      "bbox": [
+        56,
+        674,
+        780,
+        24
+      ],
+      "geometry": "rect",
+      "text": "灰色区域 = 需要补的过程证据或待重绘图",
+      "textPreview": "灰色区域 = 需要补的过程证据或待重绘图",
+      "resolvedFontSize": 13,
+      "resolvedTextStyle": {
+        "fontSize": 13,
+        "typeface": "+mn-lt",
+        "color": "#5B6472",
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "灰色区域 = 需要补的过程证据或待重绘图"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "灰色区域 = 需要补的过程证据或待重绘图",
+          "resolvedTextStyle": {
+            "fontSize": 13,
+            "color": "#5B6472",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "灰色区域 = 需要补的过程证据或待重绘图",
+              "fontSize": 13,
+              "color": "#5B6472",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 16,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/kjm1cfa9",
+      "id": "16",
+      "name": "text",
+      "bbox": [
+        1176,
+        670,
+        48,
+        28
+      ],
+      "geometry": "rect",
+      "text": "03",
+      "textPreview": "03",
+      "resolvedFontSize": 18,
+      "resolvedTextStyle": {
+        "fontSize": 18,
+        "typeface": "+mn-lt",
+        "color": "#5B6472",
+        "bold": true,
+        "alignment": "right",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "03"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "03",
+          "resolvedTextStyle": {
+            "fontSize": 18,
+            "color": "#5B6472",
+            "bold": true,
+            "alignment": "right"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "03",
+              "fontSize": 18,
+              "color": "#5B6472",
+              "bold": true,
+              "alignment": "right"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    }
+  ],
+  "composeRuns": []
+}

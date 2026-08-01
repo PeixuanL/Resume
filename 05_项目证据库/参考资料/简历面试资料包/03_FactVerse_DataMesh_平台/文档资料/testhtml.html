@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+  <meta charset="UTF-8">
+  <title>Vuplex WebView 测试</title>
+  <script>
+      // 添加监听，接收 Unity 发送的消息
+      function addMessageListener() {
+          window.vuplex.addEventListener('message', function(event) {
+              console.log("从 Unity 收到消息：" + event.data);
+              document.getElementById("messageDisplay").innerText = "Unity: " + event.data;
+          });
+      }
+      // 如果 vuplex 对象已存在，则直接添加，否则等待 vuplex 初始化
+      if (window.vuplex) {
+          addMessageListener();
+      } else {
+          window.addEventListener('vuplexready', addMessageListener);
+      }
+      
+      // 点击按钮时，发送消息给 Unity
+      function sendMessageToUnity() {
+          window.vuplex.postMessage({ type: "test", message: "Hello from JavaScript!" });
+      }
+  </script>
+</head>
+<body>
+  <h1>Vuplex WebView 测试页面</h1>
+  <button onclick="sendMessageToUnity()">点击发送消息给 Unity</button>
+  <p id="messageDisplay">等待 Unity 消息...</p>
+</body>
+</html>

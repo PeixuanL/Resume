@@ -1,0 +1,1005 @@
+{
+  "schema": "openai.presentation.layout/v4",
+  "unit": "px",
+  "slide": {
+    "aid": "sl/v6o2mm",
+    "id": "v6o2mm",
+    "slide": 6,
+    "layoutId": "df3cd3e9-564d-48f5-bfd3-201a39861a99",
+    "layoutName": "Title Slide",
+    "layoutType": "title",
+    "masterLayoutId": "53882e11-b05c-4082-8831-0ae4bea4f520",
+    "masterLayoutName": "Master",
+    "backgroundColor": "#F8FAFC",
+    "frame": {
+      "left": 0,
+      "top": 0,
+      "width": 1280,
+      "height": 720
+    }
+  },
+  "theme": {
+    "colorSchemeName": "ChatGPT",
+    "colors": {
+      "accent1": "#156082",
+      "accent2": "#E97132",
+      "accent3": "#196B24",
+      "accent4": "#0F9ED5",
+      "accent5": "#A02B93",
+      "accent6": "#4EA72E",
+      "bg1": "#FFFFFF",
+      "bg2": "#000000",
+      "tx1": "#1F1F1F",
+      "tx2": "#FFFFFF",
+      "dk1": "#000000",
+      "lt1": "#FFFFFF",
+      "dk2": "#0E2841",
+      "lt2": "#E8E8E8",
+      "hlink": "#467886",
+      "folHlink": "#96607D"
+    },
+    "typefaces": [
+      "+mn-lt"
+    ]
+  },
+  "inheritedLayers": [
+    {
+      "scope": "layout",
+      "id": "df3cd3e9-564d-48f5-bfd3-201a39861a99",
+      "name": "Title Slide",
+      "type": "title",
+      "parentLayoutId": "53882e11-b05c-4082-8831-0ae4bea4f520",
+      "elements": []
+    },
+    {
+      "scope": "master",
+      "id": "53882e11-b05c-4082-8831-0ae4bea4f520",
+      "name": "Master",
+      "type": "master",
+      "elements": []
+    }
+  ],
+  "elements": [
+    {
+      "order": 1,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/3ex0nuxc",
+      "id": "1",
+      "bbox": [
+        72,
+        42,
+        360,
+        24
+      ],
+      "geometry": "rect",
+      "text": "06 · SOLUTION ARCHITECTURE",
+      "textPreview": "06 · SOLUTION ARCHITECTURE",
+      "resolvedFontSize": 12,
+      "resolvedTextStyle": {
+        "fontSize": 12,
+        "typeface": "+mn-lt",
+        "color": "#62748E",
+        "bold": true,
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "06 · SOLUTION ARCHITECTURE"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "06 · SOLUTION ARCHITECTURE",
+          "resolvedTextStyle": {
+            "fontSize": 12,
+            "color": "#62748E",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "06 · SOLUTION ARCHITECTURE",
+              "fontSize": 12,
+              "color": "#62748E",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 2,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/szqtcj6t",
+      "id": "2",
+      "bbox": [
+        72,
+        76,
+        980,
+        64
+      ],
+      "geometry": "rect",
+      "text": "方案架构：多系统协同下的运维业务流",
+      "textPreview": "方案架构：多系统协同下的运维业务流",
+      "resolvedFontSize": 35,
+      "resolvedTextStyle": {
+        "fontSize": 35,
+        "typeface": "+mn-lt",
+        "color": "#020618",
+        "bold": true,
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "方案架构：多系统协同下的运维业务流"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "方案架构：多系统协同下的运维业务流",
+          "resolvedTextStyle": {
+            "fontSize": 35,
+            "color": "#020618",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "方案架构：多系统协同下的运维业务流",
+              "fontSize": 35,
+              "color": "#020618",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 3,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/lkjm1cfa",
+      "id": "3",
+      "bbox": [
+        74,
+        140,
+        1030,
+        34
+      ],
+      "geometry": "rect",
+      "text": "Inspector 不是孤立应用，需要与外部告警、BMS / IoT、工单系统、3D 场景和资产主数据协作。",
+      "textPreview": "Inspector 不是孤立应用，需要与外部告警、BMS / IoT、工单系统、3D 场景和资产主数据协作。",
+      "resolvedFontSize": 18,
+      "resolvedTextStyle": {
+        "fontSize": 18,
+        "typeface": "+mn-lt",
+        "color": "#45556C",
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Inspector 不是孤立应用，需要与外部告警、BMS / IoT、工单系统、3D 场景和资产主数据协作。"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Inspector 不是孤立应用，需要与外部告警、BMS / IoT、工单系统、3D 场景和资产主数据协作。",
+          "resolvedTextStyle": {
+            "fontSize": 18,
+            "color": "#45556C",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Inspector 不是孤立应用，需要与外部告警、BMS / IoT、工单系统、3D 场景和资产主数据协作。",
+              "fontSize": 18,
+              "color": "#45556C",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 4,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/ahoza1gv",
+      "id": "4",
+      "bbox": [
+        72,
+        676,
+        520,
+        22
+      ],
+      "geometry": "rect",
+      "text": "Inspector Product Case Study",
+      "textPreview": "Inspector Product Case Study",
+      "resolvedFontSize": 12,
+      "resolvedTextStyle": {
+        "fontSize": 12,
+        "typeface": "+mn-lt",
+        "color": "#62748E",
+        "bold": true,
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Inspector Product Case Study"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Inspector Product Case Study",
+          "resolvedTextStyle": {
+            "fontSize": 12,
+            "color": "#62748E",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Inspector Product Case Study",
+              "fontSize": 12,
+              "color": "#62748E",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 5,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/32lszqtc",
+      "id": "5",
+      "bbox": [
+        1154,
+        674,
+        54,
+        24
+      ],
+      "geometry": "rect",
+      "text": "06",
+      "textPreview": "06",
+      "resolvedFontSize": 13,
+      "resolvedTextStyle": {
+        "fontSize": 13,
+        "typeface": "+mn-lt",
+        "color": "#62748E",
+        "bold": true,
+        "alignment": "right",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "06"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "06",
+          "resolvedTextStyle": {
+            "fontSize": 13,
+            "color": "#62748E",
+            "bold": true,
+            "alignment": "right"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "06",
+              "fontSize": 13,
+              "color": "#62748E",
+              "bold": true,
+              "alignment": "right"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 6,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/sneloj2t",
+      "id": "6",
+      "bbox": [
+        72,
+        204,
+        300,
+        110
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#EFF6FF",
+      "lineColor": "#BEDBFF",
+      "lineWidth": 1
+    },
+    {
+      "order": 7,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/l87ed8ba",
+      "id": "7",
+      "bbox": [
+        90,
+        220,
+        264,
+        30
+      ],
+      "geometry": "rect",
+      "text": "证明的产品经理能力",
+      "textPreview": "证明的产品经理能力",
+      "resolvedFontSize": 20,
+      "resolvedTextStyle": {
+        "fontSize": 20,
+        "typeface": "+mn-lt",
+        "color": "#162456",
+        "bold": true,
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "证明的产品经理能力"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "证明的产品经理能力",
+          "resolvedTextStyle": {
+            "fontSize": 20,
+            "color": "#162456",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "证明的产品经理能力",
+              "fontSize": 20,
+              "color": "#162456",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 8,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/e9cvixcz",
+      "id": "8",
+      "bbox": [
+        90,
+        258,
+        264,
+        42
+      ],
+      "geometry": "rect",
+      "text": "系统边界与跨产品协同",
+      "textPreview": "系统边界与跨产品协同",
+      "resolvedFontSize": 19,
+      "resolvedTextStyle": {
+        "fontSize": 19,
+        "typeface": "+mn-lt",
+        "color": "#0F172B",
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "系统边界与跨产品协同"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "系统边界与跨产品协同",
+          "resolvedTextStyle": {
+            "fontSize": 19,
+            "color": "#0F172B",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "系统边界与跨产品协同",
+              "fontSize": 19,
+              "color": "#0F172B",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 9,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/3q5o7qpg",
+      "id": "9",
+      "bbox": [
+        404,
+        204,
+        804,
+        110
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#FFFFFF",
+      "lineColor": "#E2E8F0",
+      "lineWidth": 1
+    },
+    {
+      "order": 10,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/neloj2t8",
+      "id": "10",
+      "bbox": [
+        422,
+        220,
+        768,
+        30
+      ],
+      "geometry": "rect",
+      "text": "案例叙事重点",
+      "textPreview": "案例叙事重点",
+      "resolvedFontSize": 20,
+      "resolvedTextStyle": {
+        "fontSize": 20,
+        "typeface": "+mn-lt",
+        "color": "#020618",
+        "bold": true,
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "案例叙事重点"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "案例叙事重点",
+          "resolvedTextStyle": {
+            "fontSize": 20,
+            "color": "#020618",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "案例叙事重点",
+              "fontSize": 20,
+              "color": "#020618",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 11,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/ytsvu9kn",
+      "id": "11",
+      "bbox": [
+        422,
+        258,
+        768,
+        42
+      ],
+      "geometry": "rect",
+      "text": "本页呈现产品边界判断：哪些系统提供数据，哪些模块消费数据，哪些状态需要同步，以及哪些责任不应混入本产品。",
+      "textPreview": "本页呈现产品边界判断：哪些系统提供数据，哪些模块消费数据，哪些状态需要同步，以及哪些责任不应混入本产品。",
+      "resolvedFontSize": 18,
+      "resolvedTextStyle": {
+        "fontSize": 18,
+        "typeface": "+mn-lt",
+        "color": "#314158",
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 2,
+        "lines": [
+          {
+            "index": 1,
+            "text": "本页呈现产品边界判断：哪些系统提供数据，哪些模块消费数据，哪些状态需要同步，以及"
+          },
+          {
+            "index": 2,
+            "text": "哪些责任不应混入本产品。"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "本页呈现产品边界判断：哪些系统提供数据，哪些模块消费数据，哪些状态需要同步，以及哪些责任不应混入本产品。",
+          "resolvedTextStyle": {
+            "fontSize": 18,
+            "color": "#314158",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "本页呈现产品边界判断：哪些系统提供数据，哪些模块消费数据，哪些状态需要同步，以及哪些责任不应混入本产品。",
+              "fontSize": 18,
+              "color": "#314158",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 12,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/5kb6xkf6",
+      "id": "12",
+      "bbox": [
+        72,
+        344,
+        552,
+        178
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#FFFFFF",
+      "lineColor": "#A4F4CF",
+      "lineWidth": 1
+    },
+    {
+      "order": 13,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/czed8v6p",
+      "id": "13",
+      "bbox": [
+        90,
+        360,
+        516,
+        30
+      ],
+      "geometry": "rect",
+      "text": "已有证据材料",
+      "textPreview": "已有证据材料",
+      "resolvedFontSize": 20,
+      "resolvedTextStyle": {
+        "fontSize": 20,
+        "typeface": "+mn-lt",
+        "color": "#004F3B",
+        "bold": true,
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "已有证据材料"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "已有证据材料",
+          "resolvedTextStyle": {
+            "fontSize": 20,
+            "color": "#004F3B",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "已有证据材料",
+              "fontSize": 20,
+              "color": "#004F3B",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 14,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/nqxs72x4",
+      "id": "14",
+      "bbox": [
+        90,
+        398,
+        516,
+        110
+      ],
+      "geometry": "rect",
+      "text": "架构图、产品间流程图、外部系统对接说明",
+      "textPreview": "架构图、产品间流程图、外部系统对接说明",
+      "resolvedFontSize": 18,
+      "resolvedTextStyle": {
+        "fontSize": 18,
+        "typeface": "+mn-lt",
+        "color": "#314158",
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "架构图、产品间流程图、外部系统对接说明"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "架构图、产品间流程图、外部系统对接说明",
+          "resolvedTextStyle": {
+            "fontSize": 18,
+            "color": "#314158",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "架构图、产品间流程图、外部系统对接说明",
+              "fontSize": 18,
+              "color": "#314158",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 15,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/u54zidon",
+      "id": "15",
+      "bbox": [
+        656,
+        344,
+        552,
+        178
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#FFFBEB",
+      "lineColor": "#FEE685",
+      "lineWidth": 1
+    },
+    {
+      "order": 16,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/5sneloj2",
+      "id": "16",
+      "bbox": [
+        674,
+        360,
+        516,
+        30
+      ],
+      "geometry": "rect",
+      "text": "待补强材料",
+      "textPreview": "待补强材料",
+      "resolvedFontSize": 20,
+      "resolvedTextStyle": {
+        "fontSize": 20,
+        "typeface": "+mn-lt",
+        "color": "#7B3306",
+        "bold": true,
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "待补强材料"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "待补强材料",
+          "resolvedTextStyle": {
+            "fontSize": 20,
+            "color": "#7B3306",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "待补强材料",
+              "fontSize": 20,
+              "color": "#7B3306",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 17,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/cbulwval",
+      "id": "17",
+      "bbox": [
+        674,
+        398,
+        516,
+        110
+      ],
+      "geometry": "rect",
+      "text": "补充系统责任边界表，区分产品定义、研发实现、外部系统依赖与客户现场配置",
+      "textPreview": "补充系统责任边界表，区分产品定义、研发实现、外部系统依赖与客户现场配置",
+      "resolvedFontSize": 18,
+      "resolvedTextStyle": {
+        "fontSize": 18,
+        "typeface": "+mn-lt",
+        "color": "#1D293D",
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 2,
+        "lines": [
+          {
+            "index": 1,
+            "text": "补充系统责任边界表，区分产品定义、研发实现、外部系统依"
+          },
+          {
+            "index": 2,
+            "text": "赖与客户现场配置"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "补充系统责任边界表，区分产品定义、研发实现、外部系统依赖与客户现场配置",
+          "resolvedTextStyle": {
+            "fontSize": 18,
+            "color": "#1D293D",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "补充系统责任边界表，区分产品定义、研发实现、外部系统依赖与客户现场配置",
+              "fontSize": 18,
+              "color": "#1D293D",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 18,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/nuxc3ylc",
+      "id": "18",
+      "bbox": [
+        72,
+        558,
+        1100,
+        34
+      ],
+      "geometry": "rect",
+      "text": "材料呈现建议：后续将对应截图或表格裁切放在本页下半区，并保留一行关键结论。",
+      "textPreview": "材料呈现建议：后续将对应截图或表格裁切放在本页下半区，并保留一行关键结论。",
+      "resolvedFontSize": 17,
+      "resolvedTextStyle": {
+        "fontSize": 17,
+        "typeface": "+mn-lt",
+        "color": "#62748E",
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "材料呈现建议：后续将对应截图或表格裁切放在本页下半区，并保留一行关键结论。"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "材料呈现建议：后续将对应截图或表格裁切放在本页下半区，并保留一行关键结论。",
+          "resolvedTextStyle": {
+            "fontSize": 17,
+            "color": "#62748E",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "材料呈现建议：后续将对应截图或表格裁切放在本页下半区，并保留一行关键结论。",
+              "fontSize": 17,
+              "color": "#62748E",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    }
+  ],
+  "composeRuns": []
+}
