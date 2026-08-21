@@ -26,6 +26,7 @@
 .superpowers/
 .cache/
 .codex_deps/
+.tmp-transcription/
 mobvoi-ai-agent-interview-20260722/mobvoi_chunk_*.txt
 mobvoi-ai-agent-interview-20260722/transcribe_sfspeech.swift
 interview_review/*.json
